@@ -1,0 +1,53 @@
+{
+  "checkpoint": "libero_goal",
+  "source_signature": "67d5f01434fb00f41b14218b426ec1563dc19850603dd9b09e280d2455b312a2",
+  "rules": [
+    "near",
+    "far",
+    "left",
+    "right"
+  ],
+  "methods": [
+    "joint",
+    "fixed_harm",
+    "realizability_only",
+    "translation_boundary"
+  ],
+  "suites": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ],
+  "seed": 42,
+  "displacement_m": 0.02,
+  "direction_epsilon_m": 1e-08,
+  "feature_epsilon": 1e-12,
+  "updates": 4000,
+  "adaptive_budget": 3000,
+  "cycle_budget": 200,
+  "probe_updates": 5,
+  "learning_rate": 0.002,
+  "warmup": 20,
+  "checkpoint_interval": 200,
+  "patch_xy": [
+    26,
+    137
+  ],
+  "patch_shape": [
+    3,
+    50,
+    50
+  ],
+  "eot": false,
+  "max_concurrent_gpus": 2,
+  "eval_states": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "rgb_nrmse_tolerance": 0.0001,
+  "repair_parent_run": "research_runs/wrist_spatial_target_joint_v1",
+  "repair_parent_signature": "17f4942864e1c61974e63fa258c414b32cccb1379365830fe5c68b6a823e739c"
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "control",
+  "checkpoint": "libero_goal",
+  "patch_shape": [
+    3,
+    50,
+    50
+  ],
+  "patch_xy": [
+    26,
+    137
+  ],
+  "eot": false,
+  "max_concurrent_gpus": 2,
+  "seeds": [
+    42,
+    43
+  ],
+  "methods": [
+    "matched_relation",
+    "shuffled_relation"
+  ],
+  "primary": "matched_relation_s42",
+  "updates": 4000,
+  "checkpoint_interval": 500,
+  "learning_rate": 0.002,
+  "warmup": 20,
+  "action_tolerance": 1e-05,
+  "shuffle_seed": 20261021,
+  "suites": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ],
+  "video_label": "关系对应对照",
+  "repair": {
+    "one_candidate_per_process": true,
+    "resume_step": 2000,
+    "copy_completed_step": 4000,
+    "singleview_video": true
+  }
+}

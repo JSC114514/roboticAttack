@@ -1,0 +1,189 @@
+{
+  "experiment_id": "OFT-WRIST-DINO-GRIPPER-TMA500-LONG-V1",
+  "methods": [
+    "plain_gripper_tma",
+    "task_region_dino_tma",
+    "background_region_dino_tma"
+  ],
+  "seed": 42,
+  "data_seed": 20261008,
+  "outer_iterations": 500,
+  "inner_loop": 50,
+  "batch_size": 1,
+  "learning_rate": 0.002,
+  "weight_decay": 0,
+  "warmup_outer_iterations": 20,
+  "geometry": true,
+  "resize_patch": false,
+  "patch_shape": [
+    3,
+    50,
+    50
+  ],
+  "checkpoint_outer_iterations": [
+    0,
+    100,
+    250,
+    500
+  ],
+  "close_threshold": 0.5,
+  "gripper_target": 1,
+  "region_token_threshold": 0,
+  "patch_exclusion_threshold": 0,
+  "max_eot_attempts": 32,
+  "resources": {
+    "labels": {
+      "partition": "a800",
+      "qos": "a800",
+      "gpu_type": "a800",
+      "device_name": "A800",
+      "max_concurrent": 3
+    },
+    "training": {
+      "partition": "a800",
+      "qos": "a800",
+      "gpu_type": "a800",
+      "device_name": "A800",
+      "max_concurrent": 3
+    },
+    "evaluation": {
+      "partition": "rtx",
+      "qos": null,
+      "gpu_type": "4090",
+      "device_name": "4090",
+      "max_concurrent": 5
+    }
+  },
+  "training_bank": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_gripper_tma500_long_v1/data/LONG_TRAIN_BANK.pt",
+  "eval_reference": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/scale500_cross_suite.json",
+  "eval_reference_sha256": "80931a4e2b9e5dc1d2f04d25d6781082790c1a5651b84b816f9adaf3ca34caff",
+  "reference_patch": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/outer_0500.pt",
+  "reference_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/RUN_MANIFEST.json",
+  "reference_history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/training.parquet",
+  "evaluation": {
+    "suites": [
+      "libero_object",
+      "libero_spatial",
+      "libero_goal",
+      "libero_10"
+    ],
+    "task_count": 10,
+    "state_indices": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "patch_xy": [
+      26,
+      137
+    ],
+    "order_seed": 20261008,
+    "num_steps_wait": 10,
+    "num_open_loop_steps": 8,
+    "image_resolution": 224,
+    "patch_shape": [
+      3,
+      50,
+      50
+    ],
+    "dtype": "bfloat16",
+    "checkpoints": {
+      "libero_object": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object",
+      "libero_spatial": "/home/caijiasheng25/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-spatial/snapshots/6d0231af0e48c5985f1ff86908f4674b84bc049b",
+      "libero_goal": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-goal",
+      "libero_10": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-10"
+    },
+    "unnorm_keys": {
+      "libero_object": "libero_object_no_noops",
+      "libero_spatial": "libero_spatial_no_noops",
+      "libero_goal": "libero_goal_no_noops",
+      "libero_10": "libero_10_no_noops"
+    },
+    "paths": {
+      "legacy_mgrb_root": "/home/caijiasheng25/robopatch_defense/oft_mgrb_lite_low_cost",
+      "robotic_attack_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main",
+      "attribution_root": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812",
+      "historical_root": "/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3",
+      "openvla_oft_root": "/home/caijiasheng25/Desktop/tex3D/openvla-oft",
+      "libero_root": "/home/caijiasheng25/Desktop/LIBERO"
+    },
+    "max_steps_by_suite": {
+      "libero_object": 280,
+      "libero_spatial": 220,
+      "libero_goal": 300,
+      "libero_10": 520
+    },
+    "frozen_object_clean": "/home/caijiasheng25/robopatch_defense/oft_ramp_recovery_aware/results/FINAL_100_ROLLOUTS.parquet",
+    "frozen_cross_suite_clean": "/home/caijiasheng25/robopatch_defense/oft_ramp_recovery_aware/results/CROSS_SUITE_ZERO_SHOT_ROLLOUTS.parquet"
+  },
+  "event_metrics": {
+    "stable_grasp_steps": 3,
+    "lift_height_m": 0.02,
+    "suspected_drop_height_m": 0.02,
+    "contact_loss_confirm_steps": 3
+  },
+  "training_suite": "libero_10",
+  "training_source": {
+    "suite": "libero_10",
+    "task_count": 10,
+    "successful_trajectories_per_task": 5,
+    "records_per_trajectory": 6,
+    "state_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "max_steps": 520,
+    "seed": 20261008,
+    "selection": "uniform_success_episode_decisions",
+    "bddl_directory": "/home/caijiasheng25/Desktop/LIBERO/libero/libero/bddl_files/libero_10",
+    "init_states_directory": "/home/caijiasheng25/Desktop/LIBERO/libero/libero/init_files/libero_10",
+    "libero_config_file": "/home/caijiasheng25/.libero/config.yaml"
+  },
+  "reference_training_bank_sha256": "7822da38434ef65058a10a1844615583903122520fb660b6522f174ea48a58f8",
+  "reference_training_suite": "libero_object"
+}

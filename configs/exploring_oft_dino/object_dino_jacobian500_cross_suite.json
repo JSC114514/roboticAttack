@@ -1,0 +1,75 @@
+{
+  "experiment_id": "EXPLORING-OFT-DINO-JACOBIAN500-XSUITE-V1",
+  "analysis_kind": "DINO_JACOBIAN500_VS_UADA500",
+  "reference_eval_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/scale500_cross_suite.json",
+  "training_suite": "libero_object",
+  "suites": ["libero_object", "libero_spatial", "libero_goal", "libero_10"],
+  "task_count": 10,
+  "state_indices": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+  "conditions": [
+    "exploring_oft_uada",
+    "exploring_oft_dino_jacobian_dense_r03",
+    "exploring_oft_dino_jacobian_dense_r10"
+  ],
+  "manual_visual_review": "USER_REQUESTED_TEST_20260925",
+  "patch_sources": {
+    "exploring_oft_uada": {
+      "experiment_id": "EXPLORING-OFT-DINO-SCALE500-01",
+      "source_method": "exploring_oft_uada",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/reports/STATUS.json",
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/outer_0500.pt",
+      "sha256": "c7ebb69204290fc193c3f694e25ba02c656de9e2df0443a74470d8ad587db136"
+    },
+    "exploring_oft_dino_jacobian_dense_r03": {
+      "experiment_id": "EXPLORING-OFT-DINO-JACOBIAN500-V1",
+      "source_method": "exploring_oft_dino_jacobian_dense_r03",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_jacobian500_v1/exploring_oft_dino_jacobian_dense_r03/status.json",
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_jacobian500_v1/exploring_oft_dino_jacobian_dense_r03/outer_0500.pt",
+      "sha256": "2298e508dadf9bd1246044d91bc59a8d49678f835ac1d436473e7c9454071785"
+    },
+    "exploring_oft_dino_jacobian_dense_r10": {
+      "experiment_id": "EXPLORING-OFT-DINO-JACOBIAN500-V1",
+      "source_method": "exploring_oft_dino_jacobian_dense_r10",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_jacobian500_v1/exploring_oft_dino_jacobian_dense_r10/status.json",
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_jacobian500_v1/exploring_oft_dino_jacobian_dense_r10/outer_0500.pt",
+      "sha256": "cc622fd0cc81c5573fcfa30580c7e6f6b6bdd0ef3143528a2801351ecb083405"
+    }
+  },
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_jacobian500_cross_suite",
+  "frozen_object_clean": "/home/caijiasheng25/robopatch_defense/oft_ramp_recovery_aware/results/FINAL_100_ROLLOUTS.parquet",
+  "frozen_cross_suite_clean": "/home/caijiasheng25/robopatch_defense/oft_ramp_recovery_aware/results/CROSS_SUITE_ZERO_SHOT_ROLLOUTS.parquet",
+  "order_seed": 20260921,
+  "bootstrap_seed": 20260907,
+  "num_steps_wait": 10,
+  "max_steps_by_suite": {
+    "libero_object": 280,
+    "libero_spatial": 220,
+    "libero_goal": 300,
+    "libero_10": 520
+  },
+  "num_open_loop_steps": 8,
+  "image_resolution": 224,
+  "patch_shape": [3, 50, 50],
+  "patch_xy": [26, 137],
+  "dtype": "bfloat16",
+  "checkpoints": {
+    "libero_object": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object",
+    "libero_spatial": "/home/caijiasheng25/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-spatial/snapshots/6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "libero_goal": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-goal",
+    "libero_10": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-10"
+  },
+  "unnorm_keys": {
+    "libero_object": "libero_object_no_noops",
+    "libero_spatial": "libero_spatial_no_noops",
+    "libero_goal": "libero_goal_no_noops",
+    "libero_10": "libero_10_no_noops"
+  },
+  "paths": {
+    "legacy_mgrb_root": "/home/caijiasheng25/robopatch_defense/oft_mgrb_lite_low_cost",
+    "robotic_attack_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main",
+    "attribution_root": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812",
+    "historical_root": "/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3",
+    "openvla_oft_root": "/home/caijiasheng25/Desktop/tex3D/openvla-oft",
+    "libero_root": "/home/caijiasheng25/Desktop/LIBERO"
+  }
+}

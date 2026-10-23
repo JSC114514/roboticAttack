@@ -1,0 +1,68 @@
+{
+  "experiment_id": "OFT-DINO-REGISTER500-V1",
+  "parent_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+  "methods": ["register_g10", "register_g30", "spatial_g30"],
+  "method_specs": {
+    "register_g10": {
+      "target": "register",
+      "gradient_ratio": 0.10,
+      "description": "UADA action gradient plus a 10% norm-matched objective that makes DINOv2 register tokens read the Wrist patch tokens."
+    },
+    "register_g30": {
+      "target": "register",
+      "gradient_ratio": 0.30,
+      "description": "Same register objective with a 30% norm-matched auxiliary gradient."
+    },
+    "spatial_g30": {
+      "target": "spatial",
+      "gradient_ratio": 0.30,
+      "description": "Control: make ordinary non-patch dense DINO tokens read the Wrist patch tokens, not the four register tokens."
+    }
+  },
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_register_v1",
+  "sampling_policy": "object_replay_uniform_axis0_with_internal_dino_register_attention_v1",
+  "outer_iterations": 500,
+  "scheduler_total_outer": 2000,
+  "checkpoint_outer_iterations": [0, 250, 500],
+  "eval_checkpoint_outer_iterations": [500],
+  "refresh_after_outer": [],
+  "register_attention_layers": [8, 16],
+  "register_query_tokens": [1, 2, 3, 4],
+  "dino_prefix_tokens": 5,
+  "dino_grid_size": [16, 16],
+  "dino_patch_size": 14,
+  "attention_objective": "negative_log_attention_mass_from_target_queries_to_wrist_patch_keys",
+  "attention_gradient_combination": "grad = action_grad + gradient_ratio * ||action_grad|| / ||aux_grad|| * aux_grad",
+  "new_patch_methods": ["register_g10", "register_g30", "spatial_g30"],
+  "external_references": {
+    "original_uada_500": {
+      "method": "exploring_oft_uada",
+      "pt": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/outer_0500.pt",
+      "pt_sha256": "3e4367820e2ea4f4d125dcd819321ba0f41c39699bbd74f6d0d78942d0e8b20e",
+      "png_sha256": "2a5b67c1099a603e4a4d2dea0f890aecfa164dc9d6999465082c808ba1a52d5b",
+      "manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/RUN_MANIFEST.json",
+      "manifest_sha256": "f1d5c4d38d3fcd36f30b8d34bb18bb3eb30d041b541a5568eefef407036ca200",
+      "history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/training.parquet",
+      "history_sha256": "138eb826cbbc960b49d7e64bfbc930b6788fd5f0512e5a26a36373a3dadf5fa3",
+      "checkpoint_outer": 500
+    },
+    "uniform_axis0_500": {
+      "method": "uniform_axis0",
+      "pt": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/outer_0500.pt",
+      "pt_sha256": "921d584e14858eb6f61f795baef29e644a20cb7ed0ae192e80e76390cf3311d9",
+      "png_sha256": "63b3bdcead9ed18706a5efd5c85bd4930ee761e2b545e758034c513174307513",
+      "manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/RUN_MANIFEST.json",
+      "manifest_sha256": "240828d3b0bf930138771bf491083d4f28aa5d2d0ab6292f95bd4cf415946dd4",
+      "history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/training.parquet",
+      "history_sha256": "620dfb86a9fd4cdeece61d7b2afd1c6afecd0158afd9804f07ef82ef97c3f525",
+      "checkpoint_outer": 500
+    }
+  },
+  "training_gpu_limit": 3,
+  "evaluation_gpu_limit": 8,
+  "notes": [
+    "Object-only training data; Spatial/Goal/Long remain evaluation-only.",
+    "No feature replacement at deployment. The DINO attention objective is training-time read-only instrumentation.",
+    "Original Exploring UADA.py remains read-only and byte-stable."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "experiment_id": "OFT-DINO-CORRESPONDENCE500-XSUITE-V1",
+  "base_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/scale500_cross_suite.json",
+  "base_config_sha256": "80931a4e2b9e5dc1d2f04d25d6781082790c1a5651b84b816f9adaf3ca34caff",
+  "conditions": ["exploring_oft_uada", "uada_tv", "correspondence", "correspondence_tv", "feature_tv"],
+  "manual_visual_review": "PASS_USER_20260927_CORRESPONDENCE500",
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_cross_suite",
+  "patch_sources": {
+    "exploring_oft_uada": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/outer_0500.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/status.json",
+      "experiment_id": "EXPLORING-OFT-DINO-SCALE500-01",
+      "sha256": "c7ebb69204290fc193c3f694e25ba02c656de9e2df0443a74470d8ad587db136"
+    },
+    "uada_tv": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/uada_tv/outer_0500.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/uada_tv/status.json",
+      "training_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/uada_tv/RUN_MANIFEST.json",
+      "signature": "605a5be9b4e89bd2699f9ac551efbec58da05f41f18ea18fbd1a594e6a659c14",
+      "experiment_id": "OFT-DINO-CORRESPONDENCE500-V1",
+      "sha256": "0c34fc5d44e0556e7b3941303ae4fc32803a5953bf6d6103acdcd845e2edecca"
+    },
+    "correspondence": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/correspondence/outer_0500.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/correspondence/status.json",
+      "training_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/correspondence/RUN_MANIFEST.json",
+      "signature": "9dcf250a97041e7c57dd8b74d76e09d2a1c69d953f09187396d089f20f006a73",
+      "experiment_id": "OFT-DINO-CORRESPONDENCE500-V1",
+      "sha256": "a33ed5377f2a2249e776b4f0d63c328934118dab8fce2deb582f6509ee62ae10"
+    },
+    "correspondence_tv": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/correspondence_tv/outer_0500.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/correspondence_tv/status.json",
+      "training_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/correspondence_tv/RUN_MANIFEST.json",
+      "signature": "9521a72f0db1e8f81d7906ca74480a21a37d5d7929a1e87e2af598a4b1b8189e",
+      "experiment_id": "OFT-DINO-CORRESPONDENCE500-V1",
+      "sha256": "0c62a95bbf92de0d44210d7358c8df79ddd2fed78a7f2023d81e60d60751bb2a"
+    },
+    "feature_tv": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/feature_tv/outer_0500.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/feature_tv/status.json",
+      "training_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_correspondence500_v1/feature_tv/RUN_MANIFEST.json",
+      "signature": "b303a2e9060497632de990703b778bf25e213a3f3c32bedbceb13ab3c1263026",
+      "experiment_id": "OFT-DINO-CORRESPONDENCE500-V1",
+      "sha256": "73634f4b442cff537adc1aac5e0f840c762751205923935b9d4359a29c95dfc3"
+    }
+  }
+}

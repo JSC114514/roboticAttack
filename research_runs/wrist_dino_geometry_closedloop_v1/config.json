@@ -1,0 +1,25 @@
+{
+  "suite": "libero_spatial",
+  "tasks": [0, 1, 2, 4, 6, 7],
+  "states": [44, 45],
+  "workers": [[0, 1], [2, 4], [6, 7]],
+  "conditions": ["clean", "initial", "projection", "full", "uada"],
+  "order_seed": 20261019,
+  "max_steps": 220,
+  "num_steps_wait": 10,
+  "patch_xy": [26, 137],
+  "checkpoint_suite": "libero_spatial",
+  "source_run": "research_runs/wrist_dino_geometry_match_v1",
+  "source_signature": "86b9ae6c5de8cbd997c28f8e414c48cd4213a0274145f9e46de58b8d97b9bac8",
+  "seed_reference": "research_runs/wrist_dino_official_long4_2000_v1/results/LONG4_ROLLOUTS.parquet",
+  "patches": {
+    "initial": "research_runs/wrist_dino_geometry_match_v1/data/initial_s42.png",
+    "projection": "research_runs/wrist_dino_geometry_match_v1/training/pilot/projection/final.png",
+    "full": "research_runs/wrist_dino_geometry_match_v1/training/pilot/full/final.png",
+    "uada": "research_runs/wrist_dino_spatial_b12_diag500_v1/training/m01_uada_original_b1/outer_0500.png"
+  },
+  "keyframe_decisions": [0, 4, 12],
+  "bootstrap_draws": 2000,
+  "gpu": {"partition": "rtx4090", "gres": "gpu:4090:1", "cpus": 4, "memory": "12G", "time": "00:45:00"},
+  "cpu": {"partition": "cpu", "cpus": 2, "memory": "4G", "time": "00:10:00"}
+}

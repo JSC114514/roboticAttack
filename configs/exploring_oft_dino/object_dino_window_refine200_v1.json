@@ -1,0 +1,23 @@
+{
+  "experiment_id": "OFT-DINO-WINDOW-REFINE200-V1",
+  "parent_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/object_dino_replay_refine200_v1.json",
+  "methods": ["clean_continue", "window_uniform", "window_dino", "window_shuffled"],
+  "training_seeds": [42, 137],
+  "seed": 42,
+  "data_seed": 20260929,
+  "rollout_seed": 20260929,
+  "baseline_patch": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_replay_v1/training/replay_uniform/outer_0200.pt",
+  "baseline_patch_sha256": "55fb7868126d9840af22ff5c9e4d0358e2a9bfc801a50f613da2e5b7cc6e747e",
+  "baseline_elapsed_s": 25302.875239458634,
+  "base_outer_iterations": 2200,
+  "tv_threshold": 0.3876712918281555,
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_window_v1",
+  "replay_bank": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_window_v1/data/WINDOW_BANK.pt",
+  "clip_length": 3,
+  "centers_per_trajectory": 6,
+  "outer_iterations": 200,
+  "inner_loop": 50,
+  "warmup_outer_iterations": 20,
+  "checkpoint_outer_iterations": [0, 25, 50, 100, 200],
+  "resume_every_outer_iterations": 5
+}

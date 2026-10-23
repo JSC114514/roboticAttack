@@ -1,0 +1,125 @@
+{
+  "experiment_id": "SPATIAL-DINO-INFORMATION-ATLAS-V2",
+  "suite": "libero_spatial",
+  "seed": 42,
+  "state_manifest": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3/e3_2q_e4/manifests/E4_1R_STATE_MANIFEST.json",
+  "task_map": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3/e3_2q_e4/manifests/E4_0_TASK_LABEL_MAP.json",
+  "old_labels": {
+    "discovery": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3/semantic_causal_attribution_sem0_sem4/manifests/SEMANTIC_LABELS_DISCOVERY.parquet",
+    "validation": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3/semantic_causal_attribution_sem0_sem4/manifests/SEMANTIC_LABELS_VALIDATION.parquet"
+  },
+  "runtime_config": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_key_open_pilot_v2/config.json",
+  "replay": {
+    "image_size": 224,
+    "warmup_steps": 10,
+    "rgb_normalized_rms_limit": 0.0001,
+    "state_exact": true,
+    "proprio_atol": 1e-06,
+    "label_timing": "native_camera_sensor_callback"
+  },
+  "blocks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "detail_blocks": [
+    8,
+    16,
+    22
+  ],
+  "consumed_block": 22,
+  "grid": 4,
+  "views": [
+    "front",
+    "wrist"
+  ],
+  "probe": {
+    "ridge_alphas": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "folds": 5,
+    "bootstrap_draws": 2000,
+    "shuffle_repeats": 5,
+    "local_tokens_per_image": 32,
+    "mlp": {
+      "width": 64,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "max_epochs": 200,
+      "patience": 20,
+      "seeds": [
+        42,
+        43,
+        44
+      ]
+    }
+  },
+  "parts": {
+    "images": 80,
+    "episodes_per_task_split": 2,
+    "progress_target": 0.5,
+    "classes": [
+      "unlabelled",
+      "bowl_rim",
+      "bowl_body",
+      "plate_surface",
+      "left_finger",
+      "right_finger",
+      "other"
+    ]
+  },
+  "resources": {
+    "capture": {
+      "cpus": 4,
+      "host_memory_gib": 12,
+      "gpus": 1,
+      "gpu_type": "4090",
+      "time": "02:00:00"
+    },
+    "analyze": {
+      "cpus": 2,
+      "host_memory_gib": 4,
+      "gpus": 0,
+      "time": "04:00:00"
+    }
+  },
+  "class_names": [
+    "background",
+    "akita_black_bowl",
+    "plate",
+    "glazed_rim_porcelain_ramekin",
+    "cookies",
+    "wooden_cabinet",
+    "flat_stove",
+    "main_table",
+    "robot_arm",
+    "gripper",
+    "other_object"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "checkpoint": "libero_goal",
+  "suites": ["libero_spatial", "libero_object", "libero_goal", "libero_10"],
+  "fit_states": [40, 41],
+  "verify_states": [42, 43],
+  "frames_before_first_contact": 5,
+  "seeds": [42, 43],
+  "methods": ["radial_reverse", "translation_far_boundary"],
+  "primary": "radial_reverse_s42",
+  "updates": 4000,
+  "checkpoint_interval": 500,
+  "learning_rate": 0.002,
+  "warmup": 20,
+  "patch_shape": [3, 50, 50],
+  "patch_xy": [26, 137],
+  "eot": false,
+  "retreat_goal_m": 0.005,
+  "eval_states": [0, 1],
+  "rollout_seed_base": 20261020,
+  "action_tolerance": 0.00001,
+  "bootstrap_draws": 2000,
+  "max_concurrent_gpus": 2
+}

@@ -1,0 +1,58 @@
+{
+  "experiment_id": "OFT-DINO-ILA-REFINE200-XSUITE-V2",
+  "base_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/scale500_cross_suite.json",
+  "base_config_sha256": "80931a4e2b9e5dc1d2f04d25d6781082790c1a5651b84b816f9adaf3ca34caff",
+  "conditions": [
+    "exploring_oft_uada",
+    "uada_continue_tv",
+    "dino_ila_tv",
+    "dino_disruption_tv"
+  ],
+  "manual_visual_review": "PASS_USER_20260927_ILA_REFINE200_V2",
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_cross_suite_v2",
+  "patch_sources": {
+    "exploring_oft_uada": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/outer_0500.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/status.json",
+      "experiment_id": "EXPLORING-OFT-DINO-SCALE500-01",
+      "sha256": "c7ebb69204290fc193c3f694e25ba02c656de9e2df0443a74470d8ad587db136",
+      "training_status_sha256": "9eb68a26c43bfd5445accfa9f4946ee9cdfb73ba4e8bbfaa4220d714b63fb2b1"
+    },
+    "uada_continue_tv": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/uada_continue_tv/outer_0200.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/uada_continue_tv/status.json",
+      "training_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/uada_continue_tv/RUN_MANIFEST.json",
+      "runtime_alignment": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/uada_continue_tv/RUNTIME_ALIGNMENT.json",
+      "signature": "1fdc5056811f016ba41911981e0e73c6f76eaddd8f01521d17ed47a8463e5c06",
+      "experiment_id": "OFT-DINO-ILA-REFINE200-V2",
+      "sha256": "5a83dd2ada4dd89ffea3d863db0729dbe7288e101302b248de7893ff885c4ab4",
+      "training_status_sha256": "3e1dbe35a19d1cf18d6a65b4cde238ef66661f94df9de44a4292039dc2b35762",
+      "training_manifest_sha256": "bace937d02edbad244ff06ff1f1e6e9d48412eb3257fc5988aa4f1d336c4fb5b",
+      "runtime_alignment_sha256": "1cb9b08c9b8fcab61a4f8fa6d694b9f992c09f7fce5303d0667351b86e6c0860"
+    },
+    "dino_ila_tv": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_ila_tv/outer_0200.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_ila_tv/status.json",
+      "training_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_ila_tv/RUN_MANIFEST.json",
+      "runtime_alignment": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_ila_tv/RUNTIME_ALIGNMENT.json",
+      "signature": "b96625a16ae3b8f748e5510a4d0e6f45c552711bf6927ba4adca94ed5003634b",
+      "experiment_id": "OFT-DINO-ILA-REFINE200-V2",
+      "sha256": "a70b0b4d385da40163a9f53339716bdb12f01b2e8d643cc73449d782ff9d623f",
+      "training_status_sha256": "96047bb0333bbaf6ae4a1897b50ef7f9f1e3dce8bad3628ac3ad39199181bbbc",
+      "training_manifest_sha256": "16f5a6429b7a2cb185b2ed988426f5cc260278501d88e9a818c9d78d49909c92",
+      "runtime_alignment_sha256": "1cb9b08c9b8fcab61a4f8fa6d694b9f992c09f7fce5303d0667351b86e6c0860"
+    },
+    "dino_disruption_tv": {
+      "patch_path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_disruption_tv/outer_0200.pt",
+      "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_disruption_tv/status.json",
+      "training_manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_disruption_tv/RUN_MANIFEST.json",
+      "runtime_alignment": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_dino_ila_refine200_v2/dino_disruption_tv/RUNTIME_ALIGNMENT.json",
+      "signature": "8e8cfbb164a9b2aef0fcb791128de34cceef1c9a44294e7da6be6365329b05d9",
+      "experiment_id": "OFT-DINO-ILA-REFINE200-V2",
+      "sha256": "7aa9622eb6c881d614ddab31939dfe819325d37a8b0a8902aebb7f539651e131",
+      "training_status_sha256": "fa6194a133c8d74c0a60fffca7e1a30034b24dc76bd96b1290959cca61ae4eca",
+      "training_manifest_sha256": "4f36ccebc6fa9619112b94738c8bad9c6c5f315f4b3cc87288455880d06b60eb",
+      "runtime_alignment_sha256": "1cb9b08c9b8fcab61a4f8fa6d694b9f992c09f7fce5303d0667351b86e6c0860"
+    }
+  }
+}

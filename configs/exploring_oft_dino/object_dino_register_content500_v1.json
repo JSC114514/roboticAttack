@@ -1,0 +1,93 @@
+{
+  "experiment_id": "OFT-DINO-REGISTER-CONTENT500-V1",
+  "parent_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+  "methods": [
+    "uniform_action",
+    "register_attention_g10",
+    "register_content_g10",
+    "dense_content_g10"
+  ],
+  "method_specs": {
+    "uniform_action": {
+      "target": "none",
+      "gradient_ratio": 0,
+      "project_conflict": false
+    },
+    "register_attention_g10": {
+      "target": "register_attention",
+      "gradient_ratio": 0.1,
+      "project_conflict": false
+    },
+    "register_content_g10": {
+      "target": "register_content",
+      "gradient_ratio": 0.1,
+      "project_conflict": false
+    },
+    "dense_content_g10": {
+      "target": "dense_content",
+      "gradient_ratio": 0.1,
+      "project_conflict": false
+    }
+  },
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_register_content_v1",
+  "sampling_policy": "object_replay_uniform_axis0_register_content_v1",
+  "outer_iterations": 500,
+  "scheduler_total_outer": 2000,
+  "auxiliary_start_outer": 251,
+  "checkpoint_outer_iterations": [
+    0,
+    250,
+    500
+  ],
+  "eval_checkpoint_outer_iterations": [
+    500
+  ],
+  "refresh_after_outer": [],
+  "register_attention_layers": [
+    8,
+    16
+  ],
+  "register_query_tokens": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "dino_prefix_tokens": 5,
+  "dino_grid_size": [
+    16,
+    16
+  ],
+  "dino_patch_size": 14,
+  "attention_objective": "negative_log_attention_mass_from_target_queries_to_wrist_patch_keys",
+  "attention_gradient_combination": "gm + ratio * ||gm|| / ||ga_raw|| * ga_raw; ratio=0.1 for all auxiliary arms; no projection",
+  "external_references": {
+    "original_uada_500": {
+      "method": "exploring_oft_uada",
+      "pt": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/outer_0500.pt",
+      "pt_sha256": "3e4367820e2ea4f4d125dcd819321ba0f41c39699bbd74f6d0d78942d0e8b20e",
+      "png_sha256": "2a5b67c1099a603e4a4d2dea0f890aecfa164dc9d6999465082c808ba1a52d5b",
+      "manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/RUN_MANIFEST.json",
+      "manifest_sha256": "f1d5c4d38d3fcd36f30b8d34bb18bb3eb30d041b541a5568eefef407036ca200",
+      "history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/training.parquet",
+      "history_sha256": "138eb826cbbc960b49d7e64bfbc930b6788fd5f0512e5a26a36373a3dadf5fa3",
+      "checkpoint_outer": 500
+    }
+  },
+  "training_gpu_limit": 4,
+  "evaluation_gpu_limit": 8,
+  "primary_checkpoint_outer": 500,
+  "primary_endpoint": "spatial_goal_macro",
+  "closure_policy": "500_matching_controls_no_automatic_extension",
+  "notes": [
+    "Four fresh seed42 full-RGB controls. No historical patch warm start.",
+    "Action-only through250, auxiliary starts251. Same Object-only uniform replay/EOT.",
+    "Register/dense content targets use native layer16 K/V; normal main/eval remain untouched.",
+    "5 conditions x 1 budget x 400 episodes=2000; clean qualified1910.",
+    "No claim that uniform replay itself exploits DINO; target-suite-informed development."
+  ],
+  "content_layer": 16,
+  "content_token_count": 4,
+  "content_objective": "UADA wrong-action MSE on clean forward with only donor Wrist selected-token K/V replaced",
+  "resource_policy": "serialize_after_existing_oft_chains_then_4x4090_training_then_8x3090_eval"
+}

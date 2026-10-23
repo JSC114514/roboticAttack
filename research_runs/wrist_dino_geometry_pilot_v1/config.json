@@ -1,0 +1,29 @@
+{
+  "experiment_id": "SPATIAL-DINO-GEOMETRY-PILOT-V1",
+  "atlas": "research_runs/wrist_dino_information_atlas_v2",
+  "uada_png": "research_runs/wrist_dino_spatial_b12_diag500_v1/training/m01_uada_original_b1/outer_0500.png",
+  "suite": "libero_spatial",
+  "layers": [16, 22],
+  "seeds": [42, 43],
+  "episodes_per_task_split": 2,
+  "direction_degrees": [15.0, 30.0],
+  "distance_fractions": [0.25, 0.5],
+  "max_displacement_m": 0.03,
+  "updates": 1000,
+  "learning_rate": 0.002,
+  "warmup_updates": 20,
+  "checkpoints": [0, 500, 1000],
+  "resume_interval": 100,
+  "patch_shape": [3, 50, 50],
+  "patch_xy": [26, 137],
+  "evaluation_eot_seeds": [2026101901, 2026101902, 2026101903, 2026101904],
+  "ridge_alphas": [0.01, 0.1, 1.0, 10.0, 100.0, 1000.0],
+  "bootstrap_draws": 2000,
+  "random_control_seed": 42,
+  "resources": {
+    "prepare": {"cpus": 2, "host_memory_gib": 4, "gpus": 0, "time": "00:45:00"},
+    "mechanism": {"cpus": 4, "host_memory_gib": 12, "gpus": 1, "gpu_type": "4090", "time": "02:00:00"},
+    "pilot": {"cpus": 4, "host_memory_gib": 16, "gpus": 1, "gpu_type": "4090", "time": "04:00:00"},
+    "analyze": {"cpus": 2, "host_memory_gib": 4, "gpus": 0, "time": "00:45:00"}
+  }
+}

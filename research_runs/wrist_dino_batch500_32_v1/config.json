@@ -1,0 +1,67 @@
+{
+  "experiment_id": "OFT-DINO-BATCH500-32-V1",
+  "selected_ids": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9,
+    12
+  ],
+  "batch_sizes": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "outer_iterations": 500,
+  "inner_loop": 50,
+  "evaluation_checkpoints": [
+    500
+  ],
+  "checkpoint_outer_iterations": [
+    0,
+    125,
+    250,
+    375,
+    500
+  ],
+  "base_run": "wrist_dino_feature_screen250_v1",
+  "base_signature": "590b344e7e2d4602cb19c7d8a090b6e714e1cac00ec35c11caf1e7601ebe1620",
+  "multilayer_layers": [
+    8,
+    16,
+    22
+  ],
+  "affinity_topk": 8,
+  "objective_epsilon": 0.000001,
+  "nce_temperature": 0.1,
+  "recompute_tolerance": 0.00001,
+  "nce_b1": "explicit_zero_feature_gradient_control",
+  "evaluation_state_indices": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "resources": {
+    "training": {
+      "partition": "rtx",
+      "gpu_type": "4090",
+      "max_concurrent": 6
+    },
+    "evaluation": {
+      "partition": "rtx",
+      "gpu_type": "4090",
+      "max_concurrent": 8
+    }
+  }
+}

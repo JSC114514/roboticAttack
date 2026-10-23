@@ -1,0 +1,20 @@
+{
+  "experiment_id": "OFT-DINO-SPATIAL-RELATION-STAGE0A-20260922",
+  "source_root": "/home/caijiasheng25/robopatch_defense/wrist_patch_method_screening/outputs/phase4b_oft_wrist_control/a1_balanced_data/shards",
+  "model_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/uada_object2000.json",
+  "mgwp_config": "/home/caijiasheng25/robopatch_defense/oft_mgwp_wrist_only/configs/MGWP_STAGE1.json",
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/spatial_relation_stage0a",
+  "task_ids": [0, 1, 2, 3],
+  "splits": ["discovery", "validation", "test"],
+  "image_resolution": 224,
+  "token_grid": 16,
+  "prototype_temperature": 0.05,
+  "patch_xy": [26, 137],
+  "patch_shape": [50, 50],
+  "patch_token_halo": 1,
+  "range_geometry": {"scale_delta": 0.09, "tx_fraction": 0.0, "rotation_deg": 0.0},
+  "lateral_geometry": {"scale_delta": 0.0, "tx_fraction": -0.09, "rotation_deg": 0.0},
+  "max_median_error_tokens": 2.0,
+  "minimum_tasks_with_signed_range_response": 3,
+  "status": "FEASIBILITY_ONLY_NOT_TEN_TASK_CONFIRMATION"
+}

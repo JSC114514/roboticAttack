@@ -1,0 +1,5 @@
+a,b,paired,CASR_difference,task_start_95ci
+joint,fixed_harm,39,0.0,"[0.0, 0.0]"
+joint,realizability_only,39,0.0,"[0.0, 0.0]"
+joint,translation_boundary,39,-0.8974358974358975,"[-1.0, -0.7498397435897445]"
+joint,uada500,39,-0.5128205128205128,"[-0.7692307692307693, -0.275]"

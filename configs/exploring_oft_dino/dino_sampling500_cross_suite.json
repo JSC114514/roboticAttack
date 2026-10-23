@@ -1,0 +1,29 @@
+{
+  "experiment_id": "EXPLORING-OFT-DINO-SAMPLING500-XSUITE-V1",
+  "base_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/scale500_cross_suite.json",
+  "training_suite": "libero_object",
+  "conditions": ["exploring_oft_uada_o0500", "exploring_oft_site_uada", "exploring_oft_site_dino_sample", "gray_same_site"],
+  "manual_visual_review": "PENDING_USER",
+  "patch_sources": {
+    "exploring_oft_uada_o0500": {
+      "path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/outer_0500.pt",
+      "sha256": "c7ebb69204290fc193c3f694e25ba02c656de9e2df0443a74470d8ad587db136",
+      "experiment_id": "EXPLORING-OFT-DINO-SCALE500-01",
+      "method": "exploring_oft_uada"
+    },
+    "exploring_oft_site_uada": {
+      "path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/dino_sampling500_v1/exploring_oft_site_uada/outer_0500.pt",
+      "experiment_id": "EXPLORING-OFT-DINO-SAMPLING500-V1",
+      "method": "exploring_oft_site_uada"
+    },
+    "exploring_oft_site_dino_sample": {
+      "path": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/dino_sampling500_v1/exploring_oft_site_dino_sample/outer_0500.pt",
+      "experiment_id": "EXPLORING-OFT-DINO-SAMPLING500-V1",
+      "method": "exploring_oft_site_dino_sample"
+    }
+  },
+  "patch_xy": [91, 140],
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/dino_sampling500_cross_suite",
+  "order_seed": 20260924,
+  "bootstrap_seed": 20260907
+}

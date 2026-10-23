@@ -1,0 +1,9 @@
+{
+  "experiment_id": "OFT-DINO-REPLAY-REFINE200-XSUITE-V1",
+  "train_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/object_dino_replay_refine200_v1.json",
+  "base_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/scale500_cross_suite.json",
+  "base_config_sha256": "80931a4e2b9e5dc1d2f04d25d6781082790c1a5651b84b816f9adaf3ca34caff",
+  "conditions": ["uada_2000_frozen", "clean_continue", "replay_uniform", "replay_dino", "replay_shuffled"],
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_replay_v1/evaluation/four_suite",
+  "visual_review": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_replay_v1/VISUAL_REVIEW.json"
+}

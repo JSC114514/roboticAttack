@@ -1,0 +1,47 @@
+{
+  "experiment_id": "EXPLORING-OFT-DINO-OBJECT-DECOY500-V1",
+  "methods": [
+    "exploring_oft_dino_object_decoy_r03",
+    "exploring_oft_dino_object_decoy_r10"
+  ],
+  "seed": 42,
+  "data_seed": 20260920,
+  "suite": "libero_object",
+  "unnorm_key": "libero_object_no_noops",
+  "checkpoint": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object",
+  "training_bank": "/home/caijiasheng25/robopatch_defense/oft_mgwp_wrist_only/artifacts/GEOMETRY_TRAIN_BANK.pt",
+  "object_mask_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/spatial_relation_object_bank_masks",
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_decoy500_v1",
+  "baseline_patch": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/outer_0500.pt",
+  "baseline_patch_sha256": "c7ebb69204290fc193c3f694e25ba02c656de9e2df0443a74470d8ad587db136",
+  "openvla_oft_root": "/home/caijiasheng25/Desktop/tex3D/openvla-oft",
+  "libero_root": "/home/caijiasheng25/Desktop/LIBERO",
+  "attribution_root": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812",
+  "patch_shape": [3, 50, 50],
+  "maskidx": [0],
+  "outer_iterations": 500,
+  "inner_loop": 50,
+  "batch_size": 1,
+  "learning_rate": 0.002,
+  "weight_decay": 0.0,
+  "warmup_outer_iterations": 20,
+  "geometry": true,
+  "resize_patch": false,
+  "checkpoint_outer_iterations": [0, 25, 50, 100, 200, 500],
+  "resume_every_outer_iterations": 5,
+  "decoy_gradient_ratios": {
+    "exploring_oft_dino_object_decoy_r03": 0.3,
+    "exploring_oft_dino_object_decoy_r10": 1.0
+  },
+  "decoy_object_weight": 1.0,
+  "decoy_patch_weight": 1.0,
+  "action_head_q01": [-0.9453125, -0.34181639552116394, -0.9336718916893005, -0.828125, -0.7187890410423279, -0.5859765410423279, -0.0034490968100726604],
+  "action_head_q99": [0.4338674545288086, 0.9609375, 1.0234375, 0.6953516006469727, 0.8516016006469727, 0.84765625, 1.0078125],
+  "structure_gates": {
+    "100": {"max_init_correlation": 0.95, "max_tv_ratio": 0.97},
+    "200": {"max_init_correlation": 0.85, "max_tv_ratio": 0.90},
+    "500": {"max_init_correlation": 0.85, "max_tv_ratio": 0.90}
+  },
+  "num_open_loop_steps": 8,
+  "dtype": "bfloat16"
+}

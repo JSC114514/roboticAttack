@@ -1,0 +1,60 @@
+{
+  "experiment_id": "EXPLORING-OFT-JOINT500-V1-XSUITE",
+  "training_suite": "libero_object",
+  "suites": ["libero_object", "libero_spatial", "libero_goal", "libero_10"],
+  "task_count": 10,
+  "state_indices": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+  "conditions": [
+    "exploring_oft_uada_o0500",
+    "exploring_oft_dino_feature_uniform",
+    "exploring_oft_siglip_feature_uniform",
+    "exploring_oft_dino_signed_geometry",
+    "exploring_oft_dino_signed_geometry_sham",
+    "exploring_oft_full_persistent6d",
+    "exploring_oft_dino_persistent6d"
+  ],
+  "manual_visual_review": "PASS_USER_20260924_JOINT500",
+  "training_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_joint500_v1",
+  "baseline_patch": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_scale500/exploring_oft_uada/outer_0500.pt",
+  "patch_sha256": {
+    "exploring_oft_uada_o0500": "c7ebb69204290fc193c3f694e25ba02c656de9e2df0443a74470d8ad587db136",
+    "exploring_oft_dino_feature_uniform": "7b44ba1c0f47782b9448035e85e4ee2d913edb2111e501e371c4ad067ade30a9",
+    "exploring_oft_siglip_feature_uniform": "98675e997f76d2d7d7d9cacc2e60131992702d982c4e38ae16106795e90e0209",
+    "exploring_oft_dino_signed_geometry": "f1a6d0af6a5740d51d9635360f4d5bcc49bb2f9534140e30d61ad7ab55fd89f1",
+    "exploring_oft_dino_signed_geometry_sham": "e63fa9f9daea3c34d553b1c4632537a328ce23e1e45bed6dfe8a3149d5b73401",
+    "exploring_oft_full_persistent6d": "22dba1eb65007d15cec9184fdf262c8776980fbeb610b89f4665242d1fdb3cc0",
+    "exploring_oft_dino_persistent6d": "2245fca641928c8154949d7276683fccd8cacb7ec7431eb895906e871b76811d"
+  },
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/joint500_v1_cross_suite",
+  "frozen_object_clean": "/home/caijiasheng25/robopatch_defense/oft_ramp_recovery_aware/results/FINAL_100_ROLLOUTS.parquet",
+  "frozen_cross_suite_clean": "/home/caijiasheng25/robopatch_defense/oft_ramp_recovery_aware/results/CROSS_SUITE_ZERO_SHOT_ROLLOUTS.parquet",
+  "order_seed": 20260924,
+  "bootstrap_seed": 20260907,
+  "num_steps_wait": 10,
+  "max_steps_by_suite": {"libero_object": 280, "libero_spatial": 220, "libero_goal": 300, "libero_10": 520},
+  "num_open_loop_steps": 8,
+  "image_resolution": 224,
+  "patch_shape": [3, 50, 50],
+  "patch_xy": [26, 137],
+  "dtype": "bfloat16",
+  "checkpoints": {
+    "libero_object": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object",
+    "libero_spatial": "/home/caijiasheng25/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-spatial/snapshots/6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "libero_goal": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-goal",
+    "libero_10": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-10"
+  },
+  "unnorm_keys": {
+    "libero_object": "libero_object_no_noops",
+    "libero_spatial": "libero_spatial_no_noops",
+    "libero_goal": "libero_goal_no_noops",
+    "libero_10": "libero_10_no_noops"
+  },
+  "paths": {
+    "legacy_mgrb_root": "/home/caijiasheng25/robopatch_defense/oft_mgrb_lite_low_cost",
+    "robotic_attack_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main",
+    "attribution_root": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812",
+    "historical_root": "/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3",
+    "openvla_oft_root": "/home/caijiasheng25/Desktop/tex3D/openvla-oft",
+    "libero_root": "/home/caijiasheng25/Desktop/LIBERO"
+  }
+}

@@ -1,0 +1,14 @@
+condition,paired_starts,reset_mismatches,old_Goal_task_SR,joint_task_SR,common_clean_successes,CASR_change_common_clean
+clean,10,0,1.0,1.0,10,0.0
+matched_relation_s42,10,0,0.4,0.8,10,-0.4
+shuffled_relation_s42,10,0,0.7,0.7,10,0.0
+translation_far_boundary_s42,10,0,0.1,0.7,10,-0.6
+uada_clean_xyz_s42,10,0,0.2,0.8,10,-0.6
+uada_clean_7dof_s42,10,0,0.0,0.7,10,-0.7
+matched_relation_s43,10,0,0.1,0.6,10,-0.5
+shuffled_relation_s43,10,0,0.4,0.8,10,-0.4
+translation_far_boundary_s43,10,0,0.0,0.5,10,-0.5
+uada_clean_xyz_s43,10,0,0.2,0.5,10,-0.3
+uada_clean_7dof_s43,10,0,0.2,0.7,10,-0.5
+initial_s42,10,0,1.0,0.9,10,0.1
+initial_s43,10,0,1.0,0.9,10,0.1

@@ -1,0 +1,35 @@
+{
+  "experiment_id": "EXPLORING-OFT-DINO-OBJECT-FINAL100-O200-01",
+  "suite": "libero_object",
+  "unnorm_key": "libero_object_no_noops",
+  "task_count": 10,
+  "state_indices": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+  "conditions": ["exploring_oft_uada_o0200", "exploring_oft_dino_cf_o0200"],
+  "patches": {
+    "exploring_oft_uada_o0200": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_timeboxed/exploring_oft_uada/outer_0200.pt",
+    "exploring_oft_dino_cf_o0200": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_timeboxed/exploring_oft_dino_cf/outer_0200.pt"
+  },
+  "training_status": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_timeboxed/reports/STATUS.json",
+  "manual_visual_review": "PASS_USER_20260921",
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/outputs/exploring_oft_dino/object_screen200",
+  "num_steps_wait": 10,
+  "max_steps": 280,
+  "num_open_loop_steps": 8,
+  "image_resolution": 224,
+  "patch_shape": [3, 50, 50],
+  "patch_xy": [26, 137],
+  "dtype": "bfloat16",
+  "order_seed": 20260921,
+  "bootstrap_seed": 20260907,
+  "paths": {
+    "existing_final100_rollouts": "/home/caijiasheng25/robopatch_defense/oft_ramp_recovery_aware/results/FINAL_100_ROLLOUTS.parquet",
+    "checkpoint": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object",
+    "action_scale": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812/e_rescue_clean_internal_v6/manifests/action_scale.json",
+    "legacy_mgrb_root": "/home/caijiasheng25/robopatch_defense/oft_mgrb_lite_low_cost",
+    "robotic_attack_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main",
+    "attribution_root": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812",
+    "historical_root": "/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3",
+    "openvla_oft_root": "/home/caijiasheng25/Desktop/tex3D/openvla-oft",
+    "libero_root": "/home/caijiasheng25/Desktop/LIBERO"
+  }
+}

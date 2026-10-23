@@ -1,0 +1,53 @@
+{
+  "source_signature": "67d5f01434fb00f41b14218b426ec1563dc19850603dd9b09e280d2455b312a2",
+  "parent_eval_signature": "6fe593a86c6ac66830f04be2daafbb14abd103b16939c9fed5ba9da247c3e3b3",
+  "checkpoint": "libero_goal",
+  "suites": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ],
+  "patch_shape": [
+    3,
+    50,
+    50
+  ],
+  "patch_xy": [
+    26,
+    137
+  ],
+  "eot": false,
+  "seeds": [
+    42,
+    43
+  ],
+  "methods": [
+    "uada_clean_xyz",
+    "uada_clean_7dof"
+  ],
+  "primary": "uada_clean_xyz",
+  "updates": 4000,
+  "checkpoint_interval": 500,
+  "learning_rate": 0.002,
+  "warmup": 20,
+  "action_tolerance": 1e-05,
+  "original_eval_states": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "expanded_eval_states": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_concurrent_gpus": 2,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 42,
+  "normalization": "head XYZ/rotation [-1,1]; unmasked gripper [0,1]",
+  "reference": "frozen clean model; not expert; OFT continuous-head adaptation",
+  "scope": "Goal only; fair conditions first; additional initial states; no model transfer or new training pool"
+}

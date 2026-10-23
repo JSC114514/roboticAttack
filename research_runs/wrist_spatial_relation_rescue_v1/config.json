@@ -1,0 +1,20 @@
+{
+  "source_run": "research_runs/wrist_spatial_approach_pilot_v1",
+  "source_signature": "67d5f01434fb00f41b14218b426ec1563dc19850603dd9b09e280d2455b312a2",
+  "audit_run": "research_runs/wrist_spatial_failure_audit_v1",
+  "audit_signature": "b3c276339a4c27c3aa109ea32c578651cf65745346ad1ccc1219f4c0aa89f1d6",
+  "checkpoint": "libero_goal",
+  "primary": "radial_reverse_s42",
+  "methods": ["restore_radial", "restore_xyz", "restore_pose_grip"],
+  "order_seed": 42,
+  "patch_xy": [26, 137],
+  "max_steps": 300,
+  "max_concurrent_gpus": 1,
+  "position_tolerance_m": 1e-9,
+  "radial_tolerance_m": 1e-9,
+  "direction_epsilon_m": 1e-8,
+  "action_tolerance": 1e-5,
+  "rgb_nrmse_tolerance": 0.0001,
+  "bootstrap_draws": 5000,
+  "expansion_states": [2, 3, 4, 5]
+}

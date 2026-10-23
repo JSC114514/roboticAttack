@@ -1,0 +1,13 @@
+patch_name: P_WHEN
+task_suite: libero_spatial
+attack_protocol: world_anchored_patch
+libero_root: /home/caijiasheng25/Desktop/LIBERO
+openvla_oft_root: /home/caijiasheng25/Desktop/tex3D/openvla-oft
+world_group: WORLD_WHEN
+num_episodes: 100
+eval_tasks: 10
+eval_episodes_per_task: 10
+num_steps_wait: 10
+num_open_loop_steps: 8
+seed: 7
+save_video: true

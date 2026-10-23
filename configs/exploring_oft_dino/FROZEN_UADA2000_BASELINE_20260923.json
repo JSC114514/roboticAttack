@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_CANONICAL_ATTACK_BASELINE",
+  "frozen_at_beijing_date": "2026-09-23",
+  "condition": "exploring_oft_uada_o2000",
+  "threat_model": "50x50 fixed-location Wrist-only adversarial patch; Front, language, and proprioception unchanged",
+  "training_source_suite": "libero_object",
+  "training_budget": {
+    "outer_steps": 2000,
+    "inner_steps_per_outer": 50,
+    "optimizer_updates": 100000
+  },
+  "patch": {
+    "path": "outputs/exploring_oft_dino/uada_object2000/exploring_oft_uada/outer_2000.pt",
+    "sha256": "ab2529a1957a654613402e4173a04af3f3659a24a9ce97e5a2c3165dd9541c52",
+    "manual_visual_review": "PASS_USER"
+  },
+  "training_bank": {
+    "path": "../oft_mgwp_wrist_only/artifacts/GEOMETRY_TRAIN_BANK.pt",
+    "sha256": "7822da38434ef65058a10a1844615583903122520fb660b6522f174ea48a58f8"
+  },
+  "frozen_four_suite_evaluation": {
+    "directory": "outputs/exploring_oft_dino/three_arm_object2000_cross_suite",
+    "eligible_clean_success_episodes": 382,
+    "eligible_attack_rows_for_this_condition": 382,
+    "task_equal_casr": {
+      "libero_object": 0.4288888888888889,
+      "libero_spatial": 0.08444444444444445,
+      "libero_goal": 0.41222222222222216,
+      "libero_10": 0.7775
+    },
+    "per_suite_csv_sha256": "456759c1236d4b47376b8dcf6de289b70b74e23f08cab132f8606b78496f7bc8",
+    "contrasts_csv_sha256": "4dfeeafb7d8435ecbe3133edde8046cf8174aa7f80a7d97f8411cd4611b64705"
+  },
+  "interpretation_boundary": "Canonical future attack baseline by user decision. This is not a claim that 2000 steps significantly outperform 500 steps on every suite: only the Goal 2000-minus-500 task-hierarchical 95% interval excluded zero. Object is the source suite; Spatial and Goal are zero-shot diagnostics; Long is mandatory secondary evidence and must remain separately reported.",
+  "future_use_policy": "Do not retrain, tune, or replace this baseline based on new test results. Compare new methods on the same frozen clean-success states, paired rollout seeds, patch placement, and per-suite task-equal CASR. Any new training budget or threat model must be labeled separately."
+}

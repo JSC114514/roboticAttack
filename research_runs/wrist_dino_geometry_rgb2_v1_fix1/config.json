@@ -1,0 +1,26 @@
+{
+  "source_signature": "86b9ae6c5de8cbd997c28f8e414c48cd4213a0274145f9e46de58b8d97b9bac8",
+  "repair_source_signature": "af8af43a8133605dbafc6f1537f2e2a29c775cebb29a5532816f961b2182870c",
+  "alignment_repair": "legacy_rgb_or_exact_sampled_state_with_same_frame_targets",
+  "scale2_signature": "28edc2820b59e612437c8312ee3e53535ad094245844139d29a4ce0df34844a6",
+  "checkpoint": "libero_spatial",
+  "fit_states": [40, 41], "verify_states": [42, 43],
+  "frame_ranks": [0, 1, 2, 3, 4],
+  "displacement_scale": 2.0, "target_sign": "plus",
+  "candidates": ["projection", "full"],
+  "seed": 42, "learning_rate": 0.002, "visits": 20,
+  "shared_updates": 4800, "individual_count": 12, "individual_updates": 100,
+  "patch_shape": [3, 50, 50], "patch_xy": [26, 137],
+  "eot": false, "action_loss": false,
+  "eval_tasks": [0, 1, 2, 6, 7], "eval_states": [44, 45],
+  "conditions": ["clean", "initial", "uada", "projection", "full"],
+  "num_steps_wait": 10, "max_steps": 220, "keyframe_decisions": [0, 4, 12],
+  "bootstrap_draws": 2000, "order_seed": 20261020,
+  "max_concurrent_gpus": 2,
+  "resources": {
+    "cache": {"memory": "12G", "time": "00:45:00"},
+    "train": {"memory": "16G", "time": "00:30:00"},
+    "evaluate": {"memory": "12G", "time": "00:30:00"},
+    "report": {"memory": "4G", "time": "00:10:00"}
+  }
+}

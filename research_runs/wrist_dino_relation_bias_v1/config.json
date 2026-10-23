@@ -1,0 +1,42 @@
+{
+  "experiment_id": "WRIST-DINO-RELATION-BIAS-V1",
+  "source_run": "research_runs/wrist_dino_official_long4_2000_v1",
+  "runtime_run": "research_runs/wrist_dino_spatial_b12_diag500_v1",
+  "uada_png": "research_runs/wrist_dino_spatial_b12_diag500_v1/training/m01_uada_original_b1/outer_0500.png",
+  "training_checkpoint_suite": "libero_spatial",
+  "suites": ["libero_object", "libero_spatial", "libero_goal", "libero_10"],
+  "task_splits": {
+    "libero_spatial": {"train": [0, 1, 2, 4, 6, 7], "validation": [3, 8], "heldout": [5, 9]},
+    "libero_object": {"train": [0, 1, 2, 3, 4, 5], "validation": [6, 7], "heldout": [8, 9]},
+    "libero_goal": {"train": [0, 1, 3, 5, 6, 7], "validation": [2, 8], "heldout": [4, 9]},
+    "libero_10": {"train": [0, 2, 3, 4, 5, 8], "validation": [1, 7], "heldout": [6, 9]}
+  },
+  "trajectory_states": {"train": [40, 41, 42, 43, 44, 45, 46, 47], "validation": [40, 41, 42, 43], "heldout": [44, 45, 46, 47]},
+  "frame_fractions": [0.1, 0.3, 0.5, 0.7, 0.9],
+  "methods": ["translation", "bearing"],
+  "bearing_degrees": 30.0,
+  "max_displacement_m": 0.03,
+  "block": 22,
+  "patch_shape": [3, 50, 50],
+  "patch_xy": [26, 137],
+  "seed": 42,
+  "epochs": 50,
+  "updates_per_epoch": 960,
+  "learning_rate": 0.002,
+  "warmup_updates": 20,
+  "checkpoint_epochs": [0, 10, 20, 30, 40, 50],
+  "validation_closedloop_states": [48],
+  "heldout_closedloop_states": [48, 49],
+  "validation_conditions": ["clean", "initial", "uada", "translation", "bearing"],
+  "heldout_conditions": ["clean", "initial", "uada", "winner"],
+  "bootstrap_draws": 2000,
+  "resources": {
+    "prepare": {"cpus": 2, "host_memory_gib": 4, "gpus": 0, "time": "00:30:00"},
+    "cache": {"cpus": 4, "host_memory_gib": 12, "gpus": 1, "gpu_type": "a800", "partition": "a800", "qos": "a800", "time": "03:00:00"},
+    "train": {"cpus": 4, "host_memory_gib": 16, "gpus": 1, "gpu_type": "a800", "partition": "a800", "qos": "a800", "time": "04:00:00"},
+    "validate": {"cpus": 4, "host_memory_gib": 12, "gpus": 1, "gpu_type": "a800", "partition": "a800", "qos": "a800", "time": "02:00:00"},
+    "select": {"cpus": 2, "host_memory_gib": 4, "gpus": 0, "time": "00:20:00"},
+    "heldout": {"cpus": 4, "host_memory_gib": 12, "gpus": 1, "gpu_type": "a800", "partition": "a800", "qos": "a800", "time": "02:00:00"},
+    "analyze": {"cpus": 2, "host_memory_gib": 4, "gpus": 0, "time": "00:30:00"}
+  }
+}

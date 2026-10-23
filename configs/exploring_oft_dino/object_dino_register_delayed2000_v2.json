@@ -1,0 +1,120 @@
+{
+  "experiment_id": "OFT-DINO-REGISTER-DELAYED2000-V2",
+  "parent_config": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+  "methods": [
+    "register_late_g10",
+    "spatial_late_g10",
+    "register_late_projected_g10"
+  ],
+  "method_specs": {
+    "register_late_g10": {
+      "target": "register",
+      "gradient_ratio": 0.1,
+      "project_conflict": false
+    },
+    "spatial_late_g10": {
+      "target": "spatial",
+      "gradient_ratio": 0.1,
+      "project_conflict": false
+    },
+    "register_late_projected_g10": {
+      "target": "register",
+      "gradient_ratio": 0.1,
+      "project_conflict": true
+    }
+  },
+  "output_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_register_v2",
+  "sampling_policy": "object_replay_uniform_axis0_with_delayed_register_attention_v2",
+  "outer_iterations": 2000,
+  "scheduler_total_outer": 2000,
+  "auxiliary_start_outer": 251,
+  "checkpoint_outer_iterations": [
+    0,
+    250,
+    500,
+    1000,
+    1500,
+    2000
+  ],
+  "eval_checkpoint_outer_iterations": [
+    1000,
+    2000
+  ],
+  "refresh_after_outer": [],
+  "register_attention_layers": [
+    8,
+    16
+  ],
+  "register_query_tokens": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "dino_prefix_tokens": 5,
+  "dino_grid_size": [
+    16,
+    16
+  ],
+  "dino_patch_size": 14,
+  "attention_objective": "negative_log_attention_mass_from_target_queries_to_wrist_patch_keys",
+  "attention_gradient_combination": "gm + 0.1 * ||gm|| / ||ga_raw|| * ga_used; optional negative component projection; no post-projection renormalization",
+  "external_references": {
+    "original_uada_1000": {
+      "method": "exploring_oft_uada",
+      "pt": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/outer_1000.pt",
+      "pt_sha256": "ad1e90142113486f658dec542b579e8eaa1f46555c7bcd5020ce37fcbe3d958a",
+      "png_sha256": "93be82b1af774cbed0b57405ede7af398c9390843cb96053f5e19c604921d352",
+      "manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/RUN_MANIFEST.json",
+      "manifest_sha256": "f1d5c4d38d3fcd36f30b8d34bb18bb3eb30d041b541a5568eefef407036ca200",
+      "history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/training.parquet",
+      "history_sha256": "138eb826cbbc960b49d7e64bfbc930b6788fd5f0512e5a26a36373a3dadf5fa3",
+      "checkpoint_outer": 1000
+    },
+    "uniform_axis0_1000": {
+      "method": "uniform_axis0",
+      "pt": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/outer_1000.pt",
+      "manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/RUN_MANIFEST.json",
+      "history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/training.parquet",
+      "checkpoint_outer": 1000,
+      "pt_sha256": "757870d620aa507df745241b2a8751b5e806746f943b869fda0257d6823bde97",
+      "png_sha256": "cf6108053ae37cc7bc45c3f3e42c395581e28791ba2e9389ff06920806990a9f",
+      "manifest_sha256": "240828d3b0bf930138771bf491083d4f28aa5d2d0ab6292f95bd4cf415946dd4",
+      "history_sha256": "620dfb86a9fd4cdeece61d7b2afd1c6afecd0158afd9804f07ef82ef97c3f525"
+    },
+    "original_uada_2000": {
+      "method": "exploring_oft_uada",
+      "pt": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/outer_2000.pt",
+      "pt_sha256": "e9d3a1dece222474f7515b9db126759f3acae48d11fcf0318cc6c848ae4c14ad",
+      "png_sha256": "873eb3db90ed3497dcb9f04f2601e051c4e83ec8131f4197608a2c05561c0ee4",
+      "manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/RUN_MANIFEST.json",
+      "manifest_sha256": "f1d5c4d38d3fcd36f30b8d34bb18bb3eb30d041b541a5568eefef407036ca200",
+      "history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_transfer_v1/training/original/exploring_oft_uada/training.parquet",
+      "history_sha256": "138eb826cbbc960b49d7e64bfbc930b6788fd5f0512e5a26a36373a3dadf5fa3",
+      "checkpoint_outer": 2000
+    },
+    "uniform_axis0_2000": {
+      "method": "uniform_axis0",
+      "pt": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/outer_2000.pt",
+      "manifest": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/RUN_MANIFEST.json",
+      "history": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_state_axis_v1/training/uniform_axis0/training.parquet",
+      "checkpoint_outer": 2000,
+      "pt_sha256": "a56ec311481dc0fc7c94c39c6ced67008b99fe3319b3526f702ffec7a2893244",
+      "png_sha256": "c19c8f000b0c1c47c6b7cc7c49971f170fb0306b73394dff4c5d803b0a16697c",
+      "manifest_sha256": "240828d3b0bf930138771bf491083d4f28aa5d2d0ab6292f95bd4cf415946dd4",
+      "history_sha256": "620dfb86a9fd4cdeece61d7b2afd1c6afecd0158afd9804f07ef82ef97c3f525"
+    }
+  },
+  "training_gpu_limit": 3,
+  "evaluation_gpu_limit": 8,
+  "primary_checkpoint_outer": 2000,
+  "primary_endpoint": "object_spatial_goal_macro",
+  "closure_policy": "final_oft_method_selection_no_automatic_extension",
+  "notes": [
+    "Fresh seed42 full RGB; action-only outer 1..250; auxiliary starts at 251.",
+    "Object-only clean300 and replay258; all candidate schedules match uniform_axis0.",
+    "5 conditions x 2 checkpoint budgets x 400 episodes = 4000.",
+    "Spatial/Goal/Long are not training data; target-suite results have informed development.",
+    "Read-only Exploring UADA.py and completed runs remain byte-stable."
+  ]
+}

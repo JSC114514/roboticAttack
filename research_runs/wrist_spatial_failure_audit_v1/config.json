@@ -1,0 +1,13 @@
+{
+  "source_run": "research_runs/wrist_spatial_approach_pilot_v1",
+  "source_signature": "67d5f01434fb00f41b14218b426ec1563dc19850603dd9b09e280d2455b312a2",
+  "video_conditions": ["clean", "initial_s42", "uada500", "radial_reverse_s42", "translation_far_boundary_s42"],
+  "primary": "radial_reverse_s42",
+  "bootstrap_draws": 5000,
+  "bootstrap_seed": 42,
+  "position_tolerance_m": 1e-9,
+  "rgb_nrmse_tolerance": 0.0001,
+  "patch_xy": [26, 137],
+  "max_concurrent_gpus": 1,
+  "initial_estimate_seconds": [1800, 5400]
+}
