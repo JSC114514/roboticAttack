@@ -1,0 +1,15 @@
+{
+  "experiment_id": "OFT-DINO-OBJECTIVES-SCREEN250-V2",
+  "base_run": "wrist_dino_feature_screen250_v1",
+  "base_signature": "590b344e7e2d4602cb19c7d8a090b6e714e1cac00ec35c11caf1e7601ebe1620",
+  "methods": ["dino_attention", "dino_multilayer", "dino_affinity"],
+  "comparison_methods": ["uada_original", "dino_key", "advencoder_cos"],
+  "attention_layers": [8, 16],
+  "multilayer_layers": [8, 16, 22],
+  "affinity_topk": 8,
+  "objective_epsilon": 0.000001,
+  "resources": {
+    "training": {"partition": "rtx", "gpu_type": "4090", "max_concurrent": 3},
+    "evaluation": {"partition": "rtx", "gpu_type": "4090", "max_concurrent": 4}
+  }
+}

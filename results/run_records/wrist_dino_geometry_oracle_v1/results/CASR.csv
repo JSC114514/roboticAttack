@@ -1,0 +1,3 @@
+condition,failure_switches,eligible_clean_starts,pooled_CASR,task_equal_CASR,ci95_low,ci95_high,tasks_with_clean_success,successes_all10,available_target_decisions,total_decisions,intervened_executed_slots,executed_steps,intervention_step_fraction
+dino_plus,1,10,0.1,0.1,0.0,0.4,5,9,145,145,1128,1128,1.0
+dino_minus,0,10,0.0,0.0,0.0,0.0,5,10,129,129,994,994,1.0

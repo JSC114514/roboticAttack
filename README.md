@@ -1,54 +1,50 @@
-# RoboticAttack：腕部视角脆弱性、DINO采样与空间关系补丁
+# RoboticAttack：从腕部视觉脆弱性到可靠控制
 
-本仓库整理基于 OpenVLA / OpenVLA-OFT、在本地 LIBERO 仿真中完成的视觉安全研究。研究从前视与腕部视角的不对称性出发，分析 DINO 分支的策略响应，再探索机制引导补丁、训练观测采样、受扰轨迹回放与空间关系动作目标。
+本仓库整理OpenVLA / OpenVLA-OFT在本地LIBERO中的视觉安全研究，包括原始攻击基线、腕部／前视不对称性与DINO因果分析、共享补丁探索，以及目前的腕部视角适配实验。
 
-**先读 [研究脉络](docs/RESEARCH_STORY.md)，再按下面四个入口找代码。** 历史实验的失败尝试、模型条件和后续纠正均保留，不将不同设置下的最好数字拼成同条件结论。
+**当前方向：腕部相机观察位置变化时，如何维持正常机器人操作，并保留对真实目标变化的响应。**
 
-| 代码线 | 内容 | 入口文档 |
+[当前工作与最新结果](docs/CURRENT_DIRECTION.md) · [完整研究脉络](docs/RESEARCH_STORY.md) · [全部实验配置](docs/ALL_EXPERIMENTS.md) · [代码阅读指南](docs/CODE_GUIDE.md)
+
+## 为什么转向这个问题
+
+历史配对干预发现腕部输入比前视更影响控制，DINO分支参与这部分效应的传播。随后尝试把几何表示变化转成共享RGB补丁：表示可读、内部干预有效，没有直接转成更强的真实补丁；空间关系动作目标产生过闭环失败，但没有稳定超过同条件普通动作基线。因此，目前将研究重点放在腕部视觉控制可靠性，旧攻击保留为历史成果和压力测试工具。
+
+普通视角一致性训练在当前开发评测中，将相机偏移条件的任务成功数从124/128提升到128/128，正常条件保持32/32。最新相机×真实目标配对诊断完成279个有效8步分支，尚未发现一致性训练造成跨任务一致的空间响应损害。当前保留权重1配置，不继续为尚未成立的问题增加约束。
+
+## 按问题找代码
+
+| 研究线 | 内容 | 阅读入口 |
 |---|---|---|
-| Exploring 基线 | 原始 UADA/TMA/UPA；连续动作头与双视角 OFT 适配 | [Exploring](docs/methods/exploring.md) |
-| WHEN / UPA-RFAS | 特征、注意力、语义目标及鲁棒优化；源模型训练与 OFT 部署 | [WHEN](docs/methods/when.md) |
-| DINO 采样与回放 | 评分影响训练观测选择，动作攻击损失仍为 UADA 式目标 | [DINO sampling](docs/methods/dino_sampling.md) |
-| 空间关系攻击 | 按目标—末端方向构造错误平移命令，优化共享 RGB 补丁 | [Spatial relation](docs/methods/spatial_relation.md) |
+| Exploring | 原始UADA/TMA/UPA，OFT连续动作与双视角适配 | [基线说明](docs/methods/exploring.md) |
+| WHEN / UPA-RFAS | 特征、注意力和语义目标，源模型训练与迁移 | [WHEN说明](docs/methods/when.md) |
+| DINO采样与回放 | 观测评分、训练池选择、受扰状态覆盖 | [采样说明](docs/methods/dino_sampling.md) |
+| 空间关系补丁 | 目标—末端方向、正确／置乱关系及公平动作基线 | [关系目标说明](docs/methods/spatial_relation.md) |
+| 腕部视觉适配 | 同状态相机配对、专家监督、一致性与约束对照 | [当前方法与数据](docs/methods/wrist_reliability.md) |
+| 相机／目标响应诊断 | 分别移动相机与真实物体，比较动作及实际8步运动 | [最新诊断](research_runs/wrist_camera_task_response_diag_v1/EXPERIMENT_DETAILS.md) |
 
-## 如何阅读与使用
+## 目录与使用顺序
 
-1. [安装、模型和数据](docs/SETUP_AND_DATA.md)：先区分 VLA、补丁、套件和 checkpoint。
-2. [实验索引](docs/EXPERIMENT_INDEX.md)：方法、来源、状态及结果一一对应。
-3. [结果索引](results/README.md)：分清任务成功率与 CASR，区分 Goal 原生模型和联合模型。
-4. [失败路线](archive/negative_results/README.md)：为什么从直接 DINO 目标转向采样与关系动作目标。
-5. [发布与复现边界](docs/REPRODUCIBILITY.md)：源码快照、外部数据及固定哈希的处理。
+1. [安装与数据](docs/SETUP_AND_DATA.md)：先区分模型checkpoint、补丁训练数据和LIBERO测试起点。
+2. [全部运行索引](docs/ALL_EXPERIMENTS.md)：每个版本附原始配置、入口、代码和可用结果记录。
+3. [实验阶段索引](docs/EXPERIMENT_INDEX.md)：按研究问题阅读，避免从几十个版本名猜主线。
+4. [结果索引](results/README.md)：任务成功率、CASR及短窗口过程指标分开解释。
+5. [失败与部分成功路线](archive/negative_results/README.md)：保留无增益、工程失败及未完成的区别。
+6. [复现说明](docs/REPRODUCIBILITY.md)：外部模型、数据、签名与发布注释版的处理。
 
-```text
-VLAAttacker/                  原始基线、OFT适配、WHEN和DINO训练实现
-  spatial_relation/           可独立导入的关系目标与公平对照数学实现
-scripts/                      数据准备、训练及评测Python入口
-configs/                      原实验配置；路径和哈希属于历史环境
-research_tools/spatial_followup/  关系对应/置乱对照
-research_runs/                精选历史源码依赖；不包含缓存、日志、优化器
-prismatic/                   OpenVLA模型与数据模块
-third_party/openvla-oft/      OFT模型与LIBERO接口的必要源码
-src/hooks/                    因果捕获/替换工具
-results/                      精选汇总表、最终PNG和来源
-archive/                      历史方案、机制证据、失败路线及早期核心代码
-docs/                         当前导航与研究说明
-```
+代码位于`VLAAttacker/`、`scripts/`、`research_runs/`、`research_tools/`；文档在`docs/`，精选结果在`results/`。模型、数据集、特征缓存、优化器和视频不入Git。
 
-## 本次发布包含什么
+## 检查与手动上传
 
-这是研究源码与证据归档。四条方法的核心代码、必要历史依赖、配置、关键对照和结果均集中到本仓库。历史运行目录保留相对结构，以便追溯动态导入；首页不以几十个实验版本作为使用入口。
-
-模型权重、LIBERO/RLDS数据、数GB的候选bank、特征缓存、优化器状态和视频不入Git。复现历史整链还需要恢复对应外部资产及来源信息；修改路径后的新实验应建立新清单，不能沿用旧完成收据。
-
-发布检查（不加载模型、不运行仿真）：
+在仓库根目录执行，无需GPU：
 
 ```bash
 python scripts/release/check_release.py
 python -m unittest discover -s tests_release -v
 ```
 
-本次上传没有启动训练或Slurm作业。GPU实验仍由用户手动提交，资源参考训练16G、评测12G、每worker 4CPU和1张GPU，并实测RSS/CUDA峰值。
+[本次更新文件清单与上传说明](docs/UPLOAD.md)。实验仍由用户手动提交Slurm，本仓库整理脚本不会自动启动训练。
 
 ## 来源
 
-Exploring 原始代码来自 William-wAng618/roboticAttack；模型基础为 OpenVLA / OpenVLA-OFT；WHEN对应UPA-RFAS代码线。上游代码与本地改动的边界见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。逐文件原始来源及 SHA256 见 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)。
+Exploring源于William-wAng618/roboticAttack，模型基础为OpenVLA / OpenVLA-OFT，WHEN对应UPA-RFAS。许可见[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)分别记录原始源码与发布注释副本的哈希。

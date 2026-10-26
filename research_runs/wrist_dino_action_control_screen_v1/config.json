@@ -1,0 +1,42 @@
+{
+  "experiment_id": "OFT-WRIST-INTERNAL-ACTION-CONTROL-SCREEN-V1",
+  "seed": 42,
+  "training_suite": "libero_spatial",
+  "source": {
+    "experiment": "wrist_dino_key_open_pilot_v2",
+    "artifact": "research_runs/wrist_dino_key_open_pilot_v2/data/DUAL_CLOSE.pt",
+    "sha256": "23b3a6b421afbd2c72d4e55a264606702f61721c9ce73d0fd6a929714bb17ac1",
+    "signature": "22c2211fb6f094709e6b881b7f1d4c967c75a1617878c991b44fc4385dc9d4f5",
+    "train_records": 20,
+    "validation_records": 20
+  },
+  "layers": [8, 16, 22],
+  "endpoints": ["wrong_open", "uada_opposite"],
+  "intervention": {
+    "steps": 12,
+    "learning_rate": 0.02,
+    "relative_rms_limit": 0.2,
+    "shared_rms_candidates": [0.05, 0.1, 0.2],
+    "regularizer": 0.02,
+    "open_margin": 0.6,
+    "prefix_tokens": 5,
+    "dense_tokens": 256,
+    "open_loop_steps": 8,
+    "action_dim": 7
+  },
+  "candidates": [
+    "q_spatial_b08", "k_spatial_b08", "v_spatial_b08",
+    "q_spatial_b16", "k_spatial_b16", "v_spatial_b16",
+    "q_spatial_b22", "k_spatial_b22", "v_spatial_b22",
+    "attn_spatial_b08", "attn_spatial_b16", "attn_spatial_b22",
+    "mlp_spatial_b08", "mlp_spatial_b16", "mlp_spatial_b22",
+    "block_spatial_b08", "block_cls_b08", "block_register_b08",
+    "block_spatial_b16", "block_cls_b16", "block_register_b16",
+    "block_spatial_b22", "block_cls_b22", "block_register_b22",
+    "dino_wrist_output", "siglip_wrist_output", "projector_wrist_output"
+  ],
+  "resources": {
+    "screen": {"cpus": 4, "host_memory_gib": 16, "gpu_type": "4090", "gpus": 1, "walltime": "04:00:00"},
+    "analyze": {"cpus": 2, "host_memory_gib": 4, "gpus": 0, "walltime": "00:20:00"}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "experiment_id": "wrist_dino_functional77_v1",
+  "parent": "wrist_dino_spatial_b12_diag500_v1",
+  "parent_signature": "ac44e284cedc1bd5b47ca02702c2eeed20cffca1d2ecc6ae4505cea3f27c0349",
+  "patches": [
+    "m01_uada_original_b1@500",
+    "m02_dino_key_b1@500",
+    "m03_dino_center_b1@500"
+  ],
+  "suites": [
+    "libero_object",
+    "libero_spatial",
+    "libero_goal",
+    "libero_10"
+  ],
+  "components": [
+    "functional",
+    "random",
+    "orthogonal"
+  ],
+  "directions": [
+    "restore",
+    "inject"
+  ],
+  "random_seed": 20261016,
+  "new_episode_count": 77,
+  "max_gpu_concurrent": 4,
+  "cpu_stage_cores": 2,
+  "finite_difference_relative_steps": [
+    0.002,
+    0.01
+  ],
+  "finite_difference_error_limit": 0.5,
+  "finite_difference_min_best_of_two_fraction_per_group": 0.9,
+  "norm_match_relative_tolerance": 0.03,
+  "native_action_atol": 0.0001,
+  "snapshot_blocks": [
+    0,
+    4,
+    12
+  ],
+  "gate": {
+    "minimum_net_favorable_episodes_per_contrast": 3,
+    "minimum_favorable_suites_per_contrast": 2,
+    "controls": [
+      "random",
+      "orthogonal"
+    ],
+    "require_both_directions": true,
+    "eligibility": "fresh_clean_success_and_fresh_png_failure",
+    "denominator": 10,
+    "no_automatic_training": true
+  },
+  "estimated_four_gpu_minutes_excluding_queue": [
+    20,
+    40
+  ]
+}

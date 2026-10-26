@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "source_run": "research_runs/wrist_geometry_response_adapt_v1",
+  "source_signature": "1c725524a1f50466b6190d5b322e41bedad95ed2a02fbfee19afa96276cef205",
+  "models": [
+    "base",
+    "consistency_w1_s42",
+    "consistency_w10_s42"
+  ],
+  "tasks": {
+    "libero_spatial": [
+      0,
+      1
+    ],
+    "libero_object": [
+      0,
+      1
+    ],
+    "libero_goal": [
+      1
+    ],
+    "libero_10": [
+      0
+    ]
+  },
+  "state_indices": [
+    42,
+    43
+  ],
+  "target_shifts_m": [
+    -0.02,
+    0,
+    0.02
+  ],
+  "camera_shifts_m": [
+    -0.02,
+    0,
+    0.02
+  ],
+  "chunk": 8,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 42,
+  "resources": {
+    "partition": "rtx4090",
+    "gres": "gpu:4090:1",
+    "gpu_workers": 2,
+    "gpu_cpus": 4,
+    "gpu_mem_gb": 12,
+    "cpu_cpus": 2,
+    "cpu_mem_gb": 4
+  },
+  "rgb_tolerance": 0.0001,
+  "action_tolerance": 1e-05,
+  "support_gap_m": 0.002,
+  "new_penetration_m": 0.001,
+  "support_normal_z_min": 0.5
+}

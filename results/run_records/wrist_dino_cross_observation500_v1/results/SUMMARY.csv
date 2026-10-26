@@ -1,0 +1,13 @@
+suite,condition,casr,eligible_episodes,eligible_tasks,excluded_tasks,unconditional_success_rate
+libero_object,uada500,0.05,20,10,0,0.95
+libero_object,uada1000,0.15,20,10,0,0.85
+libero_object,dino_cross_observation,0.05,20,10,0,0.95
+libero_spatial,uada500,0.2,19,10,0,0.8
+libero_spatial,uada1000,0.3,19,10,0,0.7
+libero_spatial,dino_cross_observation,0.35,19,10,0,0.65
+libero_goal,uada500,0.45,19,10,0,0.55
+libero_goal,uada1000,0.4,19,10,0,0.6
+libero_goal,dino_cross_observation,0.55,19,10,0,0.45
+libero_10,uada500,1.0,18,10,0,0.0
+libero_10,uada1000,1.0,18,10,0,0.0
+libero_10,dino_cross_observation,1.0,18,10,0,0.0

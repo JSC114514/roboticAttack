@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "signature": "30cacad846833cecfe35caade770648137098ef42c5b4178aaf4257aabb7c383",
+  "completed_unix": 1792417895.9281764,
+  "artifacts": {
+    "results/ROLLOUT_SUMMARY.csv": "128789524e1eea7062f5ec3209af9aabe958b1a8559d1584b7f919143409850a",
+    "results/OFFLINE_SUMMARY.csv": "e5d3ce460f55e1bca6faaf7c82ad2a0fc0adc6b74f31792ee14d0335a68b6747",
+    "results/VALIDATION_ROLLOUTS.parquet": "700c9b735e1057e272134e52d8fc781fac4db8a65868c527eac57cbca9f74f15",
+    "results/HELDOUT_ROLLOUTS.parquet": "b702ada77f7c11bb9579d999d1ef6fb1eda3b9d0d9d96723882bf4de86d0d610",
+    "results/RESULTS.md": "52b13cf09720b6d35e4528ac6f4af114bccf5c9f817a278c1652bb0556e279ea",
+    "results/WINNER.json": "d11b28ff93c0d7873ecc61a2a2913ab4b3371cb5def0b25734e717a5a7d6e7ed"
+  },
+  "winner": "translation",
+  "validation_casr": 0.0,
+  "heldout_casr": 0.14285714285714285
+}

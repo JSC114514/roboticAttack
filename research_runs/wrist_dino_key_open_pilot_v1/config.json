@@ -1,0 +1,114 @@
+{
+  "experiment_id": "OFT-SPATIAL-KEY-OPEN-PILOT-V1",
+  "seed": 42,
+  "data_seed": 20261013,
+  "training_suite": "libero_spatial",
+  "methods": [
+    "key_point",
+    "key_direction"
+  ],
+  "train_observations": 20,
+  "validation_observations": 20,
+  "single_observations": 4,
+  "single_candidates": 200,
+  "universal_outer": 40,
+  "inner_loop": 50,
+  "learning_rate": 0.002,
+  "warmup_outer": 20,
+  "cosine_outer": 2000,
+  "key_steps": 20,
+  "key_lr": 0.02,
+  "key_rms_limit": 0.2,
+  "key_regularizer": 0.1,
+  "open_target": 0.6,
+  "backtracking": [
+    1.0,
+    0.5,
+    0.25
+  ],
+  "evaluation": {
+    "suites": [
+      "libero_object",
+      "libero_spatial",
+      "libero_goal",
+      "libero_10"
+    ],
+    "task_count": 10,
+    "state_indices": [
+      40,
+      41
+    ],
+    "patch_xy": [
+      26,
+      137
+    ],
+    "order_seed": 20261013,
+    "num_steps_wait": 10,
+    "num_open_loop_steps": 8,
+    "image_resolution": 224,
+    "patch_shape": [
+      3,
+      50,
+      50
+    ],
+    "dtype": "bfloat16",
+    "checkpoints": {
+      "libero_object": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object",
+      "libero_spatial": "/home/caijiasheng25/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-spatial/snapshots/6d0231af0e48c5985f1ff86908f4674b84bc049b",
+      "libero_goal": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-goal",
+      "libero_10": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-10"
+    },
+    "unnorm_keys": {
+      "libero_object": "libero_object_no_noops",
+      "libero_spatial": "libero_spatial_no_noops",
+      "libero_goal": "libero_goal_no_noops",
+      "libero_10": "libero_10_no_noops"
+    },
+    "paths": {
+      "legacy_mgrb_root": "/home/caijiasheng25/robopatch_defense/oft_mgrb_lite_low_cost",
+      "robotic_attack_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main",
+      "attribution_root": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812",
+      "historical_root": "/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3",
+      "openvla_oft_root": "/home/caijiasheng25/Desktop/tex3D/openvla-oft",
+      "libero_root": "/home/caijiasheng25/Desktop/LIBERO"
+    },
+    "max_steps_by_suite": {
+      "libero_object": 280,
+      "libero_spatial": 220,
+      "libero_goal": 300,
+      "libero_10": 520
+    },
+    "seed_sources": {
+      "libero_object": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet",
+      "libero_spatial": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet",
+      "libero_goal": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet",
+      "libero_10": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet"
+    }
+  },
+  "resources": {
+    "prepare": {
+      "cpus": 4,
+      "host_memory_gib": 4
+    },
+    "training": {
+      "cpus": 4,
+      "host_memory_gib": 16,
+      "gpu_type": "4090",
+      "max_concurrent": 1
+    },
+    "validate": {
+      "cpus": 2,
+      "host_memory_gib": 4
+    },
+    "evaluation": {
+      "cpus": 4,
+      "host_memory_gib": 12,
+      "gpu_type": "4090",
+      "max_concurrent": 2
+    },
+    "statistics": {
+      "cpus": 2,
+      "host_memory_gib": 4
+    }
+  }
+}

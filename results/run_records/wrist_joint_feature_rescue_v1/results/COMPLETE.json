@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "signature": "2ab5783e3b643f76768acb240af7f7a15e3c4fc0a991400acedd31fd250d7c1b",
+  "completed_unix": 1792738995.140433,
+  "artifacts": {
+    "results/COSTS.csv": "21df0ce994202f5c9befe0bf05a3004447c4f1174f40f8d88443286e8d555b76",
+    "results/SUMMARY.csv": "2f442550f65b7e7673ee5776f879491d3249cf856932fabef3c0979d5916295d",
+    "results/ACTION_RESPONSES.csv": "29acf6195784fe8131a4597116898f544db3ecdc0d7008fecb525b4ccb79e260",
+    "results/PER_TASK.csv": "3bb7b8e153a7f555c2d0d25dd98ceaa12c81fbc2dc67ccd8adde2669a647db27",
+    "results/RESTORATION_EFFECTS.csv": "2c2725afad9bb6cdec07217fe441ae089d44f7b32ea2234a0c50be4945c1f14f",
+    "results/EPISODES.csv": "8e5347e47c582708039cfb35a054e7f9231bfe262a2070ebdb20f32e6bbbf58a",
+    "results/RESULTS.md": "992de6746f6acc7fdfa267c3f8bc27aef3fe6568dfe64915f6ddb37e4e11a5e2",
+    "results/STATUS.json": "1e00caa0cacdb9f6cd94c319530bea7884beea45051bbc3c95dcdbbe0a0eaf76",
+    "results/RECOMMENDATION.json": "809ecb3abc48f872cce0ef6778eea6f207b95a905ffdccbcb79988d96515e8a8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "signature": "28edc2820b59e612437c8312ee3e53535ad094245844139d29a4ce0df34844a6",
+  "completed_unix": 1792427460.4451494,
+  "artifacts": {
+    "results/RESULTS.md": "d0c3d35c9071866b746f3eea5009794f11a59c0c44a859f4456423972a0e4a41",
+    "results/STATUS.json": "08bac144ca6c81d09bbb9c7cf53e137f1933c10019fe71dc14b77c79f9af7edd",
+    "results/ROLLOUTS.parquet": "4dcf7f1dab99606e0e7d25c0c1946681463d0669b72c91c98c5d2e5c367eee19",
+    "results/PAIRS.csv": "5b6c41deb46fbf0f61994be63abf1877f41ed47c0c6d0f45d10ed194dad3f1de",
+    "results/CASR.csv": "cbf810baaa281c007c66f1893251a9589352a94502ba049aaea1b93ade3d0c9a",
+    "results/TRACES.parquet": "64986afa5c131eac9311325fafe8e90164d52a3756572bb637f110dba57b95a4",
+    "results/SCALE_COMPARISON.json": "26e67efd1192d0fd871f6b85c925fad0974d779af2e144ba8455d446c8f8d76a",
+    "results/BASELINE_SCALE1_CASR.csv": "804e112cd9478dbab2be0586308731c7955ac09070eca5a11a106ee010034cb4"
+  }
+}

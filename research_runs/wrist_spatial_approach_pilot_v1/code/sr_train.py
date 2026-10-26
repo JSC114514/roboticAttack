@@ -1,3 +1,5 @@
+# 发布注释：训练循环以预先固定的更新次数与种子为预算；验证数据不得用于选择方向或检查点。
+# 运行来源与发布哈希分别记录在SOURCE_MANIFEST.json；历史运行目录不改动。
 """Four independently resumable candidates, fixed actual-update budget."""
 import json
 import random

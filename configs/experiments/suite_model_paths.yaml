@@ -1,0 +1,33 @@
+# Suite-specific OpenVLA-OFT resource registry.
+# Keep this file as the single place to record which suite model is used.
+# Fill TODO paths before generating cross-suite clean baselines for that suite.
+
+data_root: /home/caijiasheng25/Desktop/roboticAttack
+libero_root: /home/caijiasheng25/Desktop/roboticAttack/LIBERO
+project_root: /home/caijiasheng25/robopatch_defense/roboticAttack-main
+openvla_oft_root: /home/caijiasheng25/Desktop/tex3D/openvla-oft
+conda_env: tex3d
+
+libero_spatial_unnorm_key: libero_spatial_no_noops
+libero_spatial_oft_model_checkpoint: /home/caijiasheng25/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-spatial/snapshots/6d0231af0e48c5985f1ff86908f4674b84bc049b
+libero_spatial_oft_model_subfolder:
+libero_spatial_oft_w_model_checkpoint: /mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-without-wrist
+libero_spatial_oft_w_model_subfolder: libero_spatial
+
+libero_object_unnorm_key: libero_object_no_noops
+libero_object_oft_model_checkpoint: /mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object
+libero_object_oft_model_subfolder:
+libero_object_oft_w_model_checkpoint: /mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-without-wrist
+libero_object_oft_w_model_subfolder: libero_object
+
+libero_goal_unnorm_key: libero_goal_no_noops
+libero_goal_oft_model_checkpoint: /mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-goal
+libero_goal_oft_model_subfolder:
+libero_goal_oft_w_model_checkpoint: /mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-without-wrist
+libero_goal_oft_w_model_subfolder: libero_goal
+
+libero_10_unnorm_key: libero_10_no_noops
+libero_10_oft_model_checkpoint: /mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-10
+libero_10_oft_model_subfolder:
+libero_10_oft_w_model_checkpoint: /mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-without-wrist
+libero_10_oft_w_model_subfolder: libero_10

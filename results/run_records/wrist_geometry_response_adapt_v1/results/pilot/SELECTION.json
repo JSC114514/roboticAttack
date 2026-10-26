@@ -1,0 +1,11 @@
+{
+  "selected": {
+    "bc": "bc_s42",
+    "augment": "augment_s42",
+    "consistency": "consistency_w1_s42",
+    "constrained": "constrained_t010_s42"
+  },
+  "pending": {},
+  "complete": true,
+  "signature": "1c725524a1f50466b6190d5b322e41bedad95ed2a02fbfee19afa96276cef205"
+}

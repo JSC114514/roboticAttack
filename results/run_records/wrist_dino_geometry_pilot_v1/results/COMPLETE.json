@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "signature": "2a5bb1f6e959bc2d37d3dd89f0df4bc02fe5d69fa8afde2877dbbb0108102a9f",
+  "candidates": 16,
+  "validation_episodes": 20,
+  "artifacts": {
+    "results/MECHANISM_ROWS.json": "4d78be89a04530d72bdc2c7a69c56d13a5e9cf5864941e9d8fd65056930995eb",
+    "results/PNG_ROWS.json": "81f85eaf20337efe3a36072e57b3047c1b9bcf0d46b43ffca0dc9af03af786e2",
+    "results/BASELINE_ROWS.json": "d957a9b4ef582a447bd836003bba4e55fb2ec70489c4d354949e5c7f6ea4b10d",
+    "results/MECHANISM_SUMMARY.csv": "e365114d901d0f211f80d35bc4da71b6a565e28d07c023a52e49f493746b5b98",
+    "results/PNG_SUMMARY.csv": "a3140859544e2e4c62599095d2153e6e5943b1cfb07574c92b6a7bc3ea2c4a58",
+    "results/PNG_SEED_AGGREGATE.csv": "d7d707c5f5bb326e4257bee076204101c2a84cbbfb931419b46eef04dd539379",
+    "results/MECHANISM_CONTRASTS.csv": "dc4ff7206309575fe6838556c7a95db7d037ac720ffd3f39902d93c327def6a3",
+    "results/figures/counterfactuals.png": "f26a7b2ab4b0c9020e0ff1ae4022aa04879b9ae2e81787857e40dfa6e46a1eb1",
+    "results/figures/final_patches.png": "f7cd2e557076e7cfebd09e3d688070631cc0fa5dbacfaa180d16c68796bdf2e2",
+    "results/figures/native_action_projection.png": "0a0b8038484c391e501eca08228356085fd61a7f232c73feaac121ab23b52e26",
+    "results/figures/weak_response_cases.png": "436dca1bbc6d6e1666e3ecd949f3611cb57da9ad2b9af2b88fdd7c3669b9f113",
+    "results/WEAK_RESPONSE_CASES.json": "e7703783995d18a6114f0c382acc8f0adbf22b281e986f9cfc33a9141ba26505",
+    "results/COST_SUMMARY.json": "1c6fd9e5b6ed06e661f0b2979b86a9c088abde1662d9950fedaa35f0119daa5a",
+    "results/RESULTS.md": "d6dd1466e5ac9b424ec6b9f1f8d9b6fe19cd2bcf2823f64cead4d8b183329d70"
+  }
+}

@@ -1,0 +1,125 @@
+experiment_name: oft_libero10_gradconf_rawrgb
+dataset_name: libero_10
+dataset_semantic_name: LIBERO-Long
+suite_name: libero_10
+
+dataset_aliases:
+  - libero_10
+  - LIBERO-10
+  - libero10
+  - libero-10
+  - libero_long
+  - LIBERO-Long
+  - libero-long
+
+model_family: openvla_oft
+model_variant: oft_libero10
+model_path: /home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-10
+openvla_oft_root: /home/caijiasheng25/robopatch_defense/roboticAttack-main/third_party/openvla-oft
+
+data_root: /home/caijiasheng25/Desktop/roboticAttack
+libero_root: /home/caijiasheng25/Desktop/LIBERO
+search_roots:
+  - /home/caijiasheng25/Desktop/roboticAttack
+  - /home/caijiasheng25/Desktop/roboticAttack/openvla-main/dataset
+  - /home/caijiasheng25/data
+  - /home/caijiasheng25/robopatch_defense
+  - /home/caijiasheng25/UPA-RFAS
+  - /home/caijiasheng25
+  - /mnt/beegfs/home/caijiasheng25/Desktop/roboticAttack
+  - /mnt/beegfs/home/caijiasheng25/Desktop/roboticAttack/openvla-main/dataset
+  - /mnt/beegfs/home/caijiasheng25/data
+  - /mnt/beegfs/home/caijiasheng25/robopatch_defense
+  - /mnt/beegfs/home/caijiasheng25
+
+output_root: outputs/when_oft_gradconf
+output_stage: gradconf_oft_multiview
+
+patch:
+  source: random
+  size: [3, 50, 50]
+  position: upa_rfas_libero_10
+  train_space: raw_rgb
+  raw_eval_image_size: 256
+  raw_match_eval_resize: true
+  raw_center_crop: true
+  clamp_min: 0.0
+  clamp_max: 1.0
+  init: uniform
+  seed: 42
+
+loss:
+  type: when_baseline
+  use_full_when_loss: true
+  use_feature_loss: true
+  use_contrastive_loss: true
+  use_pad: true
+  use_psm: true
+  use_rupa_inner_loop: true
+  dual: true
+  lambda_con: 10.0
+  lambda_attn: 1.0
+  lambda_text: 0.5
+  lambda_1: 0.1
+  tau: 0.3
+  beta_neg: 0.5
+  last_n: 2
+  lambda_nonpatch: 0.8
+  topk_text: 0.3
+  margin: 0.1
+  probe_phrases:
+    - put
+    - pick up
+    - place
+    - turn on
+    - push
+    - open
+    - close
+    - left
+    - right
+    - bottom
+    - back
+    - middle
+    - top
+    - front
+
+train:
+  batch_size: 2
+  gradient_accumulation_steps: 1
+  learning_rate: 1e-3
+  optimizer: adamw
+  num_batches_debug: 5
+  num_batches_static_full: 100
+  num_steps_dynamic_full: 2000
+  warmup_steps: 20
+  inner_loop: 50
+  inner_steps: 8
+  inner_eps: 2/255
+  gradient_merge: naive_average
+  geometry: true
+  record_every_steps: 100
+  save_every: 100
+  seed: 42
+  precision: bf16
+  allow_tf32: true
+  cudnn_benchmark: false
+  cudnn_deterministic: true
+  disable_cudnn: true
+  float32_matmul_precision: high
+
+diagnostic:
+  enable_interference_test: true
+  severe_conflict_threshold: -0.2
+  conflict_threshold: 0.0
+  dominance_ratio_threshold: 2.0
+
+validation:
+  output_root: outputs/when_oft_gradconf/_validation
+  cleanup_on_success: true
+
+slurm:
+  gres: gpu:a800:1
+  cpus_per_task: 4
+  mem: 128G
+  time_static: '04:00:00'
+  time_dynamic: '48:00:00'

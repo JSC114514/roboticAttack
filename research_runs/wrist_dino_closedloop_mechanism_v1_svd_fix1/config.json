@@ -1,0 +1,83 @@
+{
+  "experiment_id": "wrist_dino_closedloop_mechanism_v1_svd_fix1",
+  "parent": "wrist_dino_spatial_b12_diag500_v1",
+  "parent_signature": "ac44e284cedc1bd5b47ca02702c2eeed20cffca1d2ecc6ae4505cea3f27c0349",
+  "patches": [
+    "m01_uada_original_b1@500",
+    "m02_dino_key_b1@500",
+    "m03_dino_center_b1@500"
+  ],
+  "suites": [
+    "libero_object",
+    "libero_spatial",
+    "libero_goal",
+    "libero_10"
+  ],
+  "calibration_tasks": [
+    0,
+    1
+  ],
+  "calibration_states": [
+    40,
+    41
+  ],
+  "screen_state": 40,
+  "screen_blocks": [
+    0,
+    4,
+    12
+  ],
+  "main_tasks": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "confirmation_tasks": [
+    7,
+    8,
+    9
+  ],
+  "main_state": 41,
+  "early_window": [
+    0,
+    4
+  ],
+  "late_window": [
+    12,
+    16
+  ],
+  "spatial_candidates": [
+    "footprint",
+    "outside_top_left",
+    "outside_top_right",
+    "outside_bottom_left",
+    "outside_bottom_right"
+  ],
+  "functional_candidates": [
+    "translation",
+    "rotation",
+    "gripper",
+    "all"
+  ],
+  "strengths": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "finite_difference_relative_steps": [
+    0.002,
+    0.01
+  ],
+  "finite_difference_error_limit": 0.5,
+  "finite_difference_min_valid_fraction": 0.5,
+  "norm_match_relative_tolerance": 0.03,
+  "native_action_atol": 0.0001,
+  "baseline_trace_atol": 1e-06,
+  "random_seed": 20261016,
+  "new_episode_count": 592,
+  "max_gpu_concurrent": 4,
+  "cpu_stage_cores": 2,
+  "bootstrap_replicates": 2000
+}

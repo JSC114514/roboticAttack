@@ -1,0 +1,171 @@
+{
+  "experiment_id": "OFT-OFFICIAL-LONG8-1000-V1",
+  "methods": [
+    "uada_original",
+    "uada_dino",
+    "uada_dino_freq",
+    "tma_xyz",
+    "tma_xyz_dino",
+    "tma_xyz_dino_freq",
+    "tma_xyz_geometry",
+    "tma_xyz_attention"
+  ],
+  "seed": 42,
+  "data_seed": 20261011,
+  "training_suite": "libero_10",
+  "dataset_directory": "/home/caijiasheng25/Desktop/roboticAttack/dataset/libero_10_no_noops/1.0.0",
+  "dataset_info_sha256": "e805d8e2e38a97fe9ea6141bdee800457594738173da9f385fccf5f1ecd6b657",
+  "dataset_episodes": 379,
+  "outer_iterations": 1000,
+  "inner_loop": 50,
+  "batch_size": 1,
+  "candidates_per_outer": 4,
+  "learning_rate": 0.002,
+  "weight_decay": 0,
+  "warmup_outer_iterations": 20,
+  "checkpoint_outer_iterations": [
+    0,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "evaluation_checkpoints": [
+    1000
+  ],
+  "patch_shape": [
+    3,
+    50,
+    50
+  ],
+  "uada_maskidx": [
+    0
+  ],
+  "tma_maskidx": [
+    0,
+    1,
+    2
+  ],
+  "tma_normalized_target": [
+    0,
+    0,
+    0
+  ],
+  "frequency_strength": 8,
+  "frequency_power": 0.75,
+  "resume_every_outer": 10,
+  "auxiliary_gradient_ratio": 0.1,
+  "geometry_scales": [
+    0.9,
+    1.1
+  ],
+  "geometry_lateral_pixels": [
+    -4,
+    4
+  ],
+  "attention_layers": [
+    8,
+    16
+  ],
+  "dino_grid": 16,
+  "dino_prefix_tokens": 5,
+  "eot": {
+    "fixed_inner_count": 25,
+    "brightness": [
+      0.8,
+      1.2
+    ],
+    "contrast": [
+      0.8,
+      1.2
+    ],
+    "patch_xy": [
+      26,
+      137
+    ]
+  },
+  "evaluation": {
+    "suites": [
+      "libero_object",
+      "libero_spatial",
+      "libero_goal",
+      "libero_10"
+    ],
+    "task_count": 10,
+    "state_indices": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "patch_xy": [
+      26,
+      137
+    ],
+    "order_seed": 20261011,
+    "num_steps_wait": 10,
+    "num_open_loop_steps": 8,
+    "image_resolution": 224,
+    "patch_shape": [
+      3,
+      50,
+      50
+    ],
+    "dtype": "bfloat16",
+    "checkpoints": {
+      "libero_object": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-object",
+      "libero_spatial": "/home/caijiasheng25/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-spatial/snapshots/6d0231af0e48c5985f1ff86908f4674b84bc049b",
+      "libero_goal": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-goal",
+      "libero_10": "/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-10"
+    },
+    "unnorm_keys": {
+      "libero_object": "libero_object_no_noops",
+      "libero_spatial": "libero_spatial_no_noops",
+      "libero_goal": "libero_goal_no_noops",
+      "libero_10": "libero_10_no_noops"
+    },
+    "paths": {
+      "legacy_mgrb_root": "/home/caijiasheng25/robopatch_defense/oft_mgrb_lite_low_cost",
+      "robotic_attack_root": "/home/caijiasheng25/robopatch_defense/roboticAttack-main",
+      "attribution_root": "/home/caijiasheng25/robopatch_defense/vla_internal_attribution_20260812",
+      "historical_root": "/home/caijiasheng25/robopatch_defense/vla_attribution_clean_perturbed_route_e3",
+      "openvla_oft_root": "/home/caijiasheng25/Desktop/tex3D/openvla-oft",
+      "libero_root": "/home/caijiasheng25/Desktop/LIBERO"
+    },
+    "max_steps_by_suite": {
+      "libero_object": 280,
+      "libero_spatial": 220,
+      "libero_goal": 300,
+      "libero_10": 520
+    },
+    "seed_sources": {
+      "libero_object": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet",
+      "libero_spatial": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet",
+      "libero_goal": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet",
+      "libero_10": "/home/caijiasheng25/robopatch_defense/roboticAttack-main/research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/results/FINAL8_ROLLOUTS.parquet"
+    }
+  },
+  "resources": {
+    "training": {
+      "partition": "rtx",
+      "gpu_type": "4090",
+      "max_concurrent": 8
+    },
+    "evaluation": {
+      "partition": "rtx",
+      "gpu_type": "4090",
+      "max_concurrent": 8
+    }
+  },
+  "original_sources": {
+    "VLAAttacker/white_patch/UADA.py": "808b08ec686dd5bb85d006963cf79a67c0a8e778b9ba7464c30236cc345fca2e",
+    "VLAAttacker/white_patch/TMA.py": "7d622093579656ce59e8126521b7bd034317544618b094e537996d8db6f725d2",
+    "VLAAttacker/white_patch/appply_random_transform.py": "4091a03a5b55760d6e8ae5463679ab8b68a8ee9253735d610154e0c5f0f6d4bf"
+  }
+}

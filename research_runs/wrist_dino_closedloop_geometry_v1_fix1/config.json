@@ -1,0 +1,88 @@
+{
+  "experiment_id": "WRIST-DINO-CLOSEDLOOP-GEOMETRY-V1-FIX1",
+  "seed": 20261017,
+  "suites": [
+    "libero_object",
+    "libero_spatial",
+    "libero_goal",
+    "libero_10"
+  ],
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states": [
+    40
+  ],
+  "conditions": [
+    "clean",
+    "uada_static",
+    "uada_geometry",
+    "loop_geometry"
+  ],
+  "horizon_blocks": 2,
+  "commit_blocks": 2,
+  "chunk_length": 8,
+  "candidates": [
+    {
+      "name": "identity",
+      "scale": 1.0,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "name": "scale_090",
+      "scale": 0.9,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "name": "scale_110",
+      "scale": 1.1,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "name": "left4",
+      "scale": 1.0,
+      "dx": -4,
+      "dy": 0
+    },
+    {
+      "name": "right4",
+      "scale": 1.0,
+      "dx": 4,
+      "dy": 0
+    },
+    {
+      "name": "up4",
+      "scale": 1.0,
+      "dx": 0,
+      "dy": -4
+    },
+    {
+      "name": "down4",
+      "scale": 1.0,
+      "dx": 0,
+      "dy": 4
+    }
+  ],
+  "progress_distance_scale_m": 0.1,
+  "restore_state_atol": 1e-10,
+  "replay_state_atol": 1e-06,
+  "replay_action_atol": 2e-05,
+  "baseline_png_sha256": "c5f59d59af80f145a46346e6387fede6ef44d0ed8b2481d917fc0dd577a7567c",
+  "max_concurrent_gpus": 4,
+  "cpus_per_gpu": 4,
+  "host_memory_gb_per_gpu": 32,
+  "automatic_second_stage": false,
+  "threat_model": "digital wrist stream; privileged simulator branching for both adaptive conditions; frozen policy/front/language/proprio"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "signature": "b7d2557319a9ae18bd7a8ec70efe072f435fe909eea5a452acd48f7fd25e70e8",
+  "completed_unix": 1792426166.1907303,
+  "artifacts": {
+    "results/RESULTS.md": "d6b0d449683e014b2a5a2507336237d9d5c26863744f367cb284a24fed28c520",
+    "results/STATUS.json": "0c328bae90c74e51362d30791816c313dae42f9cc5a70b0841ad6e420718e2cf",
+    "results/ROLLOUTS.parquet": "441df6515eb89935f3ccf505c75ae547a046ddb4aea61c04545fac94076eb515",
+    "results/PAIRS.csv": "bcef9bdd9b38bad2fadc82ceb40c13a842d452887e0f12dceb5b67edc2ce1f4c",
+    "results/CASR.csv": "e1211c00f39d2149961ac884aeefc83985be5e3d5d9c20dcc1eb350cdfbe1bab",
+    "results/TRACES.parquet": "d55f2792b15e1ef3d8e63bdb5b8147839ffde43ad4e941db5bfc2591a65854bb"
+  }
+}

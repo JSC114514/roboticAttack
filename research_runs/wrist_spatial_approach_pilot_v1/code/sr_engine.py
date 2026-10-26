@@ -1,3 +1,5 @@
+# 发布注释：冻结VLA，只优化RGB补丁；完整双分支前向与选择性梯度路径需分别解释。
+# 运行来源与发布哈希分别记录在SOURCE_MANIFEST.json；历史运行目录不改动。
 """Exact nonlinear action loss; staged VJP keeps one backward graph at a time."""
 from contextlib import contextmanager
 import copy

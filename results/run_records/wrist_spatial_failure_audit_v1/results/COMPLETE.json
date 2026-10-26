@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "signature": "b3c276339a4c27c3aa109ea32c578651cf65745346ad1ccc1219f4c0aa89f1d6",
+  "completed_unix": 1792499167.3268504,
+  "artifacts": {
+    "comparisons/libero_goal_t00_s00/COMPLETE.json": "a3f3d93dbccf1dbee068d694a0ee1d936fbd35ffb04027ae0c9e5607953b3acb",
+    "comparisons/libero_goal_t00_s01/COMPLETE.json": "2aabb9f1e3787856337586bd7ce64a8fa6fc74bcbe2e141083569d9a12c02c18",
+    "comparisons/libero_goal_t01_s00/COMPLETE.json": "d0e57859a41d23bcc3df12724a6c6cdb2d05d7115702269ff1339ec1019ee9a3",
+    "comparisons/libero_goal_t01_s01/COMPLETE.json": "227ad793bcf46f817149737db9547101a8b04cc52e3710735bd73222154db78b",
+    "comparisons/libero_goal_t02_s00/COMPLETE.json": "028fa3c37735d8785a7b1bb5108b2427372894075250682980427baf47f62527",
+    "comparisons/libero_goal_t03_s01/COMPLETE.json": "dd9c35646eab0e3b2d0d9bd27106b9328b2721c131565764f4424837fc8372f8",
+    "comparisons/libero_goal_t04_s00/COMPLETE.json": "ddba5b9c8ba99a3b9f0684b2a9a5b414557b332fa70aaad72a01606f1bb1253c",
+    "comparisons/libero_goal_t04_s01/COMPLETE.json": "83cb3b077c7c340cd83372e37a41bd48cc06f302aace3190dad7a241343ec590",
+    "comparisons/libero_goal_t05_s00/COMPLETE.json": "043e99ed7771dfe05226dcaa7e9cf459b2c9f6775dd2bd476a2f9b4248fb35f3",
+    "comparisons/libero_goal_t05_s01/COMPLETE.json": "aff565b8c0e96fc66d79dd7e1ec490f1e3d7e875444239161165f9ccbd3256bc",
+    "comparisons/libero_goal_t06_s00/COMPLETE.json": "61d0f3a66071df7a4a3a1de9e6a8bdd9c2a3f6516d7a01ed16fd4b9cfa1ed9a7",
+    "comparisons/libero_goal_t06_s01/COMPLETE.json": "91b4bac4bf63ae0f1f1da21c518c56185993d4328abaf578fbaaeabebad8e25e",
+    "comparisons/libero_goal_t07_s00/COMPLETE.json": "5ab70d2d1eeac1bdbfa5f4650d02ae5cae97cc592b841656a6a52ce9cc813ce6",
+    "comparisons/libero_goal_t07_s01/COMPLETE.json": "1fc02db9bbb850545a5fef0754fee859232dc60a78af737d4f9d7e4c800bec73",
+    "comparisons/libero_goal_t08_s00/COMPLETE.json": "74b5175204228c4f64afcebe6bb6484b4f13d40dfd32b419823e707b36405f44",
+    "comparisons/libero_goal_t08_s01/COMPLETE.json": "1c4e6fb7dbd7fa05bdcae3519155051dd87d46b568611897e57725dfb77e59a6",
+    "comparisons/libero_goal_t09_s00/COMPLETE.json": "055da6845e9b9301852bb15531150ecab70af9c90f50b78d30a60293e5c1375a",
+    "comparisons/libero_goal_t09_s01/COMPLETE.json": "1ff3c569d2475e1c80ad12b7e6a28139cfc1d61b51a90221c0facb9d8d3f25f0",
+    "results/STATUS.json": "6467ddda47d02de56c144b6ef7e54f5aedb79fcaa803c00b64ab32037b2df9ce",
+    "results/RESULTS.md": "23440defc59df7c75a4e0d08ed8a8b438584860bd14a11c062e247f6ed5cb2c4",
+    "results/INDEX.html": "de39c302036770a8cc2f1560ebcb296a4794cb7d7a98b111324995d89617688c",
+    "results/CASR.csv": "f6ed4cd39ae2169e7517092e6aa94fab1092386deecf740fb1df728b0b57a5a4",
+    "results/SUMMARY.json": "f134aa2966034e0de97c2966d8b951efd937dfccf91445237ced5bbdb0d40b9f",
+    "results/EVENT_TIMELINES.csv": "d215238e3bbc92f9e93411a04316a4b2f8ad45c667f5854e062eb2280ff95736",
+    "results/RECORDED_DIAGNOSTICS.csv": "ad2274a4336ca27ff2850260b8aca1f686b61e639115816de14cbeb616f07216"
+  }
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# USER-RUN ONLY. Assistant may run --preflight / --dry-run, never the submit branch.
+set -euo pipefail
+PROJECT_ROOT=/home/caijiasheng25/robopatch_defense/roboticAttack-main
+source "${PROJECT_ROOT}/research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/slurm/environment.sh"
+if [[ $# -gt 1 ]]; then echo "Only one optional flag accepted" >&2; exit 2; fi
+case "${1:-}" in
+  ""|--preflight|--dry-run) ;;
+  *) echo "Usage: bash submit_exploring_oft_gripper_tma500_long_v2_evalfix1.sh [--preflight|--dry-run]" >&2; exit 2 ;;
+esac
+for script in "${EXPERIMENT_ROOT}"/slurm/*.sbatch; do bash -n "${script}"; done
+"${PYTHON_BIN}" -X faulthandler -B "${EXPERIMENT_ROOT}/code/pipeline_fixed.py" --preflight
+if [[ ${1:-} == --preflight || ${1:-} == --dry-run ]]; then
+  echo "NO_GPU_STARTED; NO_QUEUE_QUERY; NO_SLURM_SUBMISSION"
+  exit 0
+fi
+exec "${PYTHON_BIN}" -X faulthandler -B "${EXPERIMENT_ROOT}/code/pipeline_fixed.py" --submit

@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "signature": "4a03991f2a1d87a5a35d29164b3d8cca492172830a7003b2c92faab967ff5674",
+  "completed_unix": 1792432036.9482353,
+  "artifacts": {
+    "results/RESULTS.md": "5bb72c47924b3a207215264277bd36ddaf35e9064f9e0897ad43ed6369fb975d",
+    "results/STATUS.json": "7301e9a93388eb2d76168b425840050c985c5332c09e496d0207c886881c1662",
+    "results/CASR.csv": "cfa969a9a414de996f82ee5143907ae468d86aec8069ca935281014710d220df",
+    "results/PAIRS.csv": "5e4713837b317029fbf39d49fa415f2280e861c875e0eb425814de1ff0757cd0",
+    "results/ROLLOUTS.parquet": "119c788e281e6ef20a27456d5cb0b16f08175c7a15558db9c2b84d5ce394d328",
+    "results/OFFLINE.parquet": "b0364e567ff17a00ab02eca6ed2c0cf76454d7fc6081f6aadd57dd349c102206",
+    "results/OFFLINE_SUMMARY.csv": "d3cc6cb3d642eb20412ce9f3d912545355ce13693ceb2cd5cf0f628f18677c20"
+  }
+}

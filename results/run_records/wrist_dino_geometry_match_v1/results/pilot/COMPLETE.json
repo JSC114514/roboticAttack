@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "signature": "86b9ae6c5de8cbd997c28f8e414c48cd4213a0274145f9e46de58b8d97b9bac8",
+  "completed_unix": 1792422025.7431638,
+  "artifacts": {
+    "results/pilot/RESULTS.md": "022a0a2733b8842f088b13861434daf65125dd1521fecbda595ef0d8df34b7c7",
+    "results/pilot/PNG_SUMMARY.csv": "c0af8706a323d7684baa395223b28822be8f999c69ecde68a1575db4d28d0638",
+    "results/pilot/ORACLE_SUMMARY.csv": "d73033633a484be9f7749f22c20010bd613c57e8f7d1b7777b92f6199344a4ae",
+    "results/pilot/STATUS.json": "933fab4d17dee23c9c2ff32b9a7131d736433de1e2312e19f06f193cf3207da1"
+  },
+  "primary_night_method": "full_s42",
+  "closed_loop_tested": false
+}

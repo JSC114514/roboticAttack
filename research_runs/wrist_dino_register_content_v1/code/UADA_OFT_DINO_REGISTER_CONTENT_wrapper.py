@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+"""CPU preflight or explicit user-submitted single-GPU register-guided training."""
+from __future__ import annotations
+
+import argparse
+import fcntl
+import json
+import os
+import sys
+import time
+from pathlib import Path
+
+import torch
+
+ROOT = Path(__file__).resolve().parents[3]
+CODE = Path(__file__).resolve().parent
+sys.path[:0] = [str(CODE), str(ROOT), str(ROOT / "scripts"), str(ROOT / "VLAAttacker")]
+
+from dino_register_content_common import (  # noqa: E402
+    CONFIG, METHODS, config, pipeline_preflight, replay_records,
+    require_preparation, source_records,
+)
+from white_patch.UADA_OFT_DINO import require  # noqa: E402
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=Path, default=CONFIG)
+    parser.add_argument("--method", choices=METHODS)
+    parser.add_argument("--preflight", "--dry-run", dest="preflight", action="store_true")
+    args = parser.parse_args()
+    require(args.config.resolve() == Path(CONFIG).resolve(),
+            "--config must match OFT_DINO_REGISTER_CONTENT_CONFIG")
+    cfg = config(args.config)
+    clean = source_records(cfg)
+    replay, _ = replay_records(cfg)
+    preflight = pipeline_preflight(cfg)
+    if args.preflight:
+        print(json.dumps({
+            "status": "PASS",
+            "config": str(args.config),
+            "method": args.method,
+            "methods": METHODS,
+            "clean_records": len(clean),
+            "replay_records": len(replay),
+            "outer_iterations": cfg["outer_iterations"],
+            "auxiliary_start_outer": cfg["auxiliary_start_outer"],
+            "evaluation_checkpoint_outer_iterations": cfg["eval_checkpoint_outer_iterations"],
+            "objective_cpu_check": preflight["objective_cpu_check"],
+            "optimizer_updates": cfg["outer_iterations"] * cfg["inner_loop"],
+            "fresh_start_outer": 0,
+            "scheduler_total_outer": cfg["scheduler_total_outer"],
+            "historical_patch_used_for_initialization": False,
+            "model_loaded": False,
+            "cuda_initialized": False,
+            "sbatch_submitted": False,
+        }, indent=2))
+        return
+    require(args.method and os.environ.get("SLURM_JOB_ID"), "A user-submitted Slurm GPU job is required")
+    require_preparation(cfg, preflight)
+    require(torch.cuda.is_available() and torch.cuda.device_count() == 1,
+            "Exactly one Slurm-mapped CUDA GPU required")
+    from UADA_OFT_DINO_wrapper import load_wrapper
+    from UADA_OFT_DINO_REGISTER_CONTENT import ExploringOFTDINORegisterContentAttacker, source_manifest
+
+    out = Path(cfg["output_root"]) / "training" / args.method
+    out.mkdir(parents=True, exist_ok=True)
+    with (out / "run.lock").open("a") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        started = time.monotonic()
+        wrapper = load_wrapper(cfg)
+        torch.cuda.synchronize()
+        load_s = time.monotonic() - started
+        require(not any(parameter.requires_grad for parameter in wrapper.vla.parameters()),
+                "VLA must be frozen")
+        sources = source_manifest(cfg, wrapper)
+        require(all(sources.get(name) == digest for name, digest in preflight["source"].items()),
+                "Actual runtime source changed after CPU preflight")
+        attacker = ExploringOFTDINORegisterContentAttacker(wrapper, cfg["output_root"], cfg["patch_xy"])
+        attacker.train_register(clean, replay, cfg, args.method, sources, preflight["data"], load_s)
+
+
+if __name__ == "__main__":
+    main()

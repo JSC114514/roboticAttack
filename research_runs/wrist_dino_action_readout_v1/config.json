@@ -1,0 +1,16 @@
+{
+  "experiment_id": "OFT-DINO-ACTION-READOUT-V1",
+  "seed": 42,
+  "head_seed": 2026101642,
+  "teacher_seed": 20261016,
+  "split_seed": 202610164,
+  "outer_iterations": 500,
+  "inner_loop": 50,
+  "arms": ["B_native_energy", "C_dino_readout"],
+  "evaluation_states": [40, 41],
+  "response_eta": 0.00784313725490196,
+  "diagnostic_outers": [1, 25, 125, 250, 375, 400, 401, 500],
+  "baseline_png_sha256": "c5f59d59af80f145a46346e6387fede6ef44d0ed8b2481d917fc0dd577a7567c",
+  "confidence_subjective_joint_success": 0.25,
+  "second_seed_automatic": false
+}

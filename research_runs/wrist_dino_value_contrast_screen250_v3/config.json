@@ -1,0 +1,18 @@
+{
+  "experiment_id": "OFT-DINO-VALUE-CONTRAST-SCREEN250-V3",
+  "base_run": "wrist_dino_feature_screen250_v1",
+  "base_signature": "590b344e7e2d4602cb19c7d8a090b6e714e1cac00ec35c11caf1e7601ebe1620",
+  "reference_run": "wrist_dino_objectives_screen250_v2",
+  "reference_signature": "35abc0c93dad8534d5f3876c87d8d4c934d55223ba408090473e8aedf3b27542",
+  "methods": ["dino_value", "advencoder_cos_b8", "advencoder_nce_b8"],
+  "comparison_methods": ["uada_original", "dino_key", "advencoder_cos", "dino_affinity"],
+  "value_layers": [8, 16],
+  "batch_sizes": {"dino_value": 1, "advencoder_cos_b8": 8, "advencoder_nce_b8": 8},
+  "nce_temperature": 0.1,
+  "gradient_cache": "exact_two_pass_microbatch1",
+  "recompute_tolerance": 0.00001,
+  "resources": {
+    "training": {"partition": "rtx", "gpu_type": "4090", "max_concurrent": 3},
+    "evaluation": {"partition": "rtx", "gpu_type": "4090", "max_concurrent": 4}
+  }
+}

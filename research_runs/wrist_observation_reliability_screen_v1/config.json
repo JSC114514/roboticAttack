@@ -1,0 +1,86 @@
+{
+  "repo_id": "moojink/openvla-7b-oft-finetuned-libero-spatial-object-goal-10",
+  "revision": "638918f3d1c2e43a39a8a20772bdb8b91835e4b7",
+  "model_dir": "/mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-spatial-object-goal-10",
+  "head_step": 300000,
+  "suites": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ],
+  "screen_states": [
+    10,
+    11
+  ],
+  "confirmation_states": [],
+  "patch_xy": [
+    26,
+    137
+  ],
+  "patch_shape": [
+    50,
+    50
+  ],
+  "num_steps_wait": 10,
+  "chunk": 8,
+  "seed_base": 20261020,
+  "max_steps": {
+    "libero_spatial": 220,
+    "libero_object": 280,
+    "libero_goal": 300,
+    "libero_10": 520
+  },
+  "runtime_run": "research_runs/wrist_dino_spatial_b12_diag500_v1",
+  "initial_manifest": "research_runs/wrist_spatial_approach_pilot_v1/data/MANIFEST.json",
+  "fair_manifest": "research_runs/wrist_spatial_relation_fair_v1/data/MANIFEST.json",
+  "action_tolerance": 1e-05,
+  "max_workers": 2,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 42,
+  "base_run": "research_runs/wrist_joint_checkpoint_patch_retest_v1",
+  "tasks": {
+    "libero_spatial": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "libero_object": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "libero_goal": [
+      0,
+      3,
+      5,
+      7
+    ],
+    "libero_10": [
+      0,
+      2,
+      5,
+      8
+    ]
+  },
+  "conditions": [
+    "clean",
+    "front_delay1",
+    "wrist_delay1",
+    "front_delay2",
+    "wrist_delay2",
+    "front_occlusion",
+    "wrist_occlusion"
+  ],
+  "occlusion_size": 56,
+  "occlusion_fill": 128,
+  "occlusion_fractions": [
+    0.2,
+    0.5,
+    0.8
+  ],
+  "occlusion_duration_steps": 8,
+  "expected_episodes": 224
+}

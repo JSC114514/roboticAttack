@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "signature": "92457d6e13e369891fe458693f2aa22c3e00d952110ae9d695969a8191206e59",
+  "completed_unix": 1792754801.0264978,
+  "artifacts": {
+    "results/COSTS.csv": "3d4300adc8df05d53648ea7a03bcdfce157cd43f7f180f02d0f7dd88771084e8",
+    "results/PAIRED_OUTCOMES.csv": "5f9cc3a003d9fba9b63b9abbf939ebfd4d82362e86146c820e25158cb6c8a9ce",
+    "results/FAILED_ATTEMPTS.csv": "7703741f562b3f2c276fc35a9aba6f2de114df21e80f56ebf257cdb5ea03115c",
+    "results/SUMMARY.csv": "8d4e06a6c8c17900c3c927ddfba0a8b6177d6a968cc37e559e9d8b7e073b1272",
+    "results/ACTION_RESPONSES.csv": "0c82973a9f65feedc06d59896fbfd2221914c97da7c40e65320a253fdb9275db",
+    "results/UNAVAILABLE.csv": "7703741f562b3f2c276fc35a9aba6f2de114df21e80f56ebf257cdb5ea03115c",
+    "results/DINO_EFFECTS.csv": "ad46165f43fb80f9cd0b684ec36faa1fa4ac1185a040122f102d8859e9ae344d",
+    "results/EPISODES.csv": "ddbaf279590279d8f79c040866f129f6397addb407a19c86cd562b3b1e42017b",
+    "results/MISSING.csv": "7703741f562b3f2c276fc35a9aba6f2de114df21e80f56ebf257cdb5ea03115c",
+    "results/STATUS.json": "0190c4ca3f68d257828106c6c0893859189622f0068e6e0c0059370cb89f58f3",
+    "results/RESULTS.md": "01c8acfb88042c414f4c66938182be0f265a7fd4af8c19e479e396581d772d99",
+    "results/RECOMMENDATION.json": "ffcfb6d9e35fa4a788f2fe635f87152bbf89f38da09854d8e7731701a159ddf6"
+  }
+}

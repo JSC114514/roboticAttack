@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-26",
+  "runs": 72,
+  "source_files": 1881,
+  "annotated_files": [
+    "research_runs/wrist_camera_task_response_diag_v1/code/diag_evaluate.py",
+    "research_runs/wrist_camera_task_response_diag_v1/code/diag_geometry.py",
+    "research_runs/wrist_camera_task_response_diag_v1/code/diag_prepare.py",
+    "research_runs/wrist_camera_task_response_diag_v1/code/diag_report.py",
+    "research_runs/wrist_camera_task_response_diag_v1/code/diag_run.py",
+    "research_runs/wrist_geometry_response_adapt_v1/code/wr_math.py",
+    "research_runs/wrist_spatial_approach_pilot_v1/code/sr_engine.py",
+    "research_runs/wrist_spatial_approach_pilot_v1/code/sr_math.py",
+    "research_runs/wrist_spatial_approach_pilot_v1/code/sr_train.py",
+    "VLAAttacker/spatial_relation/targets.py",
+    "VLAAttacker/spatial_relation/action_baselines.py",
+    "research_runs/wrist_spatial_relation_fair_v1/code/fc_math.py"
+  ],
+  "archive_runs": [
+    "wrist_dino_action_readout_v1",
+    "wrist_dino_closedloop_geometry_v1_fix1",
+    "wrist_dino_gripper_tma500_v1",
+    "wrist_dino_relation_readout_pilot_v1",
+    "wrist_dino_residual4_v1",
+    "wrist_dino_standoff_mechanism_v1",
+    "wrist_dino_transfer2000_v1",
+    "wrist_spatial_target_joint_v1_fix1"
+  ],
+  "excludes": [
+    "model weights",
+    "datasets",
+    "feature banks",
+    "optimizer states",
+    "videos",
+    "per-episode logs and runtime receipts"
+  ],
+  "gpu_used": false,
+  "slurm_submitted": false,
+  "git_staged": false,
+  "git_committed": false,
+  "git_pushed": false
+}

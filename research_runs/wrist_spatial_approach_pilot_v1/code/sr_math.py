@@ -1,7 +1,10 @@
+# 发布注释：关系动作目标：区分控制命令（动作归一化后的目标增量）与真实末端运动。
+# 运行来源与发布哈希分别记录在SOURCE_MANIFEST.json；历史运行目录不改动。
 """Geometric command targets; commands are never called realized motion."""
 import math
 import numpy as np
 
+# clean最后一维为XYZ；unit是末端指向目标的单位向量。将命令投影到动作盒与u·v≤−margin的交集，用最小改动阻断接近；不是把物体移出视野。
 def retreat_target(clean, unit, lower, upper, margin):
     """Euclidean projection onto box intersected with u.dot(v)<=-margin."""
     v=np.asarray(clean,dtype=np.float64);u=np.asarray(unit,dtype=np.float64)
@@ -18,10 +21,12 @@ def retreat_target(clean, unit, lower, upper, margin):
     original=np.clip(v,lo,hi)
     return np.where((np.sum(original*u,axis=-1)<=-margin)[...,None],original,project(b)).astype(np.float32)
 
+# 逐维选距clean命令更远的有效端点，等距取上界。此函数不读取物体身份或空间方向，是普通动作攻击对照。
 def far_target(clean,lower,upper):
     v=np.asarray(clean);lo=np.asarray(lower);hi=np.asarray(upper)
     return np.where(abs(v-lo)>abs(hi-v),lo,hi).astype(np.float32)
 
+# 按数据集统计把归一化动作映射为原生动作；mask为假的维度保持输入值。
 def affine_actions(action,low,high,mask):
     import torch
     lo=torch.as_tensor(low,device=action.device,dtype=action.dtype)
@@ -29,6 +34,7 @@ def affine_actions(action,low,high,mask):
     mask=torch.as_tensor(mask,device=action.device,dtype=torch.bool)
     return torch.where(mask,.5*(action+1)*(hi-lo+1e-8)+lo,action)
 
+# 以teacher中的目标命令计算尺度归一化MSE；尺度来自缓存，不能将其误作实际执行位移。
 def objective(command,teacher,method):
     target=teacher['targets'][method].to(command)
     scale=teacher['command_scale'].to(command)

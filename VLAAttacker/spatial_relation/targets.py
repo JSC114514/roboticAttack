@@ -2,6 +2,7 @@
 import math
 import numpy as np
 
+# 发布说明：关系目标是u·v≤−margin，u由末端指向当前目标。投影同时满足动作盒边界并尽量保留原命令；命令增量不是实际末端位移。
 def retreat_target(clean, unit, lower, upper, margin):
     """Euclidean projection onto box intersected with u.dot(v)<=-margin."""
     v=np.asarray(clean,dtype=np.float64);u=np.asarray(unit,dtype=np.float64)
@@ -18,10 +19,12 @@ def retreat_target(clean, unit, lower, upper, margin):
     original=np.clip(v,lo,hi)
     return np.where((np.sum(original*u,axis=-1)<=-margin)[...,None],original,project(b)).astype(np.float32)
 
+# 发布说明：逐维在物理命令有效上下界中选离clean更远的端点；此实现等距取上界，与场景物体是否出视野无关。
 def far_target(clean,lower,upper):
     v=np.asarray(clean);lo=np.asarray(lower);hi=np.asarray(upper)
     return np.where(abs(v-lo)>abs(hi-v),lo,hi).astype(np.float32)
 
+# 发布说明：low/high来自对应套件统计，只对mask为真的维度执行[-1,1]到原生动作的仿射映射。
 def affine_actions(action,low,high,mask):
     import torch
     lo=torch.as_tensor(low,device=action.device,dtype=action.dtype)
@@ -29,6 +32,7 @@ def affine_actions(action,low,high,mask):
     mask=torch.as_tensor(mask,device=action.device,dtype=torch.bool)
     return torch.where(mask,.5*(action+1)*(hi-lo+1e-8)+lo,action)
 
+# 发布说明：目标来自teacher缓存，command_scale统一动作量纲；反传经过command，而非缓存的teacher。
 def objective(command,teacher,method):
     target=teacher['targets'][method].to(command)
     scale=teacher['command_scale'].to(command)

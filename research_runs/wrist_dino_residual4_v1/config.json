@@ -1,0 +1,38 @@
+{
+  "experiment_id": "wrist_dino_residual4_v1",
+  "source_parent": "wrist_dino_functional77_v1",
+  "source_parent_signature": "6c8032ab20b2fac883bddc2d1b538fd018cb8465140c29d86ae36fecf46a1e87",
+  "parent": "wrist_dino_spatial_b12_diag500_v1",
+  "patches": [
+    "m01_uada_original_b1@500",
+    "m02_dino_key_b1@500",
+    "m03_dino_center_b1@500"
+  ],
+  "random_seed": 20261016,
+  "new_episode_count": 4,
+  "max_gpu_concurrent": 4,
+  "finite_difference_relative_steps": [
+    0.002,
+    0.01
+  ],
+  "finite_difference_error_limit": 0.5,
+  "native_action_atol": 0.0001,
+  "norm_match_relative_tolerance": 0.03,
+  "snapshot_blocks": [
+    0,
+    4,
+    12
+  ],
+  "component": "residual_full",
+  "amplitude_policy": "unscaled_original_complement",
+  "independent_initial_states": 2,
+  "gate": {
+    "minimum_physical_states_with_failure": 2,
+    "automatic_training": false,
+    "automatic_more_episodes": false
+  },
+  "time_budget_minutes_excluding_queue": [
+    10,
+    15
+  ]
+}

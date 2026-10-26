@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "signature": "14169b2a1d8bef645a673f59a1c4b8163632877d83c314dbb34bde1927217c55",
+  "completed_unix": 1792721718.0812633,
+  "artifacts": {
+    "results/MOTION_STARTS.csv": "74d73428cc4ce83bd3b2fb2f37394088709f48c5ca142768c1ac4626b63f99c3",
+    "results/SUMMARY.csv": "16c75ed276ed0b80f11f83d0cf25f4787f9bbb5a58ad0639d87a24d79e616f66",
+    "results/ACTION_RESPONSES.csv": "364aa8e4869488153c6d1dbf462d2566c9a8254694532b9bb812333a70403091",
+    "results/MOTION_PROBES.csv": "72b6113bcc1b787378784edb5fdc5665a801f020e0357666dd1c3b03067db98b",
+    "results/EPISODES.csv": "b80efeea6424af6425ef77ef90fe59bf831550b2ab80e363ed4c675fc6cdbf30",
+    "results/MOTION_SUMMARY.csv": "aff1179facda1da093e9c0cd456e85fda3f62be8f7b495f2a8be7143c6b0a88a",
+    "results/VIEW_CONTRASTS.csv": "0afa3afd3975b1aeaedca576f417517ddee6aadc58d50dfe0ee8d34c473249ea",
+    "results/RESULTS.md": "46c43eab1b317bfc39c54597cb7abb214dfe860980d83a0c7572f7146b75ee74",
+    "results/STATUS.json": "f036dce55751b7124578638b14b9e1aa96163cc5393ef8a57b1a65c4a334cb12",
+    "results/RECOMMENDATION.json": "2449769e1564542c104213278960a9125cd4965233782e14bf9869be08c3f1e4"
+  }
+}

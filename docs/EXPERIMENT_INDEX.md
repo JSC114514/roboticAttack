@@ -14,3 +14,9 @@
 | 联合模型固定PNG复测 | 模型覆盖变化后旧PNG如何迁移 | wrist_joint_checkpoint_patch_retest_v1 | 1040/1040回合完成 |
 
 每条方法的详细设置由docs/methods中的四份说明导航；原路径与文件哈希由SOURCE_MANIFEST.json定位。
+
+## 2026-10-26更新
+
+- [全部运行版本及完整配置](ALL_EXPERIMENTS.md)：补齐遗漏的旧补丁源码与归档失败版本，保留fix版本依赖。
+- [腕部视觉可靠性与适配](methods/wrist_reliability.md)：联合OFT、混合专家池、相机配对、低秩适配及B/C/R对照。
+- [当前方向和最新诊断](CURRENT_DIRECTION.md)：1,440完整回合和279有效8步分支分别说明，不混用成功率。

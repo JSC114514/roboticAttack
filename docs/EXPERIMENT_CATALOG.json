@@ -1,0 +1,1986 @@
+[
+  {
+    "run": "uada_original1000_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/uada_original1000_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "configs/exploring_oft_dino/uada_original1000_v1.json",
+      "scripts/run_exploring_oft_uada_original1000_cross_suite.py",
+      "submit_exploring_oft_uada_original1000_full.sh"
+    ]
+  },
+  {
+    "run": "wrist_camera_task_response_diag_v1",
+    "category": "视觉可靠性与视角适配",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_camera_task_response_diag_v1/run.sh",
+      "research_runs/wrist_camera_task_response_diag_v1/README.md",
+      "research_runs/wrist_camera_task_response_diag_v1/config.json",
+      "research_runs/wrist_camera_task_response_diag_v1/EXPERIMENT_PLAN.md",
+      "research_runs/wrist_camera_task_response_diag_v1/tests/test_runner_report.py",
+      "research_runs/wrist_camera_task_response_diag_v1/tests/test_geometry.py",
+      "research_runs/wrist_camera_task_response_diag_v1/code/diag_prepare.py",
+      "research_runs/wrist_camera_task_response_diag_v1/code/diag_evaluate.py",
+      "research_runs/wrist_camera_task_response_diag_v1/code/diag_run.py",
+      "research_runs/wrist_camera_task_response_diag_v1/code/diag_common.py",
+      "research_runs/wrist_camera_task_response_diag_v1/code/diag_report.py",
+      "research_runs/wrist_camera_task_response_diag_v1/code/diag_geometry.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_camera_task_response_diag_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_action_control_screen_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_action_control_screen_v1/README.md",
+      "research_runs/wrist_dino_action_control_screen_v1/config.json",
+      "research_runs/wrist_dino_action_control_screen_v1/PLAN.md",
+      "research_runs/wrist_dino_action_control_screen_v1/tests/test_sites.py",
+      "research_runs/wrist_dino_action_control_screen_v1/tests/test_screen_math.py",
+      "research_runs/wrist_dino_action_control_screen_v1/tests/conftest.py",
+      "research_runs/wrist_dino_action_control_screen_v1/tests/test_contract.py",
+      "research_runs/wrist_dino_action_control_screen_v1/tests/test_pipeline.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/pipeline.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/screen_math.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/screen.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/engine.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/worker.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/sites.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/analyze.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/resources.py",
+      "research_runs/wrist_dino_action_control_screen_v1/code/common.py",
+      "research_runs/wrist_dino_action_control_screen_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_action_control_screen_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_wrist_dino_action_control_screen_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_action_counter_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_action_counter_v1/README.md",
+      "research_runs/wrist_dino_action_counter_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_action_counter500_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "scripts/dino_action_counter_common.py"
+    ]
+  },
+  {
+    "run": "wrist_dino_action_readout_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "archive",
+    "archive": "wrist_dino_action_readout_v1.tar.zst",
+    "files": [
+      "research_runs/wrist_dino_action_readout_v1/run.sh",
+      "research_runs/wrist_dino_action_readout_v1/README.md",
+      "research_runs/wrist_dino_action_readout_v1/config.json",
+      "research_runs/wrist_dino_action_readout_v1/PLAN.md",
+      "research_runs/wrist_dino_action_readout_v1/tests/test_contract.py",
+      "research_runs/wrist_dino_action_readout_v1/code/submit_run.py",
+      "research_runs/wrist_dino_action_readout_v1/code/rollout.py",
+      "research_runs/wrist_dino_action_readout_v1/code/native_bridge.py",
+      "research_runs/wrist_dino_action_readout_v1/code/fit_head.py",
+      "research_runs/wrist_dino_action_readout_v1/code/worker.py",
+      "research_runs/wrist_dino_action_readout_v1/code/train_patch.py",
+      "research_runs/wrist_dino_action_readout_v1/code/run_core.py",
+      "research_runs/wrist_dino_action_readout_v1/code/summarize.py",
+      "research_runs/wrist_dino_action_readout_v1/code/teacher.py",
+      "research_runs/wrist_dino_action_readout_v1/code/readout.py",
+      "research_runs/wrist_dino_action_readout_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_action_readout_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_batch500_32_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_batch500_32_v1/README.md",
+      "research_runs/wrist_dino_batch500_32_v1/config.json",
+      "research_runs/wrist_dino_batch500_32_v1/PLAN.md",
+      "research_runs/wrist_dino_batch500_32_v1/tests/test_batch500.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/feature_objectives.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/pipeline.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/data.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/new_objectives.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/engine.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/batch_runtime.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/evaluate.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/remaining_objectives.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/worker.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/train.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/deployment.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/source_transform.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/analyze.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/common.py",
+      "research_runs/wrist_dino_batch500_32_v1/code/objectives.py",
+      "research_runs/wrist_dino_batch500_32_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_batch500_32_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_dino_batch500_32_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_batch8_when_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_batch8_when_v1/README.md",
+      "research_runs/wrist_dino_batch8_when_v1/config.json",
+      "research_runs/wrist_dino_batch8_when_v1/PLAN.md",
+      "research_runs/wrist_dino_batch8_when_v1/code/dino_batch8_common.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/source_original_oft.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/source_when.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/source_exploring.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/when_core.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/evaluate.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/source_optimizer.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/train.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/analyze.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/source_axis.py",
+      "research_runs/wrist_dino_batch8_when_v1/code/objectives.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_batch8_when_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_batch8_when2000_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_closedloop_geometry_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_closedloop_geometry_v1/run.sh",
+      "research_runs/wrist_dino_closedloop_geometry_v1/README.md",
+      "research_runs/wrist_dino_closedloop_geometry_v1/config.json",
+      "research_runs/wrist_dino_closedloop_geometry_v1/PLAN.md",
+      "research_runs/wrist_dino_closedloop_geometry_v1/tests/test_contract.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/closedloop.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/submit_run.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/geometry.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/native_predictor.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/task_progress.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/branch_state.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/worker.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/summarize.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/code/loop_core.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_closedloop_geometry_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_closedloop_geometry_v1_fix1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "archive",
+    "archive": "wrist_dino_closedloop_geometry_v1_fix1.tar.zst",
+    "files": [
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/run.sh",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/README.md",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/config.json",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/PLAN.md",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/tests/test_contract.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/qa_reuse.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/closedloop.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/submit_run.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/geometry.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/native_predictor.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/task_progress.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/branch_state.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/worker.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/summarize.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/code/loop_core.py",
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_closedloop_geometry_v1_fix1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_closedloop_mechanism_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_closedloop_mechanism_v1/run.sh",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/config.json",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/PLAN.md",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/tests/test_contracts.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/tests/conftest.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/code/pilot_run.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/code/pilot_probe.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/code/pilot_analyze.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/code/pilot_pipeline.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/code/pilot_common.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/code/pilot_math.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_closedloop_mechanism_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_closedloop_mechanism_v1_svd_fix1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/run.sh",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/config.json",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/PLAN.md",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/tests/test_contracts.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/tests/test_basis_regression.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/tests/conftest.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/code/pilot_run.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/code/pilot_probe.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/code/pilot_analyze.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/code/pilot_pipeline.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/code/pilot_common.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/code/pilot_math.py",
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_closedloop_mechanism_v1_svd_fix1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_cross_observation500_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_cross_observation500_v1/README.md",
+      "research_runs/wrist_dino_cross_observation500_v1/config.json",
+      "research_runs/wrist_dino_cross_observation500_v1/PLAN.md",
+      "research_runs/wrist_dino_cross_observation500_v1/tests/test_cross_observation.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/pipeline.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/data.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/monitor.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/engine_native.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/engine.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/rlds_source.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/evaluate.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/worker.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/train.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/deployment.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/source_transform.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/meta.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/analyze.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/resources.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/common.py",
+      "research_runs/wrist_dino_cross_observation500_v1/code/objectives.py",
+      "research_runs/wrist_dino_cross_observation500_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_cross_observation500_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_wrist_dino_cross_observation500_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_feature_screen250_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_feature_screen250_v1/README.md",
+      "research_runs/wrist_dino_feature_screen250_v1/config.json",
+      "research_runs/wrist_dino_feature_screen250_v1/PLAN.md",
+      "research_runs/wrist_dino_feature_screen250_v1/tests/test_feature_screen.py",
+      "research_runs/wrist_dino_feature_screen250_v1/repair_cudnn4090_v2/tests/test_cudnn_repair.py",
+      "research_runs/wrist_dino_feature_screen250_v1/repair_cudnn4090_v2/code/repair_common.py",
+      "research_runs/wrist_dino_feature_screen250_v1/repair_cudnn4090_v2/code/repair_submit.py",
+      "research_runs/wrist_dino_feature_screen250_v1/repair_cudnn4090_v2/code/repair_run.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/feature_objectives.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/pipeline.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/data.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/engine.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/evaluate.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/train.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/deployment.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/source_transform.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/analyze.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/common.py",
+      "research_runs/wrist_dino_feature_screen250_v1/code/objectives.py",
+      "research_runs/wrist_dino_feature_screen250_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_feature_screen250_v1/source/UADA.py",
+      "research_runs/wrist_dino_feature_screen250_v1/source/TMA.py",
+      "research_runs/wrist_dino_feature_screen250_v1/source/TRAIN_LONG4_REFERENCE.py",
+      "research_runs/wrist_dino_feature_screen250_v1/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_feature_screen250_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_dino_feature_screen250_cudnnfix_v2.sh",
+      "submit_exploring_oft_dino_feature_screen250_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_functional77_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_functional77_v1/run.sh",
+      "research_runs/wrist_dino_functional77_v1/README.md",
+      "research_runs/wrist_dino_functional77_v1/config.json",
+      "research_runs/wrist_dino_functional77_v1/PLAN.md",
+      "research_runs/wrist_dino_functional77_v1/tests/test_geometry.py",
+      "research_runs/wrist_dino_functional77_v1/tests/test_decisions.py",
+      "research_runs/wrist_dino_functional77_v1/tests/test_operations.py",
+      "research_runs/wrist_dino_functional77_v1/tests/conftest.py",
+      "research_runs/wrist_dino_functional77_v1/tests/test_rollout.py",
+      "research_runs/wrist_dino_functional77_v1/code/functional77_pipeline.py",
+      "research_runs/wrist_dino_functional77_v1/code/functional77_probe.py",
+      "research_runs/wrist_dino_functional77_v1/code/functional77_analyze.py",
+      "research_runs/wrist_dino_functional77_v1/code/functional77_common.py",
+      "research_runs/wrist_dino_functional77_v1/code/functional77_progress.py",
+      "research_runs/wrist_dino_functional77_v1/code/functional77_math.py",
+      "research_runs/wrist_dino_functional77_v1/code/functional77_run.py",
+      "research_runs/wrist_dino_functional77_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_functional77_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_action_teacher_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_action_teacher_v1/run.sh",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/README.md",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/config.json",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/tests/test_contracts.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_evaluate.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_engine.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_math.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_cache.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_cli.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_train.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_common.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/code/at_report.py",
+      "research_runs/wrist_dino_geometry_action_teacher_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_action_teacher_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_closedloop_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_closedloop_v1/run.sh",
+      "research_runs/wrist_dino_geometry_closedloop_v1/README.md",
+      "research_runs/wrist_dino_geometry_closedloop_v1/config.json",
+      "research_runs/wrist_dino_geometry_closedloop_v1/tests/test_protocol.py",
+      "research_runs/wrist_dino_geometry_closedloop_v1/code/rollout.py",
+      "research_runs/wrist_dino_geometry_closedloop_v1/code/protocol.py",
+      "research_runs/wrist_dino_geometry_closedloop_v1/code/cli.py",
+      "research_runs/wrist_dino_geometry_closedloop_v1/code/closed_report.py",
+      "research_runs/wrist_dino_geometry_closedloop_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_closedloop_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_match_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_match_v1/run.sh",
+      "research_runs/wrist_dino_geometry_match_v1/README.md",
+      "research_runs/wrist_dino_geometry_match_v1/config.json",
+      "research_runs/wrist_dino_geometry_match_v1/PLAN.md",
+      "research_runs/wrist_dino_geometry_match_v1/tests/conftest.py",
+      "research_runs/wrist_dino_geometry_match_v1/tests/test_protocol.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/pipeline.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/data.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/engine.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/evaluate.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/worker.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/train.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/common.py",
+      "research_runs/wrist_dino_geometry_match_v1/code/report.py",
+      "research_runs/wrist_dino_geometry_match_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_match_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_oracle_scale2_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/run.sh",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/README.md",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/config.json",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/tests/test_oracle.py",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/code/oracle_rollout.py",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/code/oracle_common.py",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/code/oracle_report.py",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/code/oracle_camera.py",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/code/oracle_cli.py",
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_oracle_scale2_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_oracle_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_oracle_v1/run.sh",
+      "research_runs/wrist_dino_geometry_oracle_v1/README.md",
+      "research_runs/wrist_dino_geometry_oracle_v1/config.json",
+      "research_runs/wrist_dino_geometry_oracle_v1/tests/test_oracle.py",
+      "research_runs/wrist_dino_geometry_oracle_v1/code/oracle_rollout.py",
+      "research_runs/wrist_dino_geometry_oracle_v1/code/oracle_common.py",
+      "research_runs/wrist_dino_geometry_oracle_v1/code/oracle_report.py",
+      "research_runs/wrist_dino_geometry_oracle_v1/code/oracle_camera.py",
+      "research_runs/wrist_dino_geometry_oracle_v1/code/oracle_cli.py",
+      "research_runs/wrist_dino_geometry_oracle_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_oracle_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_pilot_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_pilot_v1/run.sh",
+      "research_runs/wrist_dino_geometry_pilot_v1/README.md",
+      "research_runs/wrist_dino_geometry_pilot_v1/config.json",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_geometry.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_report_smoke.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_statistics_artifacts.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_render.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_resume.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/conftest.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_sampling.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_pipeline.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/tests/test_engine_pixels.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_transform.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_engine.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_train.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_pixels.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_render.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_analysis.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_worker.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_readouts.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_pipeline.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_common.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_evaluate.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_geometry.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_preprocessing.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/code/pilot_mechanism.py",
+      "research_runs/wrist_dino_geometry_pilot_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_pilot_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_rgb2_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_rgb2_v1/run.sh",
+      "research_runs/wrist_dino_geometry_rgb2_v1/README.md",
+      "research_runs/wrist_dino_geometry_rgb2_v1/config.json",
+      "research_runs/wrist_dino_geometry_rgb2_v1/tests/test_rgb.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1/code/rgb_common.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1/code/rgb_evaluate.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1/code/rgb_train.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1/code/rgb_report.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1/code/rgb_cache.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1/code/rgb_cli.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_rgb2_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_geometry_rgb2_v1_fix1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/run.sh",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/README.md",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/config.json",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/tests/test_rgb.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/code/rgb_common.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/code/rgb_evaluate.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/code/rgb_train.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/code/rgb_report.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/code/rgb_alignment.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/code/rgb_cache.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/code/rgb_cli.py",
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_geometry_rgb2_v1_fix1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_gripper_tma500_long_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_gripper_tma500_long_v1/README.md",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/config.json",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/PLAN.md",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/tests/test_long_source.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/tests/test_training_mock.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/tests/test_contracts.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/tests/conftest.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/tests/test_pipeline_mock.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/gripper_common.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/pipeline.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/entities.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/TMA_OFT.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/engine.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/model_runtime_copy.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/evaluate.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/train.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/source_transform.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/collect_labels.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/analyze.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/manage.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/long_source.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/code/objectives.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/source/TMA.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/source/model_runtime.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v1/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_gripper_tma500_long_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_gripper_tma500_long_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_gripper_tma500_long_v2",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_gripper_tma500_long_v2/README.md",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/config.json",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/PLAN.md",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v2_3090/tests/test_evaluation_fix.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v2_3090/code/model_runtime_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v2_3090/code/evaluate_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v2_3090/code/eval_common.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v2_3090/code/analyze_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v2_3090/code/pipeline_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v2_3090/slurm/environment.sh",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/tests/test_repair.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/tests/test_long_source.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/tests/test_training_mock.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/tests/test_contracts.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/tests/conftest.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/tests/test_pipeline_mock.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/tests/test_evaluation_fix.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/code/model_runtime_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/code/evaluate_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/code/eval_common.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/code/analyze_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/code/pipeline_fixed.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/evaluation_fix_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/gripper_common.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/pipeline.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/preprocessing.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/entities.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/alignment.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/TMA_OFT.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/engine.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/model_runtime_copy.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/evaluate.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/train.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/source_transform.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/collect_labels.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/analyze.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/manage.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/long_source.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/recovery.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/code/objectives.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/slurm/environment.sh",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/source/TMA.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/source/model_runtime.py",
+      "research_runs/wrist_dino_gripper_tma500_long_v2/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_gripper_tma500_long_v2/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_gripper_tma500_long_v2.sh",
+      "submit_exploring_oft_gripper_tma500_long_v2_evalfix1.sh",
+      "submit_exploring_oft_gripper_tma500_long_v2_evalfix2_3090.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_gripper_tma500_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "archive",
+    "archive": "wrist_dino_gripper_tma500_v1.tar.zst",
+    "files": [
+      "research_runs/wrist_dino_gripper_tma500_v1/README.md",
+      "research_runs/wrist_dino_gripper_tma500_v1/config.json",
+      "research_runs/wrist_dino_gripper_tma500_v1/PLAN.md",
+      "research_runs/wrist_dino_gripper_tma500_v1/tests/test_training_mock.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/tests/test_contracts.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/tests/conftest.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/tests/test_pipeline_mock.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/gripper_common.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/pipeline.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/entities.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/TMA_OFT.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/engine.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/model_runtime_copy.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/evaluate.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/train.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/source_transform.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/collect_labels.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/analyze.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/manage.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/code/objectives.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_gripper_tma500_v1/source/TMA.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/source/model_runtime.py",
+      "research_runs/wrist_dino_gripper_tma500_v1/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_gripper_tma500_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_ilpd_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_ilpd_v1/README.md",
+      "research_runs/wrist_dino_ilpd_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_ilpd_refine200_cross_suite_v2.json",
+      "configs/exploring_oft_dino/object_dino_ilpd_refine200_v1.json",
+      "configs/exploring_oft_dino/object_dino_ilpd_refine200_v2.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "scripts/run_exploring_oft_dino_ilpd_refine200_cross_suite.py",
+      "submit_exploring_oft_dino_ilpd_refine200.sh",
+      "submit_exploring_oft_dino_ilpd_refine200_cross_suite.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_information_atlas_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_information_atlas_v1/run.sh",
+      "research_runs/wrist_dino_information_atlas_v1/README.md",
+      "research_runs/wrist_dino_information_atlas_v1/config.json",
+      "research_runs/wrist_dino_information_atlas_v1/PLAN.md",
+      "research_runs/wrist_dino_information_atlas_v1/tests/test_artifacts_report.py",
+      "research_runs/wrist_dino_information_atlas_v1/tests/test_readouts.py",
+      "research_runs/wrist_dino_information_atlas_v1/tests/test_parts_submission.py",
+      "research_runs/wrist_dino_information_atlas_v1/tests/test_contracts.py",
+      "research_runs/wrist_dino_information_atlas_v1/tests/test_capture.py",
+      "research_runs/wrist_dino_information_atlas_v1/tests/test_local.py",
+      "research_runs/wrist_dino_information_atlas_v1/tests/conftest.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_report.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_math.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_readonly.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_capture.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_features.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_probes.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_worker.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_pipeline.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_runtime.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_local.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_labels.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_parts.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_analysis.py",
+      "research_runs/wrist_dino_information_atlas_v1/code/atlas_common.py",
+      "research_runs/wrist_dino_information_atlas_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_information_atlas_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_information_atlas_v2",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_information_atlas_v2/run.sh",
+      "research_runs/wrist_dino_information_atlas_v2/README.md",
+      "research_runs/wrist_dino_information_atlas_v2/config.json",
+      "research_runs/wrist_dino_information_atlas_v2/PLAN.md",
+      "research_runs/wrist_dino_information_atlas_v2/tests/test_artifacts_report.py",
+      "research_runs/wrist_dino_information_atlas_v2/tests/test_readouts.py",
+      "research_runs/wrist_dino_information_atlas_v2/tests/test_parts_submission.py",
+      "research_runs/wrist_dino_information_atlas_v2/tests/test_contracts.py",
+      "research_runs/wrist_dino_information_atlas_v2/tests/test_capture.py",
+      "research_runs/wrist_dino_information_atlas_v2/tests/test_local.py",
+      "research_runs/wrist_dino_information_atlas_v2/tests/conftest.py",
+      "research_runs/wrist_dino_information_atlas_v2/tests/test_sampling.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_report.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_math.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_readonly.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_sampling.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_capture.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_features.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_probes.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_worker.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_pipeline.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_runtime.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_local.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_labels.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_parts.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_analysis.py",
+      "research_runs/wrist_dino_information_atlas_v2/code/atlas_common.py",
+      "research_runs/wrist_dino_information_atlas_v2/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_information_atlas_v2/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_key_open_pilot_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_key_open_pilot_v1/README.md",
+      "research_runs/wrist_dino_key_open_pilot_v1/config.json",
+      "research_runs/wrist_dino_key_open_pilot_v1/PLAN.md",
+      "research_runs/wrist_dino_key_open_pilot_v1/tests/conftest.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/tests/test_pilot.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/pipeline.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/data.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/key_runtime.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/entities.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/engine_native.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/evaluate.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/worker.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/train.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/deployment.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/source_transform.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/key_math.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/analyze.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/resources.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/common.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/code/objectives.py",
+      "research_runs/wrist_dino_key_open_pilot_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_key_open_pilot_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_wrist_dino_key_open_pilot_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_key_open_pilot_v2",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_key_open_pilot_v2/README.md",
+      "research_runs/wrist_dino_key_open_pilot_v2/config.json",
+      "research_runs/wrist_dino_key_open_pilot_v2/PLAN.md",
+      "research_runs/wrist_dino_key_open_pilot_v2/tests/test_repair.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/tests/conftest.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/tests/test_pilot.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/pipeline.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/data.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/readonly_model.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/key_runtime.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/preprocessing.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/entities.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/engine_native.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/evaluate.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/worker.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/train.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/deployment.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/source_transform.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/key_math.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/analyze.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/resources.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/model_runtime.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/common.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/code/objectives.py",
+      "research_runs/wrist_dino_key_open_pilot_v2/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_key_open_pilot_v2/config.json"
+    ],
+    "associated_project_files": [
+      "submit_wrist_dino_key_open_pilot_v2.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_long_final8_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_long_final8_v1/README.md",
+      "research_runs/wrist_dino_long_final8_v1/config.json",
+      "research_runs/wrist_dino_long_final8_v1/tests/test_final8.py",
+      "research_runs/wrist_dino_long_final8_v1/code/pipeline.py",
+      "research_runs/wrist_dino_long_final8_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_long_final8_v1/code/engine.py",
+      "research_runs/wrist_dino_long_final8_v1/code/collect.py",
+      "research_runs/wrist_dino_long_final8_v1/code/bank.py",
+      "research_runs/wrist_dino_long_final8_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_long_final8_v1/code/evaluate.py",
+      "research_runs/wrist_dino_long_final8_v1/code/train.py",
+      "research_runs/wrist_dino_long_final8_v1/code/source_transform.py",
+      "research_runs/wrist_dino_long_final8_v1/code/teacher.py",
+      "research_runs/wrist_dino_long_final8_v1/code/analyze.py",
+      "research_runs/wrist_dino_long_final8_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_long_final8_v1/code/common.py",
+      "research_runs/wrist_dino_long_final8_v1/code/objectives.py",
+      "research_runs/wrist_dino_long_final8_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_long_final8_v1/source/UADA.py",
+      "research_runs/wrist_dino_long_final8_v1/source/TMA.py",
+      "research_runs/wrist_dino_long_final8_v1/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_long_final8_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_long_final8_2000_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_long_final8_v2",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_long_final8_v2/README.md",
+      "research_runs/wrist_dino_long_final8_v2/config.json",
+      "research_runs/wrist_dino_long_final8_v2/tests/test_final8.py",
+      "research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/tests/test_evaluation_4090.py",
+      "research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/code/model_runtime_4090.py",
+      "research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/code/pipeline.py",
+      "research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/code/evaluate.py",
+      "research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/code/eval_common.py",
+      "research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/code/analyze.py",
+      "research_runs/wrist_dino_long_final8_v2/evaluation_4090_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_long_final8_v2/recovery/test_restart.py",
+      "research_runs/wrist_dino_long_final8_v2/recovery/restart.py",
+      "research_runs/wrist_dino_long_final8_v2/code/repair.py",
+      "research_runs/wrist_dino_long_final8_v2/code/pipeline.py",
+      "research_runs/wrist_dino_long_final8_v2/code/preprocessing.py",
+      "research_runs/wrist_dino_long_final8_v2/code/engine.py",
+      "research_runs/wrist_dino_long_final8_v2/code/collect.py",
+      "research_runs/wrist_dino_long_final8_v2/code/bank.py",
+      "research_runs/wrist_dino_long_final8_v2/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_long_final8_v2/code/evaluate.py",
+      "research_runs/wrist_dino_long_final8_v2/code/train.py",
+      "research_runs/wrist_dino_long_final8_v2/code/source_transform.py",
+      "research_runs/wrist_dino_long_final8_v2/code/teacher.py",
+      "research_runs/wrist_dino_long_final8_v2/code/analyze.py",
+      "research_runs/wrist_dino_long_final8_v2/code/model_runtime.py",
+      "research_runs/wrist_dino_long_final8_v2/code/common.py",
+      "research_runs/wrist_dino_long_final8_v2/code/objectives.py",
+      "research_runs/wrist_dino_long_final8_v2/slurm/environment.sh",
+      "research_runs/wrist_dino_long_final8_v2/source/UADA.py",
+      "research_runs/wrist_dino_long_final8_v2/source/TMA.py",
+      "research_runs/wrist_dino_long_final8_v2/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_long_final8_v2/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_long_final8_2000_repair_v2.sh",
+      "submit_exploring_oft_long_final8_2000_resume_v2.sh",
+      "submit_exploring_oft_long_final8_eval4090_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_objectives_screen250_v2",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_objectives_screen250_v2/README.md",
+      "research_runs/wrist_dino_objectives_screen250_v2/config.json",
+      "research_runs/wrist_dino_objectives_screen250_v2/PLAN.md",
+      "research_runs/wrist_dino_objectives_screen250_v2/tests/test_objectives_screen.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/pipeline.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/data.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/readonly_model.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/preprocessing.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/new_objectives.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/engine.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/evaluate.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/train.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/deployment.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/source_transform.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/analyze.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/model_runtime.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/common.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/code/objectives.py",
+      "research_runs/wrist_dino_objectives_screen250_v2/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_objectives_screen250_v2/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_dino_objectives_screen250_v2.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_official_long4_2000_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_official_long4_2000_v1/README.md",
+      "research_runs/wrist_dino_official_long4_2000_v1/config.json",
+      "research_runs/wrist_dino_official_long4_2000_v1/PLAN.md",
+      "research_runs/wrist_dino_official_long4_2000_v1/tests/test_official_long4.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/pipeline.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/data.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/engine.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/evaluate.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/train.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/deployment.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/source_transform.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/analyze.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/common.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/code/objectives.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_official_long4_2000_v1/source/UADA.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/source/TMA.py",
+      "research_runs/wrist_dino_official_long4_2000_v1/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_official_long4_2000_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_official_long4_2000_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_official_long8_1000_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_official_long8_1000_v1/README.md",
+      "research_runs/wrist_dino_official_long8_1000_v1/config.json",
+      "research_runs/wrist_dino_official_long8_1000_v1/PLAN.md",
+      "research_runs/wrist_dino_official_long8_1000_v1/tests/verify_official_record_cpu.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/tests/test_official_long8.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/pipeline.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/data.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/engine.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/evaluate.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/train.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/deployment.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/source_transform.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/analyze.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/common.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/code/objectives.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_official_long8_1000_v1/source/UADA.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/source/TMA.py",
+      "research_runs/wrist_dino_official_long8_1000_v1/source/appply_random_transform.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_official_long8_1000_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_official_long8_1000_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_register_content_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_register_content_v1/PLAN.md",
+      "research_runs/wrist_dino_register_content_v1/code/UADA_OFT_DINO_REGISTER_CONTENT.py",
+      "research_runs/wrist_dino_register_content_v1/code/UADA_OFT_DINO_REGISTER_CONTENT_wrapper.py",
+      "research_runs/wrist_dino_register_content_v1/code/oft_dino_register_content_objectives.py"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_register_content500_v1.json",
+      "configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+      "scripts/dino_register_content_common.py",
+      "submit_exploring_oft_dino_register_content500_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_register_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_register_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_register500_v1.json",
+      "configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+      "scripts/dino_register_common.py"
+    ]
+  },
+  {
+    "run": "wrist_dino_register_v2",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_register_v2/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_register_delayed2000_v2.json",
+      "configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+      "scripts/dino_register_delayed_common.py"
+    ]
+  },
+  {
+    "run": "wrist_dino_relation_bias_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_relation_bias_v1/run.sh",
+      "research_runs/wrist_dino_relation_bias_v1/README.md",
+      "research_runs/wrist_dino_relation_bias_v1/config.json",
+      "research_runs/wrist_dino_relation_bias_v1/PLAN.md",
+      "research_runs/wrist_dino_relation_bias_v1/tests/test_action_chunks.py",
+      "research_runs/wrist_dino_relation_bias_v1/tests/test_regressions.py",
+      "research_runs/wrist_dino_relation_bias_v1/tests/test_contracts.py",
+      "research_runs/wrist_dino_relation_bias_v1/tests/test_gpu_allocation.py",
+      "research_runs/wrist_dino_relation_bias_v1/tests/conftest.py",
+      "research_runs/wrist_dino_relation_bias_v1/tests/test_cache_reuse.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/pipeline.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/cache.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/geometry.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/engine.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/cache_reuse.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/evaluate.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/worker.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/train.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/analyze.py",
+      "research_runs/wrist_dino_relation_bias_v1/code/common.py",
+      "research_runs/wrist_dino_relation_bias_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_relation_bias_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_relation_readout_pilot_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "archive",
+    "archive": "wrist_dino_relation_readout_pilot_v1.tar.zst",
+    "files": [
+      "research_runs/wrist_dino_relation_readout_pilot_v1/run.sh",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/README.md",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/config.json",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/tests/test_contracts.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/code/rr_cli.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/code/rr_common.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/code/rr_gate.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/code/rr_report.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/code/rr_train.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/code/rr_evaluate.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/code/rr_math.py",
+      "research_runs/wrist_dino_relation_readout_pilot_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_relation_readout_pilot_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_repair_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_repair_v1/README.md",
+      "research_runs/wrist_dino_repair_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_repair1000_v1.json",
+      "configs/exploring_oft_dino/object_dino_transfer2000_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "configs/exploring_oft_dino/uada_original2000_transfer_v1.json",
+      "scripts/dino_repair_common.py"
+    ]
+  },
+  {
+    "run": "wrist_dino_replay_v1",
+    "category": "DINO采样与受扰回放",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_replay_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_replay_refine200_cross_suite_v1.json",
+      "configs/exploring_oft_dino/object_dino_replay_refine200_v1.json",
+      "configs/exploring_oft_dino/object_dino_window_refine200_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "scripts/dino_replay_common.py",
+      "submit_exploring_oft_dino_replay_cross_suite.sh",
+      "submit_exploring_oft_dino_replay_train.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_residual4_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "archive",
+    "archive": "wrist_dino_residual4_v1.tar.zst",
+    "files": [
+      "research_runs/wrist_dino_residual4_v1/run.sh",
+      "research_runs/wrist_dino_residual4_v1/README.md",
+      "research_runs/wrist_dino_residual4_v1/config.json",
+      "research_runs/wrist_dino_residual4_v1/PLAN.md",
+      "research_runs/wrist_dino_residual4_v1/tests/test_operations.py",
+      "research_runs/wrist_dino_residual4_v1/tests/test_residual4.py",
+      "research_runs/wrist_dino_residual4_v1/tests/conftest.py",
+      "research_runs/wrist_dino_residual4_v1/code/residual4_run.py",
+      "research_runs/wrist_dino_residual4_v1/code/residual4_common.py",
+      "research_runs/wrist_dino_residual4_v1/code/residual4_progress.py",
+      "research_runs/wrist_dino_residual4_v1/code/residual4_probe.py",
+      "research_runs/wrist_dino_residual4_v1/code/residual4_analyze.py",
+      "research_runs/wrist_dino_residual4_v1/code/residual4_pipeline.py",
+      "research_runs/wrist_dino_residual4_v1/code/residual4_math.py",
+      "research_runs/wrist_dino_residual4_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_residual4_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_sampling_clear_v1",
+    "category": "DINO采样与受扰回放",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_sampling_clear_v1/README.md",
+      "research_runs/wrist_dino_sampling_clear_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_sampling_clear2000_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "scripts/dino_sampling_clear_common.py"
+    ]
+  },
+  {
+    "run": "wrist_dino_scratch_v1",
+    "category": "DINO采样与受扰回放",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_scratch_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_scratch1000_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "submit_exploring_oft_dino_scratch1000.sh",
+      "submit_exploring_oft_dino_scratch_cross_suite.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_scratch_v2",
+    "category": "DINO采样与受扰回放",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_scratch_v2/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_scratch1000_v2.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "scripts/analyze_exploring_oft_uada_original1000_cross_suite.py",
+      "submit_exploring_oft_dino_scratch1000_v2_full.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_spatial_b12_diag500_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/run.sh",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/README.md",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/config.json",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/PLAN.md",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/tests/test_diagnostics.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/feature_objectives.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/pipeline.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/replay.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/data.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/monitor.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/diagnostic_report.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/new_objectives.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/engine.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/batch_runtime.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/evaluate.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/remaining_objectives.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/worker.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/train.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/deployment.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/source_transform.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/analyze.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/common.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/code/objectives.py",
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_spatial_b12_diag500_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_standoff_mechanism_v1",
+    "category": "几何机制与表示到RGB实现",
+    "source_origin": "archive",
+    "archive": "wrist_dino_standoff_mechanism_v1.tar.zst",
+    "files": [
+      "research_runs/wrist_dino_standoff_mechanism_v1/run.sh",
+      "research_runs/wrist_dino_standoff_mechanism_v1/README.md",
+      "research_runs/wrist_dino_standoff_mechanism_v1/config.json",
+      "research_runs/wrist_dino_standoff_mechanism_v1/tests/test_standoff.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_cli.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_geometry.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_math.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_report.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_common.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_model.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_replay.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/code/sd_mechanism.py",
+      "research_runs/wrist_dino_standoff_mechanism_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_standoff_mechanism_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_state_axis_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_state_axis_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_register500_v1.json",
+      "configs/exploring_oft_dino/object_dino_register_delayed2000_v2.json",
+      "configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "scripts/dino_state_axis_common.py"
+    ]
+  },
+  {
+    "run": "wrist_dino_transfer2000_v1",
+    "category": "DINO采样与受扰回放",
+    "source_origin": "archive",
+    "archive": "wrist_dino_transfer2000_v1.tar.zst",
+    "files": [
+      "research_runs/wrist_dino_transfer2000_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_dino_transfer_v1",
+    "category": "DINO采样与受扰回放",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_transfer_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_action_counter500_v1.json",
+      "configs/exploring_oft_dino/object_dino_register500_v1.json",
+      "configs/exploring_oft_dino/object_dino_register_content500_v1.json",
+      "configs/exploring_oft_dino/object_dino_register_delayed2000_v2.json",
+      "configs/exploring_oft_dino/object_dino_repair1000_v1.json",
+      "configs/exploring_oft_dino/object_dino_sampling_clear2000_v1.json",
+      "configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
+      "configs/exploring_oft_dino/object_dino_transfer2000_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "configs/exploring_oft_dino/uada_original2000_transfer_v1.json",
+      "scripts/dino_repair_common.py",
+      "submit_exploring_oft_dino_transfer2000_resume_v1.sh",
+      "submit_exploring_oft_dino_transfer2000_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_uada_factorial1000_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_uada_factorial1000_v1/README.md",
+      "research_runs/wrist_dino_uada_factorial1000_v1/config.json",
+      "research_runs/wrist_dino_uada_factorial1000_v1/PLAN.md",
+      "research_runs/wrist_dino_uada_factorial1000_v1/tests/test_factorial.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/engine_original.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/engine_legacy.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/pipeline.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/readonly_model.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/preprocessing.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/monitor.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/engine.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/evaluate.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/worker.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/train.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/deployment.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/source_transform.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/analyze.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/model_runtime.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/common.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/code/objectives.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/slurm/environment.sh",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/pipeline.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/data.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/readonly_model.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/preprocessing.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/engine.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/evaluate.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/train.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/deployment.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/source_transform.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/analyze.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/model_runtime.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/common.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/original/code/objectives.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/pipeline.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/data.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/readonly_model.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/preprocessing.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/engine.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/evaluate.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/train.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/deployment.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/source_transform.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/analyze.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/model_runtime.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/common.py",
+      "research_runs/wrist_dino_uada_factorial1000_v1/source/legacy/code/objectives.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_uada_factorial1000_v1/config.json"
+    ],
+    "associated_project_files": [
+      "submit_wrist_dino_uada_factorial1000_v1.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_value_contrast_screen250_v3",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_value_contrast_screen250_v3/README.md",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/config.json",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/PLAN.md",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/tests/test_final_screen.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/feature_objectives.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/pipeline.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/data.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/readonly_model.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/preprocessing.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/engine.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/UADA_SOURCE_COPY.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/evaluate.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/remaining_objectives.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/train.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/deployment.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/source_transform.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/analyze.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/model_runtime.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/common.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/code/objectives.py",
+      "research_runs/wrist_dino_value_contrast_screen250_v3/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_dino_value_contrast_screen250_v3/config.json"
+    ],
+    "associated_project_files": [
+      "submit_exploring_oft_dino_value_contrast_screen250_v3.sh"
+    ]
+  },
+  {
+    "run": "wrist_dino_window_v1",
+    "category": "DINO采样与受扰回放",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_dino_window_v1/PLAN.md"
+    ],
+    "config_files": [],
+    "associated_project_files": [
+      "configs/exploring_oft_dino/object_dino_replay_refine200_v1.json",
+      "configs/exploring_oft_dino/object_dino_window_refine200_cross_suite_v1.json",
+      "configs/exploring_oft_dino/object_dino_window_refine200_v1.json",
+      "configs/exploring_oft_dino/scale500_cross_suite.json",
+      "scripts/dino_window_common.py",
+      "submit_exploring_oft_dino_window_cross_suite.sh",
+      "submit_exploring_oft_dino_window_train.sh"
+    ]
+  },
+  {
+    "run": "wrist_geometry_response_adapt_v1",
+    "category": "视觉可靠性与视角适配",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_geometry_response_adapt_v1/run.sh",
+      "research_runs/wrist_geometry_response_adapt_v1/README.md",
+      "research_runs/wrist_geometry_response_adapt_v1/config.json",
+      "research_runs/wrist_geometry_response_adapt_v1/tests/test_orchestrate.py",
+      "research_runs/wrist_geometry_response_adapt_v1/tests/test_training.py",
+      "research_runs/wrist_geometry_response_adapt_v1/tests/test_monitor.py",
+      "research_runs/wrist_geometry_response_adapt_v1/tests/test_native_imports.py",
+      "research_runs/wrist_geometry_response_adapt_v1/tests/test_data.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_engine.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_evaluate.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_report.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_camera.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_train.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_common.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_main.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_video.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_data.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_orchestrate.py",
+      "research_runs/wrist_geometry_response_adapt_v1/code/wr_math.py"
+    ],
+    "config_files": [
+      "research_runs/wrist_geometry_response_adapt_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_joint_checkpoint_patch_retest_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/run.sh",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/README.md",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/config.json",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/tests/test_contracts.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_assets.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/download_model.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_prepare.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_cli.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_math.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_common.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_report.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_loading.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/code/jr_rollout.py",
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_joint_checkpoint_patch_retest_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_joint_dino_pulse_v1",
+    "category": "补丁目标、基线与训练策略",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_joint_dino_pulse_v1/run.sh",
+      "research_runs/wrist_joint_dino_pulse_v1/README.md",
+      "research_runs/wrist_joint_dino_pulse_v1/config.json",
+      "research_runs/wrist_joint_dino_pulse_v1/EXPERIMENT_PLAN.md",
+      "research_runs/wrist_joint_dino_pulse_v1/tests/test_pulse.py",
+      "research_runs/wrist_joint_dino_pulse_v1/code/dp_cli.py",
+      "research_runs/wrist_joint_dino_pulse_v1/code/dp_rollout.py",
+      "research_runs/wrist_joint_dino_pulse_v1/code/dp_prepare.py",
+      "research_runs/wrist_joint_dino_pulse_v1/code/dp_math.py",
+      "research_runs/wrist_joint_dino_pulse_v1/code/dp_common.py",
+      "research_runs/wrist_joint_dino_pulse_v1/code/dp_report.py",
+      "research_runs/wrist_joint_dino_pulse_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_joint_dino_pulse_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_joint_feature_rescue_v1",
+    "category": "视觉可靠性与视角适配",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_joint_feature_rescue_v1/run.sh",
+      "research_runs/wrist_joint_feature_rescue_v1/README.md",
+      "research_runs/wrist_joint_feature_rescue_v1/config.json",
+      "research_runs/wrist_joint_feature_rescue_v1/tests/test_rescue.py",
+      "research_runs/wrist_joint_feature_rescue_v1/code/fr_common.py",
+      "research_runs/wrist_joint_feature_rescue_v1/code/fr_vision.py",
+      "research_runs/wrist_joint_feature_rescue_v1/code/fr_cli.py",
+      "research_runs/wrist_joint_feature_rescue_v1/code/fr_prepare.py",
+      "research_runs/wrist_joint_feature_rescue_v1/code/fr_rollout.py",
+      "research_runs/wrist_joint_feature_rescue_v1/code/fr_math.py",
+      "research_runs/wrist_joint_feature_rescue_v1/code/fr_report.py",
+      "research_runs/wrist_joint_feature_rescue_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_joint_feature_rescue_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_observation_reliability_screen_v1",
+    "category": "视觉可靠性与视角适配",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_observation_reliability_screen_v1/run.sh",
+      "research_runs/wrist_observation_reliability_screen_v1/README.md",
+      "research_runs/wrist_observation_reliability_screen_v1/config.json",
+      "research_runs/wrist_observation_reliability_screen_v1/tests/test_screen.py",
+      "research_runs/wrist_observation_reliability_screen_v1/code/sc_report.py",
+      "research_runs/wrist_observation_reliability_screen_v1/code/sc_cli.py",
+      "research_runs/wrist_observation_reliability_screen_v1/code/sc_math.py",
+      "research_runs/wrist_observation_reliability_screen_v1/code/sc_prepare.py",
+      "research_runs/wrist_observation_reliability_screen_v1/code/sc_rollout.py",
+      "research_runs/wrist_observation_reliability_screen_v1/code/sc_common.py",
+      "research_runs/wrist_observation_reliability_screen_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_observation_reliability_screen_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_approach_pilot_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_approach_pilot_v1/run.sh",
+      "research_runs/wrist_spatial_approach_pilot_v1/README.md",
+      "research_runs/wrist_spatial_approach_pilot_v1/config.json",
+      "research_runs/wrist_spatial_approach_pilot_v1/tests/test_contracts.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_cache.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_common.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_cli.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_train.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_evaluate.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_report.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_geometry.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_math.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/code/sr_engine.py",
+      "research_runs/wrist_spatial_approach_pilot_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_approach_pilot_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_failure_audit_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_failure_audit_v1/run.sh",
+      "research_runs/wrist_spatial_failure_audit_v1/README.md",
+      "research_runs/wrist_spatial_failure_audit_v1/config.json",
+      "research_runs/wrist_spatial_failure_audit_v1/tests/test_audit.py",
+      "research_runs/wrist_spatial_failure_audit_v1/code/audit_replay.py",
+      "research_runs/wrist_spatial_failure_audit_v1/code/audit_cli.py",
+      "research_runs/wrist_spatial_failure_audit_v1/code/audit_common.py",
+      "research_runs/wrist_spatial_failure_audit_v1/code/audit_report.py",
+      "research_runs/wrist_spatial_failure_audit_v1/code/audit_math.py",
+      "research_runs/wrist_spatial_failure_audit_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_failure_audit_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_relation_expand_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_relation_expand_v1/run.sh",
+      "research_runs/wrist_spatial_relation_expand_v1/README.md",
+      "research_runs/wrist_spatial_relation_expand_v1/config.json",
+      "research_runs/wrist_spatial_relation_expand_v1/code/entry.py",
+      "research_runs/wrist_spatial_relation_expand_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_relation_expand_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_relation_fair_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_relation_fair_v1/run.sh",
+      "research_runs/wrist_spatial_relation_fair_v1/README.md",
+      "research_runs/wrist_spatial_relation_fair_v1/config.json",
+      "research_runs/wrist_spatial_relation_fair_v1/tests/test_fair_controls.py",
+      "research_runs/wrist_spatial_relation_fair_v1/code/fc_prepare.py",
+      "research_runs/wrist_spatial_relation_fair_v1/code/fc_cli.py",
+      "research_runs/wrist_spatial_relation_fair_v1/code/fc_math.py",
+      "research_runs/wrist_spatial_relation_fair_v1/code/fc_evaluate.py",
+      "research_runs/wrist_spatial_relation_fair_v1/code/fc_report.py",
+      "research_runs/wrist_spatial_relation_fair_v1/code/fc_train.py",
+      "research_runs/wrist_spatial_relation_fair_v1/code/fc_common.py",
+      "research_runs/wrist_spatial_relation_fair_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_relation_fair_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_relation_rescue_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_relation_rescue_v1/run.sh",
+      "research_runs/wrist_spatial_relation_rescue_v1/README.md",
+      "research_runs/wrist_spatial_relation_rescue_v1/config.json",
+      "research_runs/wrist_spatial_relation_rescue_v1/tests/test_rescue.py",
+      "research_runs/wrist_spatial_relation_rescue_v1/code/rr_cli.py",
+      "research_runs/wrist_spatial_relation_rescue_v1/code/rr_common.py",
+      "research_runs/wrist_spatial_relation_rescue_v1/code/rr_run.py",
+      "research_runs/wrist_spatial_relation_rescue_v1/code/rr_report.py",
+      "research_runs/wrist_spatial_relation_rescue_v1/code/rr_logger.py",
+      "research_runs/wrist_spatial_relation_rescue_v1/code/rr_math.py",
+      "research_runs/wrist_spatial_relation_rescue_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_relation_rescue_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_relation_shuffle_eval_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/run.sh",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/README.md",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/config.json",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/tests/test_evaluation.py",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/code/se_common.py",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/code/se_cli.py",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/code/se_evaluate.py",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/code/se_report.py",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/code/se_prepare.py",
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_relation_shuffle_eval_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_relation_shuffle_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_relation_shuffle_v1/run.sh",
+      "research_runs/wrist_spatial_relation_shuffle_v1/README.md",
+      "research_runs/wrist_spatial_relation_shuffle_v1/config.json",
+      "research_runs/wrist_spatial_relation_shuffle_v1/code/entry.py",
+      "research_runs/wrist_spatial_relation_shuffle_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_relation_shuffle_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_relation_shuffle_v1_fix1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/run.sh",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/README.md",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/config.json",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/tests/test_repair.py",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/code/rfix_report.py",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/code/rfix_evaluate.py",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/code/rfix_train.py",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/code/rfix_common.py",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/code/rfix_cli.py",
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_relation_shuffle_v1_fix1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_target_joint_v1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_target_joint_v1/run.sh",
+      "research_runs/wrist_spatial_target_joint_v1/README.md",
+      "research_runs/wrist_spatial_target_joint_v1/config.json",
+      "research_runs/wrist_spatial_target_joint_v1/tests/test_joint.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_cli.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_common.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_report.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_cache.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_prepare.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_math.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_evaluate.py",
+      "research_runs/wrist_spatial_target_joint_v1/code/jt_train.py",
+      "research_runs/wrist_spatial_target_joint_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_target_joint_v1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_target_joint_v1_fix1",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "archive",
+    "archive": "wrist_spatial_target_joint_v1_fix1.tar.zst",
+    "files": [
+      "research_runs/wrist_spatial_target_joint_v1_fix1/run.sh",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/README.md",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/config.json",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/tests/test_joint.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_cli.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_common.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_report.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_cache.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_prepare.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_math.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_evaluate.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/code/jt_train.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_target_joint_v1_fix1/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_target_joint_v1_fix2",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_target_joint_v1_fix2/run.sh",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/README.md",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/config.json",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/tests/test_joint.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_cli.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_common.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_report.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_cache.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_prepare.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_math.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_evaluate.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/code/jt_train.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix2/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_target_joint_v1_fix2/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_spatial_target_joint_v1_fix3",
+    "category": "空间关系动作目标与对照",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_spatial_target_joint_v1_fix3/run.sh",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/README.md",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/config.json",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/tests/test_joint.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_cli.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_common.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_history.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_report.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_cache.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_prepare.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_math.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_evaluate.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_gate.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/code/jt_train.py",
+      "research_runs/wrist_spatial_target_joint_v1_fix3/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_spatial_target_joint_v1_fix3/config.json"
+    ],
+    "associated_project_files": []
+  },
+  {
+    "run": "wrist_view_asymmetry_screen_v1",
+    "category": "视觉可靠性与视角适配",
+    "source_origin": "live_run",
+    "archive": null,
+    "files": [
+      "research_runs/wrist_view_asymmetry_screen_v1/run.sh",
+      "research_runs/wrist_view_asymmetry_screen_v1/README.md",
+      "research_runs/wrist_view_asymmetry_screen_v1/config.json",
+      "research_runs/wrist_view_asymmetry_screen_v1/tests/test_screen.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_camera.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_math.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_report.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_vision.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_prepare.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_common.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_stages.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_cli.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_calibrate.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/code/va_rollout.py",
+      "research_runs/wrist_view_asymmetry_screen_v1/slurm/environment.sh"
+    ],
+    "config_files": [
+      "research_runs/wrist_view_asymmetry_screen_v1/config.json"
+    ],
+    "associated_project_files": []
+  }
+]

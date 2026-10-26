@@ -1,0 +1,52 @@
+{
+  "experiment_id": "OFT-UADA-FACTORIAL1000-V1",
+  "seed": 42,
+  "outer_iterations": 1000,
+  "inner_loop": 50,
+  "arms": [
+    {
+      "name": "legacy_freq",
+      "protocol": "legacy",
+      "method": "uada_freq",
+      "sampling": false,
+      "frequency": true,
+      "schedule_outer_iterations": 1000
+    },
+    {
+      "name": "original_dino",
+      "protocol": "original",
+      "method": "uada_dino",
+      "sampling": true,
+      "frequency": false,
+      "schedule_outer_iterations": 2000
+    },
+    {
+      "name": "original_freq",
+      "protocol": "original",
+      "method": "uada_freq",
+      "sampling": false,
+      "frequency": true,
+      "schedule_outer_iterations": 2000
+    }
+  ],
+  "diagnostic_outers": [
+    1,
+    25,
+    125,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "diagnostic_inners": [
+    0,
+    49
+  ],
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261017,
+  "training_gpu_cap": 3,
+  "evaluation_gpu_cap": 4,
+  "new_episodes": 1200,
+  "combined_episodes": 4000,
+  "future_seed_submitted": false
+}

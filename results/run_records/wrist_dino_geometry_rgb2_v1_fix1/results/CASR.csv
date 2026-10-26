@@ -1,0 +1,5 @@
+condition,failures,clean_successes,CASR_pooled,failures_beyond_random,failures_overlap_random,random_only_failures,mean,ci95_low,ci95_high,tasks
+initial,0,10,0.0,0,0,0,0.0,0.0,0.0,5
+uada,3,10,0.3,3,0,0,0.3,0.0,0.6,5
+projection,0,10,0.0,0,0,0,0.0,0.0,0.0,5
+full,0,10,0.0,0,0,0,0.0,0.0,0.0,5

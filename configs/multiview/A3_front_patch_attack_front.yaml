@@ -1,0 +1,43 @@
+# 自动生成；真实路径和 camera 字段不确定处保留 TODO。
+attack_method: UADA
+task_suite: libero_spatial
+num_episodes: 5
+seed: 0
+patch_size: 0.05
+wrapper_patch_size: 3,50,50
+gpu_per_job: 1
+save_video: true
+save_images: true
+save_actions: true
+save_trajectories: true
+local_paths_file: configs/multiview/local_paths.yaml
+MODEL_PATH: LOCAL_PATHS
+DATA_ROOT: LOCAL_PATHS
+LIBERO_ROOT: LOCAL_PATHS
+PROJECT_ROOT: LOCAL_PATHS
+CONDA_ENV: LOCAL_PATHS
+output_root: outputs/multiview_attack
+python_bin: python3
+maskidx: 0
+batch_size: 8
+learning_rate: 0.001
+max_train_iters: 2000
+accumulate: 1
+warmup: 20
+inner_loop: 50
+geometry: true
+filter_grip_train_to_1: false
+resize_patch: false
+multiview_fusion: stitch
+multiview_debug: false
+view_key_map: TODO_VIEW_KEY_MAP
+notes: 机器相关路径集中在 configs/multiview/local_paths.yaml；真实多视角 camera 字段仍待确认
+key: A3
+file_stem: A3_front_patch_attack_front
+exp_id: A3_front_patch_attack_front
+purpose: front 输入, front 训练 patch, 攻击 front
+input_views: front
+patch_train_views: front
+attack_views: front
+patch_type: single_view
+is_clean: false

@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "signature": "a2b17a4c36866f160d9542a35b964f7860d13a25d46119896bdca98478cada90",
+  "completed_unix": 1792695819.7821672,
+  "artifacts": {
+    "results/EPISODES.csv": "994bee9aef8f9ebbf9b19a435843ac127daa4a67964c1bacb988b1bbddeacf58",
+    "results/CASR.csv": "378653f5f9f49fde34c83ec6b7608579da18752eeb21cec46fa40c36abb3e25b",
+    "results/PAIRED_CONTRASTS.csv": "c004f81774fac94e043df9209138d0631e24d1d3ab32e87ad7d6e6d43048efd4",
+    "results/MODEL_COMPARISON.csv": "92eaa47e0e7f0aeaec132179a885a468bbf67afbddf3f6b1fb180be5d366e95f",
+    "results/MODEL_COMPARISON_EPISODES.csv": "1ab94ea2418a2d438bf134d2eafbdc550b8f8918247bfb4a79dba6161fbcff6d",
+    "results/STATUS.json": "c3ce3138e51f8f2bd56c74a9a5aa669dc89c68c0e0fd7ac1f675b50f0352e2e8",
+    "results/RESULTS.md": "0a632cd442460edcd2ff8756e963c8658f0da7ff205bff8d6b059381add47cfa"
+  }
+}
