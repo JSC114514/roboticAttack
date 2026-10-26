@@ -34,4 +34,3 @@
 - [configs/exploring_oft_dino/scale500_cross_suite.json](../../configs/exploring_oft_dino/scale500_cross_suite.json)
 - [configs/exploring_oft_dino/uada_original1000_v1.json](../../configs/exploring_oft_dino/uada_original1000_v1.json)
 - [scripts/run_exploring_oft_uada_original1000_cross_suite.py](../../scripts/run_exploring_oft_uada_original1000_cross_suite.py)
-- [submit_exploring_oft_uada_original1000_full.sh](../../submit_exploring_oft_uada_original1000_full.sh)

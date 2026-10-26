@@ -37,5 +37,3 @@
 - [configs/exploring_oft_dino/object_dino_ilpd_refine200_v2.json](../../configs/exploring_oft_dino/object_dino_ilpd_refine200_v2.json)
 - [configs/exploring_oft_dino/scale500_cross_suite.json](../../configs/exploring_oft_dino/scale500_cross_suite.json)
 - [scripts/run_exploring_oft_dino_ilpd_refine200_cross_suite.py](../../scripts/run_exploring_oft_dino_ilpd_refine200_cross_suite.py)
-- [submit_exploring_oft_dino_ilpd_refine200.sh](../../submit_exploring_oft_dino_ilpd_refine200.sh)
-- [submit_exploring_oft_dino_ilpd_refine200_cross_suite.sh](../../submit_exploring_oft_dino_ilpd_refine200_cross_suite.sh)

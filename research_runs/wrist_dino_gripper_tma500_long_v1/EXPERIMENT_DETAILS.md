@@ -241,4 +241,3 @@
 
 以下关联由源码中出现的完整运行ID与配置路径确定。
 
-- [submit_exploring_oft_gripper_tma500_long_v1.sh](../../submit_exploring_oft_gripper_tma500_long_v1.sh)

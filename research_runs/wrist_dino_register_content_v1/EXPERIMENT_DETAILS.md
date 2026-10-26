@@ -37,4 +37,3 @@
 - [configs/exploring_oft_dino/object_dino_register_content500_v1.json](../../configs/exploring_oft_dino/object_dino_register_content500_v1.json)
 - [configs/exploring_oft_dino/object_dino_state_axis2000_v1.json](../../configs/exploring_oft_dino/object_dino_state_axis2000_v1.json)
 - [scripts/dino_register_content_common.py](../../scripts/dino_register_content_common.py)
-- [submit_exploring_oft_dino_register_content500_v1.sh](../../submit_exploring_oft_dino_register_content500_v1.sh)

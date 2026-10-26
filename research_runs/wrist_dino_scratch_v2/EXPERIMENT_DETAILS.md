@@ -34,4 +34,3 @@
 - [configs/exploring_oft_dino/object_dino_scratch1000_v2.json](../../configs/exploring_oft_dino/object_dino_scratch1000_v2.json)
 - [configs/exploring_oft_dino/scale500_cross_suite.json](../../configs/exploring_oft_dino/scale500_cross_suite.json)
 - [scripts/analyze_exploring_oft_uada_original1000_cross_suite.py](../../scripts/analyze_exploring_oft_uada_original1000_cross_suite.py)
-- [submit_exploring_oft_dino_scratch1000_v2_full.sh](../../submit_exploring_oft_dino_scratch1000_v2_full.sh)

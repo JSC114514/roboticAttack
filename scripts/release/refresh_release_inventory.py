@@ -28,12 +28,16 @@ def git_files(*flags):
 def main():
     """Build current changed-file and complete-file inventories, in that order."""
     changed = [name for name in git_files('-m', '-o', '--exclude-standard')
-               if name not in EXCLUDED and (ROOT / name).is_file()]
+               if name not in EXCLUDED]
     with (ROOT / 'docs/UPDATE_FILES.tsv').open('w') as stream:
         stream.write('path\tbytes\tsha256\n')
         for name in changed:
             path = ROOT / name
-            stream.write(f'{name}\t{path.stat().st_size}\t{sha(path)}\n')
+            if path.is_file():
+                stream.write(f'{name}\t{path.stat().st_size}\t{sha(path)}\n')
+            else:
+                # Deleted tracked paths remain visible in the upload inventory.
+                stream.write(f'{name}\t0\tDELETED\n')
     files = [name for name in git_files('-c', '-o', '--exclude-standard')
              if name != 'release_checksums.json' and (ROOT / name).is_file()]
     content = {'sha256': {name: sha(ROOT / name) for name in files}}

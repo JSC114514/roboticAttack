@@ -271,6 +271,3 @@
 
 以下关联由源码中出现的完整运行ID与配置路径确定。
 
-- [submit_exploring_oft_long_final8_2000_repair_v2.sh](../../submit_exploring_oft_long_final8_2000_repair_v2.sh)
-- [submit_exploring_oft_long_final8_2000_resume_v2.sh](../../submit_exploring_oft_long_final8_2000_resume_v2.sh)
-- [submit_exploring_oft_long_final8_eval4090_v1.sh](../../submit_exploring_oft_long_final8_eval4090_v1.sh)

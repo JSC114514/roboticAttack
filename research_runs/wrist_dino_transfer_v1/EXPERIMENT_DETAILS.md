@@ -42,5 +42,3 @@
 - [configs/exploring_oft_dino/scale500_cross_suite.json](../../configs/exploring_oft_dino/scale500_cross_suite.json)
 - [configs/exploring_oft_dino/uada_original2000_transfer_v1.json](../../configs/exploring_oft_dino/uada_original2000_transfer_v1.json)
 - [scripts/dino_repair_common.py](../../scripts/dino_repair_common.py)
-- [submit_exploring_oft_dino_transfer2000_resume_v1.sh](../../submit_exploring_oft_dino_transfer2000_resume_v1.sh)
-- [submit_exploring_oft_dino_transfer2000_v1.sh](../../submit_exploring_oft_dino_transfer2000_v1.sh)

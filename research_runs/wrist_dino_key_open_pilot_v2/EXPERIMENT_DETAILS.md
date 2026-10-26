@@ -168,4 +168,3 @@
 
 以下关联由源码中出现的完整运行ID与配置路径确定。
 
-- [submit_wrist_dino_key_open_pilot_v2.sh](../../submit_wrist_dino_key_open_pilot_v2.sh)

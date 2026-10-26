@@ -255,6 +255,3 @@
 
 以下关联由源码中出现的完整运行ID与配置路径确定。
 
-- [submit_exploring_oft_gripper_tma500_long_v2.sh](../../submit_exploring_oft_gripper_tma500_long_v2.sh)
-- [submit_exploring_oft_gripper_tma500_long_v2_evalfix1.sh](../../submit_exploring_oft_gripper_tma500_long_v2_evalfix1.sh)
-- [submit_exploring_oft_gripper_tma500_long_v2_evalfix2_3090.sh](../../submit_exploring_oft_gripper_tma500_long_v2_evalfix2_3090.sh)

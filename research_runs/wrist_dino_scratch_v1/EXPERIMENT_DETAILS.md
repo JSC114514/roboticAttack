@@ -33,5 +33,3 @@
 
 - [configs/exploring_oft_dino/object_dino_scratch1000_v1.json](../../configs/exploring_oft_dino/object_dino_scratch1000_v1.json)
 - [configs/exploring_oft_dino/scale500_cross_suite.json](../../configs/exploring_oft_dino/scale500_cross_suite.json)
-- [submit_exploring_oft_dino_scratch1000.sh](../../submit_exploring_oft_dino_scratch1000.sh)
-- [submit_exploring_oft_dino_scratch_cross_suite.sh](../../submit_exploring_oft_dino_scratch_cross_suite.sh)

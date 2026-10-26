@@ -21,3 +21,5 @@ git push origin HEAD
 本次整理不代替用户执行git add、commit或push。若远端已有他人新提交，先用git fetch origin和git log比较，不使用强制推送。
 
 文件清单不包含自身与release_checksums.json的哈希，避免自引用；这两份文件也需随提交上传。完整发布哈希索引包含UPDATE_FILES.tsv。
+
+本次移除根目录63个集群提交脚本；UPDATE_FILES.tsv中DELETED表示从GitHub发布副本删除，原实验脚本保留。

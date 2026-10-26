@@ -36,5 +36,3 @@
 - [configs/exploring_oft_dino/object_dino_window_refine200_v1.json](../../configs/exploring_oft_dino/object_dino_window_refine200_v1.json)
 - [configs/exploring_oft_dino/scale500_cross_suite.json](../../configs/exploring_oft_dino/scale500_cross_suite.json)
 - [scripts/dino_replay_common.py](../../scripts/dino_replay_common.py)
-- [submit_exploring_oft_dino_replay_cross_suite.sh](../../submit_exploring_oft_dino_replay_cross_suite.sh)
-- [submit_exploring_oft_dino_replay_train.sh](../../submit_exploring_oft_dino_replay_train.sh)

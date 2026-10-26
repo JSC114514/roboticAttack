@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "runs": 72,
-  "source_files": 1881,
+  "source_files": 1818,
   "annotated_files": [
     "research_runs/wrist_camera_task_response_diag_v1/code/diag_evaluate.py",
     "research_runs/wrist_camera_task_response_diag_v1/code/diag_geometry.py",
@@ -38,5 +38,6 @@
   "slurm_submitted": false,
   "git_staged": false,
   "git_committed": false,
-  "git_pushed": false
+  "git_pushed": false,
+  "root_submit_scripts_removed": 63
 }

@@ -11,8 +11,7 @@
     "associated_project_files": [
       "configs/exploring_oft_dino/scale500_cross_suite.json",
       "configs/exploring_oft_dino/uada_original1000_v1.json",
-      "scripts/run_exploring_oft_uada_original1000_cross_suite.py",
-      "submit_exploring_oft_uada_original1000_full.sh"
+      "scripts/run_exploring_oft_uada_original1000_cross_suite.py"
     ]
   },
   {
@@ -67,9 +66,7 @@
     "config_files": [
       "research_runs/wrist_dino_action_control_screen_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_wrist_dino_action_control_screen_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_action_counter_v1",
@@ -149,9 +146,7 @@
     "config_files": [
       "research_runs/wrist_dino_batch500_32_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_dino_batch500_32_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_batch8_when_v1",
@@ -177,9 +172,7 @@
     "config_files": [
       "research_runs/wrist_dino_batch8_when_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_batch8_when2000_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_closedloop_geometry_v1",
@@ -320,9 +313,7 @@
     "config_files": [
       "research_runs/wrist_dino_cross_observation500_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_wrist_dino_cross_observation500_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_feature_screen250_v1",
@@ -362,10 +353,7 @@
     "config_files": [
       "research_runs/wrist_dino_feature_screen250_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_dino_feature_screen250_cudnnfix_v2.sh",
-      "submit_exploring_oft_dino_feature_screen250_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_functional77_v1",
@@ -635,9 +623,7 @@
     "config_files": [
       "research_runs/wrist_dino_gripper_tma500_long_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_gripper_tma500_long_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_gripper_tma500_long_v2",
@@ -693,11 +679,7 @@
     "config_files": [
       "research_runs/wrist_dino_gripper_tma500_long_v2/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_gripper_tma500_long_v2.sh",
-      "submit_exploring_oft_gripper_tma500_long_v2_evalfix1.sh",
-      "submit_exploring_oft_gripper_tma500_long_v2_evalfix2_3090.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_gripper_tma500_v1",
@@ -750,9 +732,7 @@
       "configs/exploring_oft_dino/object_dino_ilpd_refine200_v1.json",
       "configs/exploring_oft_dino/object_dino_ilpd_refine200_v2.json",
       "configs/exploring_oft_dino/scale500_cross_suite.json",
-      "scripts/run_exploring_oft_dino_ilpd_refine200_cross_suite.py",
-      "submit_exploring_oft_dino_ilpd_refine200.sh",
-      "submit_exploring_oft_dino_ilpd_refine200_cross_suite.sh"
+      "scripts/run_exploring_oft_dino_ilpd_refine200_cross_suite.py"
     ]
   },
   {
@@ -867,9 +847,7 @@
     "config_files": [
       "research_runs/wrist_dino_key_open_pilot_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_wrist_dino_key_open_pilot_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_key_open_pilot_v2",
@@ -906,9 +884,7 @@
     "config_files": [
       "research_runs/wrist_dino_key_open_pilot_v2/config.json"
     ],
-    "associated_project_files": [
-      "submit_wrist_dino_key_open_pilot_v2.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_long_final8_v1",
@@ -941,9 +917,7 @@
     "config_files": [
       "research_runs/wrist_dino_long_final8_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_long_final8_2000_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_long_final8_v2",
@@ -986,11 +960,7 @@
     "config_files": [
       "research_runs/wrist_dino_long_final8_v2/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_long_final8_2000_repair_v2.sh",
-      "submit_exploring_oft_long_final8_2000_resume_v2.sh",
-      "submit_exploring_oft_long_final8_eval4090_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_objectives_screen250_v2",
@@ -1022,9 +992,7 @@
     "config_files": [
       "research_runs/wrist_dino_objectives_screen250_v2/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_dino_objectives_screen250_v2.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_official_long4_2000_v1",
@@ -1058,9 +1026,7 @@
     "config_files": [
       "research_runs/wrist_dino_official_long4_2000_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_official_long4_2000_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_official_long8_1000_v1",
@@ -1095,9 +1061,7 @@
     "config_files": [
       "research_runs/wrist_dino_official_long8_1000_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_official_long8_1000_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_register_content_v1",
@@ -1114,8 +1078,7 @@
     "associated_project_files": [
       "configs/exploring_oft_dino/object_dino_register_content500_v1.json",
       "configs/exploring_oft_dino/object_dino_state_axis2000_v1.json",
-      "scripts/dino_register_content_common.py",
-      "submit_exploring_oft_dino_register_content500_v1.sh"
+      "scripts/dino_register_content_common.py"
     ]
   },
   {
@@ -1237,9 +1200,7 @@
       "configs/exploring_oft_dino/object_dino_replay_refine200_v1.json",
       "configs/exploring_oft_dino/object_dino_window_refine200_v1.json",
       "configs/exploring_oft_dino/scale500_cross_suite.json",
-      "scripts/dino_replay_common.py",
-      "submit_exploring_oft_dino_replay_cross_suite.sh",
-      "submit_exploring_oft_dino_replay_train.sh"
+      "scripts/dino_replay_common.py"
     ]
   },
   {
@@ -1296,9 +1257,7 @@
     "config_files": [],
     "associated_project_files": [
       "configs/exploring_oft_dino/object_dino_scratch1000_v1.json",
-      "configs/exploring_oft_dino/scale500_cross_suite.json",
-      "submit_exploring_oft_dino_scratch1000.sh",
-      "submit_exploring_oft_dino_scratch_cross_suite.sh"
+      "configs/exploring_oft_dino/scale500_cross_suite.json"
     ]
   },
   {
@@ -1313,8 +1272,7 @@
     "associated_project_files": [
       "configs/exploring_oft_dino/object_dino_scratch1000_v2.json",
       "configs/exploring_oft_dino/scale500_cross_suite.json",
-      "scripts/analyze_exploring_oft_uada_original1000_cross_suite.py",
-      "submit_exploring_oft_dino_scratch1000_v2_full.sh"
+      "scripts/analyze_exploring_oft_uada_original1000_cross_suite.py"
     ]
   },
   {
@@ -1430,9 +1388,7 @@
       "configs/exploring_oft_dino/object_dino_transfer2000_v1.json",
       "configs/exploring_oft_dino/scale500_cross_suite.json",
       "configs/exploring_oft_dino/uada_original2000_transfer_v1.json",
-      "scripts/dino_repair_common.py",
-      "submit_exploring_oft_dino_transfer2000_resume_v1.sh",
-      "submit_exploring_oft_dino_transfer2000_v1.sh"
+      "scripts/dino_repair_common.py"
     ]
   },
   {
@@ -1495,9 +1451,7 @@
     "config_files": [
       "research_runs/wrist_dino_uada_factorial1000_v1/config.json"
     ],
-    "associated_project_files": [
-      "submit_wrist_dino_uada_factorial1000_v1.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_value_contrast_screen250_v3",
@@ -1530,9 +1484,7 @@
     "config_files": [
       "research_runs/wrist_dino_value_contrast_screen250_v3/config.json"
     ],
-    "associated_project_files": [
-      "submit_exploring_oft_dino_value_contrast_screen250_v3.sh"
-    ]
+    "associated_project_files": []
   },
   {
     "run": "wrist_dino_window_v1",
@@ -1548,9 +1500,7 @@
       "configs/exploring_oft_dino/object_dino_window_refine200_cross_suite_v1.json",
       "configs/exploring_oft_dino/object_dino_window_refine200_v1.json",
       "configs/exploring_oft_dino/scale500_cross_suite.json",
-      "scripts/dino_window_common.py",
-      "submit_exploring_oft_dino_window_cross_suite.sh",
-      "submit_exploring_oft_dino_window_train.sh"
+      "scripts/dino_window_common.py"
     ]
   },
   {
