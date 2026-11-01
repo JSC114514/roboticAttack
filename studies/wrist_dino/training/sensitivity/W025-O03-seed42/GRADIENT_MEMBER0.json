@@ -1,0 +1,11 @@
+{
+  "member": 0,
+  "branch_gradient_norms": {
+    "dino": 0.015444068238139153,
+    "siglip": 0.014286646619439125
+  },
+  "mask": [
+    0
+  ],
+  "auxiliary_lambda": 5.7139870537134545
+}

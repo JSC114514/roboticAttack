@@ -1,0 +1,9 @@
+{
+  "native_zero_error": 0.0,
+  "physical_start": {
+    "physical_camera_sha256": "29aa5ed0e79febeee5eb8bd47bd5e1e5a6ce54455e797a4283eddb1bf13f8290",
+    "time_s": 0.5000000000000003
+  },
+  "dual_restore_error": 0.0,
+  "weights_frozen": true
+}

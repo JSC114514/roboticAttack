@@ -1,0 +1,49 @@
+{
+  "caption": "Seed42 matched 80-start development cohort. Left: cross-view diagnostic. Right: clean same-state feature donors are privileged mechanism probes, separate from deployable PNG scores. Only the accepted float32 M02 revision is used.",
+  "preview": false,
+  "data": {
+    "cross_view_percent": [
+      [
+        18.666666666666668,
+        60.0
+      ],
+      [
+        29.333333333333332,
+        81.33333333333333
+      ]
+    ],
+    "restoration": [
+      {
+        "condition": "Clean",
+        "success": 75,
+        "n": 80
+      },
+      {
+        "condition": "PNG",
+        "success": 15,
+        "n": 80
+      },
+      {
+        "condition": "DINO restored",
+        "success": 79,
+        "n": 80
+      },
+      {
+        "condition": "SigLIP restored",
+        "success": 43,
+        "n": 80
+      },
+      {
+        "condition": "Both restored",
+        "success": 75,
+        "n": 80
+      }
+    ]
+  },
+  "sources": {
+    "reports/development_SUMMARY.json": "0cba716b06824ea223e35354c80c2080ac9f5085334ac530ff02f0fd1a906c60",
+    "reports/M01_RESULTS.json": "aa2d9031d007be01169d6987f884fcbbdd88e1bdab55f16fe35510ef0f4b1fe7",
+    "reports/M02_RESULTS_FLOAT32.json": "22b9b87f1a844df289ff4e6fd5cff35ebbe2b62148647baf61784cb0ba536651",
+    "reports/M03_SUMMARY.json": "0c3ee7663bf0fb350d9918730fa4d8e36168c2429da088e98a2822004bc018b9"
+  }
+}

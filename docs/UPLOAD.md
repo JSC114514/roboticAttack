@@ -1,25 +1,23 @@
-# 手动检查与上传
+# 独立分支上传
 
 发布目录：`/mnt/beegfs/home/caijiasheng25/roboticAttack_publish_20261023`。
-远端：`https://github.com/JSC114514/roboticAttack.git`。不要在原实验工作区执行下面的git add；该工作区使用不同远端。
+分支：`research/wrist-dino-study`。远端：`https://github.com/JSC114514/roboticAttack.git`。
 
-本次改动的精确路径、大小和哈希在[UPDATE_FILES.tsv](UPDATE_FILES.tsv)，覆盖本次新增／修改文件。全部发布文件与哈希在根目录release_checksums.json；源码原始来源见SOURCE_MANIFEST.json。
+原main保持原样。本次只上传此分支，不合并main，不修改默认分支。原始实验工作区不执行git add。
 
 ```bash
 cd /mnt/beegfs/home/caijiasheng25/roboticAttack_publish_20261023
+
+git branch --show-current
 /home/caijiasheng25/.conda/envs/robopatch_vla/bin/python -B scripts/release/check_release.py
 /home/caijiasheng25/.conda/envs/robopatch_vla/bin/python -B -m unittest discover -s tests_release -v
 
-git status --short
-git diff --stat
 git add --all -- .
 git diff --cached --stat
-git commit -m "Archive patch experiments and document wrist visual reliability research"
-git push origin HEAD
+git commit -m "Publish wrist DINO study, ablations and cross-model results"
+git push -u origin research/wrist-dino-study
 ```
 
-本次整理不代替用户执行git add、commit或push。若远端已有他人新提交，先用git fetch origin和git log比较，不使用强制推送。
+待上传文件清单见[UPDATE_FILES.tsv](UPDATE_FILES.tsv)，新增研究内容见[导出统计](../studies/wrist_dino/provenance/EXPORT_SUMMARY.json)。文件清单和发布总哈希排除自己的递归引用；原始与注释副本身份见SOURCE_MANIFEST.json。
 
-文件清单不包含自身与release_checksums.json的哈希，避免自引用；这两份文件也需随提交上传。完整发布哈希索引包含UPDATE_FILES.tsv。
-
-本次移除根目录63个集群提交脚本；UPDATE_FILES.tsv中DELETED表示从GitHub发布副本删除，原实验脚本保留。
+本次不代替用户执行git add、commit、push。研究代码与结果已准备、检查后再上传。无视频、无模型权重、无优化器、无候选缓存、无本次集群排队脚本。

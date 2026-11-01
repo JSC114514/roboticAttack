@@ -1,0 +1,117 @@
+{
+  "caption": "All completed seed42 performance arms are retained, including negative results. The 16-start initialization smoke test is a different cohort and is excluded.",
+  "preview": false,
+  "data": [
+    {
+      "condition": "B01-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.8118055555555556,
+      "casr_ci95": [
+        0.6391579861111111,
+        0.984375
+      ]
+    },
+    {
+      "condition": "B02-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.1875,
+      "casr_ci95": [
+        0.075,
+        0.2875
+      ]
+    },
+    {
+      "condition": "B03-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.7815972222222223,
+      "casr_ci95": [
+        0.586796875,
+        0.9736111111111111
+      ]
+    },
+    {
+      "condition": "B04-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.896875,
+      "casr_ci95": [
+        0.7717968749999999,
+        1.0
+      ]
+    },
+    {
+      "condition": "B05-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.7128472222222222,
+      "casr_ci95": [
+        0.49059895833333333,
+        0.9458333333333333
+      ]
+    },
+    {
+      "condition": "O01-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.7607638888888889,
+      "casr_ci95": [
+        0.6135329861111111,
+        0.898611111111111
+      ]
+    },
+    {
+      "condition": "O03-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.8625,
+      "casr_ci95": [
+        0.734375,
+        0.975
+      ]
+    },
+    {
+      "condition": "O05-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.7204861111111112,
+      "casr_ci95": [
+        0.5610677083333333,
+        0.8750434027777776
+      ]
+    },
+    {
+      "condition": "S04-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.6020833333333333,
+      "casr_ci95": [
+        0.42430555555555555,
+        0.7833333333333332
+      ]
+    },
+    {
+      "condition": "S05-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.5902777777777778,
+      "casr_ci95": [
+        0.4125,
+        0.7659895833333333
+      ]
+    },
+    {
+      "condition": "S06-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.5204861111111111,
+      "casr_ci95": [
+        0.3180208333333333,
+        0.7187586805555555
+      ]
+    },
+    {
+      "condition": "S07-seed42",
+      "completed": 80,
+      "suite_task_equal_casr": 0.6045138888888889,
+      "casr_ci95": [
+        0.4291666666666667,
+        0.7771267361111108
+      ]
+    }
+  ],
+  "sources": {
+    "reports/development_SUMMARY.json": "0cba716b06824ea223e35354c80c2080ac9f5085334ac530ff02f0fd1a906c60"
+  }
+}

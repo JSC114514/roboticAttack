@@ -1,0 +1,19 @@
+{
+  "frozen_before_development_attack_results": true,
+  "core_methods": ["B01", "B02", "B03", "B04"],
+  "additional_seeds": [43, 44],
+  "selection_metric": "development suite/task-equal CASR on shared clean-success starts",
+  "auxiliary_family": ["O01", "O03", "O05"],
+  "sampling_family": ["S04", "S05", "S06", "S07"],
+  "family_selection": "at most best positive improvement over B01 per family; ties use lexical experiment ID",
+  "required_sampling_controls": {"S05": ["S04", "S06"], "S07": ["S04", "S05", "S06"]},
+  "TMA_rule": "include B05 only if it improves over B03",
+  "all_seed42_methods_reported": true,
+  "seed_selection": "none; report all42/43/44 for selected methods",
+  "final_scopes": ["full", "confirmation_extra"],
+  "full_starts": 400,
+  "additional_confirmation_starts": 80,
+  "unique_starts_per_selected_method_and_seed": 480,
+  "reuse_current_run_matching_development_cases": true,
+  "no_confirmation_feedback": true
+}

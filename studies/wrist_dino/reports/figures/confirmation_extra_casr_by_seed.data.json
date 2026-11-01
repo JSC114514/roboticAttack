@@ -1,0 +1,189 @@
+{
+  "caption": "Each fixed training seed is separate. Whiskers are existing task-to-start bootstrap 95% intervals; no frames or action slots are independent samples.",
+  "preview": false,
+  "data": [
+    {
+      "condition": "B01-seed42",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 68,
+      "suite_task_equal_casr": 0.9875,
+      "casr_ci95": [
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "condition": "B01-seed43",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 63,
+      "suite_task_equal_casr": 0.91875,
+      "casr_ci95": [
+        0.821875,
+        1.0
+      ]
+    },
+    {
+      "condition": "B01-seed44",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 62,
+      "suite_task_equal_casr": 0.896875,
+      "casr_ci95": [
+        0.768671875,
+        1.0
+      ]
+    },
+    {
+      "condition": "B02-seed42",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 16,
+      "suite_task_equal_casr": 0.27901785714285715,
+      "casr_ci95": [
+        0.171875,
+        0.38095238095238093
+      ]
+    },
+    {
+      "condition": "B02-seed43",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 11,
+      "suite_task_equal_casr": 0.19345238095238093,
+      "casr_ci95": [
+        0.08333333333333333,
+        0.3080357142857143
+      ]
+    },
+    {
+      "condition": "B02-seed44",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 13,
+      "suite_task_equal_casr": 0.23288690476190474,
+      "casr_ci95": [
+        0.125,
+        0.346019345238095
+      ]
+    },
+    {
+      "condition": "B03-seed42",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 57,
+      "suite_task_equal_casr": 0.8239583333333333,
+      "casr_ci95": [
+        0.6801822916666667,
+        0.9583333333333333
+      ]
+    },
+    {
+      "condition": "B03-seed43",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 58,
+      "suite_task_equal_casr": 0.85625,
+      "casr_ci95": [
+        0.73125,
+        0.9625
+      ]
+    },
+    {
+      "condition": "B03-seed44",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 64,
+      "suite_task_equal_casr": 0.934375,
+      "casr_ci95": [
+        0.840625,
+        1.0
+      ]
+    },
+    {
+      "condition": "B04-seed42",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 69,
+      "suite_task_equal_casr": 1.0,
+      "casr_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "condition": "B04-seed43",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 68,
+      "suite_task_equal_casr": 0.9875,
+      "casr_ci95": [
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "condition": "B04-seed44",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 62,
+      "suite_task_equal_casr": 0.90625,
+      "casr_ci95": [
+        0.79375,
+        1.0
+      ]
+    },
+    {
+      "condition": "O03-seed42",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 69,
+      "suite_task_equal_casr": 1.0,
+      "casr_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "condition": "O03-seed43",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 68,
+      "suite_task_equal_casr": 0.9875,
+      "casr_ci95": [
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "condition": "O03-seed44",
+      "completed": 80,
+      "expected": 80,
+      "clean_success": 69,
+      "induced_failures": 68,
+      "suite_task_equal_casr": 0.9875,
+      "casr_ci95": [
+        0.95,
+        1.0
+      ]
+    }
+  ],
+  "sources": {
+    "reports/confirmation_extra_SUMMARY.json": "b6b0ea0cd51993f235aed61e7457c5f20c44dc998052ac050bbf03efc9bcc744"
+  }
+}

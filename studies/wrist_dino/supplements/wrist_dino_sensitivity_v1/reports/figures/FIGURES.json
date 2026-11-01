@@ -1,0 +1,10 @@
+{
+  "data_digest": "f03baa81431eaa991a6d2a8c3a2b9d5106690c33baca884e3cb812c7621158e7",
+  "code_sha256": "99f329a0df9d4bcdf7c17230d5ef7ce235fde5b2ae87f9a861a3aacf9da6b176",
+  "source": "reports/SCREEN_RESULTS.json",
+  "scope": "development_seed42",
+  "outputs": {
+    "ablation_development_seed42.pdf": "4c0ef073addbe860ee690892e51daa688d5cbd9a494428d4e8c05b85963cd1ae",
+    "ablation_development_seed42.png": "b6e144114ee70014886f79d776d34f10c4f46c83f79e1420a7e0374a8a3ba8a1"
+  }
+}

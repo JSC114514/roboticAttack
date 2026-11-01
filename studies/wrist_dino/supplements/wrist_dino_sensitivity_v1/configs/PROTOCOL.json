@@ -1,0 +1,290 @@
+{
+  "protocol_version": "joint_oft_v04_source_audited",
+  "source_repo": "https://github.com/JSC114514/roboticAttack",
+  "repo_tree_sha_audited": "20ac891dff2d1ec55d3ab6a9b3e444838465876c",
+  "checkpoint_hf_id": "moojink/openvla-7b-oft-finetuned-libero-spatial-object-goal-10",
+  "checkpoint_hf_revision": "638918f3d1c2e43a39a8a20772bdb8b91835e4b7",
+  "action_head_step": 300000,
+  "input_views": [
+    "front",
+    "wrist"
+  ],
+  "proprio": true,
+  "action_chunk_shape": [
+    8,
+    7
+  ],
+  "suites": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ],
+  "splits": {
+    "libero_spatial": {
+      "train": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "development": [
+        3,
+        8
+      ],
+      "confirmation": [
+        5,
+        9
+      ]
+    },
+    "libero_object": {
+      "train": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "development": [
+        6,
+        7
+      ],
+      "confirmation": [
+        8,
+        9
+      ]
+    },
+    "libero_goal": {
+      "train": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "development": [
+        2,
+        8
+      ],
+      "confirmation": [
+        4,
+        9
+      ]
+    },
+    "libero_10": {
+      "train": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "development": [
+        1,
+        7
+      ],
+      "confirmation": [
+        6,
+        9
+      ]
+    }
+  },
+  "clean_training_bank": {
+    "trajectory_count_target_per_task": 10,
+    "states_per_trajectory_target": 8,
+    "planned_records": 1920,
+    "task_count": 24,
+    "selection": "deterministic_time_stratified_without_replacement",
+    "balance": "suite_equal_then_task_equal",
+    "missing": "do not synthesize or duplicate records"
+  },
+  "closed_loop": {
+    "development": "8 tasks x 10 predetermined initial states = 80 per arm",
+    "final_confirmation": "8 confirmation tasks x 20 predetermined valid initial states = 160 per arm",
+    "final_full_suite": "40 tasks x 10 predetermined initial states = 400 per selected arm",
+    "availability_fallback": "freeze a common paired subset before running any comparison"
+  },
+  "patch": {
+    "shape": [
+      3,
+      50,
+      50
+    ],
+    "training_view_default": "wrist",
+    "front_clean_default": true,
+    "eval_xy": [
+      26,
+      137
+    ],
+    "eval_eot": false,
+    "init": "torch.rand with common method-independent seed",
+    "deployment": "fixed raw RGB patch, single 8-bit PNG"
+  },
+  "exploring_baseline_derived": {
+    "transform_source": "VLAAttacker/white_patch/appply_random_transform.py::RandomPatchTransform",
+    "optimizer_source": "VLAAttacker/white_patch/UADA_OFT_SOURCE_COPY.py",
+    "training_implementation_reference": "VLAAttacker/white_patch/UADA_OFT_DINO.py",
+    "geometry": true,
+    "resize_patch": false,
+    "rotation_degrees": [
+      -30,
+      30
+    ],
+    "shear_range": [
+      -0.2,
+      0.2
+    ],
+    "identity_transform_probability": 0.2,
+    "random_placement": "same original function for every training arm",
+    "additional_TV_HF_or_color_jitter": false,
+    "optimizer": "AdamW",
+    "lr_initial": 0.002,
+    "weight_decay": 0,
+    "warmup_outer": 20,
+    "outer": 500,
+    "inner": 50,
+    "batch_size": 1,
+    "expected_patch_optimizer_steps": 25000,
+    "scheduler": "transformers.get_cosine_schedule_with_warmup; step once after all50innerupdates; starts atlr0; source optimizer defaults unchanged",
+    "patch_clip_range": [
+      0,
+      1
+    ]
+  },
+  "action_loss": {
+    "reference": "same joint OFT clean action on same record",
+    "target": "opposite_boundary from clean action and same frozen action range statistics",
+    "mask_default": [
+      0
+    ],
+    "aggregation": "mean over 8 action chunk steps",
+    "auxiliary_method": "single scalar L_action + lambda * L_aux; 1 backward(); no manual gradient norm reweighting",
+    "lambda_selection": "preregister from training-data-only scales; do not tune on confirmation set",
+    "boundary_rule": "fixed normalized intervals [-1,1] for XYZ/rotation and [0,1] gripper; >=midpoint chooses lower endpoint",
+    "lower": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "upper": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "gradient_contract": {
+    "full_model": true,
+    "all_visual_branches": [
+      "DINOv2",
+      "SigLIP"
+    ],
+    "no_branch_replacement_during_training": true,
+    "no_stop_gradient_in_backbones": true,
+    "no_custom_backward": true,
+    "no_manual_branch_gradient_combination": true,
+    "diagnostic_activation_replacement_only_outside_training": true
+  },
+  "rng": {
+    "initial_train_seed": 42,
+    "additional_train_seeds": [
+      43,
+      44
+    ],
+    "state_selection_seed": 20261026,
+    "eot_schedule": "deterministic per (training seed, outer, inner); same across methods",
+    "eval": "frozen state ids & seeds shared across conditions"
+  },
+  "filesystem": {
+    "root": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/roboticAttack_replay",
+    "old_workspace_read_only": true
+  },
+  "protocol_note": "DRAFT. Codex must resolve original transform and scheduler behavior by direct source audit; no GPU run until preflight complete.",
+  "execution_policy": {
+    "mode": "fast_reproduction_only",
+    "time_axis": "hours_after_GPU_resources_ready",
+    "no_fixed_calendar_deadlines": true,
+    "minimum_viable_result": "clean baseline, B01/B02/B03/B04/B05, S02, M01/M02 with paired 4-suite dev evaluation",
+    "total_matrix_units": 30,
+    "planned_distinct_train_arms": 18,
+    "decision_stage_1_hours": "0-6",
+    "decision_stage_2_hours": "6-36",
+    "decision_stage_3_hours": "36-72",
+    "decision_stage_4_hours": "72-120",
+    "critical_path": "assets + gradient/EOT preflight -> baselines B01 etc -> shared replay S03 -> replay arms -> paired eval",
+    "progress_policy": "issue status at end of each batch and immediate blockers; never wait for absolute date",
+    "skip_policy": "non-compliant historical methods get SKIPPED_PROTOCOL; do not invent replacement scientific method",
+    "never_claim": "historical results or dry-run are newly completed GPU results"
+  },
+  "project": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/roboticAttack-main",
+  "model_dir": "/mnt/beegfs/home/caijiasheng25/models/openvla-7b-oft-finetuned-libero-spatial-object-goal-10",
+  "expert_root": "/home/caijiasheng25/Desktop/roboticAttack/dataset",
+  "libero_root": "/home/caijiasheng25/Desktop/LIBERO",
+  "python": "/home/caijiasheng25/.conda/envs/robopatch_vla/bin/python",
+  "max_steps": {
+    "libero_spatial": 220,
+    "libero_object": 280,
+    "libero_goal": 300,
+    "libero_10": 520
+  },
+  "dev_states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "final_states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "confirmation_extra_states": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "seed_base": 20261026,
+  "data_seed": 20261026,
+  "video": false,
+  "max_active_gpu_jobs": 2,
+  "forbidden_gpu_types": [
+    "pro6000"
+  ],
+  "allowed_gpu_types": [
+    "4090",
+    "3090",
+    "a800"
+  ]
+}

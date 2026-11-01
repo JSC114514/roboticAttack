@@ -1,3 +1,9 @@
+# 实验导航
+
+2026-11-01新增的联合OFT、四格消融、参数确认与跨模型实验集中在[studies/wrist_dino](../studies/wrist_dino/README.md)。[逐回合CSV](../studies/wrist_dino/results/episodes/)与[训练配置/指标](../studies/wrist_dino/training/MANIFEST.json)分别提供结果和真实训练设置。
+
+以下保留此前研究目录清单：
+
 # 全部运行源码与配置索引
 
 按原始目录逐项收录当前工作区及2026-10-21归档中的代码与配置。方法总结见[研究脉络](RESEARCH_STORY.md)。目录存在不代表训练或评测完成，完成情况依各自结果表。

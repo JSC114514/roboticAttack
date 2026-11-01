@@ -1,0 +1,3013 @@
+{
+  "studies/wrist_dino/joint_repro/__init__.py": {
+    "source": "roboticAttack_replay/joint_repro/__init__.py",
+    "sha256": "4d480076d8081eac15baa901508fe869407293ba827595611c9978f7d355aa9c",
+    "original_sha256": "7474e1f88ca18979ca8a166c41352810902ddc8976c8019a82ca96e9ca4989ca",
+    "bytes": 361,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "cd7d641a9388d083e0de99051f3f919c429c9619e122cd5bf7d31ca0aac8fdaa"
+  },
+  "studies/wrist_dino/joint_repro/analyze.py": {
+    "source": "roboticAttack_replay/joint_repro/analyze.py",
+    "sha256": "22c8837efb0a2ee930119f43f7eced5e963632f160718829ef756095c807c9aa",
+    "original_sha256": "7452bea6d2ab8ba9c0fbf6c450b574dfee3c7d88319ea4fee72074d5a8c06a19",
+    "bytes": 9043,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "dd2bb517638ce45a67bb5f09474a2ae558cf6d8ac92266a00bb3a454cca2a44f"
+  },
+  "studies/wrist_dino/joint_repro/bank.py": {
+    "source": "roboticAttack_replay/joint_repro/bank.py",
+    "sha256": "6e3d2e96cab0d9c4bdd5f3ab07fee12f42dfbf0861f8d08abd59d716f81d1d79",
+    "original_sha256": "722ed70880bf6e6cd9ec6cbbbcff52d2a5ef4b2ebd721fa9e3ab8148d83d2997",
+    "bytes": 7518,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "c4fab8cf67668528ccd5a2046f916838bd792859cd69c009e5ddd95d559e1a3a"
+  },
+  "studies/wrist_dino/joint_repro/common.py": {
+    "source": "roboticAttack_replay/joint_repro/common.py",
+    "sha256": "d8d680824dbeb25fa9a26a7ca6b16b6ac7a23c0951011d723d4a4cbb63e1b7c0",
+    "original_sha256": "27864ad514d82f035dfde6de9cb392a558812cac2fa844207a01ccb305adfc1d",
+    "bytes": 5841,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "b6a74cabe666f22226df88076eb2bbd9c7f7eec8109864ffd64d7ab083870b16"
+  },
+  "studies/wrist_dino/joint_repro/diagnostics.py": {
+    "source": "roboticAttack_replay/joint_repro/diagnostics.py",
+    "sha256": "2841e11a93ddfc7ee8976bae1a2310a13a418562e7006c1bb8824e40786aead4",
+    "original_sha256": "2641c5dd6d6f5ab357a25854f8a2b8053f8f64ef893dbcf904b863067d240707",
+    "bytes": 2319,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "46a11d2ab93e7a78158d83543204d007c7c72be84bfa380faa543bca52b2d004"
+  },
+  "studies/wrist_dino/joint_repro/evaluate.py": {
+    "source": "roboticAttack_replay/joint_repro/evaluate.py",
+    "sha256": "db0a1bc4a2bddefdda30276d608816579a37d8bc8f968b85deb53be3a6c042a5",
+    "original_sha256": "0f888b22af629803c45b90288a784309932079b80e6b08f951e253c5aa2bf5f5",
+    "bytes": 12692,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "5c5748c4bba9065002f052814a09250a08d908e050e0b731363143e7655852ad"
+  },
+  "studies/wrist_dino/joint_repro/figures.py": {
+    "source": "roboticAttack_replay/joint_repro/figures.py",
+    "sha256": "f780b5edd01c635667cb96eefeeea3a2c4adea31d55e9f3bf8081f551003fccb",
+    "original_sha256": "27e2d08da4b11d5c902165b321dd5d2e1e2e762bdb46eba608d8845efb78d20a",
+    "bytes": 14350,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "4008eef8f4e850c85ad5ae1916fd14b500fdfdf38dd53aed5f00b2fe77a992fe"
+  },
+  "studies/wrist_dino/joint_repro/geometry.py": {
+    "source": "roboticAttack_replay/joint_repro/geometry.py",
+    "sha256": "572feccf8da65fdfb95f5289ee6b1c8fbd5f0ab1ad7771e826544100076a9f23",
+    "original_sha256": "849725237512494406c2e70389d216e9c841948d98947e8cfb990e96960ea262",
+    "bytes": 1219,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "5a7eab9ac901d904e7e721fc7c9bc6e0d39d4976787a6c261f02927ec7ca577b"
+  },
+  "studies/wrist_dino/joint_repro/interaction_replay.py": {
+    "source": "roboticAttack_replay/joint_repro/interaction_replay.py",
+    "sha256": "1b4b8e520bda1acf60624931f87a0142a1f476790556f7719811288ffff7fbc1",
+    "original_sha256": "d5de1db71b6a82ac15ad01f2048c77228e23509e2b2d96be8d4f7cc4b6d7b351",
+    "bytes": 6007,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "3748ee98b4848a804c8508531532406d08c587ffbcf32fee06dd40103fcf10a2"
+  },
+  "studies/wrist_dino/joint_repro/mechanism_analysis.py": {
+    "source": "roboticAttack_replay/joint_repro/mechanism_analysis.py",
+    "sha256": "c48ab6ec34d6f21c7447da1a7673343e2230c9a626a24d47983ae4d7cb6b01d6",
+    "original_sha256": "c816206e4f516d905918bd1592f37696984131c2c11ec9ed1958665086cbbb7b",
+    "bytes": 4700,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "31fa795831ee65ac54a5d60a8650bb49737d0e07f81141fc872a7844aa0ca6bc"
+  },
+  "studies/wrist_dino/joint_repro/methods.py": {
+    "source": "roboticAttack_replay/joint_repro/methods.py",
+    "sha256": "151135578c2984e795d1e2e9db8112fabe3f27c63b298c1d1d86bd23161b6446",
+    "original_sha256": "99630d54d0d682730db432fb5f11c071baef4a027164fa16c5d60bf9935c30b7",
+    "bytes": 4821,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "3213ce26c07f307ffefc8d64f023a265b2ca06e7c79a6ced8f5713a259404f6e"
+  },
+  "studies/wrist_dino/joint_repro/preflight.py": {
+    "source": "roboticAttack_replay/joint_repro/preflight.py",
+    "sha256": "81d29a9f66464d26efef59b025437b77db52c9dd700e92f4f003f122256ab907",
+    "original_sha256": "5167d431252738388f3e18584a50bbd97ade612fffc5b4a7406f0a5ce184c06e",
+    "bytes": 5968,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "37871bafee22c874971cce4e762e8c8d8523b3aeb286d6adaa164748f62d6eef"
+  },
+  "studies/wrist_dino/joint_repro/replay.py": {
+    "source": "roboticAttack_replay/joint_repro/replay.py",
+    "sha256": "fbacd2b0a2b7cc672b3f3571b81a3fd25cb5937c56a3124e0f91f4a18f27ed95",
+    "original_sha256": "4b0b0931433cd8c77e26852928e1ad53b38d2d62eba80a06376e6e64e665b9ed",
+    "bytes": 6787,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "3b35b0b74b4b44b216e635f27244cb03b6222959c5282f221af97b3ec5c85fb9"
+  },
+  "studies/wrist_dino/joint_repro/runtime.py": {
+    "source": "roboticAttack_replay/joint_repro/runtime.py",
+    "sha256": "daf9c58169f24d524f33d2c789c168e38989e80ac3774d1dbb85c03d0d0b00b0",
+    "original_sha256": "c87b54b9b3cb8b90ec6a56c4b032e428ae3d00b05eb558b838f9b230f3d3494a",
+    "bytes": 9963,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "4c4fa54e7b986da6ada13e732fad43513c5cc586e8c636ee76a9cde5ad858326"
+  },
+  "studies/wrist_dino/joint_repro/score.py": {
+    "source": "roboticAttack_replay/joint_repro/score.py",
+    "sha256": "94539947919e477afdb5c5c94d75f9eba797a4dbcc877222df3795206bcbd3e5",
+    "original_sha256": "9bde7ef354bf6400d204e9340ed5235302636f7ee9c371a2131652a83acdbed8",
+    "bytes": 723,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "cb98010b0ae1a157ed3dbb6e31433a8eb6e9a0958ddfa273fac652b220057cb1"
+  },
+  "studies/wrist_dino/joint_repro/train.py": {
+    "source": "roboticAttack_replay/joint_repro/train.py",
+    "sha256": "90c3f9f0543f44cfd65b48bc59156b4b8ce73a7bca4fa15491517346bc8ebc79",
+    "original_sha256": "ff6774ab949c50da8765c56a41697571d2b8f38da3bc8c29a59adbc063bf0b13",
+    "bytes": 11304,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "7c39ab98b60e74efa4ea4a38c99a08bd47c632f90f39da5031be6341547259ce"
+  },
+  "studies/wrist_dino/joint_repro/validation.py": {
+    "source": "roboticAttack_replay/joint_repro/validation.py",
+    "sha256": "537be18f8dde84b2a5db30885aec4e0bdd1aa81c2324d063f34bd857ff457dd2",
+    "original_sha256": "d36f16f809f77f0b7f7bc87e06d8d26e5fc028a67be230338daf22be5d9bd41c",
+    "bytes": 4226,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "f34fcdcd99b24196dfc051dbc37bb3012d45ccc0bd9fd386199f7aadd52aa526"
+  },
+  "studies/wrist_dino/configs/PROTOCOL.json": {
+    "source": "roboticAttack_replay/configs/PROTOCOL.json",
+    "sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+    "original_sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+    "bytes": 7295,
+    "group": "frozen-config"
+  },
+  "studies/wrist_dino/configs/VALIDATION_POLICY.json": {
+    "source": "roboticAttack_replay/configs/VALIDATION_POLICY.json",
+    "sha256": "a930c2bd5e8601b4c19dcdb7eea17ec48e297f91c1653968c4e61ea52cb70d16",
+    "original_sha256": "a930c2bd5e8601b4c19dcdb7eea17ec48e297f91c1653968c4e61ea52cb70d16",
+    "bytes": 942,
+    "group": "frozen-config"
+  },
+  "studies/wrist_dino/METHOD_PROVENANCE.md": {
+    "source": "roboticAttack_replay/METHOD_PROVENANCE.md",
+    "sha256": "ebe09a03bbfdd5d9185a29a4accb9b42968d78c8b08c73ed4b153883e9aea3bf",
+    "original_sha256": "ebe09a03bbfdd5d9185a29a4accb9b42968d78c8b08c73ed4b153883e9aea3bf",
+    "bytes": 4306,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/EOT_GRADIENT_VALIDATION.md": {
+    "source": "roboticAttack_replay/EOT_GRADIENT_VALIDATION.md",
+    "sha256": "2d548c736efd2ce6d24d6b975ee7478c9b031c1978e6cd64b845dfffb28e74c6",
+    "original_sha256": "2d548c736efd2ce6d24d6b975ee7478c9b031c1978e6cd64b845dfffb28e74c6",
+    "bytes": 380,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/AUDIT.md": {
+    "source": "roboticAttack_replay/AUDIT.md",
+    "sha256": "049c9ad3ac8f26684cd44439abfabcaf8a2dbfd7385aded42a6cbd85490dbea3",
+    "original_sha256": "049c9ad3ac8f26684cd44439abfabcaf8a2dbfd7385aded42a6cbd85490dbea3",
+    "bytes": 61623,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/FINAL_RESULTS.md": {
+    "source": "roboticAttack_replay/FINAL_RESULTS.md",
+    "sha256": "197c90ce0c0eb8d345859c38603e828c98f330018c98ae3918bbca9c53a15279",
+    "original_sha256": "197c90ce0c0eb8d345859c38603e828c98f330018c98ae3918bbca9c53a15279",
+    "bytes": 5178,
+    "group": "result"
+  },
+  "studies/wrist_dino/GPU_COST.csv": {
+    "source": "roboticAttack_replay/GPU_COST.csv",
+    "sha256": "dd9867e34993ad32d893282aeae61271bf371d959e621c36899b5ca790af0acb",
+    "original_sha256": "53eccdc57907d353adf46a64b138b07fef9ec43a14fb0beaa9eeb628d9fc3d9f",
+    "bytes": 19550,
+    "group": "result",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/source_tests/test_contracts.py": {
+    "source": "roboticAttack_replay/tests/test_contracts.py",
+    "sha256": "7d6f2991d3066d4a85a50924c89d86d28e5d7f1cd79ea701093c22de604e8d71",
+    "original_sha256": "7dee6f80d7ac51e617dd40e2f5748d321603167875c2539ee71df58a56a8c39e",
+    "bytes": 4426,
+    "group": "historical-test-source",
+    "annotation_only": true,
+    "source_ast_sha256": "2a1cf956825609988a5cb725dbd0fa1fec7dd74ef5928c065322b348219d4470"
+  },
+  "studies/wrist_dino/source_tests/test_interaction_replay.py": {
+    "source": "roboticAttack_replay/tests/test_interaction_replay.py",
+    "sha256": "441aeab9e510a998e8dfa6e49757d4c8f02c34498bfbcf71bfb782ad253ee390",
+    "original_sha256": "ebcafde63219065daa43e358d0bc75ebcc7484f7783a104d95d8262bf4a3603e",
+    "bytes": 3851,
+    "group": "historical-test-source",
+    "annotation_only": true,
+    "source_ast_sha256": "36fee63226cb81766ec8f936c179b6086f44284d7f3ad79f179aa45aa133695b"
+  },
+  "studies/wrist_dino/source_tests/test_reporting.py": {
+    "source": "roboticAttack_replay/tests/test_reporting.py",
+    "sha256": "22f9168993c337cc2206132a39f65880fc2033ad799153598cc9feda8ca42b8c",
+    "original_sha256": "f18b3dcd330145cacf229570fa21e8279e61073cd12ac69745244a277c9d6a2e",
+    "bytes": 2735,
+    "group": "historical-test-source",
+    "annotation_only": true,
+    "source_ast_sha256": "216a5ab991f4c93d7b77bf9d6e43ec540b11876aa4c8a8fa5d86993c052bc401"
+  },
+  "studies/wrist_dino/reports/figures/MANIFEST.json": {
+    "source": "roboticAttack_replay/reports/figures/MANIFEST.json",
+    "sha256": "70d867460255613043cbf6d0852a99cc2740cb4e153b5abed572e7fd349285ea",
+    "original_sha256": "70d867460255613043cbf6d0852a99cc2740cb4e153b5abed572e7fd349285ea",
+    "bytes": 4623,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/README.md": {
+    "source": "roboticAttack_replay/reports/figures/README.md",
+    "sha256": "eb31b2c6fe0784ac76f6156782aa87e60bfa8774c96dc910c6fa3aaea961bf81",
+    "original_sha256": "eb31b2c6fe0784ac76f6156782aa87e60bfa8774c96dc910c6fa3aaea961bf81",
+    "bytes": 2022,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/action_error_by_dimension.data.json": {
+    "source": "roboticAttack_replay/reports/figures/action_error_by_dimension.data.json",
+    "sha256": "bea5a1c4a08b9244cfeb3ca33c1892c6392e57b7eff7db77936e70453567cdee",
+    "original_sha256": "bea5a1c4a08b9244cfeb3ca33c1892c6392e57b7eff7db77936e70453567cdee",
+    "bytes": 1741,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/action_error_by_dimension.pdf": {
+    "source": "roboticAttack_replay/reports/figures/action_error_by_dimension.pdf",
+    "sha256": "9ff97a2667a2d1f5a0470f5a8ec32ed3f0ead9087961124c2ee16c86f9654466",
+    "original_sha256": "9ff97a2667a2d1f5a0470f5a8ec32ed3f0ead9087961124c2ee16c86f9654466",
+    "bytes": 16023,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/action_error_by_dimension.png": {
+    "source": "roboticAttack_replay/reports/figures/action_error_by_dimension.png",
+    "sha256": "7e2b8a7d6bc512d9d1b692b84054f3af08491f66171d6eaa13c6f0c73e3541f9",
+    "original_sha256": "7e2b8a7d6bc512d9d1b692b84054f3af08491f66171d6eaa13c6f0c73e3541f9",
+    "bytes": 143344,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/confirmation_extra_casr_by_seed.data.json": {
+    "source": "roboticAttack_replay/reports/figures/confirmation_extra_casr_by_seed.data.json",
+    "sha256": "884f50697279e9a5396a0d82059b836cc0732cdd49ed2a32375412ec16ec270c",
+    "original_sha256": "884f50697279e9a5396a0d82059b836cc0732cdd49ed2a32375412ec16ec270c",
+    "bytes": 4137,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/confirmation_extra_casr_by_seed.pdf": {
+    "source": "roboticAttack_replay/reports/figures/confirmation_extra_casr_by_seed.pdf",
+    "sha256": "206ddd7fd5d3cedcaada5d90b22a8ffd09212d0dab11657c9e8f1c817f38297e",
+    "original_sha256": "206ddd7fd5d3cedcaada5d90b22a8ffd09212d0dab11657c9e8f1c817f38297e",
+    "bytes": 16798,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/confirmation_extra_casr_by_seed.png": {
+    "source": "roboticAttack_replay/reports/figures/confirmation_extra_casr_by_seed.png",
+    "sha256": "aa37a5d1f2890058fe5e0e8d90ff4b56ac7a82247c451c3198e74d68403d1c7a",
+    "original_sha256": "aa37a5d1f2890058fe5e0e8d90ff4b56ac7a82247c451c3198e74d68403d1c7a",
+    "bytes": 103664,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/development_screening_seed42.data.json": {
+    "source": "roboticAttack_replay/reports/figures/development_screening_seed42.data.json",
+    "sha256": "959c858869ddfd2068d205166d75d67dfd09e129c820763e4e075f8966853839",
+    "original_sha256": "959c858869ddfd2068d205166d75d67dfd09e129c820763e4e075f8966853839",
+    "bytes": 2663,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/development_screening_seed42.pdf": {
+    "source": "roboticAttack_replay/reports/figures/development_screening_seed42.pdf",
+    "sha256": "da0f51c530ca475cb11d9f1b7a71069eeb589b4fbba67558049c8e067fd844df",
+    "original_sha256": "da0f51c530ca475cb11d9f1b7a71069eeb589b4fbba67558049c8e067fd844df",
+    "bytes": 15672,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/development_screening_seed42.png": {
+    "source": "roboticAttack_replay/reports/figures/development_screening_seed42.png",
+    "sha256": "ecc914797bb00842ff6f9968aefa2a11d61103601bcb7e9b55680baef974ddb4",
+    "original_sha256": "ecc914797bb00842ff6f9968aefa2a11d61103601bcb7e9b55680baef974ddb4",
+    "bytes": 94852,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/full_casr_by_seed.data.json": {
+    "source": "roboticAttack_replay/reports/figures/full_casr_by_seed.data.json",
+    "sha256": "1059b168937106eb7eedb23a7460ffd1d1a5f3ba8c3d289864bdf5670fcd4295",
+    "original_sha256": "1059b168937106eb7eedb23a7460ffd1d1a5f3ba8c3d289864bdf5670fcd4295",
+    "bytes": 4564,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/full_casr_by_seed.pdf": {
+    "source": "roboticAttack_replay/reports/figures/full_casr_by_seed.pdf",
+    "sha256": "aada40c8340e4e11f949b296df3973605fc84a86b2bc59d7cbdddfd4cbc5245b",
+    "original_sha256": "aada40c8340e4e11f949b296df3973605fc84a86b2bc59d7cbdddfd4cbc5245b",
+    "bytes": 15924,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/full_casr_by_seed.png": {
+    "source": "roboticAttack_replay/reports/figures/full_casr_by_seed.png",
+    "sha256": "4d3bd6649a80192c25b62ed712db5652ae2a70abe793b95fd0937145a89ee808",
+    "original_sha256": "4d3bd6649a80192c25b62ed712db5652ae2a70abe793b95fd0937145a89ee808",
+    "bytes": 101122,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/full_suite_heatmap.data.json": {
+    "source": "roboticAttack_replay/reports/figures/full_suite_heatmap.data.json",
+    "sha256": "511ce65ac473fab00993054facac5b4afd73245f9d1e092fa1883d8c94fa2067",
+    "original_sha256": "511ce65ac473fab00993054facac5b4afd73245f9d1e092fa1883d8c94fa2067",
+    "bytes": 1111,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/full_suite_heatmap.pdf": {
+    "source": "roboticAttack_replay/reports/figures/full_suite_heatmap.pdf",
+    "sha256": "77839d370d799c15259fc7027112fec6f4161661048f51911b00c3a5340b2958",
+    "original_sha256": "77839d370d799c15259fc7027112fec6f4161661048f51911b00c3a5340b2958",
+    "bytes": 16350,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/full_suite_heatmap.png": {
+    "source": "roboticAttack_replay/reports/figures/full_suite_heatmap.png",
+    "sha256": "040037d0cd6141b784e3bdcd7dbf4ad4f0f825b425e55c7fe54a311c455fb9bd",
+    "original_sha256": "040037d0cd6141b784e3bdcd7dbf4ad4f0f825b425e55c7fe54a311c455fb9bd",
+    "bytes": 137299,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/gpu_costs.data.json": {
+    "source": "roboticAttack_replay/reports/figures/gpu_costs.data.json",
+    "sha256": "648d43027d7b7e33ecd0c9c888746bc494c895294956b5b802d5b6b903c88cfb",
+    "original_sha256": "648d43027d7b7e33ecd0c9c888746bc494c895294956b5b802d5b6b903c88cfb",
+    "bytes": 821,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/gpu_costs.pdf": {
+    "source": "roboticAttack_replay/reports/figures/gpu_costs.pdf",
+    "sha256": "85792b69825ea1876c76d3b39604e365aad17fce97afbda955886e0fc330e401",
+    "original_sha256": "85792b69825ea1876c76d3b39604e365aad17fce97afbda955886e0fc330e401",
+    "bytes": 11868,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/gpu_costs.png": {
+    "source": "roboticAttack_replay/reports/figures/gpu_costs.png",
+    "sha256": "007ef816a9702bf0f345dde5dc5f8cc1da5b8a30c489f8da51311119538e0ecd",
+    "original_sha256": "007ef816a9702bf0f345dde5dc5f8cc1da5b8a30c489f8da51311119538e0ecd",
+    "bytes": 80871,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/view_and_branch_diagnostics.data.json": {
+    "source": "roboticAttack_replay/reports/figures/view_and_branch_diagnostics.data.json",
+    "sha256": "e8a234f3951eb0976ef5397190e18c61d9aa2017100dd3822fd3ccda191f5528",
+    "original_sha256": "e8a234f3951eb0976ef5397190e18c61d9aa2017100dd3822fd3ccda191f5528",
+    "bytes": 1364,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/view_and_branch_diagnostics.pdf": {
+    "source": "roboticAttack_replay/reports/figures/view_and_branch_diagnostics.pdf",
+    "sha256": "c85ddc942e9122d0d761f5202b5e486aa449fc3f6aba44466787d382b9a0afb0",
+    "original_sha256": "c85ddc942e9122d0d761f5202b5e486aa449fc3f6aba44466787d382b9a0afb0",
+    "bytes": 16463,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/figures/view_and_branch_diagnostics.png": {
+    "source": "roboticAttack_replay/reports/figures/view_and_branch_diagnostics.png",
+    "sha256": "7cff58718027a94b8c5f1c694fedaa2676506212e6be88b8558ed50cc305dc6c",
+    "original_sha256": "7cff58718027a94b8c5f1c694fedaa2676506212e6be88b8558ed50cc305dc6c",
+    "bytes": 143886,
+    "group": "figure"
+  },
+  "studies/wrist_dino/reports/FINAL_RESULTS.csv": {
+    "source": "roboticAttack_replay/reports/FINAL_RESULTS.csv",
+    "sha256": "26a6765838f85f8548287a25c2849fd0ac5be9d9d084d715ee4d2b9c30678439",
+    "original_sha256": "4544350127f1468a8430275dd5e432571d98ad2bac10f912066a30999ddcf1e6",
+    "bytes": 5365,
+    "group": "result",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/reports/full_SUMMARY.json": {
+    "source": "roboticAttack_replay/reports/full_SUMMARY.json",
+    "sha256": "112db46f41eadf3913789d1df595b2e4fd94e99a3a97383fe052a54bd8d39c19",
+    "original_sha256": "112db46f41eadf3913789d1df595b2e4fd94e99a3a97383fe052a54bd8d39c19",
+    "bytes": 233632,
+    "group": "result"
+  },
+  "studies/wrist_dino/reports/development_SUMMARY.json": {
+    "source": "roboticAttack_replay/reports/development_SUMMARY.json",
+    "sha256": "0cba716b06824ea223e35354c80c2080ac9f5085334ac530ff02f0fd1a906c60",
+    "original_sha256": "0cba716b06824ea223e35354c80c2080ac9f5085334ac530ff02f0fd1a906c60",
+    "bytes": 128140,
+    "group": "result"
+  },
+  "studies/wrist_dino/reports/confirmation_extra_SUMMARY.json": {
+    "source": "roboticAttack_replay/reports/confirmation_extra_SUMMARY.json",
+    "sha256": "b6b0ea0cd51993f235aed61e7457c5f20c44dc998052ac050bbf03efc9bcc744",
+    "original_sha256": "b6b0ea0cd51993f235aed61e7457c5f20c44dc998052ac050bbf03efc9bcc744",
+    "bytes": 102118,
+    "group": "result"
+  },
+  "studies/wrist_dino/reports/M02_FLOAT32_IDENTITY.json": {
+    "source": "roboticAttack_replay/reports/M02_FLOAT32_IDENTITY.json",
+    "sha256": "a2a4e692de00f3200118e195259416de31fbe8658ad5e0cbaf8f51ccff9163dd",
+    "original_sha256": "a2a4e692de00f3200118e195259416de31fbe8658ad5e0cbaf8f51ccff9163dd",
+    "bytes": 2924,
+    "group": "result"
+  },
+  "studies/wrist_dino/reports/METHOD_ELIGIBILITY.json": {
+    "source": "roboticAttack_replay/reports/METHOD_ELIGIBILITY.json",
+    "sha256": "2f43fdbea68ed6b29b11a5702119b6e2c919beda48e23f2e825b6d10809947ac",
+    "original_sha256": "2f43fdbea68ed6b29b11a5702119b6e2c919beda48e23f2e825b6d10809947ac",
+    "bytes": 776,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/__init__.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/__init__.py",
+    "sha256": "4d480076d8081eac15baa901508fe869407293ba827595611c9978f7d355aa9c",
+    "original_sha256": "7474e1f88ca18979ca8a166c41352810902ddc8976c8019a82ca96e9ca4989ca",
+    "bytes": 361,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "cd7d641a9388d083e0de99051f3f919c429c9619e122cd5bf7d31ca0aac8fdaa"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/ablation_report.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/ablation_report.py",
+    "sha256": "ed4821cc2126f7b043ca95e0ee9eee96c84cc903c333ffb31518f0ebd458c332",
+    "original_sha256": "f83f70cca811ff913377da39b10068135efb7365d52272af3a8a74516b814689",
+    "bytes": 7386,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "94e779a2fa928211a01f0fe969db515a2743c16118ef310dff7aa41b6226ac4e"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/analyze.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/analyze.py",
+    "sha256": "baf70610ad7c7b1841eca458e1a2a459553f9a469a521dff3d7ba721b5273e1f",
+    "original_sha256": "c0697cafed809c3cdd6341869256b644b237de2323e85054f4fe59a4ce2ec371",
+    "bytes": 10045,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "c2ba3ca4dbedd802b2854c6f098507dcfc9f9e7cb9bdfa1012085cc95956136e"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/bank.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/bank.py",
+    "sha256": "6e3d2e96cab0d9c4bdd5f3ab07fee12f42dfbf0861f8d08abd59d716f81d1d79",
+    "original_sha256": "722ed70880bf6e6cd9ec6cbbbcff52d2a5ef4b2ebd721fa9e3ab8148d83d2997",
+    "bytes": 7518,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "c4fab8cf67668528ccd5a2046f916838bd792859cd69c009e5ddd95d559e1a3a"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/common.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/common.py",
+    "sha256": "0b60580ad93653c317e4ecfaa031c21166e4c7e1ca1392ffd1dcd341a121cb81",
+    "original_sha256": "41270ed25665ca369a4f0621d9709cab676b0bd56023112dbc5d2a5d4930792f",
+    "bytes": 6073,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "a06c29fbc94c66f2663b313c2e75d4a935055bcabb7bf2f0782a8cea97e58d31"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/diagnostics.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/diagnostics.py",
+    "sha256": "47d78bda01a227ba5ba60125d1c1aa346ebe85742055cbfb2d839e1a498bb422",
+    "original_sha256": "91ef5892ec6a062b01b31ecc8fa63b3ba3ee055502bc5ed7c305c17d5cc15986",
+    "bytes": 2227,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "6fac2d7c9c040d2ad3d56605a5441e10abbfc8c089210407a064e9df603e099e"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/evaluate.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/evaluate.py",
+    "sha256": "db0a1bc4a2bddefdda30276d608816579a37d8bc8f968b85deb53be3a6c042a5",
+    "original_sha256": "0f888b22af629803c45b90288a784309932079b80e6b08f951e253c5aa2bf5f5",
+    "bytes": 12692,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "5c5748c4bba9065002f052814a09250a08d908e050e0b731363143e7655852ad"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/figures.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/figures.py",
+    "sha256": "f780b5edd01c635667cb96eefeeea3a2c4adea31d55e9f3bf8081f551003fccb",
+    "original_sha256": "27e2d08da4b11d5c902165b321dd5d2e1e2e762bdb46eba608d8845efb78d20a",
+    "bytes": 14350,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "4008eef8f4e850c85ad5ae1916fd14b500fdfdf38dd53aed5f00b2fe77a992fe"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/geometry.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/geometry.py",
+    "sha256": "572feccf8da65fdfb95f5289ee6b1c8fbd5f0ab1ad7771e826544100076a9f23",
+    "original_sha256": "849725237512494406c2e70389d216e9c841948d98947e8cfb990e96960ea262",
+    "bytes": 1219,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "5a7eab9ac901d904e7e721fc7c9bc6e0d39d4976787a6c261f02927ec7ca577b"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/interaction_replay.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/interaction_replay.py",
+    "sha256": "1b4b8e520bda1acf60624931f87a0142a1f476790556f7719811288ffff7fbc1",
+    "original_sha256": "d5de1db71b6a82ac15ad01f2048c77228e23509e2b2d96be8d4f7cc4b6d7b351",
+    "bytes": 6007,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "3748ee98b4848a804c8508531532406d08c587ffbcf32fee06dd40103fcf10a2"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/mechanism_analysis.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/mechanism_analysis.py",
+    "sha256": "c48ab6ec34d6f21c7447da1a7673343e2230c9a626a24d47983ae4d7cb6b01d6",
+    "original_sha256": "c816206e4f516d905918bd1592f37696984131c2c11ec9ed1958665086cbbb7b",
+    "bytes": 4700,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "31fa795831ee65ac54a5d60a8650bb49737d0e07f81141fc872a7844aa0ca6bc"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/methods.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/methods.py",
+    "sha256": "948c08345c1f4d418e1cb7449c4e186dcd0f222bb7095a2d4045ab8504499fd3",
+    "original_sha256": "6dd6422505d5a1aa88531db296c70d9e844804378d18bac38e8babc5eb6b4c02",
+    "bytes": 5059,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "ebf37042ef3eec1bfb63720e6799c7c9337e6ab1de232e6c4f903dfd9367cba1"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/preflight.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/preflight.py",
+    "sha256": "81d29a9f66464d26efef59b025437b77db52c9dd700e92f4f003f122256ab907",
+    "original_sha256": "5167d431252738388f3e18584a50bbd97ade612fffc5b4a7406f0a5ce184c06e",
+    "bytes": 5968,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "37871bafee22c874971cce4e762e8c8d8523b3aeb286d6adaa164748f62d6eef"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/replay.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/replay.py",
+    "sha256": "fbacd2b0a2b7cc672b3f3571b81a3fd25cb5937c56a3124e0f91f4a18f27ed95",
+    "original_sha256": "4b0b0931433cd8c77e26852928e1ad53b38d2d62eba80a06376e6e64e665b9ed",
+    "bytes": 6787,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "3b35b0b74b4b44b216e635f27244cb03b6222959c5282f221af97b3ec5c85fb9"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/runtime.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/runtime.py",
+    "sha256": "daf9c58169f24d524f33d2c789c168e38989e80ac3774d1dbb85c03d0d0b00b0",
+    "original_sha256": "c87b54b9b3cb8b90ec6a56c4b032e428ae3d00b05eb558b838f9b230f3d3494a",
+    "bytes": 9963,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "4c4fa54e7b986da6ada13e732fad43513c5cc586e8c636ee76a9cde5ad858326"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/score.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/score.py",
+    "sha256": "94539947919e477afdb5c5c94d75f9eba797a4dbcc877222df3795206bcbd3e5",
+    "original_sha256": "9bde7ef354bf6400d204e9340ed5235302636f7ee9c371a2131652a83acdbed8",
+    "bytes": 723,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "cb98010b0ae1a157ed3dbb6e31433a8eb6e9a0958ddfa273fac652b220057cb1"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/supplement.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/supplement.py",
+    "sha256": "2bb5810aeba9d1df3d458dce80051dbb8b7470f8d4a6e3e3c3a3d1cdb9e69b21",
+    "original_sha256": "5d9178289842d2c0e48cb77dbdc919e0001f159af98c521e439763b54bf75ae3",
+    "bytes": 4427,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "9ba7df5eeeea12f329dd4f9f1106e326f6c66edd52c8c9e31e7c0fdaa751709e"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/train.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/train.py",
+    "sha256": "90c3f9f0543f44cfd65b48bc59156b4b8ce73a7bca4fa15491517346bc8ebc79",
+    "original_sha256": "ff6774ab949c50da8765c56a41697571d2b8f38da3bc8c29a59adbc063bf0b13",
+    "bytes": 11304,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "7c39ab98b60e74efa4ea4a38c99a08bd47c632f90f39da5031be6341547259ce"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/validation.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/validation.py",
+    "sha256": "537be18f8dde84b2a5db30885aec4e0bdd1aa81c2324d063f34bd857ff457dd2",
+    "original_sha256": "d36f16f809f77f0b7f7bc87e06d8d26e5fc028a67be230338daf22be5d9bd41c",
+    "bytes": 4226,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "f34fcdcd99b24196dfc051dbc37bb3012d45ccc0bd9fd386199f7aadd52aa526"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/configs/ABLATION.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/configs/ABLATION.json",
+    "sha256": "b3c156f249c7df071027e4c7d6696dffec04828361cf11c9e09169abd0f5e5c7",
+    "original_sha256": "b3c156f249c7df071027e4c7d6696dffec04828361cf11c9e09169abd0f5e5c7",
+    "bytes": 1457,
+    "group": "frozen-config"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/configs/PROTOCOL.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/configs/PROTOCOL.json",
+    "sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+    "original_sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+    "bytes": 7295,
+    "group": "frozen-config"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/METHOD_PROVENANCE.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/METHOD_PROVENANCE.md",
+    "sha256": "4a6cc78f805d88f1752d3e07185fbe1af7fe5e357f3bc1352969cbd5cb5f4a99",
+    "original_sha256": "4a6cc78f805d88f1752d3e07185fbe1af7fe5e357f3bc1352969cbd5cb5f4a99",
+    "bytes": 973,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/EOT_GRADIENT_VALIDATION.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/EOT_GRADIENT_VALIDATION.md",
+    "sha256": "2d548c736efd2ce6d24d6b975ee7478c9b031c1978e6cd64b845dfffb28e74c6",
+    "original_sha256": "2d548c736efd2ce6d24d6b975ee7478c9b031c1978e6cd64b845dfffb28e74c6",
+    "bytes": 380,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/AUDIT.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/AUDIT.md",
+    "sha256": "4ccc4b95747955a5358a782ebb513408b56b1bd84bd8d3891d946f06fd27d4f6",
+    "original_sha256": "4ccc4b95747955a5358a782ebb513408b56b1bd84bd8d3891d946f06fd27d4f6",
+    "bytes": 1727,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/RESULTS.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/RESULTS.md",
+    "sha256": "a1115770ee7b680765e4565c8faa05872d1257b6aa05c9fd6a606176b24a02bc",
+    "original_sha256": "a1115770ee7b680765e4565c8faa05872d1257b6aa05c9fd6a606176b24a02bc",
+    "bytes": 4195,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/GPU_COST.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/GPU_COST.csv",
+    "sha256": "735c13f595716f73bce142c933a7ea97e4eef9d475f3a3aa740a76787861560e",
+    "original_sha256": "063977683e894505cec1f5ca215dcce94a43325933fc8dff3447d7cffedd5be8",
+    "bytes": 3427,
+    "group": "result",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/source_tests/test_factorial.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/tests/test_factorial.py",
+    "sha256": "c0c6c623e6327bf396b01d1a77586501566ebc5e3afc7b594d65323c87f81b7d",
+    "original_sha256": "eb10b2834351814a72c5bc1dfb9583ff1d3a52706602c6d44cc31e0a5a435965",
+    "bytes": 3437,
+    "group": "historical-test-source",
+    "annotation_only": true,
+    "source_ast_sha256": "c1c005818d27252e42a27f4db21492926092acca379e39d8940a1fb44642cc30"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/reports/figures/confirmation_extra_factorial.pdf": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/reports/figures/confirmation_extra_factorial.pdf",
+    "sha256": "f081c3d3563fd4afc99a2f752edffa4eb1ff51cc157d2e5dcb1a7c3c301a780f",
+    "original_sha256": "f081c3d3563fd4afc99a2f752edffa4eb1ff51cc157d2e5dcb1a7c3c301a780f",
+    "bytes": 17853,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/reports/figures/confirmation_extra_factorial.png": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/reports/figures/confirmation_extra_factorial.png",
+    "sha256": "2318d87516c504047bebf9ef6507376e9a38a6327ce3eb9c8408143ee921a4d2",
+    "original_sha256": "2318d87516c504047bebf9ef6507376e9a38a6327ce3eb9c8408143ee921a4d2",
+    "bytes": 73265,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/reports/figures/full_factorial.pdf": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/reports/figures/full_factorial.pdf",
+    "sha256": "ebba8a69ba9c1bc2839a6ed2772f925bf9f86af3f6068468665f413280a7195b",
+    "original_sha256": "ebba8a69ba9c1bc2839a6ed2772f925bf9f86af3f6068468665f413280a7195b",
+    "bytes": 16714,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/reports/figures/full_factorial.png": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/reports/figures/full_factorial.png",
+    "sha256": "0f617e82c4425d3b0ac27a4835bf86bcdadcd5644c4a63ed61be3cea9fe749ce",
+    "original_sha256": "0f617e82c4425d3b0ac27a4835bf86bcdadcd5644c4a63ed61be3cea9fe749ce",
+    "bytes": 66480,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/reports/FACTORIAL_RESULTS.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/reports/FACTORIAL_RESULTS.json",
+    "sha256": "5b02e836ae551190fa654c1ebad6dd832e2bae7529e504cd49318e2d6935b7da",
+    "original_sha256": "5b02e836ae551190fa654c1ebad6dd832e2bae7529e504cd49318e2d6935b7da",
+    "bytes": 3033,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/reports/M04_BOTH_IDENTITY.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/reports/M04_BOTH_IDENTITY.json",
+    "sha256": "2afaf6821335fbfb5c8a809e6e1459fb3df2fb0228a62d9d9de75e3668634cab",
+    "original_sha256": "2afaf6821335fbfb5c8a809e6e1459fb3df2fb0228a62d9d9de75e3668634cab",
+    "bytes": 166,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/__init__.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/__init__.py",
+    "sha256": "4d480076d8081eac15baa901508fe869407293ba827595611c9978f7d355aa9c",
+    "original_sha256": "7474e1f88ca18979ca8a166c41352810902ddc8976c8019a82ca96e9ca4989ca",
+    "bytes": 361,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "cd7d641a9388d083e0de99051f3f919c429c9619e122cd5bf7d31ca0aac8fdaa"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/analyze.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/analyze.py",
+    "sha256": "baf70610ad7c7b1841eca458e1a2a459553f9a469a521dff3d7ba721b5273e1f",
+    "original_sha256": "c0697cafed809c3cdd6341869256b644b237de2323e85054f4fe59a4ce2ec371",
+    "bytes": 10045,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "c2ba3ca4dbedd802b2854c6f098507dcfc9f9e7cb9bdfa1012085cc95956136e"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/bank.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/bank.py",
+    "sha256": "6e3d2e96cab0d9c4bdd5f3ab07fee12f42dfbf0861f8d08abd59d716f81d1d79",
+    "original_sha256": "722ed70880bf6e6cd9ec6cbbbcff52d2a5ef4b2ebd721fa9e3ab8148d83d2997",
+    "bytes": 7518,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "c4fab8cf67668528ccd5a2046f916838bd792859cd69c009e5ddd95d559e1a3a"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/common.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/common.py",
+    "sha256": "1f8f55f26f4d3b3f081e4747137374ff6ceb29b895b246810eff24adba47d77c",
+    "original_sha256": "366edc67700c883042f7d637545ec91e206120288d8d155345293e63d9b80c57",
+    "bytes": 6030,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "855bd0356b520ade8c86e6a7e4392190d259deec82a0a00d097abf9419d30494"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/diagnostics.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/diagnostics.py",
+    "sha256": "2841e11a93ddfc7ee8976bae1a2310a13a418562e7006c1bb8824e40786aead4",
+    "original_sha256": "2641c5dd6d6f5ab357a25854f8a2b8053f8f64ef893dbcf904b863067d240707",
+    "bytes": 2319,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "46a11d2ab93e7a78158d83543204d007c7c72be84bfa380faa543bca52b2d004"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/evaluate.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/evaluate.py",
+    "sha256": "e32c02ba3b80df848a16e090793ee6c912101072af2003db5d1850ca4a38c305",
+    "original_sha256": "8beb7020822ea86ad7b35065857f50c019fc1104eb365ba38dd38f784102dab1",
+    "bytes": 12806,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "0b0d8d8453867c47312e22e5ec454e066c61d9997b9d62b77c329b7f51230a6f"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/figures.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/figures.py",
+    "sha256": "f780b5edd01c635667cb96eefeeea3a2c4adea31d55e9f3bf8081f551003fccb",
+    "original_sha256": "27e2d08da4b11d5c902165b321dd5d2e1e2e762bdb46eba608d8845efb78d20a",
+    "bytes": 14350,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "4008eef8f4e850c85ad5ae1916fd14b500fdfdf38dd53aed5f00b2fe77a992fe"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/geometry.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/geometry.py",
+    "sha256": "572feccf8da65fdfb95f5289ee6b1c8fbd5f0ab1ad7771e826544100076a9f23",
+    "original_sha256": "849725237512494406c2e70389d216e9c841948d98947e8cfb990e96960ea262",
+    "bytes": 1219,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "5a7eab9ac901d904e7e721fc7c9bc6e0d39d4976787a6c261f02927ec7ca577b"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/interaction_replay.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/interaction_replay.py",
+    "sha256": "1b4b8e520bda1acf60624931f87a0142a1f476790556f7719811288ffff7fbc1",
+    "original_sha256": "d5de1db71b6a82ac15ad01f2048c77228e23509e2b2d96be8d4f7cc4b6d7b351",
+    "bytes": 6007,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "3748ee98b4848a804c8508531532406d08c587ffbcf32fee06dd40103fcf10a2"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/mechanism_analysis.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/mechanism_analysis.py",
+    "sha256": "c48ab6ec34d6f21c7447da1a7673343e2230c9a626a24d47983ae4d7cb6b01d6",
+    "original_sha256": "c816206e4f516d905918bd1592f37696984131c2c11ec9ed1958665086cbbb7b",
+    "bytes": 4700,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "31fa795831ee65ac54a5d60a8650bb49737d0e07f81141fc872a7844aa0ca6bc"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/methods.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/methods.py",
+    "sha256": "9da08aa11552ba91896cfdaf32d4aebbd41b5582ac5ee557815f5ded4d572635",
+    "original_sha256": "81e8d0260650d82d49ba8be4a8c951ad89955f8ccae29b849a94f8cee1be1515",
+    "bytes": 5023,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "a3f82fccb57de80c9b49f53dbeb8d32a082137d5919a8895522b207d17214bac"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/preflight.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/preflight.py",
+    "sha256": "81d29a9f66464d26efef59b025437b77db52c9dd700e92f4f003f122256ab907",
+    "original_sha256": "5167d431252738388f3e18584a50bbd97ade612fffc5b4a7406f0a5ce184c06e",
+    "bytes": 5968,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "37871bafee22c874971cce4e762e8c8d8523b3aeb286d6adaa164748f62d6eef"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/replay.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/replay.py",
+    "sha256": "fbacd2b0a2b7cc672b3f3571b81a3fd25cb5937c56a3124e0f91f4a18f27ed95",
+    "original_sha256": "4b0b0931433cd8c77e26852928e1ad53b38d2d62eba80a06376e6e64e665b9ed",
+    "bytes": 6787,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "3b35b0b74b4b44b216e635f27244cb03b6222959c5282f221af97b3ec5c85fb9"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/runtime.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/runtime.py",
+    "sha256": "daf9c58169f24d524f33d2c789c168e38989e80ac3774d1dbb85c03d0d0b00b0",
+    "original_sha256": "c87b54b9b3cb8b90ec6a56c4b032e428ae3d00b05eb558b838f9b230f3d3494a",
+    "bytes": 9963,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "4c4fa54e7b986da6ada13e732fad43513c5cc586e8c636ee76a9cde5ad858326"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/score.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/score.py",
+    "sha256": "94539947919e477afdb5c5c94d75f9eba797a4dbcc877222df3795206bcbd3e5",
+    "original_sha256": "9bde7ef354bf6400d204e9340ed5235302636f7ee9c371a2131652a83acdbed8",
+    "bytes": 723,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "cb98010b0ae1a157ed3dbb6e31433a8eb6e9a0958ddfa273fac652b220057cb1"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/sensitivity_figures.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/sensitivity_figures.py",
+    "sha256": "0df6b9cbbc053b94f77a2cb40c7693492987ea60ab57d6d73365f3af11db3feb",
+    "original_sha256": "99f329a0df9d4bcdf7c17230d5ef7ce235fde5b2ae87f9a861a3aacf9da6b176",
+    "bytes": 6078,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "142826f8e6fa3990a6781558c022726b9f4151719397a29583fe8ee5fae90463"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/sweep.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/sweep.py",
+    "sha256": "c381f215769eb90bc55ce2bd60b45ce13cec2625a768b8219717aaeff56afb12",
+    "original_sha256": "e534b29da374985ca09755779989caa76ca60b635b699267b4440b41c29a3fe1",
+    "bytes": 4156,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "2e92a7b42c6b291cab472f36baa1a665ba39573d1d355fe95cc5c37639d725a2"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/sweep_report.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/sweep_report.py",
+    "sha256": "1588356d45256ed3a1dccd167a482f24d1627364f07b973f944feff2ce828323",
+    "original_sha256": "d6f1ed34a4d929985c4fa238eae66414053bc204d88a15c70b777a713fd80f60",
+    "bytes": 12530,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "192cb7fa70eab11d3a3dab357e175a5220a8c07fc2c7790b0419c961997b3b91"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/train.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/train.py",
+    "sha256": "73cc16a6c92532a16f5cef90b9a31c78115d846bd9db9b436c5cb835513e0fbb",
+    "original_sha256": "8d36748d01504f0bedb456eba5afbbc6965953e6478977c5ce7ad867565a7673",
+    "bytes": 9971,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "8fe5af9a9c41e3650f71b3e0997d72a5afe15c9edc8438f797ee51cd6a783571"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/validation.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/validation.py",
+    "sha256": "537be18f8dde84b2a5db30885aec4e0bdd1aa81c2324d063f34bd857ff457dd2",
+    "original_sha256": "d36f16f809f77f0b7f7bc87e06d8d26e5fc028a67be230338daf22be5d9bd41c",
+    "bytes": 4226,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "f34fcdcd99b24196dfc051dbc37bb3012d45ccc0bd9fd386199f7aadd52aa526"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/configs/PROTOCOL.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/configs/PROTOCOL.json",
+    "sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+    "original_sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+    "bytes": 7295,
+    "group": "frozen-config"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/configs/SWEEP.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/configs/SWEEP.json",
+    "sha256": "11418572126c5419a28c1fd595ddad40c45c1f8d8c7e9e271d6cceede3ef70f8",
+    "original_sha256": "11418572126c5419a28c1fd595ddad40c45c1f8d8c7e9e271d6cceede3ef70f8",
+    "bytes": 16245,
+    "group": "frozen-config"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/METHOD_PROVENANCE.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/METHOD_PROVENANCE.md",
+    "sha256": "07d40233dff8f94c21c3cf2146614fb3b67eaad0be70ea6664bfb5d0c0175dd7",
+    "original_sha256": "07d40233dff8f94c21c3cf2146614fb3b67eaad0be70ea6664bfb5d0c0175dd7",
+    "bytes": 294,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/EOT_GRADIENT_VALIDATION.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/EOT_GRADIENT_VALIDATION.md",
+    "sha256": "2d548c736efd2ce6d24d6b975ee7478c9b031c1978e6cd64b845dfffb28e74c6",
+    "original_sha256": "2d548c736efd2ce6d24d6b975ee7478c9b031c1978e6cd64b845dfffb28e74c6",
+    "bytes": 380,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/EXPERIMENT_MATRIX.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/EXPERIMENT_MATRIX.csv",
+    "sha256": "520644d535e9bc25642d189f05becb9dca6e6e095429a344a19f1f61c654d0bc",
+    "original_sha256": "f823a06cb1ba4082dffdfa665511e14fe806061ef99ac76b7ba33432782128b5",
+    "bytes": 2403,
+    "group": "protocol-document",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/RESULTS.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/RESULTS.md",
+    "sha256": "e8232b278bef156de70e767a8eddd4a38e320bf2974eb67ff454603ae5f6fa76",
+    "original_sha256": "e8232b278bef156de70e767a8eddd4a38e320bf2974eb67ff454603ae5f6fa76",
+    "bytes": 2747,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/CONFIRMATION.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/CONFIRMATION.md",
+    "sha256": "85988ae7cdd651780ee4704547df57ad3fc9093bdf1bb53262ef7f78f653951d",
+    "original_sha256": "85988ae7cdd651780ee4704547df57ad3fc9093bdf1bb53262ef7f78f653951d",
+    "bytes": 2706,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/FINAL_ABLATION_SUMMARY.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/FINAL_ABLATION_SUMMARY.md",
+    "sha256": "a1176c16c3d7f809586e8146c09c0e129e2a72f46f8dca5cea77896dff104402",
+    "original_sha256": "a1176c16c3d7f809586e8146c09c0e129e2a72f46f8dca5cea77896dff104402",
+    "bytes": 6411,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/GPU_COST.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/GPU_COST.csv",
+    "sha256": "2bee9fcf0ca8097a90594545cc9a0d471d235f498b7956c711e5c42f30391e8e",
+    "original_sha256": "f81192e12619e7a349f1d03ec69e9eacd438bd0b670606a34d82be85808e66bf",
+    "bytes": 12784,
+    "group": "result",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/source_tests/test_sensitivity.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/tests/test_sensitivity.py",
+    "sha256": "4bbb827f7187fa5857a9d1a3e7a9f5bcdc8d96af1faf96f0990316a97b63ff99",
+    "original_sha256": "a1963ce33d430f70a10f9d8186819f54689f8640f4363161087aaa5b84620fd7",
+    "bytes": 9527,
+    "group": "historical-test-source",
+    "annotation_only": true,
+    "source_ast_sha256": "4ebe971ff6b7438647644fc46f0c7ea201aaf35237dc33ecab72f912e7b41f49"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/reports/figures/FIGURES.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/reports/figures/FIGURES.json",
+    "sha256": "e51bbe6ff80c662090fcf1b8819eeb3fcd24e930e1b5b173a9be5fc18731f488",
+    "original_sha256": "e51bbe6ff80c662090fcf1b8819eeb3fcd24e930e1b5b173a9be5fc18731f488",
+    "bytes": 482,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/reports/figures/README.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/reports/figures/README.md",
+    "sha256": "964cc2de05f1ecc60bfea597d664628c3299405740176a76766dd752ee6105e2",
+    "original_sha256": "964cc2de05f1ecc60bfea597d664628c3299405740176a76766dd752ee6105e2",
+    "bytes": 812,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/reports/figures/ablation_development_seed42.pdf": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/reports/figures/ablation_development_seed42.pdf",
+    "sha256": "4c0ef073addbe860ee690892e51daa688d5cbd9a494428d4e8c05b85963cd1ae",
+    "original_sha256": "4c0ef073addbe860ee690892e51daa688d5cbd9a494428d4e8c05b85963cd1ae",
+    "bytes": 24669,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/reports/figures/ablation_development_seed42.png": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/reports/figures/ablation_development_seed42.png",
+    "sha256": "b6e144114ee70014886f79d776d34f10c4f46c83f79e1420a7e0374a8a3ba8a1",
+    "original_sha256": "b6e144114ee70014886f79d776d34f10c4f46c83f79e1420a7e0374a8a3ba8a1",
+    "bytes": 354516,
+    "group": "figure"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/reports/SCREEN_RESULTS.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/reports/SCREEN_RESULTS.csv",
+    "sha256": "4bc23e5069003a747c874668fcd12d4300049d7d99b8a59e38fc2ab138a5825e",
+    "original_sha256": "d4d02a186a5a7b4af4c80a9cc527603daff102ff2621007ba98d138b51aa2951",
+    "bytes": 2486,
+    "group": "result",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/reports/FROZEN_SELECTION.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/reports/FROZEN_SELECTION.json",
+    "sha256": "c4741f93883aa1b08652041bc8d552b1cab58f6cc061626aecfe3fcc5dc2b634",
+    "original_sha256": "c4741f93883aa1b08652041bc8d552b1cab58f6cc061626aecfe3fcc5dc2b634",
+    "bytes": 1925,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/common.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/common.py",
+    "sha256": "7eaf9ca0ec7aaf2f4f3912c7b7de58b3977a6bfdc2e898ed19dc55b931fe5643",
+    "original_sha256": "1f7d4bb311569c33c8c975c42b6c7a847c81e3b8d32571880a854815f4400c72",
+    "bytes": 4705,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "da25355ccea5b0be6233c83411d9cf282630e62879198400491c0dfc19d63ef5"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/contracts.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/contracts.py",
+    "sha256": "ceb0ce116554ce102ffe2ba8503ffbb648ce501f66c6b7588e8a0e24901afdf1",
+    "original_sha256": "e17993095e48a473e311589628f4f07acfe9f4845cb9975502a9bfa54b58dc7e",
+    "bytes": 2299,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "5569318ddb8d470dba6cf67f6e81f08830d02ba6b84ff84b005a5c994f0e3541"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/graphics_runtime.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/graphics_runtime.py",
+    "sha256": "834c9e68e69c9388e933b43e7cb6c62d84fed719a7fa980bf6d866cf01818a7c",
+    "original_sha256": "d1c60a879286084082b7eaaf9226a43346a0448fbee3a4034831ffac349da626",
+    "bytes": 11704,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "444c12dab3ce3fe5e69d8ca443ec6b2d0040c722f35155a84a35f302c9006c64"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/native_compat.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/native_compat.py",
+    "sha256": "ff6184bc4762b35852368e1960e0d7a236aa4795ab9195d185bc384e0010818a",
+    "original_sha256": "6ba49fa3286571b524caf1bb684dd0bc3963b161d7340ca32e233e0a77cc060d",
+    "bytes": 2129,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "8c0eabc9a0828e6a1bfac2a4600eee7f719233fed512be7b9bc982cdc5ec0a69"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/policies.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/policies.py",
+    "sha256": "24b1a71fc9dcb641a1bac2fcf90cbf56c94e3550732d0badaa87f1b103fa9bbe",
+    "original_sha256": "2bc848168f5a4c7416c5baf0ee379c9be0754b6c68474f9b6bdfd2db6ea4c643",
+    "bytes": 9418,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "08a0afe7c0f76b4d67acc399ebbd4ed9f02fd686e81d403bff753237bd4a9069"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/report.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/report.py",
+    "sha256": "30f5d75027851788b0ed2864a8b9c07a57906c8f7773121cd10af06dcc0151e3",
+    "original_sha256": "5ecd05367fa0db166322a2fa2754a552b8444e279fb7a4dce8ce72e7538951c0",
+    "bytes": 9920,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "2757d00e805e3bd868c1e56e9d49c08e6eec62f7839326ff1886d3ed9b0d2380"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/video.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/video.py",
+    "sha256": "61a7630892ba26282bc8d5143151dd84339a5831fb1293ce76000c92036e14f6",
+    "original_sha256": "0295d0b39cd6ee331e5361a75d8f772c9ce3c5684e2398231bd7bfd1fd945f67",
+    "bytes": 4786,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "bd9b386ff4755ef14304982c0fffdaf508a2aad7b68fa0de4fee922000eb3ca2"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/code/worker.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/code/worker.py",
+    "sha256": "0198a9f88757e631f6791456d03abc37f4b7dd93211db12cfe99e77165576e0f",
+    "original_sha256": "e759d82a17e41d2ac65ee777a405369fdffcee4013e8ae4ed13f4cb9a6bc492d",
+    "bytes": 11970,
+    "group": "study-source",
+    "annotation_only": true,
+    "source_ast_sha256": "37b82e2ab44d5360ba3e29964fd62ac244fa8460d54a72ae6c2e2df3413ee4d2"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/configs/FROZEN.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/configs/FROZEN.json",
+    "sha256": "a61b6a75d8a1e8a805ba12ba1c2006b5672c3a280d86612daa5dc52c07d5a002",
+    "original_sha256": "a61b6a75d8a1e8a805ba12ba1c2006b5672c3a280d86612daa5dc52c07d5a002",
+    "bytes": 436611,
+    "group": "frozen-config"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/RESULTS.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/RESULTS.md",
+    "sha256": "536b055d9d68594745bb7ad5d23f065a20acc89edd2e86da7b3c4ff3c9489196",
+    "original_sha256": "536b055d9d68594745bb7ad5d23f065a20acc89edd2e86da7b3c4ff3c9489196",
+    "bytes": 8929,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/SUMMARY.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/SUMMARY.md",
+    "sha256": "0d7153974a22fcb335d5eb1d5694dfabfa0cbf4f71ba6997b21dac86e0111ef7",
+    "original_sha256": "0d7153974a22fcb335d5eb1d5694dfabfa0cbf4f71ba6997b21dac86e0111ef7",
+    "bytes": 1477,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/MECHANISM_RESULTS.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/MECHANISM_RESULTS.md",
+    "sha256": "d2ee3faf6b409b0d9a38b8c8dd22aa00871744fa6de8d29843701447024cbafd",
+    "original_sha256": "d2ee3faf6b409b0d9a38b8c8dd22aa00871744fa6de8d29843701447024cbafd",
+    "bytes": 2282,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/MODEL_CANDIDATES.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/MODEL_CANDIDATES.md",
+    "sha256": "5f937c17b51287552e9608897bec6ccffbecb0aa89ce7afa68acd99c43c23b1e",
+    "original_sha256": "5f937c17b51287552e9608897bec6ccffbecb0aa89ce7afa68acd99c43c23b1e",
+    "bytes": 818,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/source_tests/test_contracts.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/tests/test_contracts.py",
+    "sha256": "c9d7d3902d39a960b132bac2f6bd4147722aab9e5ebd06e6c1d90b03793ccb37",
+    "original_sha256": "cd5f6912b7a0e9753c40699f64a9b6c424ac7b40f38de052889431ab273a9cf2",
+    "bytes": 4902,
+    "group": "historical-test-source",
+    "annotation_only": true,
+    "source_ast_sha256": "6467fdbdf029f3afc7b6190d6deec16b5d847145dc0a07c7c93c42ca18d8edd6"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/AGGREGATED_RESULTS.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/AGGREGATED_RESULTS.json",
+    "sha256": "8ffe30eb070a29762ef6f5839cf8259272e674f14bbfc448563766e9c99e1f3a",
+    "original_sha256": "8ffe30eb070a29762ef6f5839cf8259272e674f14bbfc448563766e9c99e1f3a",
+    "bytes": 5617,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/TRANSFER_RESULTS.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/TRANSFER_RESULTS.json",
+    "sha256": "712e4a75a20149dabe6bb7cf59c685ce66c2e663dd0d9f8feb8cfd3b646b3af2",
+    "original_sha256": "712e4a75a20149dabe6bb7cf59c685ce66c2e663dd0d9f8feb8cfd3b646b3af2",
+    "bytes": 27966,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/RESTORATION_RESULTS.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/RESTORATION_RESULTS.json",
+    "sha256": "0493a085fd6882eb690be071495ad886bc269e642530b60c6fc16e4611b59cf2",
+    "original_sha256": "0493a085fd6882eb690be071495ad886bc269e642530b60c6fc16e4611b59cf2",
+    "bytes": 5573,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/GPU_COSTS.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/GPU_COSTS.json",
+    "sha256": "28a0f4cc86e3e40d15fdf744c6d20b6906a30e5982b0eca71d2d925d7645b58c",
+    "original_sha256": "28a0f4cc86e3e40d15fdf744c6d20b6906a30e5982b0eca71d2d925d7645b58c",
+    "bytes": 6177,
+    "group": "result"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/ENGINEERING_FIXES.md": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/ENGINEERING_FIXES.md",
+    "sha256": "4181f8d6a0a624c7c7802905de4ab92f92afced36c5ea0eb4abf7d86902e93ed",
+    "original_sha256": "4181f8d6a0a624c7c7802905de4ab92f92afced36c5ea0eb4abf7d86902e93ed",
+    "bytes": 2473,
+    "group": "result"
+  },
+  "studies/wrist_dino/provenance/O03_LAMBDA.json": {
+    "source": "roboticAttack_replay/data/O03_LAMBDA.json",
+    "sha256": "0668ee2c1122c16fa2e3d7360a565f4ed838364056a0a67fb9baf9b4c20bd8e1",
+    "original_sha256": "0668ee2c1122c16fa2e3d7360a565f4ed838364056a0a67fb9baf9b4c20bd8e1",
+    "bytes": 2491,
+    "group": "provenance"
+  },
+  "studies/wrist_dino/provenance/BANK_MANIFEST.csv": {
+    "source": "roboticAttack_replay/data/BANK_MANIFEST.csv",
+    "sha256": "44f873ee5f4c0ca06b480b2e389604733fd3ba8a57851f44ce5095521c433208",
+    "original_sha256": "245e586dcb17ef2ea9b0b161b4a6735f91be578660fdfb6fee355f273a73d99d",
+    "bytes": 491220,
+    "group": "derived-provenance",
+    "transformation": "Keep record/trajectory/time/phase/hash identity; omit repeated local paths and language strings",
+    "fields": [
+      "record_id",
+      "suite",
+      "task_id",
+      "trajectory_id",
+      "source_timestep",
+      "phase",
+      "sample_sha256",
+      "shard_sha256"
+    ],
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/provenance/EXPERIMENT_MATRIX.csv": {
+    "source": "roboticAttack_replay/handoff/codex_repro_fast_v04/EXPERIMENT_MATRIX.csv",
+    "sha256": "8ba1ec207c8541e09e6aa1a063b7f919bf04d8bdc5d20cf452ae814c5d64a981",
+    "original_sha256": "738f6bbfd230a48d6d522e7e4915e095450d1488eae64f1debb47e3ce5b67d2f",
+    "bytes": 4548,
+    "group": "protocol-document",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/provenance/EXPERIMENT_MATRIX.json": {
+    "source": "roboticAttack_replay/handoff/codex_repro_fast_v04/EXPERIMENT_MATRIX.json",
+    "sha256": "f85865c13d820d2845adc181923f2f0d432efebaa21ebc64384555e15a3818a3",
+    "original_sha256": "f85865c13d820d2845adc181923f2f0d432efebaa21ebc64384555e15a3818a3",
+    "bytes": 11956,
+    "group": "protocol-document"
+  },
+  "studies/wrist_dino/joint_repro/audit.py": {
+    "source": "roboticAttack_replay/joint_repro/audit.py",
+    "sha256": "d84d4668bc06309a7aa28d878443991b37257d5a899c74095b1f408638601cf1",
+    "original_sha256": "e75f71960530899c1bdbf350159edff91e7e335348558842891b3bc400f53c8a",
+    "source_ast_sha256": "4a5b6de5d30983799440d851cc5c1fbd95402f863606ebe7c30ce43601e8cc0e",
+    "bytes": 2599,
+    "group": "study-source",
+    "annotation_only": true
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/joint_repro/audit.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/joint_repro/audit.py",
+    "sha256": "d84d4668bc06309a7aa28d878443991b37257d5a899c74095b1f408638601cf1",
+    "original_sha256": "e75f71960530899c1bdbf350159edff91e7e335348558842891b3bc400f53c8a",
+    "source_ast_sha256": "4a5b6de5d30983799440d851cc5c1fbd95402f863606ebe7c30ce43601e8cc0e",
+    "bytes": 2599,
+    "group": "study-source",
+    "annotation_only": true
+  },
+  "studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/joint_repro/audit.py": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/joint_repro/audit.py",
+    "sha256": "d84d4668bc06309a7aa28d878443991b37257d5a899c74095b1f408638601cf1",
+    "original_sha256": "e75f71960530899c1bdbf350159edff91e7e335348558842891b3bc400f53c8a",
+    "source_ast_sha256": "4a5b6de5d30983799440d851cc5c1fbd95402f863606ebe7c30ce43601e8cc0e",
+    "bytes": 2599,
+    "group": "study-source",
+    "annotation_only": true
+  },
+  "studies/wrist_dino/CONFIG_DIFF.csv": {
+    "source": "roboticAttack_replay/CONFIG_DIFF.csv",
+    "sha256": "7cc4363203e0f3365ed82086cfc6b224a6388a6604ad7be545993a3463538fa7",
+    "original_sha256": "0328ff1d88f996f2aae1cb8539d7ed3a09748179377c7a6adfbdfbcd78c51694",
+    "bytes": 372,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/reports/V_SELECTION.json": {
+    "source": "roboticAttack_replay/reports/V_SELECTION.json",
+    "sha256": "e843095aa5f1c0e0e97e2c36b907885dd76d0905a14c5983ce888c880eb62c8b",
+    "original_sha256": "e843095aa5f1c0e0e97e2c36b907885dd76d0905a14c5983ce888c880eb62c8b",
+    "bytes": 1431,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/reports/P03_VALIDATION.json": {
+    "source": "roboticAttack_replay/reports/P03_VALIDATION.json",
+    "sha256": "1a1ac1ca599dfba45132df0a37648a1af00c9b12fe4b80d5b837bdb1ef415bb6",
+    "original_sha256": "1a1ac1ca599dfba45132df0a37648a1af00c9b12fe4b80d5b837bdb1ef415bb6",
+    "bytes": 2955,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_factorial_v1/reports/full_SUMMARY.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/reports/full_SUMMARY.json",
+    "sha256": "bb4bc6e011fe5f65e7269a3cae2c4a002db6c01ab33ba056345a379443c24042",
+    "original_sha256": "bb4bc6e011fe5f65e7269a3cae2c4a002db6c01ab33ba056345a379443c24042",
+    "bytes": 155419,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_goal.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_goal.json",
+    "sha256": "4126cd355890a4e3da60d38353cade972b0fb4a2358d30cb43cc2f0e0ce69dc8",
+    "original_sha256": "4126cd355890a4e3da60d38353cade972b0fb4a2358d30cb43cc2f0e0ce69dc8",
+    "bytes": 189,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_object.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_object.json",
+    "sha256": "c3fbf23cb9cb84f74303e0e6f02a915a59db58488ab7afbd1a30bbba0820b27c",
+    "original_sha256": "c3fbf23cb9cb84f74303e0e6f02a915a59db58488ab7afbd1a30bbba0820b27c",
+    "bytes": 244,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_spatial.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_spatial.json",
+    "sha256": "98e3f8fedffef941f304e4f223a1c4a8164e7c5def39cb84ab023e8756080a51",
+    "original_sha256": "98e3f8fedffef941f304e4f223a1c4a8164e7c5def39cb84ab023e8756080a51",
+    "bytes": 244,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_10.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_10.json",
+    "sha256": "fecc34359b33152fb3951f781bb6df432ca3ce92184e38d3be7ff8ee4d17ea31",
+    "original_sha256": "fecc34359b33152fb3951f781bb6df432ca3ce92184e38d3be7ff8ee4d17ea31",
+    "bytes": 189,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_goal.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_goal.json",
+    "sha256": "92fc7c210c831a9907b72eec1fa7eb4a12fc2778bd006ce1788cb3b991cd61f3",
+    "original_sha256": "92fc7c210c831a9907b72eec1fa7eb4a12fc2778bd006ce1788cb3b991cd61f3",
+    "bytes": 244,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_object.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_object.json",
+    "sha256": "dc1f8fe221da009a7e16afcd67323315c002be384757b5ddd40e115322042416",
+    "original_sha256": "dc1f8fe221da009a7e16afcd67323315c002be384757b5ddd40e115322042416",
+    "bytes": 189,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_spatial.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_pi05_libero_spatial.json",
+    "sha256": "abcf8431b698e5bbf49f6d107e88aebe327b4e121fba0faef8a010b28afe7242",
+    "original_sha256": "abcf8431b698e5bbf49f6d107e88aebe327b4e121fba0faef8a010b28afe7242",
+    "bytes": 189,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_10.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_crosscheck_v1/reports/INTERFACE_vla_adapter_pro_libero_10.json",
+    "sha256": "7151032fdb76909dbb89f85311bd79f010f5bf8d55ee98eb6dbecd11e7851856",
+    "original_sha256": "7151032fdb76909dbb89f85311bd79f010f5bf8d55ee98eb6dbecd11e7851856",
+    "bytes": 244,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed42/CONFIG.json",
+    "sha256": "44424ee4aad8b93da4a79b5cbfed3e5486fefdb1079c1e714920e58ae7cae9f5",
+    "original_sha256": "44424ee4aad8b93da4a79b5cbfed3e5486fefdb1079c1e714920e58ae7cae9f5",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B01-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed42/METHOD.json",
+    "sha256": "fe3a9b0c35c3af538e0595b40733724749df035562c0475440a22788f24db270",
+    "original_sha256": "fe3a9b0c35c3af538e0595b40733724749df035562c0475440a22788f24db270",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed42/TRAINING.csv",
+    "sha256": "32b28d5aa66ac04ec1f26b92ae6e599b4c09ca7a73b46079194b5d12ff1c8c65",
+    "original_sha256": "dd47f2912a8706a7a07243c66edeea972519d7060b527b77b25dc26f67d87263",
+    "bytes": 79587,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B01-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed43/CONFIG.json",
+    "sha256": "936d92c2202491ab95527b405fb6cac83bb6ac12ff67bcf255ce32a15425a350",
+    "original_sha256": "936d92c2202491ab95527b405fb6cac83bb6ac12ff67bcf255ce32a15425a350",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B01-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed43/METHOD.json",
+    "sha256": "0542875bb25359dcf151c600b36a73795febe3293af9f7418e91c9de4bfcf6a6",
+    "original_sha256": "0542875bb25359dcf151c600b36a73795febe3293af9f7418e91c9de4bfcf6a6",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B01-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed43/TRAINING.csv",
+    "sha256": "bdfcb8e73add349273ff0c29418f5109c87bb2942f706677a8170151588df93b",
+    "original_sha256": "57405d9da4bde9126e042a812ee507f08f578c7c9f9142e1b78af9e6717b4364",
+    "bytes": 79611,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B01-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed44/CONFIG.json",
+    "sha256": "116176ab86a6bbe508cc4a45f6e4a87662e0e0495c505d59139776a268d169e6",
+    "original_sha256": "116176ab86a6bbe508cc4a45f6e4a87662e0e0495c505d59139776a268d169e6",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B01-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed44/METHOD.json",
+    "sha256": "72f8ceb005d027839a098e1e35bb5b00115c842dac50b6872f7bd08507905acf",
+    "original_sha256": "72f8ceb005d027839a098e1e35bb5b00115c842dac50b6872f7bd08507905acf",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B01-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B01-seed44/TRAINING.csv",
+    "sha256": "a80d6c5ed9c4bebbb3ecd259423c61de61c9cc2ee0b82c27882484c181985d66",
+    "original_sha256": "59d8168b2e9720f206cd25fc5e6f2bbd557fb40510e737251445bfb3cca7e431",
+    "bytes": 79605,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B02-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed42/CONFIG.json",
+    "sha256": "92c5fa49861d82faabfe396b1f99f30870b2f07ab85500c301cb89bce9d375ed",
+    "original_sha256": "92c5fa49861d82faabfe396b1f99f30870b2f07ab85500c301cb89bce9d375ed",
+    "bytes": 519,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B02-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed42/METHOD.json",
+    "sha256": "17664731ccb3e0c5a509b3345351183e591666527fbb61f5319e3c4a0cf03a6d",
+    "original_sha256": "17664731ccb3e0c5a509b3345351183e591666527fbb61f5319e3c4a0cf03a6d",
+    "bytes": 762,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B02-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed42/TRAINING.csv",
+    "sha256": "f4f24437acbf83000b1894e628a338a48cf217ffe7707d3c3ef94582c1a132f2",
+    "original_sha256": "335cd12d607e2afbbd57ffa987422bdaf58cb86d2552fe6bd417f9a5cdf71299",
+    "bytes": 79767,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B02-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed43/CONFIG.json",
+    "sha256": "6eaf377376e27e410399a8c6e2e06766b6c87bd470d1fb44d1cd8562772c7089",
+    "original_sha256": "6eaf377376e27e410399a8c6e2e06766b6c87bd470d1fb44d1cd8562772c7089",
+    "bytes": 519,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B02-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed43/METHOD.json",
+    "sha256": "54e897a33044a79fda34d5956b67219af187fea215a49ac7c8f8d5d132e9709a",
+    "original_sha256": "54e897a33044a79fda34d5956b67219af187fea215a49ac7c8f8d5d132e9709a",
+    "bytes": 762,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B02-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed43/TRAINING.csv",
+    "sha256": "6face130300ee19c7ab1e537f6343587f22993a09796f138edf9329ed5024048",
+    "original_sha256": "40ea39baad91143e8e3eab24e7f253bc7e41728e9c1b4b03a46a50b03f99f687",
+    "bytes": 79734,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B02-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed44/CONFIG.json",
+    "sha256": "dbfd7071fc91760b60186569b03d3234bdf219c7064147bdfcfd9f8c62b1df89",
+    "original_sha256": "dbfd7071fc91760b60186569b03d3234bdf219c7064147bdfcfd9f8c62b1df89",
+    "bytes": 519,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B02-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed44/METHOD.json",
+    "sha256": "8496f256cfedd9a4482faa0a7149e94eebf86cb07f8f6ff74222888afa6ebea5",
+    "original_sha256": "8496f256cfedd9a4482faa0a7149e94eebf86cb07f8f6ff74222888afa6ebea5",
+    "bytes": 762,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B02-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B02-seed44/TRAINING.csv",
+    "sha256": "0e05d4147774fa073ffd96d4e77e43e8a598298ffc4c165373a8045d80c3aaa1",
+    "original_sha256": "3b458f54b9106e5ed20c96f38311fbabe5c71f33c4a97a2bf7a2a93066d38f1f",
+    "bytes": 79710,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed42/CONFIG.json",
+    "sha256": "7593d5051d4a8f7ee5618a8125452c013383f38f3acbf2996f492b07f306bbdd",
+    "original_sha256": "7593d5051d4a8f7ee5618a8125452c013383f38f3acbf2996f492b07f306bbdd",
+    "bytes": 537,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B03-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed42/METHOD.json",
+    "sha256": "3c2c3b7b6213c469227d447eaa24c7c800e1ffde0c589f72c04d9dbe119b3fd1",
+    "original_sha256": "3c2c3b7b6213c469227d447eaa24c7c800e1ffde0c589f72c04d9dbe119b3fd1",
+    "bytes": 780,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed42/TRAINING.csv",
+    "sha256": "90f416eb793713c3265c2fcdc6e3fd1cd6ee3edcdc91c3aa9d123f6351f1a167",
+    "original_sha256": "a1d03ad74e6f024f7c0945367a439e5067d4a53289ed13780491737b53ee9222",
+    "bytes": 79649,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B03-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed43/CONFIG.json",
+    "sha256": "c1f6cbacce93d09405fecc9cfb7ca1f22298426390b855e4f03f8bb8310f0bef",
+    "original_sha256": "c1f6cbacce93d09405fecc9cfb7ca1f22298426390b855e4f03f8bb8310f0bef",
+    "bytes": 537,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B03-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed43/METHOD.json",
+    "sha256": "5fbc5c10de60abb17bff2880de8eba3455692b41150646a83570cf9a2cff5181",
+    "original_sha256": "5fbc5c10de60abb17bff2880de8eba3455692b41150646a83570cf9a2cff5181",
+    "bytes": 780,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B03-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed43/TRAINING.csv",
+    "sha256": "410501d487e73ec255664cec4a7162fb078df8fe32d82ac9384fbe25c557e3c5",
+    "original_sha256": "ccd153ee85164d1f9658797f589e5dbd0abf874a4e7c365b79eac49a9f85d062",
+    "bytes": 79664,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B03-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed44/CONFIG.json",
+    "sha256": "014f8cc9f361bfdb1306b3a326ad868c4a0e76c0df091834dff7fbf1f33be765",
+    "original_sha256": "014f8cc9f361bfdb1306b3a326ad868c4a0e76c0df091834dff7fbf1f33be765",
+    "bytes": 537,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B03-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed44/METHOD.json",
+    "sha256": "e434cd26642acc7c9ddb10ab88963e72e5fbb193b24d195554e5ef1fb4cedaf3",
+    "original_sha256": "e434cd26642acc7c9ddb10ab88963e72e5fbb193b24d195554e5ef1fb4cedaf3",
+    "bytes": 780,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B03-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B03-seed44/TRAINING.csv",
+    "sha256": "d95aacfdea0ad1756759ab18915959b27883b1cc83008267ae109cb473a1cb69",
+    "original_sha256": "4fb510d1522f4421ad20cda5bc3929049f3499c0105817fc35cb1a13d5174053",
+    "bytes": 79685,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed42/CONFIG.json",
+    "sha256": "bc033a23d6a200da466ca973da991aeeacf94320f902bebff169e98cf65d5cd1",
+    "original_sha256": "bc033a23d6a200da466ca973da991aeeacf94320f902bebff169e98cf65d5cd1",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B04-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed42/METHOD.json",
+    "sha256": "4c920242f0a9d7848b29b830d7347072bd8d787fbaa8dbb2fa7306daf99b8325",
+    "original_sha256": "4c920242f0a9d7848b29b830d7347072bd8d787fbaa8dbb2fa7306daf99b8325",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed42/TRAINING.csv",
+    "sha256": "1b1fa35d3ccc5cbad3d80cb84927aff833fef851119e678e36df5319ce2cd649",
+    "original_sha256": "8c20a1ca313ec63fd51233bca44f8faf182f8c95020ebd48d09710b63705b9c2",
+    "bytes": 79776,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B04-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed43/CONFIG.json",
+    "sha256": "38fb575907b5c0ca8e968bc0a1361c305eca03056c7d55038162ccf2bd81b891",
+    "original_sha256": "38fb575907b5c0ca8e968bc0a1361c305eca03056c7d55038162ccf2bd81b891",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B04-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed43/METHOD.json",
+    "sha256": "3df67ebbee707eb3c3fc66d86e16acf8c2e8f46a64eb8a103fe1b11f2773ff54",
+    "original_sha256": "3df67ebbee707eb3c3fc66d86e16acf8c2e8f46a64eb8a103fe1b11f2773ff54",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B04-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed43/TRAINING.csv",
+    "sha256": "470a58ded1e4f44a73460d1454e1ce32212742a99b7b2ff89b6905bcc0aebee1",
+    "original_sha256": "038e5063e3ee9d061abc7fc0a0a38f0d6fd765f4fabfa105118568454b2e2b81",
+    "bytes": 79789,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B04-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed44/CONFIG.json",
+    "sha256": "fddd7a7af9ad0344813fdabc43b945fcd4f700b7ed9ec83402641bede769d45c",
+    "original_sha256": "fddd7a7af9ad0344813fdabc43b945fcd4f700b7ed9ec83402641bede769d45c",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B04-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed44/METHOD.json",
+    "sha256": "34dec346e7c9e24cfb660f0c84e2dcc5104899114267a5bca79342e1686dd1fb",
+    "original_sha256": "34dec346e7c9e24cfb660f0c84e2dcc5104899114267a5bca79342e1686dd1fb",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B04-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B04-seed44/TRAINING.csv",
+    "sha256": "e7d9cdc5abacdb2c0ed38fd1ab7a3da804efd4dd9ab6ae40c3d093d09974ff42",
+    "original_sha256": "e0af2b5b26d86751a5e63f3405adb65841ff782e5f59852a5d60b3e9c3e60207",
+    "bytes": 79756,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/B05-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/B05-seed42/CONFIG.json",
+    "sha256": "c5b295362073249c21569f2274be40b5065a8f07a16ce73454f437dd9cad91ff",
+    "original_sha256": "c5b295362073249c21569f2274be40b5065a8f07a16ce73454f437dd9cad91ff",
+    "bytes": 539,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B05-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/B05-seed42/METHOD.json",
+    "sha256": "689c473f3d9d08f9afb1edc3c3ad637d35dd885d1d38efb0c10500c0029d0e16",
+    "original_sha256": "689c473f3d9d08f9afb1edc3c3ad637d35dd885d1d38efb0c10500c0029d0e16",
+    "bytes": 782,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/B05-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/B05-seed42/TRAINING.csv",
+    "sha256": "8a8c795a7602786950856d6f6e8355dc6f665ecb4f0e74102f3e36d9bffdc897",
+    "original_sha256": "9856c79f345ba3270fd58a5dc627e25a3f8a65892f122420d29e963044f5c640",
+    "bytes": 80468,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/O01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/O01-seed42/CONFIG.json",
+    "sha256": "707b4d12d0cc00d14cf83bff86ac882b07dbe1519d388cbb789066f1ab69d6f6",
+    "original_sha256": "707b4d12d0cc00d14cf83bff86ac882b07dbe1519d388cbb789066f1ab69d6f6",
+    "bytes": 525,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O01-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/O01-seed42/METHOD.json",
+    "sha256": "4fb4554fc8a16e7b06119ed7dfca4a583a3fed5beced714f73cd830ec3dda510",
+    "original_sha256": "4fb4554fc8a16e7b06119ed7dfca4a583a3fed5beced714f73cd830ec3dda510",
+    "bytes": 768,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/O01-seed42/TRAINING.csv",
+    "sha256": "69700bb9bb182fb7c2f18a020a743b97e9fe532ca18b984b7eb52478eb86b563",
+    "original_sha256": "bcde732161496fbd00feb15fdbbf1ee44e241f6f0edf21c69571c4415141f0a3",
+    "bytes": 79542,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed42/CONFIG.json",
+    "sha256": "8767a3c2c80a596e55d538507ea1e8c130bade53045b3101cacf82e1c0b64c81",
+    "original_sha256": "8767a3c2c80a596e55d538507ea1e8c130bade53045b3101cacf82e1c0b64c81",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O03-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed42/METHOD.json",
+    "sha256": "f1c401d951eeb3cb03176e9d659f81e03b9721983683200dee89ad102c5356b2",
+    "original_sha256": "f1c401d951eeb3cb03176e9d659f81e03b9721983683200dee89ad102c5356b2",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed42/TRAINING.csv",
+    "sha256": "0422e74f013c384a2304f807fd47e1b67bd6e74fd73bf172b13adac5c04b56f7",
+    "original_sha256": "140218d6dc1283cc7982d0ac4f6b22f3a1808b06c9076aa57d36bc463624b241",
+    "bytes": 79235,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/O03-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed43/CONFIG.json",
+    "sha256": "24e0d8bae30ac75237edbd22de18b87b56b81de6742443fd12bc4eead0aba10c",
+    "original_sha256": "24e0d8bae30ac75237edbd22de18b87b56b81de6742443fd12bc4eead0aba10c",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O03-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed43/METHOD.json",
+    "sha256": "d6257feb0f4e70821dd09bb2e5169905b452c490fe7e9f51da4c7a4ebd7710a4",
+    "original_sha256": "d6257feb0f4e70821dd09bb2e5169905b452c490fe7e9f51da4c7a4ebd7710a4",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O03-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed43/TRAINING.csv",
+    "sha256": "58bdcc9f0e748c3ae5483411b785ee0c629c3976bd387eb78354ece4bc63774f",
+    "original_sha256": "bce26c7851d514d3ae4d5c87d9ebbc996a9f9bbb553f3bc0d826915a90cfbcb0",
+    "bytes": 79241,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/O03-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed44/CONFIG.json",
+    "sha256": "d2cdd138c68ae68bb0cd94e30a6efed2184729d640f42df137323caa52531704",
+    "original_sha256": "d2cdd138c68ae68bb0cd94e30a6efed2184729d640f42df137323caa52531704",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O03-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed44/METHOD.json",
+    "sha256": "b57a801fdd59fa6facd8b05231d59ade0347f043b669b50aaa9629932437eb12",
+    "original_sha256": "b57a801fdd59fa6facd8b05231d59ade0347f043b669b50aaa9629932437eb12",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O03-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/O03-seed44/TRAINING.csv",
+    "sha256": "2f6c954fd2b0bfb13259d43b5a181503f15f561ccaec41da75bbe0263af1718a",
+    "original_sha256": "79333fc4a69d81d29a7325387e64c8f2ec04ccfccc74e938c286520c94e3045b",
+    "bytes": 79217,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/O05-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/O05-seed42/CONFIG.json",
+    "sha256": "699ccc7482c85ce85a114045389461b30ecf7e50914967fb491973e61839840e",
+    "original_sha256": "699ccc7482c85ce85a114045389461b30ecf7e50914967fb491973e61839840e",
+    "bytes": 550,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O05-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/O05-seed42/METHOD.json",
+    "sha256": "78cc1e883afd5b8d2512733cb95361769edd0c5b2d329a30066ca831852b6fde",
+    "original_sha256": "78cc1e883afd5b8d2512733cb95361769edd0c5b2d329a30066ca831852b6fde",
+    "bytes": 793,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/O05-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/O05-seed42/TRAINING.csv",
+    "sha256": "1c01b73c93d2e0a1814725cc3dd63ed1b0488d12b46e36ecba19fde198ae7451",
+    "original_sha256": "2893560ed4a6f350e22dc6a59d29aa3b533b8f871981e868333e150efe09bec4",
+    "bytes": 79291,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/S04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/S04-seed42/CONFIG.json",
+    "sha256": "4300289a87828dbbe2e55849a54f1f260ed955d41505286e615c15f86a9c3d68",
+    "original_sha256": "4300289a87828dbbe2e55849a54f1f260ed955d41505286e615c15f86a9c3d68",
+    "bytes": 586,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S04-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/S04-seed42/METHOD.json",
+    "sha256": "d68524e3745773bf5cda18e71b11d75a0d0370ebca0ff9a51b1ab7809fd42afa",
+    "original_sha256": "d68524e3745773bf5cda18e71b11d75a0d0370ebca0ff9a51b1ab7809fd42afa",
+    "bytes": 829,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/S04-seed42/TRAINING.csv",
+    "sha256": "93de460354b0bb20ad60653b84125af25d222ebcbef8f07b5f83cc43abfadd20",
+    "original_sha256": "a11d21c0ec7a26be05be3018793906804767348a6921f765275da1775b4cba76",
+    "bytes": 80099,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/S05-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/S05-seed42/CONFIG.json",
+    "sha256": "e0719cb110b22571e998c1efc909784ec34f5c68c03351f3bf245aa43c14d771",
+    "original_sha256": "e0719cb110b22571e998c1efc909784ec34f5c68c03351f3bf245aa43c14d771",
+    "bytes": 583,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S05-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/S05-seed42/METHOD.json",
+    "sha256": "7421cb27040300a7ae03e99d4fdbbb75c182809487afde7faf2857a28ebf29c4",
+    "original_sha256": "7421cb27040300a7ae03e99d4fdbbb75c182809487afde7faf2857a28ebf29c4",
+    "bytes": 826,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S05-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/S05-seed42/TRAINING.csv",
+    "sha256": "b1e828ce419c38cf17f91e967295692bb20704f641a1a05c8605fe585c8fa65b",
+    "original_sha256": "28a18078cf300dacf22bcf7fcf93d1826972a239206779fb6b37ec4f56b09b10",
+    "bytes": 80088,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/S06-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/S06-seed42/CONFIG.json",
+    "sha256": "1c186a53ad7c56acea7b974948b3a3a2c837ef83fb497ef81e6ec1615d0185cd",
+    "original_sha256": "1c186a53ad7c56acea7b974948b3a3a2c837ef83fb497ef81e6ec1615d0185cd",
+    "bytes": 587,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S06-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/S06-seed42/METHOD.json",
+    "sha256": "37d007784a15005621cfc907eb4e07e3c0bbf5cdae01ba3d47744610ce752e96",
+    "original_sha256": "37d007784a15005621cfc907eb4e07e3c0bbf5cdae01ba3d47744610ce752e96",
+    "bytes": 830,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S06-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/S06-seed42/TRAINING.csv",
+    "sha256": "746ebd0fd212a2f07cf1c88025f4ea90345d3c03934a96fe1380325590d84b12",
+    "original_sha256": "179a479e327093b2dd9096a0d96bb20667f7ce4608caa7ce183f896401419d2a",
+    "bytes": 80110,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/main/S07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/outputs/training/S07-seed42/CONFIG.json",
+    "sha256": "afeb9296e2a82145fa4be7ad13fdd1986571b856ae3778b80220404824842890",
+    "original_sha256": "afeb9296e2a82145fa4be7ad13fdd1986571b856ae3778b80220404824842890",
+    "bytes": 586,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S07-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/outputs/training/S07-seed42/METHOD.json",
+    "sha256": "a1bb505e996b837f5a1f8645f0bc2d6d2f94c9d802ec206363ef9aae221b514a",
+    "original_sha256": "a1bb505e996b837f5a1f8645f0bc2d6d2f94c9d802ec206363ef9aae221b514a",
+    "bytes": 829,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/main/S07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/outputs/training/S07-seed42/TRAINING.csv",
+    "sha256": "a11de7e2b8b72ab882ba5f31840bf143fbea9f2324a7ea107dfe6f2e64b92151",
+    "original_sha256": "370dceea711b2f94dbdf91bfd9d4cb3c776142cbe9cc9455c3e7141ae88de894",
+    "bytes": 80103,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed42/CONFIG.json",
+    "sha256": "44424ee4aad8b93da4a79b5cbfed3e5486fefdb1079c1e714920e58ae7cae9f5",
+    "original_sha256": "44424ee4aad8b93da4a79b5cbfed3e5486fefdb1079c1e714920e58ae7cae9f5",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed42/METHOD.json",
+    "sha256": "fe3a9b0c35c3af538e0595b40733724749df035562c0475440a22788f24db270",
+    "original_sha256": "fe3a9b0c35c3af538e0595b40733724749df035562c0475440a22788f24db270",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed42/TRAINING.csv",
+    "sha256": "32b28d5aa66ac04ec1f26b92ae6e599b4c09ca7a73b46079194b5d12ff1c8c65",
+    "original_sha256": "dd47f2912a8706a7a07243c66edeea972519d7060b527b77b25dc26f67d87263",
+    "bytes": 79587,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed43/CONFIG.json",
+    "sha256": "936d92c2202491ab95527b405fb6cac83bb6ac12ff67bcf255ce32a15425a350",
+    "original_sha256": "936d92c2202491ab95527b405fb6cac83bb6ac12ff67bcf255ce32a15425a350",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed43/METHOD.json",
+    "sha256": "0542875bb25359dcf151c600b36a73795febe3293af9f7418e91c9de4bfcf6a6",
+    "original_sha256": "0542875bb25359dcf151c600b36a73795febe3293af9f7418e91c9de4bfcf6a6",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed43/TRAINING.csv",
+    "sha256": "bdfcb8e73add349273ff0c29418f5109c87bb2942f706677a8170151588df93b",
+    "original_sha256": "57405d9da4bde9126e042a812ee507f08f578c7c9f9142e1b78af9e6717b4364",
+    "bytes": 79611,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed44/CONFIG.json",
+    "sha256": "116176ab86a6bbe508cc4a45f6e4a87662e0e0495c505d59139776a268d169e6",
+    "original_sha256": "116176ab86a6bbe508cc4a45f6e4a87662e0e0495c505d59139776a268d169e6",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed44/METHOD.json",
+    "sha256": "72f8ceb005d027839a098e1e35bb5b00115c842dac50b6872f7bd08507905acf",
+    "original_sha256": "72f8ceb005d027839a098e1e35bb5b00115c842dac50b6872f7bd08507905acf",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B01-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed44/TRAINING.csv",
+    "sha256": "a80d6c5ed9c4bebbb3ecd259423c61de61c9cc2ee0b82c27882484c181985d66",
+    "original_sha256": "59d8168b2e9720f206cd25fc5e6f2bbd557fb40510e737251445bfb3cca7e431",
+    "bytes": 79605,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed42/CONFIG.json",
+    "sha256": "bc033a23d6a200da466ca973da991aeeacf94320f902bebff169e98cf65d5cd1",
+    "original_sha256": "bc033a23d6a200da466ca973da991aeeacf94320f902bebff169e98cf65d5cd1",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed42/METHOD.json",
+    "sha256": "4c920242f0a9d7848b29b830d7347072bd8d787fbaa8dbb2fa7306daf99b8325",
+    "original_sha256": "4c920242f0a9d7848b29b830d7347072bd8d787fbaa8dbb2fa7306daf99b8325",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed42/TRAINING.csv",
+    "sha256": "1b1fa35d3ccc5cbad3d80cb84927aff833fef851119e678e36df5319ce2cd649",
+    "original_sha256": "8c20a1ca313ec63fd51233bca44f8faf182f8c95020ebd48d09710b63705b9c2",
+    "bytes": 79776,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed43/CONFIG.json",
+    "sha256": "38fb575907b5c0ca8e968bc0a1361c305eca03056c7d55038162ccf2bd81b891",
+    "original_sha256": "38fb575907b5c0ca8e968bc0a1361c305eca03056c7d55038162ccf2bd81b891",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed43/METHOD.json",
+    "sha256": "3df67ebbee707eb3c3fc66d86e16acf8c2e8f46a64eb8a103fe1b11f2773ff54",
+    "original_sha256": "3df67ebbee707eb3c3fc66d86e16acf8c2e8f46a64eb8a103fe1b11f2773ff54",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed43/TRAINING.csv",
+    "sha256": "470a58ded1e4f44a73460d1454e1ce32212742a99b7b2ff89b6905bcc0aebee1",
+    "original_sha256": "038e5063e3ee9d061abc7fc0a0a38f0d6fd765f4fabfa105118568454b2e2b81",
+    "bytes": 79789,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed44/CONFIG.json",
+    "sha256": "fddd7a7af9ad0344813fdabc43b945fcd4f700b7ed9ec83402641bede769d45c",
+    "original_sha256": "fddd7a7af9ad0344813fdabc43b945fcd4f700b7ed9ec83402641bede769d45c",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed44/METHOD.json",
+    "sha256": "34dec346e7c9e24cfb660f0c84e2dcc5104899114267a5bca79342e1686dd1fb",
+    "original_sha256": "34dec346e7c9e24cfb660f0c84e2dcc5104899114267a5bca79342e1686dd1fb",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/B04-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed44/TRAINING.csv",
+    "sha256": "e7d9cdc5abacdb2c0ed38fd1ab7a3da804efd4dd9ab6ae40c3d093d09974ff42",
+    "original_sha256": "e0af2b5b26d86751a5e63f3405adb65841ff782e5f59852a5d60b3e9c3e60207",
+    "bytes": 79756,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed42/CONFIG.json",
+    "sha256": "9dff31dd5ca37c4c862f83a99ac36c5c0ac6fe86d93cf33c9218a20addbe7897",
+    "original_sha256": "9dff31dd5ca37c4c862f83a99ac36c5c0ac6fe86d93cf33c9218a20addbe7897",
+    "bytes": 602,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed42/METHOD.json",
+    "sha256": "f35b0c2e40e44c07014fd59c9abc6801c9371d9b917e82b8bd170a023bece3aa",
+    "original_sha256": "f35b0c2e40e44c07014fd59c9abc6801c9371d9b917e82b8bd170a023bece3aa",
+    "bytes": 845,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed42/TRAINING.csv",
+    "sha256": "27ea5247771103c170b4f247ce35e7d1cad4f22b1564fb76feec0de775432269",
+    "original_sha256": "040773a353b4e0f52466320e61f7e620376b676e5cb8af47f2f92ea08835505d",
+    "bytes": 79218,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed43/CONFIG.json",
+    "sha256": "3ebbe852da68e2bb16e7d5c3a9678f6f94ec5b4955051288d96e32e62a4226c0",
+    "original_sha256": "3ebbe852da68e2bb16e7d5c3a9678f6f94ec5b4955051288d96e32e62a4226c0",
+    "bytes": 602,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed43/METHOD.json",
+    "sha256": "bb5266ff58dca5ba530b19a64f728e4fb65e17e6e29b2e22e9f04da7794f7e27",
+    "original_sha256": "bb5266ff58dca5ba530b19a64f728e4fb65e17e6e29b2e22e9f04da7794f7e27",
+    "bytes": 845,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed43/TRAINING.csv",
+    "sha256": "12481947857bec25ea2f04510699289d8d928e554e777f32628f0f4abe79bcd8",
+    "original_sha256": "a50a6a04afc22bdcacd9208e260a3dd9882cee2f0b8f96300dde1489af0c2b4f",
+    "bytes": 79257,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed44/CONFIG.json",
+    "sha256": "f5a7e0b221f137b9152f9bb33a7b886f9a6bb98157cac0c24016e98053f2301f",
+    "original_sha256": "f5a7e0b221f137b9152f9bb33a7b886f9a6bb98157cac0c24016e98053f2301f",
+    "bytes": 602,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed44/METHOD.json",
+    "sha256": "f441b88305d54c8046a493953047326629531250218229f5331c3d3eb99729aa",
+    "original_sha256": "f441b88305d54c8046a493953047326629531250218229f5331c3d3eb99729aa",
+    "bytes": 845,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/D07-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed44/TRAINING.csv",
+    "sha256": "cea8a89930b4982af7600d64344979a9987b565236c845244ee9defe9e55cf05",
+    "original_sha256": "25bcc35e7cb6ddc1cd47195bed41b17bb63dce34a4ef428095bab5ebfb1d5191",
+    "bytes": 79252,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed42/CONFIG.json",
+    "sha256": "8767a3c2c80a596e55d538507ea1e8c130bade53045b3101cacf82e1c0b64c81",
+    "original_sha256": "8767a3c2c80a596e55d538507ea1e8c130bade53045b3101cacf82e1c0b64c81",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed42/METHOD.json",
+    "sha256": "f1c401d951eeb3cb03176e9d659f81e03b9721983683200dee89ad102c5356b2",
+    "original_sha256": "f1c401d951eeb3cb03176e9d659f81e03b9721983683200dee89ad102c5356b2",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed42/TRAINING.csv",
+    "sha256": "0422e74f013c384a2304f807fd47e1b67bd6e74fd73bf172b13adac5c04b56f7",
+    "original_sha256": "140218d6dc1283cc7982d0ac4f6b22f3a1808b06c9076aa57d36bc463624b241",
+    "bytes": 79235,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed43/CONFIG.json",
+    "sha256": "24e0d8bae30ac75237edbd22de18b87b56b81de6742443fd12bc4eead0aba10c",
+    "original_sha256": "24e0d8bae30ac75237edbd22de18b87b56b81de6742443fd12bc4eead0aba10c",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed43/METHOD.json",
+    "sha256": "d6257feb0f4e70821dd09bb2e5169905b452c490fe7e9f51da4c7a4ebd7710a4",
+    "original_sha256": "d6257feb0f4e70821dd09bb2e5169905b452c490fe7e9f51da4c7a4ebd7710a4",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed43/TRAINING.csv",
+    "sha256": "58bdcc9f0e748c3ae5483411b785ee0c629c3976bd387eb78354ece4bc63774f",
+    "original_sha256": "bce26c7851d514d3ae4d5c87d9ebbc996a9f9bbb553f3bc0d826915a90cfbcb0",
+    "bytes": 79241,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed44/CONFIG.json",
+    "sha256": "d2cdd138c68ae68bb0cd94e30a6efed2184729d640f42df137323caa52531704",
+    "original_sha256": "d2cdd138c68ae68bb0cd94e30a6efed2184729d640f42df137323caa52531704",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed44/METHOD.json",
+    "sha256": "b57a801fdd59fa6facd8b05231d59ade0347f043b669b50aaa9629932437eb12",
+    "original_sha256": "b57a801fdd59fa6facd8b05231d59ade0347f043b669b50aaa9629932437eb12",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/factorial/O03-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed44/TRAINING.csv",
+    "sha256": "2f6c954fd2b0bfb13259d43b5a181503f15f561ccaec41da75bbe0263af1718a",
+    "original_sha256": "79333fc4a69d81d29a7325387e64c8f2ec04ccfccc74e938c286520c94e3045b",
+    "bytes": 79217,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed42/CONFIG.json",
+    "sha256": "44424ee4aad8b93da4a79b5cbfed3e5486fefdb1079c1e714920e58ae7cae9f5",
+    "original_sha256": "44424ee4aad8b93da4a79b5cbfed3e5486fefdb1079c1e714920e58ae7cae9f5",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed42/METHOD.json",
+    "sha256": "fe3a9b0c35c3af538e0595b40733724749df035562c0475440a22788f24db270",
+    "original_sha256": "fe3a9b0c35c3af538e0595b40733724749df035562c0475440a22788f24db270",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed42/TRAINING.csv",
+    "sha256": "32b28d5aa66ac04ec1f26b92ae6e599b4c09ca7a73b46079194b5d12ff1c8c65",
+    "original_sha256": "dd47f2912a8706a7a07243c66edeea972519d7060b527b77b25dc26f67d87263",
+    "bytes": 79587,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed43/CONFIG.json",
+    "sha256": "936d92c2202491ab95527b405fb6cac83bb6ac12ff67bcf255ce32a15425a350",
+    "original_sha256": "936d92c2202491ab95527b405fb6cac83bb6ac12ff67bcf255ce32a15425a350",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed43/METHOD.json",
+    "sha256": "0542875bb25359dcf151c600b36a73795febe3293af9f7418e91c9de4bfcf6a6",
+    "original_sha256": "0542875bb25359dcf151c600b36a73795febe3293af9f7418e91c9de4bfcf6a6",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed43/TRAINING.csv",
+    "sha256": "bdfcb8e73add349273ff0c29418f5109c87bb2942f706677a8170151588df93b",
+    "original_sha256": "57405d9da4bde9126e042a812ee507f08f578c7c9f9142e1b78af9e6717b4364",
+    "bytes": 79611,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed44/CONFIG.json",
+    "sha256": "116176ab86a6bbe508cc4a45f6e4a87662e0e0495c505d59139776a268d169e6",
+    "original_sha256": "116176ab86a6bbe508cc4a45f6e4a87662e0e0495c505d59139776a268d169e6",
+    "bytes": 523,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed44/METHOD.json",
+    "sha256": "72f8ceb005d027839a098e1e35bb5b00115c842dac50b6872f7bd08507905acf",
+    "original_sha256": "72f8ceb005d027839a098e1e35bb5b00115c842dac50b6872f7bd08507905acf",
+    "bytes": 766,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B01-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed44/TRAINING.csv",
+    "sha256": "a80d6c5ed9c4bebbb3ecd259423c61de61c9cc2ee0b82c27882484c181985d66",
+    "original_sha256": "59d8168b2e9720f206cd25fc5e6f2bbd557fb40510e737251445bfb3cca7e431",
+    "bytes": 79605,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B01-seed42/CONFIG.json",
+    "sha256": "3356f7178adcd74b51a001d7958d4111bd36d6b9d7f8e7a056921e579bf144a1",
+    "original_sha256": "3356f7178adcd74b51a001d7958d4111bd36d6b9d7f8e7a056921e579bf144a1",
+    "bytes": 846,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B01-seed42/TRAINING.csv",
+    "sha256": "45703f5938bb00b1949fa43e8a6db174eb35c4df224f9a8469600025a77e3211",
+    "original_sha256": "1310140e297fa75122d595a68f15de01aec014051ed2f6bdd7002540a0a586c5",
+    "bytes": 109332,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B01-seed42/GRADIENT_MEMBER1.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B01-seed42/GRADIENT_MEMBER1.json",
+    "sha256": "0ddaef5cea6c5ac15c563957b46bb7e3981ac9910ef4e335bd72e2a8db3c67f0",
+    "original_sha256": "0ddaef5cea6c5ac15c563957b46bb7e3981ac9910ef4e335bd72e2a8db3c67f0",
+    "bytes": 171,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B01-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B01-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "29330ae8763032111f9c632a9da08fadb1673d8b43ac5d0707e245929b6b9f3e",
+    "original_sha256": "29330ae8763032111f9c632a9da08fadb1673d8b43ac5d0707e245929b6b9f3e",
+    "bytes": 171,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B04-seed42/CONFIG.json",
+    "sha256": "a1c35b012daa2a4f36c89183a60d87f82e055d2cf9518cfcc6ee1d8d23ed586f",
+    "original_sha256": "a1c35b012daa2a4f36c89183a60d87f82e055d2cf9518cfcc6ee1d8d23ed586f",
+    "bytes": 896,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B04-seed42/TRAINING.csv",
+    "sha256": "dc45b45f5e39ecc0bc2e8f52c2ac9ffcf73bafe214eaeaab90a4065a287bfe05",
+    "original_sha256": "1677c3b97ae78b5c3bd3ea4978ef609ed9284423675ce3976a981e6841b802d7",
+    "bytes": 109506,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B04-seed42/GRADIENT_MEMBER1.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B04-seed42/GRADIENT_MEMBER1.json",
+    "sha256": "fe77779a7997b28d9915b27f66df31f475d2fd9bf2748e583858b4290f8064d2",
+    "original_sha256": "fe77779a7997b28d9915b27f66df31f475d2fd9bf2748e583858b4290f8064d2",
+    "bytes": 212,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-B04-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B04-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "1936200b85751aa68e7f2850bd408b4647da24e8a2832232a7847696503a4bcf",
+    "original_sha256": "1936200b85751aa68e7f2850bd408b4647da24e8a2832232a7847696503a4bcf",
+    "bytes": 214,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-D07-seed42/CONFIG.json",
+    "sha256": "c386dd9a722b19a0c3a36031a4619466d53801d3f1dc47c11ef588513f58c91b",
+    "original_sha256": "c386dd9a722b19a0c3a36031a4619466d53801d3f1dc47c11ef588513f58c91b",
+    "bytes": 925,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-D07-seed42/TRAINING.csv",
+    "sha256": "efec11ef12efe94ad78574a4f85997b3ef47a10a6073c32210f548fe17fa8696",
+    "original_sha256": "f8dbf5a6d49bb8981de07c0fc090267eb3a57dfa5ce03223b42d716cebb4ac87",
+    "bytes": 117136,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-D07-seed42/GRADIENT_MEMBER1.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-D07-seed42/GRADIENT_MEMBER1.json",
+    "sha256": "0a0004f89466cf1e502df568f48a0721c0ff1ff6bda534417d7e2ad1e848a0af",
+    "original_sha256": "0a0004f89466cf1e502df568f48a0721c0ff1ff6bda534417d7e2ad1e848a0af",
+    "bytes": 229,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-D07-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-D07-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "0483a543ac21ec2c1102568ded990bfcceb0a4a8a560de44006f90c01d01dd97",
+    "original_sha256": "0483a543ac21ec2c1102568ded990bfcceb0a4a8a560de44006f90c01d01dd97",
+    "bytes": 226,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-O03-seed42/CONFIG.json",
+    "sha256": "f3f7e2c0db0a3d09dbb5e19084f29a27e014979f6c3398eb6c5d81962a7ce9d6",
+    "original_sha256": "f3f7e2c0db0a3d09dbb5e19084f29a27e014979f6c3398eb6c5d81962a7ce9d6",
+    "bytes": 871,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-O03-seed42/TRAINING.csv",
+    "sha256": "b3d58bd92deaceea26207c542399d28082732c44afd27c003d6f6b43a090c91e",
+    "original_sha256": "11e6202314ed98ec3dfb36d7584e07d963823b41034b7637242a26c8b596f188",
+    "bytes": 117132,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-O03-seed42/GRADIENT_MEMBER1.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-O03-seed42/GRADIENT_MEMBER1.json",
+    "sha256": "d5f7efe24fc9b8f0c1cf3c5c7c15cf8a6ce31d46f6b02ee81ecfd95f8986d63d",
+    "original_sha256": "d5f7efe24fc9b8f0c1cf3c5c7c15cf8a6ce31d46f6b02ee81ecfd95f8986d63d",
+    "bytes": 185,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B02-O03-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-O03-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "ad57bbdd8abb5c7a27ca7526fbad9fe5db540d65f2f94eab4489dfcbf50d21ea",
+    "original_sha256": "ad57bbdd8abb5c7a27ca7526fbad9fe5db540d65f2f94eab4489dfcbf50d21ea",
+    "bytes": 186,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed42/CONFIG.json",
+    "sha256": "bc033a23d6a200da466ca973da991aeeacf94320f902bebff169e98cf65d5cd1",
+    "original_sha256": "bc033a23d6a200da466ca973da991aeeacf94320f902bebff169e98cf65d5cd1",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed42/METHOD.json",
+    "sha256": "4c920242f0a9d7848b29b830d7347072bd8d787fbaa8dbb2fa7306daf99b8325",
+    "original_sha256": "4c920242f0a9d7848b29b830d7347072bd8d787fbaa8dbb2fa7306daf99b8325",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed42/TRAINING.csv",
+    "sha256": "1b1fa35d3ccc5cbad3d80cb84927aff833fef851119e678e36df5319ce2cd649",
+    "original_sha256": "8c20a1ca313ec63fd51233bca44f8faf182f8c95020ebd48d09710b63705b9c2",
+    "bytes": 79776,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed43/CONFIG.json",
+    "sha256": "38fb575907b5c0ca8e968bc0a1361c305eca03056c7d55038162ccf2bd81b891",
+    "original_sha256": "38fb575907b5c0ca8e968bc0a1361c305eca03056c7d55038162ccf2bd81b891",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed43/METHOD.json",
+    "sha256": "3df67ebbee707eb3c3fc66d86e16acf8c2e8f46a64eb8a103fe1b11f2773ff54",
+    "original_sha256": "3df67ebbee707eb3c3fc66d86e16acf8c2e8f46a64eb8a103fe1b11f2773ff54",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed43/TRAINING.csv",
+    "sha256": "470a58ded1e4f44a73460d1454e1ce32212742a99b7b2ff89b6905bcc0aebee1",
+    "original_sha256": "038e5063e3ee9d061abc7fc0a0a38f0d6fd765f4fabfa105118568454b2e2b81",
+    "bytes": 79789,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed44/CONFIG.json",
+    "sha256": "fddd7a7af9ad0344813fdabc43b945fcd4f700b7ed9ec83402641bede769d45c",
+    "original_sha256": "fddd7a7af9ad0344813fdabc43b945fcd4f700b7ed9ec83402641bede769d45c",
+    "bytes": 573,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed44/METHOD.json",
+    "sha256": "34dec346e7c9e24cfb660f0c84e2dcc5104899114267a5bca79342e1686dd1fb",
+    "original_sha256": "34dec346e7c9e24cfb660f0c84e2dcc5104899114267a5bca79342e1686dd1fb",
+    "bytes": 816,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/B04-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed44/TRAINING.csv",
+    "sha256": "e7d9cdc5abacdb2c0ed38fd1ab7a3da804efd4dd9ab6ae40c3d093d09974ff42",
+    "original_sha256": "e0af2b5b26d86751a5e63f3405adb65841ff782e5f59852a5d60b3e9c3e60207",
+    "bytes": 79756,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed42/CONFIG.json",
+    "sha256": "9dff31dd5ca37c4c862f83a99ac36c5c0ac6fe86d93cf33c9218a20addbe7897",
+    "original_sha256": "9dff31dd5ca37c4c862f83a99ac36c5c0ac6fe86d93cf33c9218a20addbe7897",
+    "bytes": 602,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed42/METHOD.json",
+    "sha256": "f35b0c2e40e44c07014fd59c9abc6801c9371d9b917e82b8bd170a023bece3aa",
+    "original_sha256": "f35b0c2e40e44c07014fd59c9abc6801c9371d9b917e82b8bd170a023bece3aa",
+    "bytes": 845,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed42/TRAINING.csv",
+    "sha256": "27ea5247771103c170b4f247ce35e7d1cad4f22b1564fb76feec0de775432269",
+    "original_sha256": "040773a353b4e0f52466320e61f7e620376b676e5cb8af47f2f92ea08835505d",
+    "bytes": 79218,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed43/CONFIG.json",
+    "sha256": "3ebbe852da68e2bb16e7d5c3a9678f6f94ec5b4955051288d96e32e62a4226c0",
+    "original_sha256": "3ebbe852da68e2bb16e7d5c3a9678f6f94ec5b4955051288d96e32e62a4226c0",
+    "bytes": 602,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed43/METHOD.json",
+    "sha256": "bb5266ff58dca5ba530b19a64f728e4fb65e17e6e29b2e22e9f04da7794f7e27",
+    "original_sha256": "bb5266ff58dca5ba530b19a64f728e4fb65e17e6e29b2e22e9f04da7794f7e27",
+    "bytes": 845,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed43/TRAINING.csv",
+    "sha256": "12481947857bec25ea2f04510699289d8d928e554e777f32628f0f4abe79bcd8",
+    "original_sha256": "a50a6a04afc22bdcacd9208e260a3dd9882cee2f0b8f96300dde1489af0c2b4f",
+    "bytes": 79257,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed44/CONFIG.json",
+    "sha256": "f5a7e0b221f137b9152f9bb33a7b886f9a6bb98157cac0c24016e98053f2301f",
+    "original_sha256": "f5a7e0b221f137b9152f9bb33a7b886f9a6bb98157cac0c24016e98053f2301f",
+    "bytes": 602,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed44/METHOD.json",
+    "sha256": "f441b88305d54c8046a493953047326629531250218229f5331c3d3eb99729aa",
+    "original_sha256": "f441b88305d54c8046a493953047326629531250218229f5331c3d3eb99729aa",
+    "bytes": 845,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/D07-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed44/TRAINING.csv",
+    "sha256": "cea8a89930b4982af7600d64344979a9987b565236c845244ee9defe9e55cf05",
+    "original_sha256": "25bcc35e7cb6ddc1cd47195bed41b17bb63dce34a4ef428095bab5ebfb1d5191",
+    "bytes": 79252,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B01-seed42/CONFIG.json",
+    "sha256": "f97093af5b9c403a0a39acf0bc66c079b949d6d270d0872699a8752675e4ceae",
+    "original_sha256": "f97093af5b9c403a0a39acf0bc66c079b949d6d270d0872699a8752675e4ceae",
+    "bytes": 847,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B01-seed42/TRAINING.csv",
+    "sha256": "1d5ff9a221eece8c1d8ee7e4db8dcd3ef95e0ec90391b785a4547de3792d413c",
+    "original_sha256": "8fe35eec9dc95d3b0dc962c81307f2bee00a42ee39207352a692af34c3e585d5",
+    "bytes": 88589,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-B01-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B01-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "f1dc9606b2ab3a31192e6450fc52b06f75f3c34dd71f37958610ee9b3080272b",
+    "original_sha256": "f1dc9606b2ab3a31192e6450fc52b06f75f3c34dd71f37958610ee9b3080272b",
+    "bytes": 171,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B04-seed42/CONFIG.json",
+    "sha256": "2ed35155633333b3278c64bf23050642dba4eb71a995ab231ff5611fff654bde",
+    "original_sha256": "2ed35155633333b3278c64bf23050642dba4eb71a995ab231ff5611fff654bde",
+    "bytes": 897,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B04-seed42/TRAINING.csv",
+    "sha256": "5189fa134f463e7ff4b0f1542c9a5c2fc839f4872302acd794dd03da6a71fa68",
+    "original_sha256": "be1ec6d831f3df8de2cc5a7fd1ffcdf74e75930cfad6352f9d280d2f308ba5b9",
+    "bytes": 88731,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-B04-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B04-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "7648df752e827968883cde227ae054627eda85891ff397ce17d28f331ac63b4a",
+    "original_sha256": "7648df752e827968883cde227ae054627eda85891ff397ce17d28f331ac63b4a",
+    "bytes": 215,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-D07-seed42/CONFIG.json",
+    "sha256": "df5a841d832de151b8e6b0597ec8a6b5873441f08c42f0afc9b675fddf5f5e8f",
+    "original_sha256": "df5a841d832de151b8e6b0597ec8a6b5873441f08c42f0afc9b675fddf5f5e8f",
+    "bytes": 926,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-D07-seed42/TRAINING.csv",
+    "sha256": "20992467d5743963e59664e981eddb5143bc00d9b8fec31d6526e734cf0c5573",
+    "original_sha256": "10d833bfe7f3f342fe41ca87e17a67cdd59fbb16f5e0e4cfdccb5832ab4d73da",
+    "bytes": 96367,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-D07-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-D07-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "cf6308ccbb5fb901f84febd3554a26bcf23956b53b1ff6d6046793b253f08e17",
+    "original_sha256": "cf6308ccbb5fb901f84febd3554a26bcf23956b53b1ff6d6046793b253f08e17",
+    "bytes": 225,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-O03-seed42/CONFIG.json",
+    "sha256": "a4356390e40eb63f431089810587898c9a21b407e2b41cc03cda056f4b6c8db9",
+    "original_sha256": "a4356390e40eb63f431089810587898c9a21b407e2b41cc03cda056f4b6c8db9",
+    "bytes": 872,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-O03-seed42/TRAINING.csv",
+    "sha256": "b1a86e87a28fb35b1b84c7c908c39d3897407124e42c1609965bcdcccd75d4ce",
+    "original_sha256": "51ac51c77e6148aa73e3cfe2e6dab223bfd2c754d72b018c8776f5c92f19ddc3",
+    "bytes": 96352,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR001-O03-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-O03-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "bb22ad9a632e91709262f07de95295e951045489e456279144bed8ebb0b734a4",
+    "original_sha256": "bb22ad9a632e91709262f07de95295e951045489e456279144bed8ebb0b734a4",
+    "bytes": 184,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed42/CONFIG.json",
+    "sha256": "8a56dc096a19421d0bd3fbbb7a28f54e656c26fab84429055168e890faa7e4f3",
+    "original_sha256": "8a56dc096a19421d0bd3fbbb7a28f54e656c26fab84429055168e890faa7e4f3",
+    "bytes": 847,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed42/TRAINING.csv",
+    "sha256": "fb238386bbd1f99bc4c732de94905b113d5ef868f17c2d091ff9e1329dbf0af2",
+    "original_sha256": "475c194f3ccbc28420c61ab5aedd32aa1863c40dd50c41ced4865912e035c110",
+    "bytes": 88297,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "213508c56a0d6694f3a63df7a3fbe2600d404cad70e5411b49a11dff88afeb18",
+    "original_sha256": "213508c56a0d6694f3a63df7a3fbe2600d404cad70e5411b49a11dff88afeb18",
+    "bytes": 171,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed43/CONFIG.json",
+    "sha256": "f7d996dda04d67391fb8437854c7da8e91292b9970b6021c21fc1b723975e9b3",
+    "original_sha256": "f7d996dda04d67391fb8437854c7da8e91292b9970b6021c21fc1b723975e9b3",
+    "bytes": 847,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed43/TRAINING.csv",
+    "sha256": "020b28a029d913e5642b5d8c0d3aa2c5ffbb5717c992fc23f1b02db07aa1af03",
+    "original_sha256": "c219247def6a52f7b9ea2e9dc222fde855b958a5323a0968dfab317083b02d69",
+    "bytes": 88312,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed43/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed43/GRADIENT_MEMBER0.json",
+    "sha256": "0142ee7bd23b068019e37095991fc0e36ebd0b7e840a07b9736b4d65c4855e8c",
+    "original_sha256": "0142ee7bd23b068019e37095991fc0e36ebd0b7e840a07b9736b4d65c4855e8c",
+    "bytes": 171,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed44/CONFIG.json",
+    "sha256": "e648fd256d9902b242d9ca8660eb284a52bb359c7968de9a32cd9ae86b665161",
+    "original_sha256": "e648fd256d9902b242d9ca8660eb284a52bb359c7968de9a32cd9ae86b665161",
+    "bytes": 847,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed44/TRAINING.csv",
+    "sha256": "d02f3eae4c70e7ba78f07329cbed421db8bac6f18d632bab0e42bb751d324942",
+    "original_sha256": "63795dd0aa90ec9d0600a63b27b4a0b33e599338321b36516316f4df716f56f1",
+    "bytes": 88232,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B01-seed44/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed44/GRADIENT_MEMBER0.json",
+    "sha256": "735e0798576d1ebb4545dd9f231d13382db42300e7c12c70d1bcc12055c91da4",
+    "original_sha256": "735e0798576d1ebb4545dd9f231d13382db42300e7c12c70d1bcc12055c91da4",
+    "bytes": 171,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B04-seed42/CONFIG.json",
+    "sha256": "72a39015575559ef98f3ad27ee7c0faa794ab6703ca5cb4c72130bce96da96b1",
+    "original_sha256": "72a39015575559ef98f3ad27ee7c0faa794ab6703ca5cb4c72130bce96da96b1",
+    "bytes": 897,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B04-seed42/TRAINING.csv",
+    "sha256": "a71f33112af580d7c808dec9d524c2abb6615cdd1fc67ea0ae3bb08b7b23f4f3",
+    "original_sha256": "eeac81487139d5ea5d505da3d6f3d08e5bcc54463a47c29a097ad55013599250",
+    "bytes": 88516,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-B04-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B04-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "2c989c7f49e63636d0294a40b1da3e5d8ea5b6473c6b8855ccc5d15969a13fe8",
+    "original_sha256": "2c989c7f49e63636d0294a40b1da3e5d8ea5b6473c6b8855ccc5d15969a13fe8",
+    "bytes": 213,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-D07-seed42/CONFIG.json",
+    "sha256": "4b5b6623d7bd46e1fc80803f599b0e21c53d2fbb0f6bbb15495c944baeaeda21",
+    "original_sha256": "4b5b6623d7bd46e1fc80803f599b0e21c53d2fbb0f6bbb15495c944baeaeda21",
+    "bytes": 926,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-D07-seed42/TRAINING.csv",
+    "sha256": "900f7e7de07fe9505f632f53f41d30ce7b5878272f868d3acb675214dd385650",
+    "original_sha256": "fc3343ac2f4ca34bbec432e347834787b3956c8b9c15795a4148797372aaccc7",
+    "bytes": 96089,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-D07-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-D07-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "359513f503a36a742f9c71be9c85b12f73d9866a887616db5ae4ae7baae14a80",
+    "original_sha256": "359513f503a36a742f9c71be9c85b12f73d9866a887616db5ae4ae7baae14a80",
+    "bytes": 228,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed42/CONFIG.json",
+    "sha256": "7496f45eadad74b26e853d466cf24d0498d468be7f75f3cebc6347180a490eab",
+    "original_sha256": "7496f45eadad74b26e853d466cf24d0498d468be7f75f3cebc6347180a490eab",
+    "bytes": 872,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed42/TRAINING.csv",
+    "sha256": "b387c2671cb8531f7973921a1f836d1f3f5b61b8d0bd099b3a0a012d700f0456",
+    "original_sha256": "38c6e6e4b4895de6c9373578bfed2a4a6044ad114e93a35eeddc760df3dec9e7",
+    "bytes": 96141,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "8e2fccc71a23e7990a0f6a3664316ecf10a4e0442484dff77183100423a0a50a",
+    "original_sha256": "8e2fccc71a23e7990a0f6a3664316ecf10a4e0442484dff77183100423a0a50a",
+    "bytes": 185,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed43/CONFIG.json",
+    "sha256": "0d9861c8021d69a713babab6621ed22282d6cda865e1f8fcf824ead996470275",
+    "original_sha256": "0d9861c8021d69a713babab6621ed22282d6cda865e1f8fcf824ead996470275",
+    "bytes": 872,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed43/TRAINING.csv",
+    "sha256": "f4887519421cc0dc5cca083f057a453137de9467c522c342c486d0e863796956",
+    "original_sha256": "33ad2385a559895b374f745c615fb6952de9c72df86d10578bcb181a6a880445",
+    "bytes": 96074,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed43/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed43/GRADIENT_MEMBER0.json",
+    "sha256": "3b10abfd8a5426058e9833e8ac722cc461833c46e3f35a51942be257783dba6e",
+    "original_sha256": "3b10abfd8a5426058e9833e8ac722cc461833c46e3f35a51942be257783dba6e",
+    "bytes": 184,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed44/CONFIG.json",
+    "sha256": "0b9b6996732eaac1e6eaba45b0a50c88e1adaf73228395d73865c32690bb0dce",
+    "original_sha256": "0b9b6996732eaac1e6eaba45b0a50c88e1adaf73228395d73865c32690bb0dce",
+    "bytes": 872,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed44/TRAINING.csv",
+    "sha256": "08afafeb0dbedd1e941253f60dc006af45002aef04a5622fd05facd7aa8c3cdc",
+    "original_sha256": "e58b12d778fec39e35ab7a23f61ed8223b066d1dd6775ae102505d852ff41755",
+    "bytes": 96157,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/LR004-O03-seed44/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed44/GRADIENT_MEMBER0.json",
+    "sha256": "7733685aff333829752a8e825743ab95f2d53fc2505725ac822f427165863880",
+    "original_sha256": "7733685aff333829752a8e825743ab95f2d53fc2505725ac822f427165863880",
+    "bytes": 186,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed42/CONFIG.json",
+    "sha256": "8767a3c2c80a596e55d538507ea1e8c130bade53045b3101cacf82e1c0b64c81",
+    "original_sha256": "8767a3c2c80a596e55d538507ea1e8c130bade53045b3101cacf82e1c0b64c81",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed42/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed42/METHOD.json",
+    "sha256": "f1c401d951eeb3cb03176e9d659f81e03b9721983683200dee89ad102c5356b2",
+    "original_sha256": "f1c401d951eeb3cb03176e9d659f81e03b9721983683200dee89ad102c5356b2",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed42/TRAINING.csv",
+    "sha256": "0422e74f013c384a2304f807fd47e1b67bd6e74fd73bf172b13adac5c04b56f7",
+    "original_sha256": "140218d6dc1283cc7982d0ac4f6b22f3a1808b06c9076aa57d36bc463624b241",
+    "bytes": 79235,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed43/CONFIG.json",
+    "sha256": "24e0d8bae30ac75237edbd22de18b87b56b81de6742443fd12bc4eead0aba10c",
+    "original_sha256": "24e0d8bae30ac75237edbd22de18b87b56b81de6742443fd12bc4eead0aba10c",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed43/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed43/METHOD.json",
+    "sha256": "d6257feb0f4e70821dd09bb2e5169905b452c490fe7e9f51da4c7a4ebd7710a4",
+    "original_sha256": "d6257feb0f4e70821dd09bb2e5169905b452c490fe7e9f51da4c7a4ebd7710a4",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed43/TRAINING.csv",
+    "sha256": "58bdcc9f0e748c3ae5483411b785ee0c629c3976bd387eb78354ece4bc63774f",
+    "original_sha256": "bce26c7851d514d3ae4d5c87d9ebbc996a9f9bbb553f3bc0d826915a90cfbcb0",
+    "bytes": 79241,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed44/CONFIG.json",
+    "sha256": "d2cdd138c68ae68bb0cd94e30a6efed2184729d640f42df137323caa52531704",
+    "original_sha256": "d2cdd138c68ae68bb0cd94e30a6efed2184729d640f42df137323caa52531704",
+    "bytes": 548,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed44/METHOD.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed44/METHOD.json",
+    "sha256": "b57a801fdd59fa6facd8b05231d59ade0347f043b669b50aaa9629932437eb12",
+    "original_sha256": "b57a801fdd59fa6facd8b05231d59ade0347f043b669b50aaa9629932437eb12",
+    "bytes": 791,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/O03-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed44/TRAINING.csv",
+    "sha256": "2f6c954fd2b0bfb13259d43b5a181503f15f561ccaec41da75bbe0263af1718a",
+    "original_sha256": "79333fc4a69d81d29a7325387e64c8f2ec04ccfccc74e938c286520c94e3045b",
+    "bytes": 79217,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-B01-seed42/CONFIG.json",
+    "sha256": "7435eb11606c8c07b1433d9383f324f60c4b953f5c6639fe51d8b66c3ee56afa",
+    "original_sha256": "7435eb11606c8c07b1433d9383f324f60c4b953f5c6639fe51d8b66c3ee56afa",
+    "bytes": 909,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-B01-seed42/TRAINING.csv",
+    "sha256": "372886ac5d6021854943d7222e38efc8c090fbac0994c9fa99627bce066e1ebf",
+    "original_sha256": "7e8e75ecde6a5f7bb51d48f7c95d79b5959b7817e3f4aa2c3efcdbc7f96df8dd",
+    "bytes": 88224,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-B04-seed42/CONFIG.json",
+    "sha256": "e025ad96cddc402501035c8f2b5ff82a28da3c77371cc064aaf4ccc9f4e41892",
+    "original_sha256": "e025ad96cddc402501035c8f2b5ff82a28da3c77371cc064aaf4ccc9f4e41892",
+    "bytes": 959,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-B04-seed42/TRAINING.csv",
+    "sha256": "820e8fadf353fb306cba7e014a1b249faba3c5d5035c0a2b56a6b7748f13e906",
+    "original_sha256": "94ce7a2eaf130222fbbc0e3de9b40629e46a1f23886195553f85355707fc9982",
+    "bytes": 88531,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-D07-seed42/CONFIG.json",
+    "sha256": "7bb4ea5e703fe97dea1ea478dc99a0ead2c3f2cafb2572cc9ce88cfbe7e6efca",
+    "original_sha256": "7bb4ea5e703fe97dea1ea478dc99a0ead2c3f2cafb2572cc9ce88cfbe7e6efca",
+    "bytes": 988,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-D07-seed42/TRAINING.csv",
+    "sha256": "bb886b71af2eb51f432263a173c4cb3d039039b7e74692a431c5a7ecbb43c2dd",
+    "original_sha256": "87cd771cdf693b74062d4277387ad68fa1b6bd9005dedba0a9a38a139b3e2df1",
+    "bytes": 96167,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-O03-seed42/CONFIG.json",
+    "sha256": "10e580bdf7f56e3f0759cb13ad42f77a48e227df79e97b96e936ba4891684701",
+    "original_sha256": "10e580bdf7f56e3f0759cb13ad42f77a48e227df79e97b96e936ba4891684701",
+    "bytes": 934,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T0500-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-O03-seed42/TRAINING.csv",
+    "sha256": "dd14c8e7d987a6d6540c8934e56833eef570a6885bf516d786c1a31d1747f5a0",
+    "original_sha256": "0b05e9a83c257fa2089b57d15bc40016165e5a05e38a5874fa265f0da9f29461",
+    "bytes": 96112,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-B01-seed42/CONFIG.json",
+    "sha256": "b5fd5dbbc33df2e1c55096f745a3ab96038d5d84c676e161d2283620dd3e71f2",
+    "original_sha256": "b5fd5dbbc33df2e1c55096f745a3ab96038d5d84c676e161d2283620dd3e71f2",
+    "bytes": 910,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-B01-seed42/TRAINING.csv",
+    "sha256": "2be91079d2256980d6e9801ba2c3bee24e103dd007724aea5613049aca69ccf0",
+    "original_sha256": "a92fe556c11df8ef9f154e47851d49d759aa15a2d30b8bd3f1098342adbdd8ac",
+    "bytes": 177182,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-B04-seed42/CONFIG.json",
+    "sha256": "08d150b5b3be212f6251c1be1e7fc5b54cf802f9f23ad96afb5489ce2269ffa8",
+    "original_sha256": "08d150b5b3be212f6251c1be1e7fc5b54cf802f9f23ad96afb5489ce2269ffa8",
+    "bytes": 960,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-B04-seed42/TRAINING.csv",
+    "sha256": "48ce051093e0366d33899454bc26abb11702542c82147a9673421bb876b07c86",
+    "original_sha256": "9d01b38cecc11cbe936bd3aad6cfab223afbc6218e12da64c99eca15880ae2bc",
+    "bytes": 177752,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-D07-seed42/CONFIG.json",
+    "sha256": "ac6a3829927501ea68ec92b6bde6b708cf4921ed4ec84b29608b661229fc4552",
+    "original_sha256": "ac6a3829927501ea68ec92b6bde6b708cf4921ed4ec84b29608b661229fc4552",
+    "bytes": 989,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-D07-seed42/TRAINING.csv",
+    "sha256": "fc2e43e9f333670ad541c4bf5d246c27904b8719ddb6d8c640c520becf80a4fb",
+    "original_sha256": "7a18579df5287e44727cff0335ea8c88307d4ecee8d8c50a0ca1c5c697ef75cb",
+    "bytes": 192968,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-O03-seed42/CONFIG.json",
+    "sha256": "4323ae7e453c3b76b4df358f7424c44e36cb0f6c3d051ee03173737df4ec2ff4",
+    "original_sha256": "4323ae7e453c3b76b4df358f7424c44e36cb0f6c3d051ee03173737df4ec2ff4",
+    "bytes": 935,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T1000-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-O03-seed42/TRAINING.csv",
+    "sha256": "8ba69163578571dc5a47f6dc746e094399bf8b4357963676580a710c273a7204",
+    "original_sha256": "3fccbe3b94e5e575b29450cd611787f36b64406cebb2a3086ceb2443cee6656a",
+    "bytes": 192922,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-B01-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-B01-seed42/CONFIG.json",
+    "sha256": "b6e3d4f08df1861c9316c1c97c9d3ee173e1db8494990605e387594aac6f8be3",
+    "original_sha256": "b6e3d4f08df1861c9316c1c97c9d3ee173e1db8494990605e387594aac6f8be3",
+    "bytes": 910,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-B01-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-B01-seed42/TRAINING.csv",
+    "sha256": "efe5fd0af425f9fc7185a70bd123bcc1b3f7595f325cd8c5abd4f3e26e70b14c",
+    "original_sha256": "aaa18b54c00cb0281cfffbaafa94663f5ad63096849554c1f20d16721217b261",
+    "bytes": 356597,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-B04-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-B04-seed42/CONFIG.json",
+    "sha256": "a743519bfbe2cd1a43cf4fbb31161f909f39e43ed671cf89be5c37f2adf2d45c",
+    "original_sha256": "a743519bfbe2cd1a43cf4fbb31161f909f39e43ed671cf89be5c37f2adf2d45c",
+    "bytes": 960,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-B04-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-B04-seed42/TRAINING.csv",
+    "sha256": "052ea6798098a59b847d0fe41d9fe41ef172605805f8f49af948d2b8eeccee16",
+    "original_sha256": "0716182718512c54de597437c4527c8b535b385c8d5c9a3c9f22cfcb6407cbc5",
+    "bytes": 357597,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-D07-seed42/CONFIG.json",
+    "sha256": "4cd99d8462591f4bfd6982d526052f381885bc6b9031790cee9432c9f150bf93",
+    "original_sha256": "4cd99d8462591f4bfd6982d526052f381885bc6b9031790cee9432c9f150bf93",
+    "bytes": 989,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-D07-seed42/TRAINING.csv",
+    "sha256": "6c0a21eca1c070e993452dfcda5406179d21153d4e434e9e248fefab588b78fd",
+    "original_sha256": "a9fe40f11f1ba5391b30f7cadbdf01c45f3cc73469ccd2b96dee00207e3dff22",
+    "bytes": 388100,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-O03-seed42/CONFIG.json",
+    "sha256": "82fdc1ea46fd0f0d197adc26b0b326d6beb10ce4accb4b4057a1eeb4236478f0",
+    "original_sha256": "82fdc1ea46fd0f0d197adc26b0b326d6beb10ce4accb4b4057a1eeb4236478f0",
+    "bytes": 935,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/T2000-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-O03-seed42/TRAINING.csv",
+    "sha256": "239bdcc6d83e291f30da1f36d139ce52a702a611531e8f5632d28b1b6cf7ba53",
+    "original_sha256": "fbe369ff7cf1c26c7f352090eaa3addf0d30693be3645ff127cf31ef2241c2d5",
+    "bytes": 388019,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed42/CONFIG.json",
+    "sha256": "cbbb3297c95066e7b6a6173b87877584e1885408851e93ba7204027721dff14c",
+    "original_sha256": "cbbb3297c95066e7b6a6173b87877584e1885408851e93ba7204027721dff14c",
+    "bytes": 929,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed42/TRAINING.csv",
+    "sha256": "84a27cb12c1e2b7532514cc41876c7ed20412e1eada5406291e1c5bcffc52f32",
+    "original_sha256": "328c2b6398f083059d08a062fcba1b221b76c2423b165d896f458872e352be7b",
+    "bytes": 97142,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "3f8098ee47028fc4ee4e7f986db5f534f32057a6b03aeaef12d253ca473e29a8",
+    "original_sha256": "3f8098ee47028fc4ee4e7f986db5f534f32057a6b03aeaef12d253ca473e29a8",
+    "bytes": 230,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed43/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed43/CONFIG.json",
+    "sha256": "4311fc457bbc56333b7fec9c4096bbd47275e8d4e06a4a1a2eafa6025b7e019b",
+    "original_sha256": "4311fc457bbc56333b7fec9c4096bbd47275e8d4e06a4a1a2eafa6025b7e019b",
+    "bytes": 929,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed43/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed43/TRAINING.csv",
+    "sha256": "8e8ae513f7761aeb813249443d0f7f41239fed02a46b6a1f49692524a76febca",
+    "original_sha256": "dcc14d80af2a50ad4fc07e85d0bc00c624cc64ac2de444f01d1919a5416402fb",
+    "bytes": 97126,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed43/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed43/GRADIENT_MEMBER0.json",
+    "sha256": "a00d5c9a0cf03f6cbd5e327ec452ce44115dc68eea9d8cc4adca33dbdd973147",
+    "original_sha256": "a00d5c9a0cf03f6cbd5e327ec452ce44115dc68eea9d8cc4adca33dbdd973147",
+    "bytes": 228,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed44/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed44/CONFIG.json",
+    "sha256": "238bd0af8e311ddd248cbeb81fe310d7a44d723c89f1236e76554a405c044342",
+    "original_sha256": "238bd0af8e311ddd248cbeb81fe310d7a44d723c89f1236e76554a405c044342",
+    "bytes": 929,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed44/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed44/TRAINING.csv",
+    "sha256": "f384472ddf14aa95d709b0f43ef274ab89ca5cf266dc7d0e7908a0b1a12441b0",
+    "original_sha256": "6b4b73fd460aa135d2525c3d1616bc6b26489c167affa5ad3fe67cc6fce5e330",
+    "bytes": 97080,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-D07-seed44/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed44/GRADIENT_MEMBER0.json",
+    "sha256": "003641a3944aa67c0a146aa0787364c3b02eed3fc99320487bbacccbe5005d66",
+    "original_sha256": "003641a3944aa67c0a146aa0787364c3b02eed3fc99320487bbacccbe5005d66",
+    "bytes": 230,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-O03-seed42/CONFIG.json",
+    "sha256": "a4b2a7b5c40ce3ec456e032c26b3c25dc242d1668a9acafbfb9a6e33f8c49670",
+    "original_sha256": "a4b2a7b5c40ce3ec456e032c26b3c25dc242d1668a9acafbfb9a6e33f8c49670",
+    "bytes": 875,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-O03-seed42/TRAINING.csv",
+    "sha256": "a098019846d859d8ef3002cbc26a150c5cb138dacb1f4d3f704f0ae49abbfe5a",
+    "original_sha256": "6a72aa9252a132231683e23e554158758c4b5b3e9aee89009d67d7cbe11b7501",
+    "bytes": 96972,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/W025-O03-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-O03-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "874fa0d9b57e4be5c744864a500107a91459ea71284986a2f67d33a0e58c5cc1",
+    "original_sha256": "874fa0d9b57e4be5c744864a500107a91459ea71284986a2f67d33a0e58c5cc1",
+    "bytes": 186,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W400-D07-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-D07-seed42/CONFIG.json",
+    "sha256": "da694782ab150ba389505d293c45373fd51e6b6d3a60d4c451e5dfaf684c166f",
+    "original_sha256": "da694782ab150ba389505d293c45373fd51e6b6d3a60d4c451e5dfaf684c166f",
+    "bytes": 927,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W400-D07-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-D07-seed42/TRAINING.csv",
+    "sha256": "99d22782f715f74281c4b6473eade1055365450e34254aea579cfab69599ee82",
+    "original_sha256": "9319e318af196a5c507e55189e6c7346f9b812c1f589651955bf866caa25a40c",
+    "bytes": 96240,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/W400-D07-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-D07-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "bc0adc6bc9042ae2bb3c029ce79cfbe3a5e3eedb1c23f7e0f075413f4b9825b5",
+    "original_sha256": "bc0adc6bc9042ae2bb3c029ce79cfbe3a5e3eedb1c23f7e0f075413f4b9825b5",
+    "bytes": 228,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W400-O03-seed42/CONFIG.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-O03-seed42/CONFIG.json",
+    "sha256": "d68359ef96798de0b247ce9caf5bd2d9a37ff8bb533cf565249b5503dd596d9f",
+    "original_sha256": "d68359ef96798de0b247ce9caf5bd2d9a37ff8bb533cf565249b5503dd596d9f",
+    "bytes": 873,
+    "group": "scientific-evidence"
+  },
+  "studies/wrist_dino/training/sensitivity/W400-O03-seed42/TRAINING.csv": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-O03-seed42/TRAINING.csv",
+    "sha256": "3411f1e0308125ab2f0eccc7fa2d8ec013fc8d5ef53c4a66008048b9623e6a6a",
+    "original_sha256": "79c30423e31fff58b54fcddcc4e9e057c5313619212d40cd08896b3e31a86135",
+    "bytes": 96215,
+    "group": "scientific-evidence",
+    "line_endings": "LF; CSV values/executable AST unchanged"
+  },
+  "studies/wrist_dino/training/sensitivity/W400-O03-seed42/GRADIENT_MEMBER0.json": {
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-O03-seed42/GRADIENT_MEMBER0.json",
+    "sha256": "532834cc6d3b44500aff9ef6860b936800948251df9a88068b5fc6ae43e7cbdc",
+    "original_sha256": "532834cc6d3b44500aff9ef6860b936800948251df9a88068b5fc6ae43e7cbdc",
+    "bytes": 185,
+    "group": "scientific-evidence"
+  }
+}

@@ -8,3 +8,10 @@
 - 视频前视／腕部分开，独立MP4和VP8 WebM；视频、模型、缓存、优化器和日志不入Git。
 
 - 发布仓库根目录不放submit*.sh集群提交脚本；原实验工作区保留这些脚本。
+
+## 当前独立分支（2026-11-01）
+
+- `research/wrist-dino-study`长期独立维护，不默认合并main，不修改GitHub默认分支。
+- 最新代码/配置/结果位于studies/wrist_dino；原始运行工作区roboticAttack_replay只读。
+- 科学源码注释副本保持可执行AST；新发布入口仅定位显式工作区，不修改loss/EOT/预算。原始配置路径属于来源记录，不冒称跨机器即开即用。
+- 新增内容排除集群controller/submit脚本、监控记录、视频、模型、缓存与优化器。实际执行环境和父阶段资产要求在REPRODUCIBILITY.md说明。

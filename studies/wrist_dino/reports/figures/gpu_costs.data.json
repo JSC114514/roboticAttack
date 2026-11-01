@@ -1,0 +1,23 @@
+{
+  "caption": "Slurm allocation time is preferred, including startup failures before CUDA initialized. Explicitly labelled process-time fallback is retained in GPU_COST.csv. CPU-only allocation contributes zero GPU hours; this is allocation time, not measured GPU utilization.",
+  "preview": false,
+  "data": {
+    "gpu_hours": {
+      "Accepted completed": 92.12138888888884,
+      "Rejected interface": 1.2722222222222221,
+      "Failed / interrupted": 0.5511111111111112
+    },
+    "record_counts": {
+      "Accepted completed": 85,
+      "Rejected interface": 1,
+      "Failed / interrupted": 3
+    },
+    "time_sources": {
+      "slurm_allocated_elapsed": 88,
+      "process_elapsed_fallback": 1
+    }
+  },
+  "sources": {
+    "GPU_COST.csv": "53eccdc57907d353adf46a64b138b07fef9ec43a14fb0beaa9eeb628d9fc3d9f"
+  }
+}

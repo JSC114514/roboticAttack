@@ -1,0 +1,134 @@
+{
+  "methods": [
+    "B01",
+    "O03",
+    "B04",
+    "D07"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "task_equal_means": {
+    "development": {
+      "B01": 0.716550925925926,
+      "O03": 0.8614583333333332,
+      "B04": 0.8362268518518517,
+      "D07": 0.8651620370370369
+    },
+    "full": {
+      "B01": 0.8329398148148149,
+      "O03": 0.8695138888888888,
+      "B04": 0.8737268518518518,
+      "D07": 0.8728472222222221
+    },
+    "confirmation_extra": {
+      "B01": 0.9343750000000001,
+      "O03": 0.9916666666666667,
+      "B04": 0.9645833333333332,
+      "D07": 0.9874999999999999
+    }
+  },
+  "paired_contrasts": {
+    "full": {
+      "DINO_with_single_axis": {
+        "difference_pp": 3.6574074074074048,
+        "ci95_pp": [
+          -0.981655092592594,
+          8.754976851851861
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      },
+      "DINO_with_seven_dimensions": {
+        "difference_pp": -0.0879629629629477,
+        "ci95_pp": [
+          -3.2222800925925963,
+          3.1603587962962982
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      },
+      "seven_vs_single_with_DINO": {
+        "difference_pp": 0.3333333333333428,
+        "ci95_pp": [
+          -1.4445023148148186,
+          2.062789351851872
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      },
+      "factorial_interaction": {
+        "difference_pp": -3.7453703703703525,
+        "ci95_pp": [
+          -7.922106481481483,
+          0.036226851851838104
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      }
+    },
+    "confirmation_extra": {
+      "DINO_with_single_axis": {
+        "difference_pp": 5.729166666666671,
+        "ci95_pp": [
+          0.4166666666666652,
+          12.39583333333334
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      },
+      "DINO_with_seven_dimensions": {
+        "difference_pp": 2.2916666666666714,
+        "ci95_pp": [
+          0.0,
+          5.7291666666666625
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      },
+      "seven_vs_single_with_DINO": {
+        "difference_pp": -0.4166666666666714,
+        "ci95_pp": [
+          -2.9166666666666674,
+          1.6666666666666718
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      },
+      "factorial_interaction": {
+        "difference_pp": -3.4375,
+        "ci95_pp": [
+          -8.333333333333325,
+          1.2499999999999956
+        ],
+        "draws": 2000,
+        "seed": 20261029
+      }
+    }
+  },
+  "restorations": {
+    "dino": {
+      "episodes": 80,
+      "task_successes": 79,
+      "original_clean_qualified_failures": 65,
+      "rescued_failures": 65,
+      "new_losses": 0
+    },
+    "siglip": {
+      "episodes": 80,
+      "task_successes": 38,
+      "original_clean_qualified_failures": 65,
+      "rescued_failures": 29,
+      "new_losses": 3
+    },
+    "both": {
+      "episodes": 80,
+      "task_successes": 75,
+      "original_clean_qualified_failures": 65,
+      "rescued_failures": 65,
+      "new_losses": 0
+    }
+  }
+}

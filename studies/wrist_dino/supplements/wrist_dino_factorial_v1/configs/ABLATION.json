@@ -1,0 +1,52 @@
+{
+  "study": "wrist_dino_factorial_v1",
+  "parent_root": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/roboticAttack_replay",
+  "parent_protocol_sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+  "parent_final_receipt_sha256": "62c7a82c868d174dd5729ccf4781607305041c7bef94f601b58c82083055bad2",
+  "new_method": "D07",
+  "comparison_methods": [
+    "B01",
+    "O03",
+    "B04",
+    "D07"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "changed_factor_vs_B04": "auxiliary=dino_cosine",
+  "changed_factor_vs_O03": "mask=[0,1,2,3,4,5,6]",
+  "auxiliary_lambda": 22.855948214853818,
+  "lambda_policy": "reuse the exact frozen O03 coefficient; no recalibration or validation tuning",
+  "new_training": {
+    "outer": 500,
+    "inner": 50,
+    "optimizer_steps_per_seed": 25000
+  },
+  "scopes": [
+    "development",
+    "full",
+    "confirmation_extra"
+  ],
+  "scope_policy": "all three seeds evaluated regardless of development performance; development subset reused within full",
+  "diagnostic": {
+    "method": "O03",
+    "seed": 42,
+    "scope": "development",
+    "restores": [
+      "dino",
+      "siglip",
+      "both"
+    ],
+    "episodes": 240
+  },
+  "new_unique_native_episodes": 1440,
+  "new_diagnostic_episodes": 240,
+  "max_active_gpu_jobs": 4,
+  "forbidden_gpu_types": [
+    "pro6000"
+  ],
+  "video": false,
+  "reason": "complete action-dimensionality by DINO-auxiliary factorial and identify O03 failure mediation"
+}

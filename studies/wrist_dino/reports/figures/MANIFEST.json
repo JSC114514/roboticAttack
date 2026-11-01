@@ -1,0 +1,68 @@
+{
+  "preview": false,
+  "figures": [
+    {
+      "name": "full_casr_by_seed",
+      "caption": "Each fixed training seed is separate. Whiskers are existing task-to-start bootstrap 95% intervals; no frames or action slots are independent samples.",
+      "assets": {
+        "reports/figures/full_casr_by_seed.png": "4d3bd6649a80192c25b62ed712db5652ae2a70abe793b95fd0937145a89ee808",
+        "reports/figures/full_casr_by_seed.pdf": "aada40c8340e4e11f949b296df3973605fc84a86b2bc59d7cbdddfd4cbc5245b",
+        "reports/figures/full_casr_by_seed.data.json": "1059b168937106eb7eedb23a7460ffd1d1a5f3ba8c3d289864bdf5670fcd4295"
+      }
+    },
+    {
+      "name": "confirmation_extra_casr_by_seed",
+      "caption": "Each fixed training seed is separate. Whiskers are existing task-to-start bootstrap 95% intervals; no frames or action slots are independent samples.",
+      "assets": {
+        "reports/figures/confirmation_extra_casr_by_seed.png": "aa37a5d1f2890058fe5e0e8d90ff4b56ac7a82247c451c3198e74d68403d1c7a",
+        "reports/figures/confirmation_extra_casr_by_seed.pdf": "206ddd7fd5d3cedcaada5d90b22a8ffd09212d0dab11657c9e8f1c817f38297e",
+        "reports/figures/confirmation_extra_casr_by_seed.data.json": "884f50697279e9a5396a0d82059b836cc0732cdd49ed2a32375412ec16ec270c"
+      }
+    },
+    {
+      "name": "development_screening_seed42",
+      "caption": "All completed seed42 performance arms are retained, including negative results. The 16-start initialization smoke test is a different cohort and is excluded.",
+      "assets": {
+        "reports/figures/development_screening_seed42.png": "ecc914797bb00842ff6f9968aefa2a11d61103601bcb7e9b55680baef974ddb4",
+        "reports/figures/development_screening_seed42.pdf": "da0f51c530ca475cb11d9f1b7a71069eeb589b4fbba67558049c8e067fd844df",
+        "reports/figures/development_screening_seed42.data.json": "959c858869ddfd2068d205166d75d67dfd09e129c820763e4e075f8966853839"
+      }
+    },
+    {
+      "name": "full_suite_heatmap",
+      "caption": "Within each suite, tasks are equally weighted. Cells average all three fixed training seeds; undefined values remain NA.",
+      "assets": {
+        "reports/figures/full_suite_heatmap.png": "040037d0cd6141b784e3bdcd7dbf4ad4f0f825b425e55c7fe54a311c455fb9bd",
+        "reports/figures/full_suite_heatmap.pdf": "77839d370d799c15259fc7027112fec6f4161661048f51911b00c3a5340b2958",
+        "reports/figures/full_suite_heatmap.data.json": "511ce65ac473fab00993054facac5b4afd73245f9d1e092fa1883d8c94fa2067"
+      }
+    },
+    {
+      "name": "view_and_branch_diagnostics",
+      "caption": "Seed42 matched 80-start development cohort. Left: cross-view diagnostic. Right: clean same-state feature donors are privileged mechanism probes, separate from deployable PNG scores. Only the accepted float32 M02 revision is used.",
+      "assets": {
+        "reports/figures/view_and_branch_diagnostics.png": "7cff58718027a94b8c5f1c694fedaa2676506212e6be88b8558ed50cc305dc6c",
+        "reports/figures/view_and_branch_diagnostics.pdf": "c85ddc942e9122d0d761f5202b5e486aa449fc3f6aba44466787d382b9a0afb0",
+        "reports/figures/view_and_branch_diagnostics.data.json": "e8a234f3951eb0976ef5397190e18c61d9aa2017100dd3822fd3ccda191f5528"
+      }
+    },
+    {
+      "name": "action_error_by_dimension",
+      "caption": "Existing M03 errors include all eight predicted slots, not only executed slots. Episode-level errors are averaged within task, then suite, then across suites. Action commands are not physical displacement distances.",
+      "assets": {
+        "reports/figures/action_error_by_dimension.png": "7e2b8a7d6bc512d9d1b692b84054f3af08491f66171d6eaa13c6f0c73e3541f9",
+        "reports/figures/action_error_by_dimension.pdf": "9ff97a2667a2d1f5a0470f5a8ec32ed3f0ead9087961124c2ee16c86f9654466",
+        "reports/figures/action_error_by_dimension.data.json": "bea5a1c4a08b9244cfeb3ca33c1892c6392e57b7eff7db77936e70453567cdee"
+      }
+    },
+    {
+      "name": "gpu_costs",
+      "caption": "Slurm allocation time is preferred, including startup failures before CUDA initialized. Explicitly labelled process-time fallback is retained in GPU_COST.csv. CPU-only allocation contributes zero GPU hours; this is allocation time, not measured GPU utilization.",
+      "assets": {
+        "reports/figures/gpu_costs.png": "007ef816a9702bf0f345dde5dc5f8cc1da5b8a30c489f8da51311119538e0ecd",
+        "reports/figures/gpu_costs.pdf": "85792b69825ea1876c76d3b39604e365aad17fce97afbda955886e0fc330e401",
+        "reports/figures/gpu_costs.data.json": "648d43027d7b7e33ecd0c9c888746bc494c895294956b5b802d5b6b903c88cfb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "replay_sha256": null,
+  "protocol_sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+  "bank_sha256": "ea9c79ae61de912fb65e203785322c444b9fb94cdf3b1264a64c36cfe453fa72",
+  "method": {
+    "view": "wrist",
+    "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "target": "opposite",
+    "aggregation": "mean",
+    "auxiliary": "dino_cosine",
+    "sampling": "clean_uniform",
+    "parent": "B04",
+    "changed": "auxiliary"
+  },
+  "seed": 44,
+  "auxiliary_lambda": 22.855948214853818,
+  "backpropagation": "native_direct_no_recomputation"
+}

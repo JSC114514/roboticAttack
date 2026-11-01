@@ -74,7 +74,8 @@ def main():
                 errors.append('Shell syntax: ' + str(path.relative_to(ROOT)) + ': ' + result.stderr)
     docs = [ROOT / 'README.md', ROOT / 'THIRD_PARTY_NOTICES.md', ROOT / 'results/README.md',
             ROOT / 'archive/negative_results/README.md', *list((ROOT / 'docs').rglob('*.md')),
-            *list((ROOT / 'research_runs').glob('*/EXPERIMENT_DETAILS.md'))]
+            *list((ROOT / 'research_runs').glob('*/EXPERIMENT_DETAILS.md')),
+            *list((ROOT / 'studies').rglob('*.md'))]
     for doc in docs:
         for target in re.findall(r'\]\(([^)]+)\)', doc.read_text()):
             issue = check_link(doc, target)

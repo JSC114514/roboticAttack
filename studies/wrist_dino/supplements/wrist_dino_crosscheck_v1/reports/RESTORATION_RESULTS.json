@@ -1,0 +1,244 @@
+{
+  "rows": [
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "method": "LR004-B01-seed42",
+      "branch": "dino",
+      "success": 15,
+      "original_failures": 1,
+      "rescued": 1,
+      "new_losses": 1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "method": "LR004-B01-seed42",
+      "branch": "siglip",
+      "success": 17,
+      "original_failures": 1,
+      "rescued": 1,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "method": "LR004-B01-seed42",
+      "branch": "both",
+      "success": 16,
+      "original_failures": 1,
+      "rescued": 1,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "method": "LR004-O03-seed42",
+      "branch": "dino",
+      "success": 10,
+      "original_failures": 6,
+      "rescued": 0,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "method": "LR004-O03-seed42",
+      "branch": "siglip",
+      "success": 16,
+      "original_failures": 6,
+      "rescued": 6,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "method": "LR004-O03-seed42",
+      "branch": "both",
+      "success": 16,
+      "original_failures": 6,
+      "rescued": 6,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "method": "LR004-B01-seed42",
+      "branch": "dino",
+      "success": 20,
+      "original_failures": 2,
+      "rescued": 2,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "method": "LR004-B01-seed42",
+      "branch": "siglip",
+      "success": 20,
+      "original_failures": 2,
+      "rescued": 2,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "method": "LR004-B01-seed42",
+      "branch": "both",
+      "success": 20,
+      "original_failures": 2,
+      "rescued": 2,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "method": "LR004-O03-seed42",
+      "branch": "dino",
+      "success": 20,
+      "original_failures": 0,
+      "rescued": 0,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "method": "LR004-O03-seed42",
+      "branch": "siglip",
+      "success": 20,
+      "original_failures": 0,
+      "rescued": 0,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "method": "LR004-O03-seed42",
+      "branch": "both",
+      "success": 20,
+      "original_failures": 0,
+      "rescued": 0,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "method": "LR004-B01-seed42",
+      "branch": "dino",
+      "success": 20,
+      "original_failures": 1,
+      "rescued": 1,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "method": "LR004-B01-seed42",
+      "branch": "siglip",
+      "success": 20,
+      "original_failures": 1,
+      "rescued": 1,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "method": "LR004-B01-seed42",
+      "branch": "both",
+      "success": 19,
+      "original_failures": 1,
+      "rescued": 1,
+      "new_losses": 1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "method": "LR004-O03-seed42",
+      "branch": "dino",
+      "success": 20,
+      "original_failures": 6,
+      "rescued": 6,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "method": "LR004-O03-seed42",
+      "branch": "siglip",
+      "success": 20,
+      "original_failures": 6,
+      "rescued": 6,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "method": "LR004-O03-seed42",
+      "branch": "both",
+      "success": 19,
+      "original_failures": 6,
+      "rescued": 6,
+      "new_losses": 1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "method": "LR004-B01-seed42",
+      "branch": "dino",
+      "success": 15,
+      "original_failures": 8,
+      "rescued": 6,
+      "new_losses": 1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "method": "LR004-B01-seed42",
+      "branch": "siglip",
+      "success": 15,
+      "original_failures": 8,
+      "rescued": 5,
+      "new_losses": 0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "method": "LR004-B01-seed42",
+      "branch": "both",
+      "success": 17,
+      "original_failures": 8,
+      "rescued": 8,
+      "new_losses": 1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "method": "LR004-O03-seed42",
+      "branch": "dino",
+      "success": 15,
+      "original_failures": 3,
+      "rescued": 3,
+      "new_losses": 3
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "method": "LR004-O03-seed42",
+      "branch": "siglip",
+      "success": 15,
+      "original_failures": 3,
+      "rescued": 2,
+      "new_losses": 3
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "method": "LR004-O03-seed42",
+      "branch": "both",
+      "success": 17,
+      "original_failures": 3,
+      "rescued": 3,
+      "new_losses": 1
+    }
+  ]
+}

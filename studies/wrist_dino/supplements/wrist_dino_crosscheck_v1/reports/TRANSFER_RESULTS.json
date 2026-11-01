@@ -1,0 +1,1204 @@
+{
+  "rows": [
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 16,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 16,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 16,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 10,
+      "clean_success": 16,
+      "induced_failures": 6,
+      "casr": 0.3333333333333333
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 13,
+      "clean_success": 16,
+      "induced_failures": 3,
+      "casr": 0.15
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 16,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 16,
+      "clean_success": 16,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 16,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 8,
+      "clean_success": 16,
+      "induced_failures": 8,
+      "casr": 0.4666666666666667
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 9,
+      "clean_success": 16,
+      "induced_failures": 7,
+      "casr": 0.41666666666666663
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 16,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 14,
+      "clean_success": 16,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 16,
+      "induced_failures": 1,
+      "casr": 0.08333333333333333
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 14,
+      "clean_success": 16,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_spatial",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 10,
+      "clean_success": 16,
+      "induced_failures": 6,
+      "casr": 0.3333333333333333
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 20,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_object",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 14,
+      "clean_success": 19,
+      "induced_failures": 6,
+      "casr": 0.3277777777777778
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 19,
+      "induced_failures": 5,
+      "casr": 0.2777777777777778
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.10555555555555556
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_goal",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.10555555555555556
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 17,
+      "induced_failures": 1,
+      "casr": 0.0625
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 11,
+      "clean_success": 17,
+      "induced_failures": 8,
+      "casr": 0.47916666666666663
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 10,
+      "clean_success": 17,
+      "induced_failures": 8,
+      "casr": 0.4930555555555556
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 17,
+      "induced_failures": 3,
+      "casr": 0.18055555555555555
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 13,
+      "clean_success": 17,
+      "induced_failures": 5,
+      "casr": 0.3055555555555556
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 17,
+      "induced_failures": 3,
+      "casr": 0.18055555555555555
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 11,
+      "clean_success": 17,
+      "induced_failures": 8,
+      "casr": 0.4861111111111111
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 12,
+      "clean_success": 17,
+      "induced_failures": 6,
+      "casr": 0.375
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 12,
+      "clean_success": 17,
+      "induced_failures": 6,
+      "casr": 0.3611111111111111
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 11,
+      "clean_success": 17,
+      "induced_failures": 7,
+      "casr": 0.41666666666666663
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 17,
+      "induced_failures": 1,
+      "casr": 0.0625
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 12,
+      "clean_success": 17,
+      "induced_failures": 6,
+      "casr": 0.375
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 14,
+      "clean_success": 17,
+      "induced_failures": 4,
+      "casr": 0.24305555555555555
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 12,
+      "clean_success": 17,
+      "induced_failures": 6,
+      "casr": 0.3680555555555556
+    },
+    {
+      "model": "vla_adapter_pro",
+      "suite": "libero_10",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 10,
+      "clean_success": 17,
+      "induced_failures": 8,
+      "casr": 0.4861111111111111
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 16,
+      "clean_success": 20,
+      "induced_failures": 4,
+      "casr": 0.2
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 20,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 20,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 20,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 20,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 20,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 19,
+      "induced_failures": 3,
+      "casr": 0.15
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 19,
+      "induced_failures": 3,
+      "casr": 0.15
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.1
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.1111111111111111
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 0,
+      "casr": 0.0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "INITIAL-seed42",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 19,
+      "induced_failures": 3,
+      "casr": 0.15555555555555556
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "B04-seed42",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 19,
+      "induced_failures": 3,
+      "casr": 0.15555555555555556
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "LR004-B01-seed42",
+      "episodes": 20,
+      "success": 16,
+      "clean_success": 19,
+      "induced_failures": 4,
+      "casr": 0.2111111111111111
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "LR004-O03-seed42",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 19,
+      "induced_failures": 5,
+      "casr": 0.26666666666666666
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "W025-D07-seed42",
+      "episodes": 20,
+      "success": 19,
+      "clean_success": 19,
+      "induced_failures": 1,
+      "casr": 0.05
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "INITIAL-seed43",
+      "episodes": 20,
+      "success": 16,
+      "clean_success": 19,
+      "induced_failures": 4,
+      "casr": 0.2111111111111111
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "B04-seed43",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 19,
+      "induced_failures": 3,
+      "casr": 0.15555555555555556
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "LR004-B01-seed43",
+      "episodes": 20,
+      "success": 16,
+      "clean_success": 19,
+      "induced_failures": 3,
+      "casr": 0.15555555555555556
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "LR004-O03-seed43",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.10555555555555556
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "W025-D07-seed43",
+      "episodes": 20,
+      "success": 15,
+      "clean_success": 19,
+      "induced_failures": 5,
+      "casr": 0.26666666666666666
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "INITIAL-seed44",
+      "episodes": 20,
+      "success": 18,
+      "clean_success": 19,
+      "induced_failures": 2,
+      "casr": 0.10555555555555556
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "B04-seed44",
+      "episodes": 20,
+      "success": 13,
+      "clean_success": 19,
+      "induced_failures": 7,
+      "casr": 0.37222222222222223
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "LR004-B01-seed44",
+      "episodes": 20,
+      "success": 16,
+      "clean_success": 19,
+      "induced_failures": 4,
+      "casr": 0.20555555555555555
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "LR004-O03-seed44",
+      "episodes": 20,
+      "success": 17,
+      "clean_success": 19,
+      "induced_failures": 3,
+      "casr": 0.15
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "condition": "W025-D07-seed44",
+      "episodes": 20,
+      "success": 16,
+      "clean_success": 19,
+      "induced_failures": 4,
+      "casr": 0.21666666666666667
+    }
+  ]
+}

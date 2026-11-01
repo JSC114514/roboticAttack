@@ -1,3 +1,15 @@
+# 当前主线：腕部风险与视觉分支错误传播
+
+2026-11-01更新。当前研究收束为双视角VLA的腕部风险集中、DINO参与的错误传播，以及辅助优化收益的适用条件。主证据为统一联合OFT协议下的视角配对、同状态分支恢复、四格消融、单变量参数实验和冻结新起点确认。跨模型是补充验证。
+
+[最新研究入口](../studies/wrist_dino/README.md) · [方法与数据](../studies/wrist_dino/METHOD.md) · [默认400起点结果](../studies/wrist_dino/FINAL_RESULTS.md) · [最新确认](../studies/wrist_dino/supplements/wrist_dino_sensitivity_v1/CONFIRMATION.md)
+
+默认400表与调参后80确认表分开解读。原始探索中的可靠性适配、几何目标匹配和回放采样保留为历史路线，不与当前主结果拼接。
+
+---
+
+以下为此前研究记录，保留其当时的问题与结果：
+
 # 从腕部不对称性到补丁方法：研究脉络
 
 ## 研究动机

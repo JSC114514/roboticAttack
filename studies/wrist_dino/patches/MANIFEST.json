@@ -1,0 +1,583 @@
+[
+  {
+    "study": "main",
+    "condition": "B01-seed42",
+    "png": "patches/7fe69db6f9785dcbb81138f32a9f5e5b0d370b6c94aff718c12cf278cc80b6f1.png",
+    "sha256": "7fe69db6f9785dcbb81138f32a9f5e5b0d370b6c94aff718c12cf278cc80b6f1",
+    "source": "roboticAttack_replay/outputs/training/B01-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B01-seed43",
+    "png": "patches/948d50bcfa1df8520e93b222b5af846c78417d4092faea29006094c2676e18da.png",
+    "sha256": "948d50bcfa1df8520e93b222b5af846c78417d4092faea29006094c2676e18da",
+    "source": "roboticAttack_replay/outputs/training/B01-seed43/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B01-seed44",
+    "png": "patches/fc2f10ec649e801f971e7add9e4680617b3a4dae900c120960ae838369d65fba.png",
+    "sha256": "fc2f10ec649e801f971e7add9e4680617b3a4dae900c120960ae838369d65fba",
+    "source": "roboticAttack_replay/outputs/training/B01-seed44/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B02-seed42",
+    "png": "patches/b1cb388e1d52fbe585914c4decb8cbbecdb6f7effea1d23c1939cec289ac9191.png",
+    "sha256": "b1cb388e1d52fbe585914c4decb8cbbecdb6f7effea1d23c1939cec289ac9191",
+    "source": "roboticAttack_replay/outputs/training/B02-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B02-seed43",
+    "png": "patches/27eee445212a512daa5ee3386a53288dbe564bf8f16bbf46e116b831c679588e.png",
+    "sha256": "27eee445212a512daa5ee3386a53288dbe564bf8f16bbf46e116b831c679588e",
+    "source": "roboticAttack_replay/outputs/training/B02-seed43/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B02-seed44",
+    "png": "patches/c098a9c80e2d5431a8eee0fed063c6f6f1b27fa90d0970a104110e6f4b5d5d56.png",
+    "sha256": "c098a9c80e2d5431a8eee0fed063c6f6f1b27fa90d0970a104110e6f4b5d5d56",
+    "source": "roboticAttack_replay/outputs/training/B02-seed44/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B03-seed42",
+    "png": "patches/9b5a2917b05542a2e5eff6e6615eccd25373806d69b101ab784e93172247b9bb.png",
+    "sha256": "9b5a2917b05542a2e5eff6e6615eccd25373806d69b101ab784e93172247b9bb",
+    "source": "roboticAttack_replay/outputs/training/B03-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B03-seed43",
+    "png": "patches/c8d167c682d4e7d1be11216fb7009f931aa2276c559fc3eb0b5e4bb101a82563.png",
+    "sha256": "c8d167c682d4e7d1be11216fb7009f931aa2276c559fc3eb0b5e4bb101a82563",
+    "source": "roboticAttack_replay/outputs/training/B03-seed43/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B03-seed44",
+    "png": "patches/6dd4154e2199b3a292316cbfecd3629d9d6f6a78de96dc6dd6df33f1a17b045a.png",
+    "sha256": "6dd4154e2199b3a292316cbfecd3629d9d6f6a78de96dc6dd6df33f1a17b045a",
+    "source": "roboticAttack_replay/outputs/training/B03-seed44/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B04-seed42",
+    "png": "patches/e2f23df8fda6a7943e5242e3383280c3c1ea1eecc05f40f195a03eabf030c47a.png",
+    "sha256": "e2f23df8fda6a7943e5242e3383280c3c1ea1eecc05f40f195a03eabf030c47a",
+    "source": "roboticAttack_replay/outputs/training/B04-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B04-seed43",
+    "png": "patches/e215bb8d29bcec1d96b2ddffe4233fa19613384236cedb132c67e765f3323471.png",
+    "sha256": "e215bb8d29bcec1d96b2ddffe4233fa19613384236cedb132c67e765f3323471",
+    "source": "roboticAttack_replay/outputs/training/B04-seed43/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B04-seed44",
+    "png": "patches/728dd924caad84945ee82abb5cf1203b25c7e29c034918b6a3de01f54a149cc4.png",
+    "sha256": "728dd924caad84945ee82abb5cf1203b25c7e29c034918b6a3de01f54a149cc4",
+    "source": "roboticAttack_replay/outputs/training/B04-seed44/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "B05-seed42",
+    "png": "patches/24579bf62b3d0de5de71340d6e4a58abe2d3ff3da142a9fdefff86d139a49ce9.png",
+    "sha256": "24579bf62b3d0de5de71340d6e4a58abe2d3ff3da142a9fdefff86d139a49ce9",
+    "source": "roboticAttack_replay/outputs/training/B05-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "O01-seed42",
+    "png": "patches/4700b7ed5c78b48184bbf7c5b5bfb306212ca15ade4af90da7f9a918f51482c3.png",
+    "sha256": "4700b7ed5c78b48184bbf7c5b5bfb306212ca15ade4af90da7f9a918f51482c3",
+    "source": "roboticAttack_replay/outputs/training/O01-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "O03-seed42",
+    "png": "patches/a0bf96fa0e35ec1023447b6c085a42e501169b0c1d55c5e8bd0cd7afefe9a3d6.png",
+    "sha256": "a0bf96fa0e35ec1023447b6c085a42e501169b0c1d55c5e8bd0cd7afefe9a3d6",
+    "source": "roboticAttack_replay/outputs/training/O03-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "O03-seed43",
+    "png": "patches/a07b15fb157b04b6c9ea601f7a5d2903dcc22ded78ff3492c4b0111d21719413.png",
+    "sha256": "a07b15fb157b04b6c9ea601f7a5d2903dcc22ded78ff3492c4b0111d21719413",
+    "source": "roboticAttack_replay/outputs/training/O03-seed43/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "O03-seed44",
+    "png": "patches/d7e61822b05d02e6f06f16eb93531e5784ed184482f196a19c9ec6b9f53da325.png",
+    "sha256": "d7e61822b05d02e6f06f16eb93531e5784ed184482f196a19c9ec6b9f53da325",
+    "source": "roboticAttack_replay/outputs/training/O03-seed44/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "O05-seed42",
+    "png": "patches/e40ab7d2708e7dadb00b80ac46f5bf82a8f6302a95044b20fba4914b3614f16d.png",
+    "sha256": "e40ab7d2708e7dadb00b80ac46f5bf82a8f6302a95044b20fba4914b3614f16d",
+    "source": "roboticAttack_replay/outputs/training/O05-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "S04-seed42",
+    "png": "patches/b6db53ee5bc3ea3476db9c917af8016c348319e532ff2b51c9f4bfe6d2121b2e.png",
+    "sha256": "b6db53ee5bc3ea3476db9c917af8016c348319e532ff2b51c9f4bfe6d2121b2e",
+    "source": "roboticAttack_replay/outputs/training/S04-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "S05-seed42",
+    "png": "patches/9601b04fe71e2e718c96d04b35baa8c062ad328a9e9df51fdf70659471e3099e.png",
+    "sha256": "9601b04fe71e2e718c96d04b35baa8c062ad328a9e9df51fdf70659471e3099e",
+    "source": "roboticAttack_replay/outputs/training/S05-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "S06-seed42",
+    "png": "patches/14d57a0cb82e9e436a3ebe67c3c8d855470f7fc2a133b4f48a6b6f4a4f1fffcd.png",
+    "sha256": "14d57a0cb82e9e436a3ebe67c3c8d855470f7fc2a133b4f48a6b6f4a4f1fffcd",
+    "source": "roboticAttack_replay/outputs/training/S06-seed42/final.png"
+  },
+  {
+    "study": "main",
+    "condition": "S07-seed42",
+    "png": "patches/6205b665d4b32a3861d7742b51a454f08280ad9c76d3510336b23eab61def088.png",
+    "sha256": "6205b665d4b32a3861d7742b51a454f08280ad9c76d3510336b23eab61def088",
+    "source": "roboticAttack_replay/outputs/training/S07-seed42/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "B01-seed42",
+    "png": "patches/7fe69db6f9785dcbb81138f32a9f5e5b0d370b6c94aff718c12cf278cc80b6f1.png",
+    "sha256": "7fe69db6f9785dcbb81138f32a9f5e5b0d370b6c94aff718c12cf278cc80b6f1",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed42/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "B01-seed43",
+    "png": "patches/948d50bcfa1df8520e93b222b5af846c78417d4092faea29006094c2676e18da.png",
+    "sha256": "948d50bcfa1df8520e93b222b5af846c78417d4092faea29006094c2676e18da",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed43/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "B01-seed44",
+    "png": "patches/fc2f10ec649e801f971e7add9e4680617b3a4dae900c120960ae838369d65fba.png",
+    "sha256": "fc2f10ec649e801f971e7add9e4680617b3a4dae900c120960ae838369d65fba",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B01-seed44/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "B04-seed42",
+    "png": "patches/e2f23df8fda6a7943e5242e3383280c3c1ea1eecc05f40f195a03eabf030c47a.png",
+    "sha256": "e2f23df8fda6a7943e5242e3383280c3c1ea1eecc05f40f195a03eabf030c47a",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed42/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "B04-seed43",
+    "png": "patches/e215bb8d29bcec1d96b2ddffe4233fa19613384236cedb132c67e765f3323471.png",
+    "sha256": "e215bb8d29bcec1d96b2ddffe4233fa19613384236cedb132c67e765f3323471",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed43/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "B04-seed44",
+    "png": "patches/728dd924caad84945ee82abb5cf1203b25c7e29c034918b6a3de01f54a149cc4.png",
+    "sha256": "728dd924caad84945ee82abb5cf1203b25c7e29c034918b6a3de01f54a149cc4",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/B04-seed44/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "D07-seed42",
+    "png": "patches/8227d9dba25b77db7370dd30660da17b48191eb497f6250d3f717bddf0d719b2.png",
+    "sha256": "8227d9dba25b77db7370dd30660da17b48191eb497f6250d3f717bddf0d719b2",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed42/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "D07-seed43",
+    "png": "patches/f7b2c989340d9c43a38d90a031f905f546f327995c6a9a90287ac114e19132e9.png",
+    "sha256": "f7b2c989340d9c43a38d90a031f905f546f327995c6a9a90287ac114e19132e9",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed43/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "D07-seed44",
+    "png": "patches/39ed2e16757edfff8b167de733f576e8e172effa31205aa928dbc5c1b040e27d.png",
+    "sha256": "39ed2e16757edfff8b167de733f576e8e172effa31205aa928dbc5c1b040e27d",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/D07-seed44/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "O03-seed42",
+    "png": "patches/a0bf96fa0e35ec1023447b6c085a42e501169b0c1d55c5e8bd0cd7afefe9a3d6.png",
+    "sha256": "a0bf96fa0e35ec1023447b6c085a42e501169b0c1d55c5e8bd0cd7afefe9a3d6",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed42/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "O03-seed43",
+    "png": "patches/a07b15fb157b04b6c9ea601f7a5d2903dcc22ded78ff3492c4b0111d21719413.png",
+    "sha256": "a07b15fb157b04b6c9ea601f7a5d2903dcc22ded78ff3492c4b0111d21719413",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed43/final.png"
+  },
+  {
+    "study": "factorial",
+    "condition": "O03-seed44",
+    "png": "patches/d7e61822b05d02e6f06f16eb93531e5784ed184482f196a19c9ec6b9f53da325.png",
+    "sha256": "d7e61822b05d02e6f06f16eb93531e5784ed184482f196a19c9ec6b9f53da325",
+    "source": "roboticAttack_replay/supplements/wrist_dino_factorial_v1/outputs/training/O03-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "initial-seed42",
+    "png": "patches/7ddb015c647ad462cf0d1a6eb6a3e93313c246e1206fe3842a21d292c7f4cc1b.png",
+    "sha256": "7ddb015c647ad462cf0d1a6eb6a3e93313c246e1206fe3842a21d292c7f4cc1b",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/preflight/initial-seed42.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "initial-seed43",
+    "png": "patches/80fb31350765eb144f7736462b40a1ba2520576ec55e6c93fa8b8f8c093a00c9.png",
+    "sha256": "80fb31350765eb144f7736462b40a1ba2520576ec55e6c93fa8b8f8c093a00c9",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/preflight/initial-seed43.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "initial-seed44",
+    "png": "patches/9a428ff485b25421252e5b0d7adf218396fe7db9ad3fd82c4222d1313ebdb077.png",
+    "sha256": "9a428ff485b25421252e5b0d7adf218396fe7db9ad3fd82c4222d1313ebdb077",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/preflight/initial-seed44.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B01-seed42",
+    "png": "patches/7fe69db6f9785dcbb81138f32a9f5e5b0d370b6c94aff718c12cf278cc80b6f1.png",
+    "sha256": "7fe69db6f9785dcbb81138f32a9f5e5b0d370b6c94aff718c12cf278cc80b6f1",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B01-seed43",
+    "png": "patches/948d50bcfa1df8520e93b222b5af846c78417d4092faea29006094c2676e18da.png",
+    "sha256": "948d50bcfa1df8520e93b222b5af846c78417d4092faea29006094c2676e18da",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed43/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B01-seed44",
+    "png": "patches/fc2f10ec649e801f971e7add9e4680617b3a4dae900c120960ae838369d65fba.png",
+    "sha256": "fc2f10ec649e801f971e7add9e4680617b3a4dae900c120960ae838369d65fba",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B01-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B02-B01-seed42",
+    "png": "patches/19e41aa7d39be89f28b5f636861e620452d3b89dd9c2240672d5ce0a079d08dc.png",
+    "sha256": "19e41aa7d39be89f28b5f636861e620452d3b89dd9c2240672d5ce0a079d08dc",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B01-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B02-B04-seed42",
+    "png": "patches/96fb4f1bf5b018335397ae4976a91a14f0164828817019daf738f7931fd9a514.png",
+    "sha256": "96fb4f1bf5b018335397ae4976a91a14f0164828817019daf738f7931fd9a514",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-B04-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B02-D07-seed42",
+    "png": "patches/263ffd9c8a6397deac61dc745cfa742e6a09acf7d9a5e494ee60d534031b6e29.png",
+    "sha256": "263ffd9c8a6397deac61dc745cfa742e6a09acf7d9a5e494ee60d534031b6e29",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B02-O03-seed42",
+    "png": "patches/b37e825d56a870a283897a32156a83ad3dddbc7d4d80687c96cd305ca722ab01.png",
+    "sha256": "b37e825d56a870a283897a32156a83ad3dddbc7d4d80687c96cd305ca722ab01",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B02-O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B04-seed42",
+    "png": "patches/e2f23df8fda6a7943e5242e3383280c3c1ea1eecc05f40f195a03eabf030c47a.png",
+    "sha256": "e2f23df8fda6a7943e5242e3383280c3c1ea1eecc05f40f195a03eabf030c47a",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B04-seed43",
+    "png": "patches/e215bb8d29bcec1d96b2ddffe4233fa19613384236cedb132c67e765f3323471.png",
+    "sha256": "e215bb8d29bcec1d96b2ddffe4233fa19613384236cedb132c67e765f3323471",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed43/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "B04-seed44",
+    "png": "patches/728dd924caad84945ee82abb5cf1203b25c7e29c034918b6a3de01f54a149cc4.png",
+    "sha256": "728dd924caad84945ee82abb5cf1203b25c7e29c034918b6a3de01f54a149cc4",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/B04-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "D07-seed42",
+    "png": "patches/8227d9dba25b77db7370dd30660da17b48191eb497f6250d3f717bddf0d719b2.png",
+    "sha256": "8227d9dba25b77db7370dd30660da17b48191eb497f6250d3f717bddf0d719b2",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "D07-seed43",
+    "png": "patches/f7b2c989340d9c43a38d90a031f905f546f327995c6a9a90287ac114e19132e9.png",
+    "sha256": "f7b2c989340d9c43a38d90a031f905f546f327995c6a9a90287ac114e19132e9",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed43/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "D07-seed44",
+    "png": "patches/39ed2e16757edfff8b167de733f576e8e172effa31205aa928dbc5c1b040e27d.png",
+    "sha256": "39ed2e16757edfff8b167de733f576e8e172effa31205aa928dbc5c1b040e27d",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/D07-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR001-B01-seed42",
+    "png": "patches/d5d0a03b74a202d238aa580d09a9145f09c2da9622669c9a78967dd142b22634.png",
+    "sha256": "d5d0a03b74a202d238aa580d09a9145f09c2da9622669c9a78967dd142b22634",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B01-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR001-B04-seed42",
+    "png": "patches/15a7dc41bef597cd49b256c383a4e487778bd8b9e4ce3589977e52f67d8b2780.png",
+    "sha256": "15a7dc41bef597cd49b256c383a4e487778bd8b9e4ce3589977e52f67d8b2780",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-B04-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR001-D07-seed42",
+    "png": "patches/8b2c522638df36d6ad70ced2870e682c9cbf1e035e9bb41573d4f42e1447c001.png",
+    "sha256": "8b2c522638df36d6ad70ced2870e682c9cbf1e035e9bb41573d4f42e1447c001",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR001-O03-seed42",
+    "png": "patches/9cd7d5caf9824b2b7cb3371fe29d19cf75f82b23ac870626cd246dea9a5990eb.png",
+    "sha256": "9cd7d5caf9824b2b7cb3371fe29d19cf75f82b23ac870626cd246dea9a5990eb",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR001-O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-B01-seed42",
+    "png": "patches/756ca057faf6d82a59425d8b7dfa768bdb41ce6a2d97f448f77966361236a39a.png",
+    "sha256": "756ca057faf6d82a59425d8b7dfa768bdb41ce6a2d97f448f77966361236a39a",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-B01-seed43",
+    "png": "patches/099290136ff96fc21ebfadbcb2bf869a4d6ec562f38830b30cfc3bc633b41c34.png",
+    "sha256": "099290136ff96fc21ebfadbcb2bf869a4d6ec562f38830b30cfc3bc633b41c34",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed43/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-B01-seed44",
+    "png": "patches/bf1cc8909c7eca3710cae114e23e019b9b51a369a08c87edcae31b19d31d8cf2.png",
+    "sha256": "bf1cc8909c7eca3710cae114e23e019b9b51a369a08c87edcae31b19d31d8cf2",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B01-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-B04-seed42",
+    "png": "patches/0219b020e8ee223408dcdaf028af88cc19ff1db2398aa2a6e6bb0eb13ee5adc2.png",
+    "sha256": "0219b020e8ee223408dcdaf028af88cc19ff1db2398aa2a6e6bb0eb13ee5adc2",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-B04-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-D07-seed42",
+    "png": "patches/c777489c6a56d059c5d6ad2317d3809b11684b8d560b63bf3ebc9acc4be384a3.png",
+    "sha256": "c777489c6a56d059c5d6ad2317d3809b11684b8d560b63bf3ebc9acc4be384a3",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-O03-seed42",
+    "png": "patches/dbbd84c8039014f22d1e6c0b2a63eec63401f8835f9cdf692104044ce684503c.png",
+    "sha256": "dbbd84c8039014f22d1e6c0b2a63eec63401f8835f9cdf692104044ce684503c",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-O03-seed43",
+    "png": "patches/27b760cc983798165a311124559ebafebb8054137705d9886a1dfd7fc66800f6.png",
+    "sha256": "27b760cc983798165a311124559ebafebb8054137705d9886a1dfd7fc66800f6",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed43/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "LR004-O03-seed44",
+    "png": "patches/fc58d43df56fb4ed51147219184ccc438b517c26cb0dccde586a1016fbd3206e.png",
+    "sha256": "fc58d43df56fb4ed51147219184ccc438b517c26cb0dccde586a1016fbd3206e",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/LR004-O03-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "O03-seed42",
+    "png": "patches/a0bf96fa0e35ec1023447b6c085a42e501169b0c1d55c5e8bd0cd7afefe9a3d6.png",
+    "sha256": "a0bf96fa0e35ec1023447b6c085a42e501169b0c1d55c5e8bd0cd7afefe9a3d6",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "O03-seed43",
+    "png": "patches/a07b15fb157b04b6c9ea601f7a5d2903dcc22ded78ff3492c4b0111d21719413.png",
+    "sha256": "a07b15fb157b04b6c9ea601f7a5d2903dcc22ded78ff3492c4b0111d21719413",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed43/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "O03-seed44",
+    "png": "patches/d7e61822b05d02e6f06f16eb93531e5784ed184482f196a19c9ec6b9f53da325.png",
+    "sha256": "d7e61822b05d02e6f06f16eb93531e5784ed184482f196a19c9ec6b9f53da325",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/O03-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T0500-B01-seed42",
+    "png": "patches/04fc39dffedd95cdf0b9331b0d6f62afb7e1aaf42f3f6ed60b3f9cde57c023f0.png",
+    "sha256": "04fc39dffedd95cdf0b9331b0d6f62afb7e1aaf42f3f6ed60b3f9cde57c023f0",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-B01-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T0500-B04-seed42",
+    "png": "patches/b29d3f2a743e09ea744030933552a7c0cd38491797342eb02d4319cca1e4533e.png",
+    "sha256": "b29d3f2a743e09ea744030933552a7c0cd38491797342eb02d4319cca1e4533e",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-B04-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T0500-D07-seed42",
+    "png": "patches/4befa030fb3eeb8c8075516bb1247ae357cf26ab8806387b8a430f91de39f2f0.png",
+    "sha256": "4befa030fb3eeb8c8075516bb1247ae357cf26ab8806387b8a430f91de39f2f0",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T0500-O03-seed42",
+    "png": "patches/6ed35ea4d104968fc81c6597d1bd0342183222a39a96cc412aff07d70b4c8b1b.png",
+    "sha256": "6ed35ea4d104968fc81c6597d1bd0342183222a39a96cc412aff07d70b4c8b1b",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T0500-O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T1000-B01-seed42",
+    "png": "patches/7640448410162e6be189e3172b434d978c755b08451a6384f4291dc5b8c7d669.png",
+    "sha256": "7640448410162e6be189e3172b434d978c755b08451a6384f4291dc5b8c7d669",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-B01-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T1000-B04-seed42",
+    "png": "patches/8b50a0ca4d6018024862e8cdd29171539b92ee6c3d1a3e1654add72ce5f6173d.png",
+    "sha256": "8b50a0ca4d6018024862e8cdd29171539b92ee6c3d1a3e1654add72ce5f6173d",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-B04-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T1000-D07-seed42",
+    "png": "patches/d04c5b13301fcc0d1856ccddb04f093d9ed902b8a4ae74a24a2957bd187455d1.png",
+    "sha256": "d04c5b13301fcc0d1856ccddb04f093d9ed902b8a4ae74a24a2957bd187455d1",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T1000-O03-seed42",
+    "png": "patches/b31545397c501b6bcb86fa9067aec0b09d54eab0116fd5f68d04562e84a13fce.png",
+    "sha256": "b31545397c501b6bcb86fa9067aec0b09d54eab0116fd5f68d04562e84a13fce",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T1000-O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T2000-B01-seed42",
+    "png": "patches/9515512308302b1739a7b741e8f3e60ff3ddcd73d2400d5ae4af4cae501a0da6.png",
+    "sha256": "9515512308302b1739a7b741e8f3e60ff3ddcd73d2400d5ae4af4cae501a0da6",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-B01-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T2000-B04-seed42",
+    "png": "patches/ecf23207522150b39eb23944129f9ce1d8e3d953522ac399d49572f5a15818be.png",
+    "sha256": "ecf23207522150b39eb23944129f9ce1d8e3d953522ac399d49572f5a15818be",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-B04-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T2000-D07-seed42",
+    "png": "patches/d231f997f6b16ad34629b679e20e06698ce370aa17b995bb87770f84f06f632b.png",
+    "sha256": "d231f997f6b16ad34629b679e20e06698ce370aa17b995bb87770f84f06f632b",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "T2000-O03-seed42",
+    "png": "patches/60b0496bc213aaf3e5410bebb5f42544aadcee7ad94ca18a1468bfc700b7185e.png",
+    "sha256": "60b0496bc213aaf3e5410bebb5f42544aadcee7ad94ca18a1468bfc700b7185e",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/T2000-O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "W025-D07-seed42",
+    "png": "patches/ec60a64596bf7de257c9c3cc154892c87dbe6a962aa49b97ec1989ec76387c68.png",
+    "sha256": "ec60a64596bf7de257c9c3cc154892c87dbe6a962aa49b97ec1989ec76387c68",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "W025-D07-seed43",
+    "png": "patches/a8028c4193f31f11102fc61bf5010d5f7b3dc15522145da4bfac46fe66754939.png",
+    "sha256": "a8028c4193f31f11102fc61bf5010d5f7b3dc15522145da4bfac46fe66754939",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed43/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "W025-D07-seed44",
+    "png": "patches/ad3e994f31539bcdeebf524264aa8872e510cea436db650e6322e6816e46c5fc.png",
+    "sha256": "ad3e994f31539bcdeebf524264aa8872e510cea436db650e6322e6816e46c5fc",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-D07-seed44/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "W025-O03-seed42",
+    "png": "patches/094b358419890f28a3cf2b78e06fb312d9fc5e7039c111f5ba167e3a639d4890.png",
+    "sha256": "094b358419890f28a3cf2b78e06fb312d9fc5e7039c111f5ba167e3a639d4890",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W025-O03-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "W400-D07-seed42",
+    "png": "patches/d4d844fa5bc703722f776dcda246156485227e67127237bc278763cd9091577e.png",
+    "sha256": "d4d844fa5bc703722f776dcda246156485227e67127237bc278763cd9091577e",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-D07-seed42/final.png"
+  },
+  {
+    "study": "sensitivity",
+    "condition": "W400-O03-seed42",
+    "png": "patches/426a8a0739eec1a14456ff5fd256486d526fdfa943694d340edc5e5b28dcabbd.png",
+    "sha256": "426a8a0739eec1a14456ff5fd256486d526fdfa943694d340edc5e5b28dcabbd",
+    "source": "roboticAttack_replay/supplements/wrist_dino_sensitivity_v1/outputs/training/W400-O03-seed42/final.png"
+  }
+]

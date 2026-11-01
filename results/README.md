@@ -1,3 +1,9 @@
+# 当前与历史结果入口
+
+最新的统一联合OFT、DINO消融、参数确认和跨模型结果位于[studies/wrist_dino](../studies/wrist_dino/README.md)。[逐回合CSV](../studies/wrist_dino/results/episodes/)支持不加载模型的统计复算；[方法口径](../studies/wrist_dino/METHOD.md)说明clean分母、任务等权和三种子重复。
+
+以下保留旧研究的结果索引，不能与最新统一协议表混用：
+
 # 结果索引与口径
 
 | 目录 | 模型/评测条件 | 如何解读 |

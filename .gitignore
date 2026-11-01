@@ -21,3 +21,13 @@ wandb/
 .cache/
 .idea/
 .vscode/
+
+# Independent wrist-study release: runtime artifacts stay outside Git.
+.aris/
+.tmp/
+videos/
+jobs/
+logs/
+paths.local.json
+submit*.sh
+*.sbatch

@@ -1,0 +1,26 @@
+{
+  "O02": {
+    "status": "SKIPPED_PROTOCOL",
+    "reason": "six-state temporal target and manual gradient projection violate single-factor flat-observation protocol"
+  },
+  "O04": {
+    "status": "SKIPPED_PROTOCOL",
+    "reason": "matched geometric labels unavailable for new RLDS pool"
+  },
+  "O06": {
+    "status": "SKIPPED_PROTOCOL",
+    "reason": "target/background masks unavailable for new RLDS pool"
+  },
+  "O07": {
+    "status": "SKIPPED_PROTOCOL",
+    "reason": "interaction geometry unavailable for new RLDS pool"
+  },
+  "O08": {
+    "status": "SKIPPED_PROTOCOL",
+    "reason": "paired O07 geometry unavailable"
+  },
+  "S02": {
+    "status": "SKIPPED_PROTOCOL",
+    "reason": "source static DINO score requires matched masks/prototypes absent from new pool"
+  }
+}

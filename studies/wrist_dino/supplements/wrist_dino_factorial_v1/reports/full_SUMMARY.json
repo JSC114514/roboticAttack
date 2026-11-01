@@ -1,0 +1,6002 @@
+{
+  "scope": "full",
+  "conditions": [
+    {
+      "condition": "B01-seed42",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 52,
+      "clean_success": 383,
+      "induced_failures": 332,
+      "pooled_casr": 0.8668407310704961,
+      "suite_task_equal_casr": 0.8698611111111112,
+      "casr_ci95": [
+        0.8019166666666668,
+        0.9293871527777777
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.2,
+          "task_equal_casr": 0.8,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.21999999999999997,
+          "task_equal_casr": 0.78,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.03,
+          "task_equal_casr": 0.975,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.06999999999999999,
+          "task_equal_casr": 0.9244444444444444,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 8,
+          "induced_failures": 6,
+          "casr": 0.75
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 9,
+          "induced_failures": 4,
+          "casr": 0.4444444444444444
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed42",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "B01-seed43",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 69,
+      "clean_success": 383,
+      "induced_failures": 315,
+      "pooled_casr": 0.8224543080939948,
+      "suite_task_equal_casr": 0.8244444444444444,
+      "casr_ci95": [
+        0.7522118055555554,
+        0.8900017361111112
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.3,
+          "task_equal_casr": 0.6977777777777778,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.21000000000000002,
+          "task_equal_casr": 0.79,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.13999999999999999,
+          "task_equal_casr": 0.8533333333333333,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.04,
+          "task_equal_casr": 0.9566666666666667,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 9,
+          "induced_failures": 7,
+          "casr": 0.7777777777777778
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 10,
+          "induced_failures": 1,
+          "casr": 0.1
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 8,
+          "induced_failures": 4,
+          "casr": 0.5
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 9,
+          "induced_failures": 6,
+          "casr": 0.6666666666666666
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 9,
+          "induced_failures": 6,
+          "casr": 0.6666666666666666
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 9,
+          "induced_failures": 6,
+          "casr": 0.6666666666666666
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed43",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "B01-seed44",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 78,
+      "clean_success": 383,
+      "induced_failures": 307,
+      "pooled_casr": 0.8015665796344648,
+      "suite_task_equal_casr": 0.804513888888889,
+      "casr_ci95": [
+        0.7213090277777777,
+        0.8791666666666667
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.39,
+          "task_equal_casr": 0.6077777777777778,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.19,
+          "task_equal_casr": 0.8100000000000002,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.17,
+          "task_equal_casr": 0.8336111111111111,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.03,
+          "task_equal_casr": 0.9666666666666666,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 10,
+          "induced_failures": 2,
+          "casr": 0.2
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 10,
+          "induced_failures": 2,
+          "casr": 0.2
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 9,
+          "induced_failures": 7,
+          "casr": 0.7777777777777778
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 10,
+          "induced_failures": 2,
+          "casr": 0.2
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 8,
+          "induced_failures": 5,
+          "casr": 0.625
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 9,
+          "induced_failures": 2,
+          "casr": 0.2222222222222222
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 9,
+          "induced_failures": 6,
+          "casr": 0.6666666666666666
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B01-seed44",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "B04-seed42",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 44,
+      "clean_success": 383,
+      "induced_failures": 339,
+      "pooled_casr": 0.8851174934725848,
+      "suite_task_equal_casr": 0.889375,
+      "casr_ci95": [
+        0.8225,
+        0.95
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.18000000000000002,
+          "task_equal_casr": 0.82,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.22999999999999998,
+          "task_equal_casr": 0.7700000000000001,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.01,
+          "task_equal_casr": 0.9875,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.02,
+          "task_equal_casr": 0.9800000000000001,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 10,
+          "induced_failures": 1,
+          "casr": 0.1
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 8,
+          "induced_failures": 7,
+          "casr": 0.875
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed42",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "B04-seed43",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 35,
+      "clean_success": 383,
+      "induced_failures": 348,
+      "pooled_casr": 0.9086161879895561,
+      "suite_task_equal_casr": 0.9115972222222222,
+      "casr_ci95": [
+        0.8587343749999999,
+        0.9597222222222223
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.11000000000000001,
+          "task_equal_casr": 0.89,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.2,
+          "task_equal_casr": 0.8,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.030000000000000006,
+          "task_equal_casr": 0.966388888888889,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.01,
+          "task_equal_casr": 0.99,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 8,
+          "induced_failures": 7,
+          "casr": 0.875
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed43",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "B04-seed44",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 72,
+      "clean_success": 383,
+      "induced_failures": 313,
+      "pooled_casr": 0.8172323759791122,
+      "suite_task_equal_casr": 0.8202083333333333,
+      "casr_ci95": [
+        0.7418697916666668,
+        0.8894513888888889
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.26000000000000006,
+          "task_equal_casr": 0.7388888888888889,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.33999999999999997,
+          "task_equal_casr": 0.658888888888889,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.12,
+          "task_equal_casr": 0.8830555555555556,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.0,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 10,
+          "induced_failures": 2,
+          "casr": 0.2
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 8,
+          "induced_failures": 3,
+          "casr": 0.375
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 9,
+          "induced_failures": 6,
+          "casr": 0.6666666666666666
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "B04-seed44",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "D07-seed42",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 52,
+      "clean_success": 383,
+      "induced_failures": 332,
+      "pooled_casr": 0.8668407310704961,
+      "suite_task_equal_casr": 0.87,
+      "casr_ci95": [
+        0.800609375,
+        0.9299999999999999
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.18,
+          "task_equal_casr": 0.82,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.2899999999999999,
+          "task_equal_casr": 0.7100000000000001,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.05,
+          "task_equal_casr": 0.95,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.0,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 8,
+          "induced_failures": 4,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed42",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "D07-seed43",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 56,
+      "clean_success": 383,
+      "induced_failures": 328,
+      "pooled_casr": 0.856396866840731,
+      "suite_task_equal_casr": 0.8613194444444445,
+      "casr_ci95": [
+        0.7978385416666667,
+        0.9183437499999999
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.19,
+          "task_equal_casr": 0.8088888888888889,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.35,
+          "task_equal_casr": 0.6488888888888888,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.02,
+          "task_equal_casr": 0.9875,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.0,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 10,
+          "induced_failures": 1,
+          "casr": 0.1
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 8,
+          "induced_failures": 7,
+          "casr": 0.875
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed43",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "D07-seed44",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 46,
+      "clean_success": 383,
+      "induced_failures": 338,
+      "pooled_casr": 0.8825065274151436,
+      "suite_task_equal_casr": 0.8872222222222221,
+      "casr_ci95": [
+        0.82,
+        0.9444513888888888
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.16,
+          "task_equal_casr": 0.8399999999999999,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.29,
+          "task_equal_casr": 0.7088888888888889,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.01,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.0,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 10,
+          "induced_failures": 2,
+          "casr": 0.2
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 10,
+          "induced_failures": 2,
+          "casr": 0.2
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 8,
+          "induced_failures": 8,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "D07-seed44",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "O03-seed42",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 50,
+      "clean_success": 383,
+      "induced_failures": 334,
+      "pooled_casr": 0.8720626631853786,
+      "suite_task_equal_casr": 0.8747222222222222,
+      "casr_ci95": [
+        0.8087343750000001,
+        0.9324999999999999
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.22999999999999998,
+          "task_equal_casr": 0.77,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.22000000000000003,
+          "task_equal_casr": 0.778888888888889,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.05,
+          "task_equal_casr": 0.95,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.0,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 10,
+          "induced_failures": 1,
+          "casr": 0.1
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 8,
+          "induced_failures": 4,
+          "casr": 0.5
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed42",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "O03-seed43",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 57,
+      "clean_success": 383,
+      "induced_failures": 327,
+      "pooled_casr": 0.8537859007832899,
+      "suite_task_equal_casr": 0.8597222222222222,
+      "casr_ci95": [
+        0.7872222222222223,
+        0.9244513888888888
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.19,
+          "task_equal_casr": 0.8099999999999999,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.37,
+          "task_equal_casr": 0.6288888888888888,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.01,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.0,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 10,
+          "induced_failures": 2,
+          "casr": 0.2
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 10,
+          "induced_failures": 1,
+          "casr": 0.1
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 10,
+          "induced_failures": 8,
+          "casr": 0.8
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 8,
+          "induced_failures": 8,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed43",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "O03-seed44",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 51,
+      "clean_success": 383,
+      "induced_failures": 333,
+      "pooled_casr": 0.8694516971279374,
+      "suite_task_equal_casr": 0.8740972222222223,
+      "casr_ci95": [
+        0.8093628472222223,
+        0.9299999999999999
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.19,
+          "task_equal_casr": 0.8099999999999999,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.3,
+          "task_equal_casr": 0.6988888888888889,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.02,
+          "task_equal_casr": 0.9875,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.0,
+          "task_equal_casr": 1.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 10,
+          "induced_failures": 9,
+          "casr": 0.9
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 5,
+          "induced_failures": 5,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 6,
+          "clean_success": 10,
+          "induced_failures": 4,
+          "casr": 0.4
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 1,
+          "clean_success": 9,
+          "induced_failures": 8,
+          "casr": 0.8888888888888888
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 4,
+          "clean_success": 10,
+          "induced_failures": 6,
+          "casr": 0.6
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 7,
+          "clean_success": 10,
+          "induced_failures": 3,
+          "casr": 0.3
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 10,
+          "induced_failures": 5,
+          "casr": 0.5
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 3,
+          "clean_success": 10,
+          "induced_failures": 7,
+          "casr": 0.7
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 2,
+          "clean_success": 8,
+          "induced_failures": 7,
+          "casr": 0.875
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 9,
+          "induced_failures": 9,
+          "casr": 1.0
+        },
+        {
+          "condition": "O03-seed44",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 0,
+          "clean_success": 10,
+          "induced_failures": 10,
+          "casr": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "clean",
+      "completed": 400,
+      "expected": 400,
+      "evaluation_role": "performance",
+      "success": 383,
+      "clean_success": 383,
+      "induced_failures": 0,
+      "pooled_casr": 0.0,
+      "suite_task_equal_casr": 0.0,
+      "casr_ci95": [
+        0.0,
+        0.0
+      ],
+      "by_suite": [
+        {
+          "suite": "libero_spatial",
+          "task_equal_success": 0.9400000000000001,
+          "task_equal_casr": 0.0,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_object",
+          "task_equal_success": 0.99,
+          "task_equal_casr": 0.0,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_goal",
+          "task_equal_success": 0.93,
+          "task_equal_casr": 0.0,
+          "undefined_casr_tasks": []
+        },
+        {
+          "suite": "libero_10",
+          "task_equal_success": 0.97,
+          "task_equal_casr": 0.0,
+          "undefined_casr_tasks": []
+        }
+      ],
+      "by_task": [
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "completed": 10,
+          "success": 5,
+          "clean_success": 5,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 0,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 1,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 2,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 3,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 4,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 5,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 6,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 7,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 8,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_object",
+          "task_id": 9,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 0,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 1,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 2,
+          "completed": 10,
+          "success": 8,
+          "clean_success": 8,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 3,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 4,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 5,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 6,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 7,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 8,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_goal",
+          "task_id": 9,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 0,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 1,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 2,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 3,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 4,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 5,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 6,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 7,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 8,
+          "completed": 10,
+          "success": 9,
+          "clean_success": 9,
+          "induced_failures": 0,
+          "casr": 0.0
+        },
+        {
+          "condition": "clean",
+          "suite": "libero_10",
+          "task_id": 9,
+          "completed": 10,
+          "success": 10,
+          "clean_success": 10,
+          "induced_failures": 0,
+          "casr": 0.0
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "costs": [
+    {
+      "slurm_elapsed_s": 11337,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed42-confirmation_extra",
+      "job_id": "153041",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 1930.0320495138876,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 0.5369665724139004,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6128476160,
+      "cuda_peak_allocated_bytes": 15764512256,
+      "error": null,
+      "allocation_fraction": 0.17051068719150053
+    },
+    {
+      "slurm_elapsed_s": 11337,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed42-development",
+      "job_id": "153041",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 1922.2047774153762,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 0.534788896933772,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6129717248,
+      "cuda_peak_allocated_bytes": 15760705024,
+      "error": null,
+      "allocation_fraction": 0.16981917870349994
+    },
+    {
+      "slurm_elapsed_s": 11337,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed42-full",
+      "job_id": "153041",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 7466.889741051011,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 2.0774111973189946,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6130991104,
+      "cuda_peak_allocated_bytes": 15764512256,
+      "error": null,
+      "allocation_fraction": 0.6596701341049995
+    },
+    {
+      "slurm_elapsed_s": 5920,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=16G,node=1",
+      "stage": "D07-seed42-train",
+      "job_id": "153037",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 5914.823383058887,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 1.6444444444444444,
+      "gpu_cost_time_source": "slurm_allocated_elapsed",
+      "rss_hwm_bytes": 6091624448,
+      "cuda_peak_allocated_bytes": 18928584704,
+      "error": null,
+      "allocation_fraction": 1.0
+    },
+    {
+      "slurm_elapsed_s": 11365,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed43-confirmation_extra",
+      "job_id": "153042",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 1969.0073409415781,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 0.5477692373580639,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6124548096,
+      "cuda_peak_allocated_bytes": 15764512256,
+      "error": null,
+      "allocation_fraction": 0.17351247289828686
+    },
+    {
+      "slurm_elapsed_s": 11365,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed43-development",
+      "job_id": "153042",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 1913.0456430763006,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 0.5322009375739369,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6131458048,
+      "cuda_peak_allocated_bytes": 15760705024,
+      "error": null,
+      "allocation_fraction": 0.16858102730014718
+    },
+    {
+      "slurm_elapsed_s": 11365,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed43-full",
+      "job_id": "153042",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 7465.876695341896,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 2.0769742695124433,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6106869760,
+      "cuda_peak_allocated_bytes": 15764512256,
+      "error": null,
+      "allocation_fraction": 0.6579064998015659
+    },
+    {
+      "slurm_elapsed_s": 6082,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=16G,node=1",
+      "stage": "D07-seed43-train",
+      "job_id": "153038",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 6076.168490447104,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 1.6894444444444445,
+      "gpu_cost_time_source": "slurm_allocated_elapsed",
+      "rss_hwm_bytes": 6089273344,
+      "cuda_peak_allocated_bytes": 18928584704,
+      "error": null,
+      "allocation_fraction": 1.0
+    },
+    {
+      "slurm_elapsed_s": 11936,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed44-confirmation_extra",
+      "job_id": "153043",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 2071.8586970809847,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 0.576471165796578,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6124044288,
+      "cuda_peak_allocated_bytes": 15764512256,
+      "error": null,
+      "allocation_fraction": 0.1738686492013808
+    },
+    {
+      "slurm_elapsed_s": 11936,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed44-development",
+      "job_id": "153043",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 2042.4032074511051,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 0.5682755101420834,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6124572672,
+      "cuda_peak_allocated_bytes": 15760705024,
+      "error": null,
+      "allocation_fraction": 0.17139676914473026
+    },
+    {
+      "slurm_elapsed_s": 11936,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "D07-seed44-full",
+      "job_id": "153043",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 7801.96742489282,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 2.170808879616894,
+      "gpu_cost_time_source": "slurm_allocated_elapsed_prorated_shared_job",
+      "rss_hwm_bytes": 6125658112,
+      "cuda_peak_allocated_bytes": 15764512256,
+      "error": null,
+      "allocation_fraction": 0.654734581653889
+    },
+    {
+      "slurm_elapsed_s": 6005,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=16G,node=1",
+      "stage": "D07-seed44-train",
+      "job_id": "153039",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 5999.188794059679,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 1.6680555555555556,
+      "gpu_cost_time_source": "slurm_allocated_elapsed",
+      "rss_hwm_bytes": 6063943680,
+      "cuda_peak_allocated_bytes": 18928584704,
+      "error": null,
+      "allocation_fraction": 1.0
+    },
+    {
+      "slurm_elapsed_s": 4869,
+      "slurm_state": "COMPLETED",
+      "allocated_tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1",
+      "stage": "M04-diagnostic",
+      "job_id": "153040",
+      "status": "DONE",
+      "result_validity": "NOT_INVALIDATED",
+      "elapsed_s": 4863.656526425853,
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "allocated_gpu_count": 1,
+      "gpu_hours": 1.3525,
+      "gpu_cost_time_source": "slurm_allocated_elapsed",
+      "rss_hwm_bytes": 6045876224,
+      "cuda_peak_allocated_bytes": 15765730304,
+      "error": null,
+      "allocation_fraction": 1.0
+    }
+  ],
+  "time_unix": 1793243393.7948241
+}

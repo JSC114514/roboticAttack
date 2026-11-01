@@ -1,0 +1,54 @@
+{
+  "caption": "Within each suite, tasks are equally weighted. Cells average all three fixed training seeds; undefined values remain NA.",
+  "preview": false,
+  "data": {
+    "methods": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "O03"
+    ],
+    "suites": [
+      "libero_spatial",
+      "libero_object",
+      "libero_goal",
+      "libero_10"
+    ],
+    "percent": [
+      [
+        70.18518518518519,
+        79.33333333333334,
+        88.73148148148147,
+        94.92592592592594
+      ],
+      [
+        61.0,
+        1.3333333333333335,
+        20.296296296296298,
+        38.48148148148148
+      ],
+      [
+        76.5925925925926,
+        58.51851851851851,
+        94.42592592592595,
+        99.29629629629629
+      ],
+      [
+        81.62962962962963,
+        74.2962962962963,
+        94.56481481481482,
+        99.00000000000001
+      ],
+      [
+        79.66666666666667,
+        70.22222222222221,
+        97.91666666666666,
+        100.0
+      ]
+    ]
+  },
+  "sources": {
+    "reports/full_SUMMARY.json": "112db46f41eadf3913789d1df595b2e4fd94e99a3a97383fe052a54bd8d39c19"
+  }
+}

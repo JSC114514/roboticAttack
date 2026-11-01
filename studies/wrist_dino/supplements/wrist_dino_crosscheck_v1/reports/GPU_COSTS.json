@@ -1,0 +1,221 @@
+{
+  "rows": [
+    {
+      "unit": "replay-main_results",
+      "job_id": "153702",
+      "gpu_hours": 0.79,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 2844,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_spatial-transfer",
+      "job_id": "153703",
+      "gpu_hours": 0.9502777777777778,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 3421,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "pi05-libero_spatial-transfer",
+      "job_id": "153704",
+      "gpu_hours": 1.085,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 3906,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_object-transfer",
+      "job_id": "153705",
+      "gpu_hours": 0.7436111111111111,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 2677,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "pi05-libero_object-transfer",
+      "job_id": "153712",
+      "gpu_hours": 1.0558333333333334,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 3801,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_goal-transfer",
+      "job_id": "153713",
+      "gpu_hours": 0.6466666666666666,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 2328,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "pi05-libero_goal-transfer",
+      "job_id": "153716",
+      "gpu_hours": 1.0019444444444445,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 3607,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_10-transfer",
+      "job_id": "153717",
+      "gpu_hours": 0.915,
+      "cpu_only": false,
+      "state": "FAILED",
+      "elapsed_s": 3294,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "pi05-libero_10-transfer",
+      "job_id": "153721",
+      "gpu_hours": 0.7016666666666667,
+      "cpu_only": false,
+      "state": "FAILED",
+      "elapsed_s": 2526,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1"
+    },
+    {
+      "unit": "replay-main_optimized",
+      "job_id": "153723",
+      "gpu_hours": 0.195,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 702,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "unit": "diagnose-long-reset",
+      "job_id": "153726",
+      "gpu_hours": 0.0044444444444444444,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 16,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "unit": "replay-mechanism",
+      "job_id": "153727",
+      "gpu_hours": 0.12583333333333332,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 453,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "unit": "diagnose-long-fresh",
+      "job_id": "153728",
+      "gpu_hours": 0.006944444444444444,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 25,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_10-transfer",
+      "job_id": "153729",
+      "gpu_hours": 0.7552777777777778,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 2719,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "diagnose-pi05-long-fresh",
+      "job_id": "153730",
+      "gpu_hours": 0.01611111111111111,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 58,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "unit": "pi05-libero_10-transfer",
+      "job_id": "153732",
+      "gpu_hours": 0.03194444444444444,
+      "cpu_only": false,
+      "state": "FAILED",
+      "elapsed_s": 115,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1"
+    },
+    {
+      "unit": "replay-ablation_key",
+      "job_id": "153733",
+      "gpu_hours": 0.10777777777777778,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 388,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_spatial-mechanism",
+      "job_id": "153734",
+      "gpu_hours": 0.38472222222222224,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 1385,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "diagnose-pi05-first-action",
+      "job_id": "153735",
+      "gpu_hours": 0.035,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 126,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_object-mechanism",
+      "job_id": "153736",
+      "gpu_hours": 0.31972222222222224,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 1151,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "pi05-libero_10-transfer",
+      "job_id": "153737",
+      "gpu_hours": 1.0952777777777778,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 3943,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_goal-mechanism",
+      "job_id": "153741",
+      "gpu_hours": 0.3113888888888889,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 1121,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "vla_adapter_pro-libero_10-mechanism",
+      "job_id": "153744",
+      "gpu_hours": 0.7266666666666667,
+      "cpu_only": false,
+      "state": "COMPLETED",
+      "elapsed_s": 2616,
+      "tres": "billing=4,cpu=4,gres/gpu=1,mem=12G,node=1"
+    },
+    {
+      "unit": "cpu-webm-export",
+      "job_id": "153763",
+      "gpu_hours": 0.0,
+      "cpu_only": true,
+      "state": "COMPLETED",
+      "elapsed_s": 3348,
+      "tres": "billing=2,cpu=2,mem=4G,node=1"
+    }
+  ],
+  "total_gpu_hours": 12.006111111111114
+}

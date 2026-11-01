@@ -1,0 +1,7 @@
+{
+  "episodes": 80,
+  "all_task_results_equal": true,
+  "all_action_blocks_equal": true,
+  "all_controller_commands_equal": true,
+  "all_eef_positions_equal": true
+}

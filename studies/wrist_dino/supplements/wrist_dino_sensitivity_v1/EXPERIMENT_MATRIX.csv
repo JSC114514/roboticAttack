@@ -1,0 +1,33 @@
+unit,group,block,changed,lr,batch,beta,scheduler_outer,stop_outer,eval_ids,gate,seed
+W025-O03-to500,O03,W,beta,0.002,1,0.25,500,500,['W025-O03'],initial,42
+W025-D07-to500,D07,W,beta,0.002,1,0.25,500,500,['W025-D07'],initial,42
+W400-O03-to500,O03,W,beta,0.002,1,4.0,500,500,['W400-O03'],initial,42
+W400-D07-to500,D07,W,beta,0.002,1,4.0,500,500,['W400-D07'],initial,42
+LR001-B01-to500,B01,L,lr,0.001,1,0,500,500,['LR001-B01'],initial,42
+LR001-B04-to500,B04,L,lr,0.001,1,0,500,500,['LR001-B04'],initial,42
+LR001-O03-to500,O03,L,lr,0.001,1,1,500,500,['LR001-O03'],initial,42
+LR001-D07-to500,D07,L,lr,0.001,1,1,500,500,['LR001-D07'],initial,42
+LR004-B01-to500,B01,L,lr,0.004,1,0,500,500,['LR004-B01'],initial,42
+LR004-B04-to500,B04,L,lr,0.004,1,0,500,500,['LR004-B04'],initial,42
+LR004-O03-to500,O03,L,lr,0.004,1,1,500,500,['LR004-O03'],initial,42
+LR004-D07-to500,D07,L,lr,0.004,1,1,500,500,['LR004-D07'],initial,42
+LONG-B01-to1000,B01,T,stop_outer,0.002,1,0,2000,1000,"['T0500-B01', 'T1000-B01']",initial,42
+LONG-B01-to2000,B01,T,stop_outer,0.002,1,0,2000,2000,['T2000-B01'],length2000,42
+LONG-B04-to1000,B04,T,stop_outer,0.002,1,0,2000,1000,"['T0500-B04', 'T1000-B04']",initial,42
+LONG-B04-to2000,B04,T,stop_outer,0.002,1,0,2000,2000,['T2000-B04'],length2000,42
+LONG-O03-to1000,O03,T,stop_outer,0.002,1,1,2000,1000,"['T0500-O03', 'T1000-O03']",initial,42
+LONG-O03-to2000,O03,T,stop_outer,0.002,1,1,2000,2000,['T2000-O03'],length2000,42
+LONG-D07-to1000,D07,T,stop_outer,0.002,1,1,2000,1000,"['T0500-D07', 'T1000-D07']",initial,42
+LONG-D07-to2000,D07,T,stop_outer,0.002,1,1,2000,2000,['T2000-D07'],length2000,42
+B02-B01-to500,B01,B,batch,0.002,2,0,500,500,['B02-B01'],initial,42
+B02-B04-to500,B04,B,batch,0.002,2,0,500,500,['B02-B04'],initial,42
+B02-O03-to500,O03,B,batch,0.002,2,1,500,500,['B02-O03'],initial,42
+B02-D07-to500,D07,B,batch,0.002,2,1,500,500,['B02-D07'],initial,42
+B04-B01-to500,B01,B,batch,0.002,4,0,500,500,['B04-B01'],batch4,42
+B04-B04-to500,B04,B,batch,0.002,4,0,500,500,['B04-B04'],batch4,42
+B04-O03-to500,O03,B,batch,0.002,4,1,500,500,['B04-O03'],batch4,42
+B04-D07-to500,D07,B,batch,0.002,4,1,500,500,['B04-D07'],batch4,42
+B08-B01-to500,B01,B,batch,0.002,8,0,500,500,['B08-B01'],batch8,42
+B08-B04-to500,B04,B,batch,0.002,8,0,500,500,['B08-B04'],batch8,42
+B08-O03-to500,O03,B,batch,0.002,8,1,500,500,['B08-O03'],batch8,42
+B08-D07-to500,D07,B,batch,0.002,8,1,500,500,['B08-D07'],batch8,42

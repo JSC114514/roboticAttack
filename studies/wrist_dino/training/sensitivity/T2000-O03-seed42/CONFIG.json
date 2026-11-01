@@ -1,0 +1,36 @@
+{
+  "protocol_sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+  "study_sha256": "11418572126c5419a28c1fd595ddad40c45c1f8d8c7e9e271d6cceede3ef70f8",
+  "bank_sha256": "ea9c79ae61de912fb65e203785322c444b9fb94cdf3b1264a64c36cfe453fa72",
+  "method": {
+    "view": "wrist",
+    "mask": [
+      0
+    ],
+    "target": "opposite",
+    "aggregation": "mean",
+    "auxiliary": "dino_cosine",
+    "sampling": "clean_uniform",
+    "parent": "B01",
+    "changed": "auxiliary"
+  },
+  "seed": 42,
+  "parameters": {
+    "id": "LONG-O03",
+    "group": "O03",
+    "block": "T",
+    "changed": "stop_outer",
+    "lr": 0.002,
+    "batch": 1,
+    "beta": 1,
+    "scheduler_outer": 2000,
+    "checkpoint_ids": {
+      "500": "T0500-O03",
+      "1000": "T1000-O03",
+      "2000": "T2000-O03"
+    }
+  },
+  "auxiliary_lambda": 22.855948214853818,
+  "backpropagation": "native_direct_no_recomputation",
+  "checkpoint_outer": 2000
+}

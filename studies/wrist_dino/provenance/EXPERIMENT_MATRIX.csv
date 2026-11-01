@@ -1,0 +1,31 @@
+﻿id,priority,kind,task,depends_on,only_changed_factor,execution_action,gate,target_window_from_start,gpu_hour_planning_estimate,status
+P00,P0,预检,联合checkpoint、动作头、GPU/Slurm/路径、单位时间测速,,env_and_model,PROBE_ONLY,STRICT_PREFLIGHT,H0-2,2-5,NOT_STARTED
+P01,P0,数据,四套件task/trajectory/state划分与1920训练bank manifest,P00,dataset_and_split,PROBE_ONLY,STRICT_PREFLIGHT,H0-6,2-8,NOT_STARTED
+P02,P0,数据,40任务固定clean评测初态及干净成功基线,P01,clean_rollouts,PROBE_ONLY,STRICT_PREFLIGHT,H2-12,3-12,NOT_STARTED
+P03,P0,预检,Exploring EOT等价性与DINO/SigLIP全链路梯度测试,"P00,P01",preflight_and_gradient,PROBE_ONLY,STRICT_PREFLIGHT,H2-6,1-5,NOT_STARTED
+B01,P0,训练,Wrist UADA-Δx与统一均匀任务抽样,"P01,P02,P03",reference_baseline,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H6-24,3-9,NOT_STARTED
+B02,P0,训练,Front UADA-Δx（仅改变受扰摄像头）,B01,attack_view,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H6-24,3-9,NOT_STARTED
+B03,P0,训练,Wrist UADA-XYZ（仅改变动作掩码）,B01,action_mask,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H6-24,3-9,NOT_STARTED
+B04,P0,训练,Wrist UADA-7DoF（仅改变动作掩码）,B03,action_mask,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H6-24,3-9,NOT_STARTED
+B05,P0,训练,TMA-XYZ（对比B03，仅动作目标）,B03,action_target,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H12-36,3-10,NOT_STARTED
+O01,P1,训练,Full-model WorstChunk（8步损失聚合）,B01,temporal_aggregation,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H12-36,3-10,NOT_STARTED
+O02,P2,训练,RAMP型累计时间动作目标（须审核能否仅改损失）,B01,temporal_action_objective,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H24-72,4-12,NOT_STARTED
+O03,P1,训练,DINO Feature Cosine辅助损失＋原完整动作loss,B01,auxiliary_loss,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H12-36,4-12,NOT_STARTED
+O04,P2,训练,DINO几何辅助损失＋原完整动作loss（需有效标签）,B01,auxiliary_loss,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H24-72,4-12,NOT_STARTED
+O05,P2,训练,DINO Affinity/Prototype辅助损失＋原完整动作loss,B01,auxiliary_loss,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H24-72,4-12,NOT_STARTED
+O06,P1,训练,Object-Decoy辅助损失＋原完整动作loss,B01,auxiliary_loss,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H24-60,4-12,NOT_STARTED
+O07,P1,训练,Matched Spatial Relation动作目标,B03,action_target,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H24-60,4-12,NOT_STARTED
+O08,P1,训练,Shuffled Spatial Relation（仅乱配目标，幅度相同）,O07,target_pair_assignment,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H24-60,4-12,NOT_STARTED
+S01,P0,复用,Clean Uniform抽样：与B01配置相同则直接复用B01,B01,uniform_reference_alias,ALIAS,STRICT_PREFLIGHT,H6-24,0,NOT_STARTED
+S02,P0,训练,静态DINO加权抽样,S01,sampling_weights,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H12-36,3-10,NOT_STARTED
+S03,P1,采集,冻结B01生成一次公共受扰轨迹replay bank,"B01,P01",shared_replay_collection,PROBE_ONLY,STRICT_PREFLIGHT,H18-48,5-20,NOT_STARTED
+S04,P1,训练,Uniform Replay（相对S01添加冻结回放比例）,"S01,S03",replay_mix,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H36-72,4-10,NOT_STARTED
+S05,P1,训练,DINO-weighted Replay（相对S04只改权重）,S04,replay_sampling_weights,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H36-72,4-12,NOT_STARTED
+S06,P1,训练,Shuffled-weight Replay（相对S05只乱配权重）,S05,weight_assignment,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H36-72,4-12,NOT_STARTED
+S07,P2,训练,Dynamic DINO Replay（固定时点重评分）,S05,score_refresh,TRAIN_OR_SKIP,EXCLUDE_IF_CONFOUNDED,H48-96,6-18,NOT_STARTED
+M01,P0,诊断,Front/Wrist定量不对称＋任务阶段,"P02,B01,B02",evaluation_view,PROBE_ONLY,STRICT_PREFLIGHT,H18-48,4-12,NOT_STARTED
+M02,P0,诊断,DINO/SigLIP独立激活恢复及动作中介,"P02,B01",feature_restoration_diagnostic,PROBE_ONLY,STRICT_PREFLIGHT,H18-48,4-12,NOT_STARTED
+M03,P1,诊断,动作偏差→控制阶段→闭环失效配对分析,"M01,M02",stage_and_failure_analysis,PROBE_ONLY,STRICT_PREFLIGHT,H48-96,4-12,NOT_STARTED
+V01,P1,复核,选定候选与其配对基线在训练种子43/44重新训练,"B01,B03,O01,O03,S02,S05,M03",train_seed_replication,TRAIN_OR_SKIP,STRICT_PREFLIGHT,H60-120,按选定方法增加,NOT_STARTED
+V02,P1,复核,冻结后最终40任务×10初态+确认任务额外初态配对闭环,"V01,P02",final_paired_evaluation,PROBE_ONLY,STRICT_PREFLIGHT,H60-120,依选定臂数,NOT_STARTED
+V03,P0,产出,任务等权CASR、CI、成本、误差分解、论文图表与负结果,V02,analysis_report,PROBE_ONLY,STRICT_PREFLIGHT,H24-120,CPU为主,NOT_STARTED

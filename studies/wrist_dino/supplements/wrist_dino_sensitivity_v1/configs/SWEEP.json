@@ -1,0 +1,809 @@
+{
+  "study": "wrist_dino_sensitivity_v1",
+  "scope": "simulation ablations only; no cross-model or real robot",
+  "parent_root": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/roboticAttack_replay",
+  "factorial_root": "/mnt/beegfs/home/caijiasheng25/robopatch_defense/roboticAttack_replay/supplements/wrist_dino_factorial_v1",
+  "base_protocol_sha256": "42ddc0638bec74b7f58778ba1efaec3e7bb1e0418361cd277a8c46864d9f7fd6",
+  "auxiliary_lambda": 22.855948214853818,
+  "groups": [
+    "B01",
+    "B04",
+    "O03",
+    "D07"
+  ],
+  "group_labels": {
+    "B01": "单轴动作基线",
+    "B04": "全7维动作基线",
+    "O03": "单轴+DINO",
+    "D07": "全7维+DINO"
+  },
+  "seed_screen": 42,
+  "seeds_confirm": [
+    42,
+    43,
+    44
+  ],
+  "catalog": {
+    "B01": {
+      "id": "B01",
+      "group": "B01",
+      "block": "DEFAULT",
+      "changed": null,
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B01"
+      }
+    },
+    "B04": {
+      "id": "B04",
+      "group": "B04",
+      "block": "DEFAULT",
+      "changed": null,
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B04"
+      }
+    },
+    "O03": {
+      "id": "O03",
+      "group": "O03",
+      "block": "DEFAULT",
+      "changed": null,
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "O03"
+      }
+    },
+    "D07": {
+      "id": "D07",
+      "group": "D07",
+      "block": "DEFAULT",
+      "changed": null,
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "D07"
+      }
+    },
+    "W025-O03": {
+      "id": "W025-O03",
+      "group": "O03",
+      "block": "W",
+      "changed": "beta",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 0.25,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "W025-O03"
+      }
+    },
+    "W025-D07": {
+      "id": "W025-D07",
+      "group": "D07",
+      "block": "W",
+      "changed": "beta",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 0.25,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "W025-D07"
+      }
+    },
+    "W400-O03": {
+      "id": "W400-O03",
+      "group": "O03",
+      "block": "W",
+      "changed": "beta",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 4.0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "W400-O03"
+      }
+    },
+    "W400-D07": {
+      "id": "W400-D07",
+      "group": "D07",
+      "block": "W",
+      "changed": "beta",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 4.0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "W400-D07"
+      }
+    },
+    "LR001-B01": {
+      "id": "LR001-B01",
+      "group": "B01",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.001,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR001-B01"
+      }
+    },
+    "LR001-B04": {
+      "id": "LR001-B04",
+      "group": "B04",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.001,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR001-B04"
+      }
+    },
+    "LR001-O03": {
+      "id": "LR001-O03",
+      "group": "O03",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.001,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR001-O03"
+      }
+    },
+    "LR001-D07": {
+      "id": "LR001-D07",
+      "group": "D07",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.001,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR001-D07"
+      }
+    },
+    "LR004-B01": {
+      "id": "LR004-B01",
+      "group": "B01",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.004,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR004-B01"
+      }
+    },
+    "LR004-B04": {
+      "id": "LR004-B04",
+      "group": "B04",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.004,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR004-B04"
+      }
+    },
+    "LR004-O03": {
+      "id": "LR004-O03",
+      "group": "O03",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.004,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR004-O03"
+      }
+    },
+    "LR004-D07": {
+      "id": "LR004-D07",
+      "group": "D07",
+      "block": "L",
+      "changed": "lr",
+      "lr": 0.004,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "LR004-D07"
+      }
+    },
+    "LONG-B01": {
+      "id": "LONG-B01",
+      "group": "B01",
+      "block": "T",
+      "changed": "stop_outer",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 2000,
+      "checkpoint_ids": {
+        "500": "T0500-B01",
+        "1000": "T1000-B01",
+        "2000": "T2000-B01"
+      }
+    },
+    "LONG-B04": {
+      "id": "LONG-B04",
+      "group": "B04",
+      "block": "T",
+      "changed": "stop_outer",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 0,
+      "scheduler_outer": 2000,
+      "checkpoint_ids": {
+        "500": "T0500-B04",
+        "1000": "T1000-B04",
+        "2000": "T2000-B04"
+      }
+    },
+    "LONG-O03": {
+      "id": "LONG-O03",
+      "group": "O03",
+      "block": "T",
+      "changed": "stop_outer",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 2000,
+      "checkpoint_ids": {
+        "500": "T0500-O03",
+        "1000": "T1000-O03",
+        "2000": "T2000-O03"
+      }
+    },
+    "LONG-D07": {
+      "id": "LONG-D07",
+      "group": "D07",
+      "block": "T",
+      "changed": "stop_outer",
+      "lr": 0.002,
+      "batch": 1,
+      "beta": 1,
+      "scheduler_outer": 2000,
+      "checkpoint_ids": {
+        "500": "T0500-D07",
+        "1000": "T1000-D07",
+        "2000": "T2000-D07"
+      }
+    },
+    "B02-B01": {
+      "id": "B02-B01",
+      "group": "B01",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 2,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B02-B01"
+      }
+    },
+    "B02-B04": {
+      "id": "B02-B04",
+      "group": "B04",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 2,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B02-B04"
+      }
+    },
+    "B02-O03": {
+      "id": "B02-O03",
+      "group": "O03",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 2,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B02-O03"
+      }
+    },
+    "B02-D07": {
+      "id": "B02-D07",
+      "group": "D07",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 2,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B02-D07"
+      }
+    },
+    "B04-B01": {
+      "id": "B04-B01",
+      "group": "B01",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 4,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B04-B01"
+      }
+    },
+    "B04-B04": {
+      "id": "B04-B04",
+      "group": "B04",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 4,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B04-B04"
+      }
+    },
+    "B04-O03": {
+      "id": "B04-O03",
+      "group": "O03",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 4,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B04-O03"
+      }
+    },
+    "B04-D07": {
+      "id": "B04-D07",
+      "group": "D07",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 4,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B04-D07"
+      }
+    },
+    "B08-B01": {
+      "id": "B08-B01",
+      "group": "B01",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 8,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B08-B01"
+      }
+    },
+    "B08-B04": {
+      "id": "B08-B04",
+      "group": "B04",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 8,
+      "beta": 0,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B08-B04"
+      }
+    },
+    "B08-O03": {
+      "id": "B08-O03",
+      "group": "O03",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 8,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B08-O03"
+      }
+    },
+    "B08-D07": {
+      "id": "B08-D07",
+      "group": "D07",
+      "block": "B",
+      "changed": "batch",
+      "lr": 0.002,
+      "batch": 8,
+      "beta": 1,
+      "scheduler_outer": 500,
+      "checkpoint_ids": {
+        "500": "B08-D07"
+      }
+    }
+  },
+  "workers": [
+    {
+      "unit": "W025-O03-to500",
+      "storage_id": "W025-O03",
+      "stop_outer": 500,
+      "eval_ids": [
+        "W025-O03"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "W025-D07-to500",
+      "storage_id": "W025-D07",
+      "stop_outer": 500,
+      "eval_ids": [
+        "W025-D07"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "W400-O03-to500",
+      "storage_id": "W400-O03",
+      "stop_outer": 500,
+      "eval_ids": [
+        "W400-O03"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "W400-D07-to500",
+      "storage_id": "W400-D07",
+      "stop_outer": 500,
+      "eval_ids": [
+        "W400-D07"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR001-B01-to500",
+      "storage_id": "LR001-B01",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR001-B01"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR001-B04-to500",
+      "storage_id": "LR001-B04",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR001-B04"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR001-O03-to500",
+      "storage_id": "LR001-O03",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR001-O03"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR001-D07-to500",
+      "storage_id": "LR001-D07",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR001-D07"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR004-B01-to500",
+      "storage_id": "LR004-B01",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR004-B01"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR004-B04-to500",
+      "storage_id": "LR004-B04",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR004-B04"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR004-O03-to500",
+      "storage_id": "LR004-O03",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR004-O03"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LR004-D07-to500",
+      "storage_id": "LR004-D07",
+      "stop_outer": 500,
+      "eval_ids": [
+        "LR004-D07"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-B01-to1000",
+      "storage_id": "LONG-B01",
+      "stop_outer": 1000,
+      "eval_ids": [
+        "T0500-B01",
+        "T1000-B01"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-B01-to2000",
+      "storage_id": "LONG-B01",
+      "stop_outer": 2000,
+      "eval_ids": [
+        "T2000-B01"
+      ],
+      "gate": "length2000",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-B04-to1000",
+      "storage_id": "LONG-B04",
+      "stop_outer": 1000,
+      "eval_ids": [
+        "T0500-B04",
+        "T1000-B04"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-B04-to2000",
+      "storage_id": "LONG-B04",
+      "stop_outer": 2000,
+      "eval_ids": [
+        "T2000-B04"
+      ],
+      "gate": "length2000",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-O03-to1000",
+      "storage_id": "LONG-O03",
+      "stop_outer": 1000,
+      "eval_ids": [
+        "T0500-O03",
+        "T1000-O03"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-O03-to2000",
+      "storage_id": "LONG-O03",
+      "stop_outer": 2000,
+      "eval_ids": [
+        "T2000-O03"
+      ],
+      "gate": "length2000",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-D07-to1000",
+      "storage_id": "LONG-D07",
+      "stop_outer": 1000,
+      "eval_ids": [
+        "T0500-D07",
+        "T1000-D07"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "LONG-D07-to2000",
+      "storage_id": "LONG-D07",
+      "stop_outer": 2000,
+      "eval_ids": [
+        "T2000-D07"
+      ],
+      "gate": "length2000",
+      "seed": 42
+    },
+    {
+      "unit": "B02-B01-to500",
+      "storage_id": "B02-B01",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B02-B01"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "B02-B04-to500",
+      "storage_id": "B02-B04",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B02-B04"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "B02-O03-to500",
+      "storage_id": "B02-O03",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B02-O03"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "B02-D07-to500",
+      "storage_id": "B02-D07",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B02-D07"
+      ],
+      "gate": "initial",
+      "seed": 42
+    },
+    {
+      "unit": "B04-B01-to500",
+      "storage_id": "B04-B01",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B04-B01"
+      ],
+      "gate": "batch4",
+      "seed": 42
+    },
+    {
+      "unit": "B04-B04-to500",
+      "storage_id": "B04-B04",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B04-B04"
+      ],
+      "gate": "batch4",
+      "seed": 42
+    },
+    {
+      "unit": "B04-O03-to500",
+      "storage_id": "B04-O03",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B04-O03"
+      ],
+      "gate": "batch4",
+      "seed": 42
+    },
+    {
+      "unit": "B04-D07-to500",
+      "storage_id": "B04-D07",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B04-D07"
+      ],
+      "gate": "batch4",
+      "seed": 42
+    },
+    {
+      "unit": "B08-B01-to500",
+      "storage_id": "B08-B01",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B08-B01"
+      ],
+      "gate": "batch8",
+      "seed": 42
+    },
+    {
+      "unit": "B08-B04-to500",
+      "storage_id": "B08-B04",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B08-B04"
+      ],
+      "gate": "batch8",
+      "seed": 42
+    },
+    {
+      "unit": "B08-O03-to500",
+      "storage_id": "B08-O03",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B08-O03"
+      ],
+      "gate": "batch8",
+      "seed": 42
+    },
+    {
+      "unit": "B08-D07-to500",
+      "storage_id": "B08-D07",
+      "stop_outer": 500,
+      "eval_ids": [
+        "B08-D07"
+      ],
+      "gate": "batch8",
+      "seed": 42
+    }
+  ],
+  "holdout_states": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "extension_rules": {
+    "length2000": "mean development task-equal CASR of four T1000 cells > mean four T0500 cells",
+    "batch4": "mean four B02 cells > mean four default cells",
+    "batch8": "mean four B04-batch cells > mean four B02 cells"
+  },
+  "selection": {
+    "metric": "development suite/task-equal CASR",
+    "ties": [
+      "lower recorded GPU cost",
+      "lexical trial ID"
+    ],
+    "only_actually_trained_configs": true,
+    "matched_zero_aux_baselines": true
+  },
+  "max_active_gpu_jobs": 4,
+  "forbidden_gpu_types": [
+    "pro6000"
+  ],
+  "video": false
+}

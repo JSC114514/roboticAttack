@@ -1,0 +1,17 @@
+suite,task_id,state,condition,success,geometry_available,geometry_from_saved_command_replay,first_contact_step,first_grasp_step,actual_eef_path_m,executed_steps
+libero_10,1,0,INITIAL-seed42,True,True,True,55,59,2.0141827072254532,235
+libero_10,1,1,INITIAL-seed42,True,True,True,54,57,2.028069155798067,237
+libero_10,7,0,INITIAL-seed42,True,True,True,47,54,1.6753996899869499,217
+libero_10,7,1,INITIAL-seed42,False,True,True,42,,1.9626663120685657,520
+libero_goal,2,0,INITIAL-seed42,True,True,True,23,35,0.6582672025932785,74
+libero_goal,2,1,INITIAL-seed42,True,True,True,38,45,0.7200463024177468,92
+libero_goal,8,0,INITIAL-seed42,False,True,True,37,,0.8093845216998891,300
+libero_goal,8,1,INITIAL-seed42,True,True,True,39,44,0.7182201519915343,74
+libero_object,6,0,INITIAL-seed42,True,True,True,49,55,1.3279917947668334,144
+libero_object,6,1,INITIAL-seed42,True,True,True,53,60,1.3184194025659404,146
+libero_object,7,0,INITIAL-seed42,True,True,True,43,48,1.1484254856362126,122
+libero_object,7,1,INITIAL-seed42,False,True,True,,,0.6839420990914453,280
+libero_spatial,3,0,INITIAL-seed42,True,True,True,43,52,0.818266274239879,78
+libero_spatial,3,1,INITIAL-seed42,True,True,True,48,53,0.8437430577192684,82
+libero_spatial,8,0,INITIAL-seed42,False,True,True,50,,0.9462568930463485,220
+libero_spatial,8,1,INITIAL-seed42,True,True,True,50,66,0.8234614545411286,93

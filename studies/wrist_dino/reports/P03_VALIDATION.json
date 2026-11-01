@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "gates": [
+    {
+      "suite": "libero_spatial",
+      "eot_max_abs": 0.0,
+      "native_max_abs": 2.9727633577003587e-08,
+      "dino_grad_norm": 0.020282339304685593,
+      "siglip_grad_norm": 0.018890367820858955,
+      "patch_grad_norm": 0.07853920012712479
+    },
+    {
+      "suite": "libero_object",
+      "eot_max_abs": 0.0,
+      "native_max_abs": 2.523001196852448e-08,
+      "dino_grad_norm": 0.041573379188776016,
+      "siglip_grad_norm": 0.038709789514541626,
+      "patch_grad_norm": 0.2010352909564972
+    },
+    {
+      "suite": "libero_goal",
+      "eot_max_abs": 0.0,
+      "native_max_abs": 2.8374678162634837e-08,
+      "dino_grad_norm": 0.021810702979564667,
+      "siglip_grad_norm": 0.020240385085344315,
+      "patch_grad_norm": 0.09953069686889648
+    },
+    {
+      "suite": "libero_10",
+      "eot_max_abs": 0.0,
+      "native_max_abs": 1.3847019086909995e-08,
+      "dino_grad_norm": 0.008738846518099308,
+      "siglip_grad_norm": 0.008364705368876457,
+      "patch_grad_norm": 0.029070233926177025
+    }
+  ],
+  "checkpoint_gradient_relative_error": 0.013058737851679325,
+  "smoke_optimizer_steps": 2,
+  "smoke_pixel_rms_change": 0.0,
+  "scheduler_initial_zero_lr": true,
+  "source_eot_sha256": "4091a03a5b55760d6e8ae5463679ab8b68a8ee9253735d610154e0c5f0f6d4bf",
+  "single_factor_diff": [
+    {
+      "id": "B02",
+      "parent": "B01",
+      "changed": "view",
+      "actual_diff": [
+        "view"
+      ]
+    },
+    {
+      "id": "B03",
+      "parent": "B01",
+      "changed": "mask",
+      "actual_diff": [
+        "mask"
+      ]
+    },
+    {
+      "id": "B04",
+      "parent": "B03",
+      "changed": "mask",
+      "actual_diff": [
+        "mask"
+      ]
+    },
+    {
+      "id": "B05",
+      "parent": "B03",
+      "changed": "target",
+      "actual_diff": [
+        "target"
+      ]
+    },
+    {
+      "id": "O01",
+      "parent": "B01",
+      "changed": "aggregation",
+      "actual_diff": [
+        "aggregation"
+      ]
+    },
+    {
+      "id": "O03",
+      "parent": "B01",
+      "changed": "auxiliary",
+      "actual_diff": [
+        "auxiliary"
+      ]
+    },
+    {
+      "id": "S02",
+      "parent": "B01",
+      "changed": "sampling",
+      "actual_diff": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "S04",
+      "parent": "B01",
+      "changed": "sampling",
+      "actual_diff": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "S05",
+      "parent": "S04",
+      "changed": "sampling",
+      "actual_diff": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "S06",
+      "parent": "S05",
+      "changed": "sampling",
+      "actual_diff": [
+        "sampling"
+      ]
+    },
+    {
+      "id": "S07",
+      "parent": "S05",
+      "changed": "sampling",
+      "actual_diff": [
+        "sampling"
+      ]
+    }
+  ],
+  "rss_hwm_bytes": 6133927936,
+  "cuda_peak_allocated_bytes": 18916539392,
+  "cuda_peak_reserved_bytes": 19375587328,
+  "gpu": "NVIDIA A800 80GB PCIe"
+}

@@ -1,0 +1,8 @@
+{
+  "project": "/path/to/roboticAttack",
+  "model_dir": "/path/to/models/openvla-7b-oft-finetuned-libero-spatial-object-goal-10",
+  "expert_root": "/path/to/original/expert-datasets",
+  "libero_root": "/path/to/LIBERO",
+  "python": "/path/to/robopatch_vla/bin/python",
+  "note": "Only runtime paths. Numeric science settings remain those in the frozen protocol. Copy into a prepared writable run-root; this file is not a completed preflight."
+}

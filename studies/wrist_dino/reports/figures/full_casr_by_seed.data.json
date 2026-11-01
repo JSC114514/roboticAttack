@@ -1,0 +1,189 @@
+{
+  "caption": "Each fixed training seed is separate. Whiskers are existing task-to-start bootstrap 95% intervals; no frames or action slots are independent samples.",
+  "preview": false,
+  "data": [
+    {
+      "condition": "B01-seed42",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 332,
+      "suite_task_equal_casr": 0.8698611111111112,
+      "casr_ci95": [
+        0.8019166666666668,
+        0.9293871527777777
+      ]
+    },
+    {
+      "condition": "B01-seed43",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 315,
+      "suite_task_equal_casr": 0.8244444444444444,
+      "casr_ci95": [
+        0.7522118055555554,
+        0.8900017361111112
+      ]
+    },
+    {
+      "condition": "B01-seed44",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 307,
+      "suite_task_equal_casr": 0.804513888888889,
+      "casr_ci95": [
+        0.7213090277777777,
+        0.8791666666666667
+      ]
+    },
+    {
+      "condition": "B02-seed42",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 109,
+      "suite_task_equal_casr": 0.29555555555555557,
+      "casr_ci95": [
+        0.2088888888888889,
+        0.385861111111111
+      ]
+    },
+    {
+      "condition": "B02-seed43",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 106,
+      "suite_task_equal_casr": 0.2872222222222222,
+      "casr_ci95": [
+        0.19664583333333333,
+        0.37556944444444434
+      ]
+    },
+    {
+      "condition": "B02-seed44",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 121,
+      "suite_task_equal_casr": 0.32555555555555554,
+      "casr_ci95": [
+        0.23970833333333333,
+        0.41724305555555546
+      ]
+    },
+    {
+      "condition": "B03-seed42",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 306,
+      "suite_task_equal_casr": 0.8032638888888889,
+      "casr_ci95": [
+        0.7344375,
+        0.8666666666666667
+      ]
+    },
+    {
+      "condition": "B03-seed43",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 319,
+      "suite_task_equal_casr": 0.8378472222222222,
+      "casr_ci95": [
+        0.770625,
+        0.9
+      ]
+    },
+    {
+      "condition": "B03-seed44",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 314,
+      "suite_task_equal_casr": 0.8251388888888889,
+      "casr_ci95": [
+        0.7581111111111111,
+        0.8847934027777777
+      ]
+    },
+    {
+      "condition": "B04-seed42",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 339,
+      "suite_task_equal_casr": 0.889375,
+      "casr_ci95": [
+        0.8225,
+        0.95
+      ]
+    },
+    {
+      "condition": "B04-seed43",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 348,
+      "suite_task_equal_casr": 0.9115972222222222,
+      "casr_ci95": [
+        0.8587343749999999,
+        0.9597222222222223
+      ]
+    },
+    {
+      "condition": "B04-seed44",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 313,
+      "suite_task_equal_casr": 0.8202083333333333,
+      "casr_ci95": [
+        0.7418697916666668,
+        0.8894513888888889
+      ]
+    },
+    {
+      "condition": "O03-seed42",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 334,
+      "suite_task_equal_casr": 0.8747222222222222,
+      "casr_ci95": [
+        0.8087343750000001,
+        0.9324999999999999
+      ]
+    },
+    {
+      "condition": "O03-seed43",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 327,
+      "suite_task_equal_casr": 0.8597222222222222,
+      "casr_ci95": [
+        0.7872222222222223,
+        0.9244513888888888
+      ]
+    },
+    {
+      "condition": "O03-seed44",
+      "completed": 400,
+      "expected": 400,
+      "clean_success": 383,
+      "induced_failures": 333,
+      "suite_task_equal_casr": 0.8740972222222223,
+      "casr_ci95": [
+        0.8093628472222223,
+        0.9299999999999999
+      ]
+    }
+  ],
+  "sources": {
+    "reports/full_SUMMARY.json": "112db46f41eadf3913789d1df595b2e4fd94e99a3a97383fe052a54bd8d39c19"
+  }
+}

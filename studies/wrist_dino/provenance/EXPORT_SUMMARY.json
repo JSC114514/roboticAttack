@@ -1,0 +1,20 @@
+{
+  "episode_rows": {
+    "main": 9920,
+    "factorial": 2480,
+    "sensitivity": 10320,
+    "crosscheck": 3040
+  },
+  "episode_tables": 194,
+  "interaction_rows": 1456,
+  "unique_pngs": 62,
+  "patch_aliases": 83,
+  "videos_included": 0,
+  "weights_included": 0,
+  "optimizer_states_included": 0,
+  "cluster_jobs_included": 0,
+  "training_directories": 80,
+  "raw_candidate_identity_rows": 1920,
+  "publication_cpu_tests": 19,
+  "episode_row_semantics": "Stage/cohort membership rows; includes explicitly reused parent evaluations, not all-new independent trials"
+}
